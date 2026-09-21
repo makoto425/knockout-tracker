@@ -6,7 +6,11 @@ gh_fetch_and_build.py — 給 GitHub Actions 用的每日更新腳本。
 直接用 requests + yfinance 抓資料，不需要瀏覽器。
 
 流程：
-  1. 從 slickcharts.com 抓 S&P500 + Nasdaq100 成分股清單並合併去重
+  1. 從 data/universe.json 讀取 S&P500 + Nasdaq100 合併去重後的成分股清單
+     （這份清單是先前用瀏覽器抓的，成分股組成不會每天變，不需要每次都重新抓；
+     slickcharts.com 等網站有 Cloudflare 反機器人防護，GitHub Actions 的伺服器
+     直接 requests.get 會被擋下來，所以改用這份快照。若要更新清單，見下方
+     refresh_universe_from_web()，或用本機瀏覽器重新抓一次後覆寫這個檔案）
   2. 用 yfinance 批次下載每檔過去 2 年的日收盤價
   3. 估計年化波動率 sigma（63 日 + 252 日已實現波動平均）與歷史年化漂移 mu_hist（截尾 ±40%）
   4. 用 GBM 反射原理解析公式 + Broadie-Glasserman-Kou 連續性修正，
@@ -38,11 +42,27 @@ def log(msg):
     print(f"[{datetime.now().strftime('%H:%M:%S')}] {msg}", file=sys.stderr, flush=True)
 
 
+UNIVERSE_FILE = "data/universe.json"
+
+
+def get_universe():
+    """讀取 data/universe.json：[[ticker, yahooSymbol, name, [idx,...]], ...]"""
+    with open(UNIVERSE_FILE, "r", encoding="utf-8") as f:
+        rows = json.load(f)
+    universe = {}
+    for row in rows:
+        ticker, ysym, name, idx = row
+        universe[ticker] = {"ysym": ysym, "name": name, "idx": set(idx)}
+    log(f"從 {UNIVERSE_FILE} 讀取 {len(universe)} 檔標的")
+    if not universe:
+        raise RuntimeError(f"{UNIVERSE_FILE} 是空的，中止")
+    return universe
+
+
 def fetch_slickcharts_table(url):
     r = requests.get(url, headers=HEADERS, timeout=30)
     r.raise_for_status()
     tables = pd.read_html(r.text)
-    # slickcharts 的成分股表通常是第一個 table，欄位含 Symbol/Company
     for t in tables:
         cols = [str(c) for c in t.columns]
         if any("Symbol" in c for c in cols) and len(t) > 50:
@@ -50,9 +70,13 @@ def fetch_slickcharts_table(url):
     raise RuntimeError(f"找不到成分股表格: {url}")
 
 
-def get_universe():
+def refresh_universe_from_web():
+    """選用：從 slickcharts.com 重新抓成分股清單並覆寫 data/universe.json。
+    注意：slickcharts.com 有 Cloudflare 反機器人防護，從 GitHub Actions 的伺服器
+    直接請求通常會被擋下（回傳的是驗證挑戰頁而不是資料），只建議在網路沒有
+    這類防護的環境（例如本機、或用瀏覽器抓好再貼回來）手動執行這個函式。
+    """
     universe = {}
-
     sp500 = fetch_slickcharts_table("https://www.slickcharts.com/sp500")
     for _, row in sp500.iterrows():
         sym = str(row["Symbol"]).strip().upper()
@@ -60,8 +84,6 @@ def get_universe():
         if sym:
             universe.setdefault(sym, {"name": name, "idx": set()})
             universe[sym]["idx"].add("S&P500")
-    log(f"S&P500: {len(sp500)} rows")
-
     nd100 = fetch_slickcharts_table("https://www.slickcharts.com/nasdaq100")
     for _, row in nd100.iterrows():
         sym = str(row["Symbol"]).strip().upper()
@@ -69,10 +91,12 @@ def get_universe():
         if sym:
             universe.setdefault(sym, {"name": name, "idx": set()})
             universe[sym]["idx"].add("Nasdaq100")
-    log(f"Nasdaq100: {len(nd100)} rows")
-
     if not universe:
         raise RuntimeError("無法取得任何成分股清單，中止")
+    rows = [[t, t.replace(".", "-"), v["name"], sorted(v["idx"])] for t, v in sorted(universe.items())]
+    with open(UNIVERSE_FILE, "w", encoding="utf-8") as f:
+        json.dump(rows, f, ensure_ascii=False)
+    log(f"已更新 {UNIVERSE_FILE}，共 {len(rows)} 檔")
     return universe
 
 
