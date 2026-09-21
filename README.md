@@ -13,7 +13,7 @@
 2. 在這個資料夾（`knockout-tracker/`）執行：
    ```bash
    git remote add origin https://github.com/<你的帳號>/<repo名稱>.git
-   git branch -M main
+   git branch -M main   # 若失敗可省略，直接 push 目前分支(master)也可以
    git push -u origin main
    ```
 3. 到 repo 的 **Settings → Pages**，Source 選擇 **GitHub Actions**。
