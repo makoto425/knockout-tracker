@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>美股敲出機率排行 | Knockout Tracker</title>
+<style>
+  :root{
+    --bg:#0b0d12; --panel:#12151c; --panel2:#181c26; --border:#242938;
+    --text:#e8eaf0; --muted:#8892a6; --accent:#4f8cff; --accent2:#7c5cff;
+    --up:#3ecf8e; --down:#ff5c7a; --warn:#ffb84d;
+    --radius:14px;
+  }
+  @media (prefers-color-scheme: light){
+    :root{
+      --bg:#f4f5f8; --panel:#ffffff; --panel2:#f0f1f5; --border:#e2e5ec;
+      --text:#161a24; --muted:#6b7386; --accent:#3366ff; --accent2:#7c5cff;
+      --up:#0e9f6e; --down:#e02b4f; --warn:#c47a00;
+    }
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0; background:var(--bg); color:var(--text);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang TC","Microsoft JhengHei",sans-serif;
+    padding:24px 16px 60px;
+  }
+  .wrap{max-width:1100px;margin:0 auto;}
+  header{margin-bottom:20px;}
+  h1{font-size:22px;margin:0 0 6px;font-weight:700;}
+  .sub{color:var(--muted);font-size:13px;line-height:1.7;}
+  .badge{
+    display:inline-block;background:var(--panel2);border:1px solid var(--border);
+    border-radius:999px;padding:2px 10px;font-size:12px;color:var(--muted);margin-right:6px;
+  }
+  .card{
+    background:var(--panel);border:1px solid var(--border);border-radius:var(--radius);
+    padding:18px 20px;margin-bottom:16px;
+  }
+  .controls{display:flex;flex-wrap:wrap;gap:20px;align-items:flex-end;}
+  .ctrl-group{flex:1;min-width:220px;}
+  .ctrl-label{font-size:12px;color:var(--muted);margin-bottom:6px;display:flex;justify-content:space-between;}
+  .ctrl-label b{color:var(--text);}
+  input[type=range]{width:100%;accent-color:var(--accent);}
+  input[type=search]{
+    width:100%;padding:9px 12px;border-radius:10px;border:1px solid var(--border);
+    background:var(--panel2);color:var(--text);font-size:14px;
+  }
+  select{
+    width:100%;padding:9px 12px;border-radius:10px;border:1px solid var(--border);
+    background:var(--panel2);color:var(--text);font-size:14px;
+  }
+  .top-grid{
+    display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:12px;
+  }
+  .top-card{
+    background:var(--panel2);border:1px solid var(--border);border-radius:12px;padding:14px;
+    position:relative;
+  }
+  .top-rank{
+    position:absolute;top:10px;right:12px;font-size:11px;color:var(--muted);font-weight:700;
+  }
+  .top-ticker{font-size:17px;font-weight:700;margin-bottom:2px;}
+  .top-name{font-size:11px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin-bottom:10px;}
+  .top-prob{font-size:24px;font-weight:800;color:var(--up);}
+  .top-meta{font-size:11px;color:var(--muted);margin-top:6px;display:flex;justify-content:space-between;}
+  table{width:100%;border-collapse:collapse;font-size:13px;}
+  thead th{
+    text-align:left;padding:10px 10px;color:var(--muted);font-weight:600;font-size:11px;
+    text-transform:uppercase;letter-spacing:.03em;border-bottom:1px solid var(--border);
+    cursor:pointer;user-select:none;white-space:nowrap;
+  }
+  thead th:hover{color:var(--text);}
+  thead th.sorted{color:var(--accent);}
+  tbody td{padding:10px 10px;border-bottom:1px solid var(--border);white-space:nowrap;}
+  tbody tr:hover{background:var(--panel2);}
+  .num{text-align:right;font-variant-numeric:tabular-nums;}
+  .rank-cell{color:var(--muted);font-variant-numeric:tabular-nums;}
+  .idx-tag{
+    display:inline-block;font-size:10px;padding:1px 6px;border-radius:6px;
+    background:var(--panel2);border:1px solid var(--border);color:var(--muted);margin-right:3px;
+  }
+  .prob-bar-wrap{width:90px;height:6px;background:var(--panel2);border-radius:4px;overflow:hidden;display:inline-block;vertical-align:middle;margin-right:8px;}
+  .prob-bar{height:100%;background:linear-gradient(90deg,var(--accent),var(--up));}
+  footer{color:var(--muted);font-size:11px;margin-top:24px;line-height:1.8;}
+  .empty{color:var(--muted);text-align:center;padding:30px;}
+  a{color:var(--accent);}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>美股「105% 敲出機率」排行</h1>
+    <div class="sub" id="subhead">載入中…</div>
+  </header>
+
+  <div class="card">
+    <div class="controls">
+      <div class="ctrl-group">
+        <div class="ctrl-label">漂移假設：<b id="driftLabel">50% 歷史動能</b></div>
+        <input type="range" id="driftSlider" min="0" max="100" value="50">
+        <div style="display:flex;justify-content:space-between;font-size:10px;color:var(--muted);margin-top:4px;">
+          <span>0% 保守（零漂移）</span><span>100% 完全採用過去一年趨勢</span>
+        </div>
+      </div>
+      <div class="ctrl-group" style="max-width:220px;">
+        <div class="ctrl-label">指數範圍</div>
+        <select id="idxFilter">
+          <option value="all">S&P500 + Nasdaq100（全部）</option>
+          <option value="S&P500">僅 S&P500</option>
+          <option value="Nasdaq100">僅 Nasdaq100</option>
+        </select>
+      </div>
+      <div class="ctrl-group" style="max-width:260px;">
+        <div class="ctrl-label">搜尋代號 / 公司名稱</div>
+        <input type="search" id="search" placeholder="例如 NVDA、Apple…">
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div style="font-size:13px;color:var(--muted);margin-bottom:12px;">今日 Top 10 —— 最有可能在 12 個月內、每月觀察收盤觸及 105% 的標的</div>
+    <div class="top-grid" id="topGrid"></div>
+  </div>
+
+  <div class="card">
+    <div style="font-size:13px;color:var(--muted);margin-bottom:10px;">完整排行（依目前漂移假設下的敲出機率排序，可點欄位標題排序）</div>
+    <div style="overflow-x:auto;">
+    <table id="fullTable">
+      <thead>
+        <tr>
+          <th data-key="rank">#</th>
+          <th data-key="ticker">代號</th>
+          <th data-key="name">公司名稱</th>
+          <th data-key="idx">指數</th>
+          <th data-key="s0" class="num">最新收盤</th>
+          <th data-key="sigma" class="num">年化波動率</th>
+          <th data-key="mu_hist" class="num">歷史年化漂移</th>
+          <th data-key="prob" class="num">敲出機率</th>
+        </tr>
+      </thead>
+      <tbody id="tbody"></tbody>
+    </table>
+    <div class="empty" id="emptyMsg" style="display:none;">找不到符合條件的標的</div>
+    </div>
+  </div>
+
+  <footer>
+    方法論：以 GBM (幾何布朗運動) 反射原理解析公式，估算每檔股票在 12 個月、每月觀察一次收盤價的條件下，
+    價格觸及買入價 105% 的機率（並以 Broadie-Glasserman-Kou 連續性修正逼近離散監控）。
+    波動率取「過去 63 個交易日」與「過去 252 個交易日」已實現波動率的平均；歷史漂移取過去一年對數報酬年化後截尾於 ±40%。
+    此為統計估算，僅供研究與篩選參考，<b>不構成投資建議</b>，實際票據條款、股利、借券成本與波動率微笑等因素未計入模型。
+    <br>資料來源：Yahoo Finance（透過 yfinance）、Wikipedia（成分股清單）。
+  </footer>
+</div>
+
+<script>
+const DATA = __DATA_JSON__;
+
+function erf(x){
+  // Abramowitz-Stegun 7.1.26 approximation
+  const sign = x < 0 ? -1 : 1;
+  x = Math.abs(x);
+  const a1=0.254829592,a2=-0.284496736,a3=1.421413741,a4=-1.453152027,a5=1.061405429,p=0.3275911;
+  const t = 1/(1+p*x);
+  const y = 1 - (((((a5*t+a4)*t)+a3)*t+a2)*t+a1)*t*Math.exp(-x*x);
+  return sign*y;
+}
+function normCdf(x){ return 0.5*(1+erf(x/Math.SQRT2)); }
+
+const BARRIER_RATIO = DATA.params.barrier_ratio;
+const T = DATA.params.horizon_years;
+const MPY = DATA.params.monitor_per_year;
+const BGK_BETA = 0.5826;
+const b = Math.log(BARRIER_RATIO);
+const dt = 1/MPY;
+
+function koProb(sigma, mu){
+  if(sigma<=0) return 0;
+  const nu = mu - 0.5*sigma*sigma;
+  const bAdj = b + BGK_BETA*sigma*Math.sqrt(dt);
+  const sT = sigma*Math.sqrt(T);
+  const d1 = (nu*T - bAdj)/sT;
+  const d2 = (-nu*T - bAdj)/sT;
+  let factor;
+  const exponent = 2*nu*bAdj/(sigma*sigma);
+  try{ factor = Math.exp(exponent); if(!isFinite(factor)) factor=0; }catch(e){ factor=0; }
+  let p = normCdf(d1) + factor*normCdf(d2);
+  if(isNaN(p)) p=0;
+  return Math.min(Math.max(p,0),1);
+}
+
+let sortKey='prob', sortDir=-1;
+
+function computeRows(){
+  const w = document.getElementById('driftSlider').value/100;
+  const idxF = document.getElementById('idxFilter').value;
+  const q = document.getElementById('search').value.trim().toUpperCase();
+  let rows = DATA.stocks.map(s=>{
+    const mu = w * s.mu_hist;
+    const prob = koProb(s.sigma, mu);
+    return {...s, prob, idx: s.idx.join('/')};
+  });
+  if(idxF!=='all') rows = rows.filter(r=>r.idx.includes(idxF));
+  if(q) rows = rows.filter(r=> r.ticker.includes(q) || (r.name||'').toUpperCase().includes(q));
+  rows.sort((a,b2)=>{
+    let av=a[sortKey], bv=b2[sortKey];
+    if(typeof av==='string'){ av=av.toUpperCase(); bv=bv.toUpperCase(); return sortDir*(av<bv?-1:av>bv?1:0); }
+    return sortDir*(av-bv);
+  });
+  return rows;
+}
+
+function fmtPct(x){ return (x*100).toFixed(1)+'%'; }
+
+function render(){
+  const rows = computeRows();
+  const top10 = [...rows].sort((a,b2)=>b2.prob-a.prob).slice(0,10);
+
+  const topGrid = document.getElementById('topGrid');
+  topGrid.innerHTML = top10.map((r,i)=>`
+    <div class="top-card">
+      <div class="top-rank">#${i+1}</div>
+      <div class="top-ticker">${r.ticker}</div>
+      <div class="top-name">${r.name||''}</div>
+      <div class="top-prob">${fmtPct(r.prob)}</div>
+      <div class="top-meta"><span>波動 ${fmtPct(r.sigma)}</span><span>$${r.s0}</span></div>
+    </div>
+  `).join('');
+
+  const tbody = document.getElementById('tbody');
+  document.getElementById('emptyMsg').style.display = rows.length ? 'none' : 'block';
+  tbody.innerHTML = rows.map((r,i)=>`
+    <tr>
+      <td class="rank-cell">${i+1}</td>
+      <td><b>${r.ticker}</b></td>
+      <td>${r.name||''}</td>
+      <td>${r.idx.split('/').map(x=>`<span class="idx-tag">${x}</span>`).join('')}</td>
+      <td class="num">$${r.s0}</td>
+      <td class="num">${fmtPct(r.sigma)}</td>
+      <td class="num">${fmtPct(r.mu_hist)}</td>
+      <td class="num"><span class="prob-bar-wrap"><span class="prob-bar" style="width:${Math.min(r.prob*100,100)}%"></span></span>${fmtPct(r.prob)}</td>
+    </tr>
+  `).join('');
+
+  document.querySelectorAll('thead th').forEach(th=>{
+    th.classList.toggle('sorted', th.dataset.key===sortKey || (sortKey==='prob'&&th.dataset.key==='prob'));
+  });
+}
+
+document.getElementById('driftSlider').addEventListener('input', (e)=>{
+  const v = e.target.value;
+  document.getElementById('driftLabel').textContent = v==0 ? '0%（完全保守）' : v==100 ? '100% 完全採用歷史動能' : v+'% 歷史動能';
+  render();
+});
+document.getElementById('idxFilter').addEventListener('change', render);
+document.getElementById('search').addEventListener('input', render);
+document.querySelectorAll('thead th').forEach(th=>{
+  th.addEventListener('click', ()=>{
+    const key = th.dataset.key;
+    if(sortKey===key) sortDir*=-1; else { sortKey=key; sortDir = key==='ticker'||key==='name'||key==='idx' ? 1 : -1; }
+    render();
+  });
+});
+
+const genDate = new Date(DATA.generated_at);
+document.getElementById('subhead').innerHTML =
+  `資料更新時間：${genDate.toLocaleString('zh-TW',{timeZone:'Asia/Shanghai'})}（北京時間） ` +
+  `<span class="badge">${DATA.stocks.length} 檔標的</span>` +
+  `<span class="badge">敲出門檻 ${(BARRIER_RATIO*100).toFixed(0)}%</span>` +
+  `<span class="badge">${T*12|0} 個月期 / 每月觀察</span>`;
+
+render();
+</script>
+</body>
+</html>

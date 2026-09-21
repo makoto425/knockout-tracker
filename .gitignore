@@ -1,0 +1,4 @@
+data/ko_results_raw.json
+__pycache__/
+*.pyc
+.DS_Store
