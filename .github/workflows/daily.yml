@@ -2,8 +2,8 @@ name: Update knockout tracker
 
 on:
   schedule:
-    # 08:00 Asia/Shanghai (UTC+8) = 00:00 UTC
-    - cron: "0 0 * * *"
+    # 08:17 Asia/Shanghai (UTC+8) = 00:17 UTC (避開整點尖峰堆積)
+    - cron: "17 0 * * *"
   workflow_dispatch: {}
 
 permissions:
