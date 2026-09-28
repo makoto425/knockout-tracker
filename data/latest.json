@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T05:19:21.755313+00:00",
+  "generated_at": "2026-09-28T05:24:22.730581+00:00",
   "params": {
     "barrier_ratio": 1.05,
     "horizon_years": 1.0,
@@ -3170,7 +3170,7 @@
       ],
       "s0": 162.54,
       "sigma": 0.2197,
-      "mu_hist": 0.0729,
+      "mu_hist": 0.0728,
       "p_zero_drift": 0.6661,
       "p_hist_drift": 0.7544
     },
