@@ -2,8 +2,12 @@ name: Update knockout tracker
 
 on:
   schedule:
-    # 08:17 Asia/Shanghai (UTC+8) = 00:17 UTC (避開整點尖峰堆積)
-    - cron: "17 0 * * *"
+    # GitHub Actions 的 schedule 事件常常會延遲;實測 9/26-9/30 這五天
+    # 排在 00:17 UTC 仍一路延遲到 04:58-05:43 UTC 才真正執行(延遲約 4h41m-5h26m,
+    # 平均約 5h06m)。這裡改成提前排程做補償,目標是讓「實際執行」落在
+    # 00:00 UTC 附近(= 北京時間早上 8 點),而不是把「排定時間」設在 8 點。
+    # 若延遲幅度之後改變,可能需要重新調整這個時間。
+    - cron: "54 18 * * *"  # 預計延遲後約 23:55-00:20 UTC 執行 ≈ 北京時間 07:55-08:20
   workflow_dispatch: {}
 
 permissions:
