@@ -40,8 +40,38 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/latest.json
-          git diff --quiet --cached || git commit -m "chore: update daily data snapshot"
-          git push
+          if git diff --quiet --cached; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git commit -m "chore: update daily data snapshot"
+
+          # push 可能因為 base 落後(例如有人手動 re-run 舊的 run,或剛好兩個 run
+          # 重疊)被拒絕。失敗時 fetch + rebase 到最新 origin/master 再重試幾次,
+          # 真的解不開衝突也不讓整個 job 失敗 —— 這次 build 出來的 site/ 一樣會
+          # 照常部署,只是這天的 data snapshot commit 沒推上去而已。
+          attempt=1
+          max_attempts=5
+          while true; do
+            if git push; then
+              echo "Pushed on attempt $attempt."
+              break
+            fi
+            if [ "$attempt" -ge "$max_attempts" ]; then
+              echo "::warning::git push failed after $attempt attempts; leaving today's data snapshot commit unpushed (site will still deploy from this run's local build)."
+              break
+            fi
+            wait_s=$(( RANDOM % 10 + attempt * 5 ))
+            echo "Push rejected (attempt $attempt/$max_attempts). Retrying in ${wait_s}s after fetch+rebase..."
+            sleep "$wait_s"
+            git fetch origin master
+            if ! git rebase origin/master; then
+              git rebase --abort
+              echo "::warning::Rebase conflict against origin/master (likely another run already updated the same snapshot) — skipping this run's data commit."
+              break
+            fi
+            attempt=$((attempt + 1))
+          done
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
