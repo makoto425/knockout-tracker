@@ -1,4207 +1,7407 @@
 [
-[
-"ACGL",
-"ACGL",
-"Arch Capital Group Ltd.",
-[
-"S&P500"
-]
-],
-[
-"A",
-"A",
-"Agilent Technologies, Inc.",
-[
-"S&P500"
-]
-],
-[
-"ABT",
-"ABT",
-"Abbott Laboratories",
-[
-"S&P500"
-]
-],
-[
-"AAPL",
-"AAPL",
-"Apple Inc.",
-[
-"Nasdaq100",
-"S&P500"
-]
-],
-[
-"ABBV",
-"ABBV",
-"AbbVie Inc.",
-[
-"S&P500"
-]
-],
-[
-"ADBE",
-"ADBE",
-"Adobe Inc.",
-[
-"Nasdaq100",
-"S&P500"
-]
-],
-[
-"ACN",
-"ACN",
-"Accenture plc",
-[
-"S&P500"
-]
-],
-[
-"ADI",
-"ADI",
-"Analog Devices, Inc.",
-[
-"Nasdaq100",
-"S&P500"
-]
-],
-[
-"ADM",
-"ADM",
-"Archer-Daniels-Midland Company",
-[
-"S&P500"
-]
-],
-[
-"ABNB",
-"ABNB",
-"Airbnb, Inc.",
-[
-"Nasdaq100",
-"S&P500"
-]
-],
-[
-"ADP",
-"ADP",
-"Automatic Data Processing, Inc.",
-[
-"Nasdaq100",
-"S&P500"
-]
-],
-[
-"ADSK",
-"ADSK",
-"Autodesk, Inc.",
-[
-"Nasdaq100",
-"S&P500"
-]
-],
-[
-"AEE",
-"AEE",
-"Ameren Corporation",
-[
-"S&P500"
-]
-],
-[
-"AFL",
-"AFL",
-"Aflac Incorporated",
-[
-"S&P500"
-]
-],
-[
-"AES",
-"AES",
-"The AES Corporation",
-[
-"S&P500"
-]
-],
-[
-"AEP",
-"AEP",
-"American Electric Power Company, Inc.",
-[
-"Nasdaq100",
-"S&P500"
-]
-],
-[
-"AIZ",
-"AIZ",
-"Assurant, Inc.",
-[
-"S&P500"
-]
-],
-[
-"AIG",
-"AIG",
-"American International Group, Inc.",
-[
-"S&P500"
-]
-],
-[
-"ALAB",
-"ALAB",
-"Astera Labs, Inc.",
-[
-"Nasdaq100"
-]
-],
-[
-"AKAM",
-"AKAM",
-"Akamai Technologies, Inc.",
-[
-"S&P500"
-]
-],
-[
-"AJG",
-"AJG",
-"Arthur J. Gallagher & Co.",
-[
-"S&P500"
-]
-],
-[
-"ALGN",
-"ALGN",
-"Align Technology, Inc.",
-[
-"S&P500"
-]
-],
-[
-"ALB",
-"ALB",
-"Albemarle Corporation",
-[
-"S&P500"
-]
-],
-[
-"ALL",
-"ALL",
-"The Allstate Corporation",
-[
-"S&P500"
-]
-],
-[
-"ALNY",
-"ALNY",
-"Alnylam Pharmaceuticals, Inc.",
-[
-"Nasdaq100"
-]
-],
-[
-"AMAT",
-"AMAT",
-"Applied Materials, Inc.",
-[
-"Nasdaq100",
-"S&P500"
-]
-],
-[
-"AMCR",
-"AMCR",
-"Amcor plc",
-[
-"S&P500"
-]
-],
-[
-"ALLE",
-"ALLE",
-"Allegion plc",
-[
-"S&P500"
-]
-],
-[
-"AMD",
-"AMD",
-"Advanced Micro Devices, Inc.",
-[
-"Nasdaq100",
-"S&P500"
-]
-],
-[
-"AMGN",
-"AMGN",
-"Amgen Inc.",
-[
-"Nasdaq100",
-"S&P500"
-]
-],
-[
-"AME",
-"AME",
-"AMETEK, Inc.",
-[
-"S&P500"
-]
-],
-[
-"AMZN",
-"AMZN",
-"Amazon.com, Inc.",
-[
-"Nasdaq100",
-"S&P500"
-]
-],
-[
-"AMP",
-"AMP",
-"Ameriprise Financial, Inc.",
-[
-"S&P500"
-]
-],
-[
-"ANET",
-"ANET",
-"Arista Networks, Inc.",
-[
-"S&P500"
-]
-],
-[
-"AON",
-"AON",
-"Aon plc",
-[
-"S&P500"
-]
-],
-[
-"AMT",
-"AMT",
-"American Tower Corporation",
-[
-"S&P500"
-]
-],
-[
-"AOS",
-"AOS",
-"A. O. Smith Corporation",
-[
-"S&P500"
-]
-],
-[
-"APP",
-"APP",
-"AppLovin Corporation",
-[
-"Nasdaq100",
-"S&P500"
-]
-],
-[
-"ARM",
-"ARM",
-"Arm Holdings plc",
-[
-"Nasdaq100"
-]
-],
-[
-"APTV",
-"APTV",
-"Aptiv PLC",
-[
-"S&P500"
-]
-],
-[
-"APO",
-"APO",
-"Apollo Global Management, Inc.",
-[
-"S&P500"
-]
-],
-[
-"APH",
-"APH",
-"Amphenol Corporation",
-[
-"S&P500"
-]
-],
-[
-"APA",
-"APA",
-"APA Corporation",
-[
-"S&P500"
-]
-],
-[
-"APD",
-"APD",
-"Air Products and Chemicals, Inc.",
-[
-"S&P500"
-]
-],
-[
-"ARES",
-"ARES",
-"Ares Management Corporation",
-[
-"S&P500"
-]
-],
-[
-"ARE",
-"ARE",
-"Alexandria Real Estate Equities, Inc.",
-[
-"S&P500"
-]
-],
-[
-"ASML",
-"ASML",
-"ASML Holding N.V.",
-[
-"Nasdaq100"
-]
-],
-[
-"ATO",
-"ATO",
-"Atmos Energy Corporation",
-[
-"S&P500"
-]
-],
-[
-"AVGO",
-"AVGO",
-"Broadcom Inc.",
-[
-"Nasdaq100",
-"S&P500"
-]
-],
-[
-"AXON",
-"AXON",
-"Axon Enterprise, Inc.",
-[
-"Nasdaq100",
-"S&P500"
-]
-],
-[
-"AZO",
-"AZO",
-"AutoZone, Inc.",
-[
-"S&P500"
-]
-],
-[
-"AWK",
-"AWK",
-"American Water Works Company, Inc.",
-[
-"S&P500"
-]
-],
-[
-"AXP",
-"AXP",
-"American Express Company",
-[
-"S&P500"
-]
-],
-[
-"AVY",
-"AVY",
-"Avery Dennison Corporation",
-[
-"S&P500"
-]
-],
-[
-"BA",
-"BA",
-"The Boeing Company",
-[
-"S&P500"
-]
-],
-[
-"BAX",
-"BAX",
-"Baxter International Inc.",
-[
-"S&P500"
-]
-],
-[
-"BALL",
-"BALL",
-"Ball Corporation",
-[
-"S&P500"
-]
-],
-[
-"BAC",
-"BAC",
-"Bank of America Corporation",
-[
-"S&P500"
-]
-],
-[
-"BBY",
-"BBY",
-"Best Buy Co., Inc.",
-[
-"S&P500"
-]
-],
-[
-"BDX",
-"BDX",
-"Becton, Dickinson and Company",
-[
-"S&P500"
-]
-],
-[
-"BIIB",
-"BIIB",
-"Biogen Inc.",
-[
-"S&P500"
-]
-],
-[
-"BEN",
-"BEN",
-"Franklin Templeton Inc.",
-[
-"S&P500"
-]
-],
-[
-"BKNG",
-"BKNG",
-"Booking Holdings Inc.",
-[
-"Nasdaq100",
-"S&P500"
-]
-],
-[
-"BF.B",
-"BF-B",
-"Brown-Forman Corporation",
-[
-"S&P500"
-]
-],
-[
-"BLDR",
-"BLDR",
-"Builders FirstSource, Inc.",
-[
-"S&P500"
-]
-],
-[
-"BKR",
-"BKR",
-"Baker Hughes Company",
-[
-"Nasdaq100",
-"S&P500"
-]
-],
-[
-"BLK",
-"BLK",
-"BlackRock, Inc.",
-[
-"S&P500"
-]
-],
-[
-"BR",
-"BR",
-"Broadridge Financial Solutions, Inc.",
-[
-"S&P500"
-]
-],
-[
-"BNY",
-"BNY",
-"The Bank of New York Mellon Corporation",
-[
-"S&P500"
-]
-],
-[
-"BG",
-"BG",
-"Bunge Global SA",
-[
-"S&P500"
-]
-],
-[
-"BMY",
-"BMY",
-"Bristol-Myers Squibb Company",
-[
-"S&P500"
-]
-],
-[
-"BRK.B",
-"BRK-B",
-"Berkshire Hathaway Inc.",
-[
-"S&P500"
-]
-],
-[
-"BSX",
-"BSX",
-"Boston Scientific Corporation",
-[
-"S&P500"
-]
-],
-[
-"BRO",
-"BRO",
-"Brown & Brown, Inc.",
-[
-"S&P500"
-]
-],
-[
-"BX",
-"BX",
-"Blackstone Inc.",
-[
-"S&P500"
-]
-],
-[
-"CAH",
-"CAH",
-"Cardinal Health, Inc.",
-[
-"S&P500"
-]
-],
-[
-"BXP",
-"BXP",
-"BXP, Inc.",
-[
-"S&P500"
-]
-],
-[
-"C",
-"C",
-"Citigroup Inc.",
-[
-"S&P500"
-]
-],
-[
-"CARR",
-"CARR",
-"Carrier Global Corporation",
-[
-"S&P500"
-]
-],
-[
-"CBRE",
-"CBRE",
-"CBRE Group, Inc.",
-[
-"S&P500"
-]
-],
-[
-"CASY",
-"CASY",
-"Casey's General Stores, Inc.",
-[
-"S&P500"
-]
-],
-[
-"CB",
-"CB",
-"Chubb Limited",
-[
-"S&P500"
-]
-],
-[
-"CAT",
-"CAT",
-"Caterpillar Inc.",
-[
-"S&P500"
-]
-],
-[
-"CBOE",
-"CBOE",
-"Cboe Global Markets, Inc.",
-[
-"S&P500"
-]
-],
-[
-"CCI",
-"CCI",
-"Crown Castle Inc.",
-[
-"S&P500"
-]
-],
-[
-"CCL",
-"CCL",
-"Carnival Corporation Ltd.",
-[
-"S&P500"
-]
-],
-[
-"CCEP",
-"CCEP",
-"Coca-Cola Europacific Partners PLC",
-[
-"Nasdaq100"
-]
-],
-[
-"CDNS",
-"CDNS",
-"Cadence Design Systems, Inc.",
-[
-"Nasdaq100",
-"S&P500"
-]
-],
-[
-"CDW",
-"CDW",
-"CDW Corporation",
-[
-"S&P500"
-]
-],
-[
-"CF",
-"CF",
-"CF Industries Holdings, Inc.",
-[
-"S&P500"
-]
-],
-[
-"CFG",
-"CFG",
-"Citizens Financial Group, Inc.",
-[
-"S&P500"
-]
-],
-[
-"CEG",
-"CEG",
-"Constellation Energy Corporation",
-[
-"Nasdaq100",
-"S&P500"
-]
-],
-[
-"CHD",
-"CHD",
-"Church & Dwight Co., Inc.",
-[
-"S&P500"
-]
-],
-[
-"CHRW",
-"CHRW",
-"C.H. Robinson Worldwide, Inc.",
-[
-"S&P500"
-]
-],
-[
-"CHTR",
-"CHTR",
-"Charter Communications, Inc.",
-[
-"S&P500"
-]
-],
-[
-"CI",
-"CI",
-"The Cigna Group",
-[
-"S&P500"
-]
-],
-[
-"CIEN",
-"CIEN",
-"Ciena Corporation",
-[
-"S&P500"
-]
-],
-[
-"CINF",
-"CINF",
-"Cincinnati Financial Corporation",
-[
-"S&P500"
-]
-],
-[
-"CL",
-"CL",
-"Colgate-Palmolive Company",
-[
-"S&P500"
-]
-],
-[
-"CMCSA",
-"CMCSA",
-"Comcast Corporation",
-[
-"Nasdaq100",
-"S&P500"
-]
-],
-[
-"CMG",
-"CMG",
-"Chipotle Mexican Grill, Inc.",
-[
-"S&P500"
-]
-],
-[
-"CLX",
-"CLX",
-"The Clorox Company",
-[
-"S&P500"
-]
-],
-[
-"CME",
-"CME",
-"CME Group Inc.",
-[
-"S&P500"
-]
-],
-[
-"CNC",
-"CNC",
-"Centene Corporation",
-[
-"S&P500"
-]
-],
-[
-"CMS",
-"CMS",
-"CMS Energy Corporation",
-[
-"S&P500"
-]
-],
-[
-"CMI",
-"CMI",
-"Cummins Inc.",
-[
-"S&P500"
-]
-],
-[
-"CNP",
-"CNP",
-"CenterPoint Energy, Inc.",
-[
-"S&P500"
-]
-],
-[
-"COHR",
-"COHR",
-"Coherent Corp.",
-[
-"S&P500"
-]
-],
-[
-"COIN",
-"COIN",
-"Coinbase Global, Inc.",
-[
-"S&P500"
-]
-],
-[
-"COF",
-"COF",
-"Capital One Financial Corporation",
-[
-"S&P500"
-]
-],
-[
-"COO",
-"COO",
-"The Cooper Companies, Inc.",
-[
-"S&P500"
-]
-],
-[
-"COR",
-"COR",
-"Cencora, Inc.",
-[
-"S&P500"
-]
-],
-[
-"CPRT",
-"CPRT",
-"Copart, Inc.",
-[
-"Nasdaq100",
-"S&P500"
-]
-],
-[
-"COST",
-"COST",
-"Costco Wholesale Corporation",
-[
-"Nasdaq100",
-"S&P500"
-]
-],
-[
-"COP",
-"COP",
-"ConocoPhillips",
-[
-"S&P500"
-]
-],
-[
-"CPAY",
-"CPAY",
-"Corpay, Inc.",
-[
-"S&P500"
-]
-],
-[
-"CRH",
-"CRH",
-"CRH plc",
-[
-"S&P500"
-]
-],
-[
-"CPT",
-"CPT",
-"Camden Property Trust",
-[
-"S&P500"
-]
-],
-[
-"CRL",
-"CRL",
-"Charles River Laboratories International, Inc.",
-[
-"S&P500"
-]
-],
-[
-"CRM",
-"CRM",
-"Salesforce, Inc.",
-[
-"S&P500"
-]
-],
-[
-"CRWD",
-"CRWD",
-"CrowdStrike Holdings, Inc.",
-[
-"Nasdaq100",
-"S&P500"
-]
-],
-[
-"CRWV",
-"CRWV",
-"CoreWeave, Inc.",
-[
-"Nasdaq100"
-]
-],
-[
-"CSCO",
-"CSCO",
-"Cisco Systems, Inc.",
-[
-"Nasdaq100",
-"S&P500"
-]
-],
-[
-"CSGP",
-"CSGP",
-"CoStar Group, Inc.",
-[
-"S&P500"
-]
-],
-[
-"CTVA",
-"CTVA",
-"Corteva, Inc.",
-[
-"S&P500"
-]
-],
-[
-"CTSH",
-"CTSH",
-"Cognizant Technology Solutions Corporation",
-[
-"S&P500"
-]
-],
-[
-"CSX",
-"CSX",
-"CSX Corporation",
-[
-"Nasdaq100",
-"S&P500"
-]
-],
-[
-"CTAS",
-"CTAS",
-"Cintas Corporation",
-[
-"Nasdaq100",
-"S&P500"
-]
-],
-[
-"CVNA",
-"CVNA",
-"Carvana Co.",
-[
-"S&P500"
-]
-],
-[
-"CVS",
-"CVS",
-"CVS Health Corporation",
-[
-"S&P500"
-]
-],
-[
-"DASH",
-"DASH",
-"DoorDash, Inc.",
-[
-"Nasdaq100",
-"S&P500"
-]
-],
-[
-"DAL",
-"DAL",
-"Delta Air Lines, Inc.",
-[
-"S&P500"
-]
-],
-[
-"D",
-"D",
-"Dominion Energy, Inc.",
-[
-"S&P500"
-]
-],
-[
-"DECK",
-"DECK",
-"Deckers Outdoor Corporation",
-[
-"S&P500"
-]
-],
-[
-"DDOG",
-"DDOG",
-"Datadog, Inc.",
-[
-"Nasdaq100",
-"S&P500"
-]
-],
-[
-"DG",
-"DG",
-"Dollar General Corporation",
-[
-"S&P500"
-]
-],
-[
-"DGX",
-"DGX",
-"Quest Diagnostics Incorporated",
-[
-"S&P500"
-]
-],
-[
-"DHI",
-"DHI",
-"D.R. Horton, Inc.",
-[
-"S&P500"
-]
-],
-[
-"CVX",
-"CVX",
-"Chevron Corporation",
-[
-"S&P500"
-]
-],
-[
-"DE",
-"DE",
-"Deere & Company",
-[
-"S&P500"
-]
-],
-[
-"DD",
-"DD",
-"DuPont de Nemours, Inc.",
-[
-"S&P500"
-]
-],
-[
-"DELL",
-"DELL",
-"Dell Technologies Inc.",
-[
-"S&P500"
-]
-],
-[
-"DLTR",
-"DLTR",
-"Dollar Tree, Inc.",
-[
-"S&P500"
-]
-],
-[
-"DHR",
-"DHR",
-"Danaher Corporation",
-[
-"S&P500"
-]
-],
-[
-"DOC",
-"DOC",
-"Healthpeak Properties, Inc.",
-[
-"S&P500"
-]
-],
-[
-"DRI",
-"DRI",
-"Darden Restaurants, Inc.",
-[
-"S&P500"
-]
-],
-[
-"DOW",
-"DOW",
-"Dow Inc.",
-[
-"S&P500"
-]
-],
-[
-"DVA",
-"DVA",
-"DaVita Inc.",
-[
-"S&P500"
-]
-],
-[
-"DOV",
-"DOV",
-"Dover Corporation",
-[
-"S&P500"
-]
-],
-[
-"DIS",
-"DIS",
-"The Walt Disney Company",
-[
-"S&P500"
-]
-],
-[
-"DPZ",
-"DPZ",
-"Domino's Pizza, Inc.",
-[
-"S&P500"
-]
-],
-[
-"DLR",
-"DLR",
-"Digital Realty Trust, Inc.",
-[
-"S&P500"
-]
-],
-[
-"DTE",
-"DTE",
-"DTE Energy Company",
-[
-"S&P500"
-]
-],
-[
-"DUK",
-"DUK",
-"Duke Energy Corporation",
-[
-"S&P500"
-]
-],
-[
-"DXCM",
-"DXCM",
-"DexCom, Inc.",
-[
-"Nasdaq100",
-"S&P500"
-]
-],
-[
-"DVN",
-"DVN",
-"Devon Energy Corporation",
-[
-"S&P500"
-]
-],
-[
-"EBAY",
-"EBAY",
-"eBay Inc.",
-[
-"S&P500"
-]
-],
-[
-"ECL",
-"ECL",
-"Ecolab Inc.",
-[
-"S&P500"
-]
-],
-[
-"EG",
-"EG",
-"Everest Group, Ltd.",
-[
-"S&P500"
-]
-],
-[
-"ELV",
-"ELV",
-"Elevance Health, Inc.",
-[
-"S&P500"
-]
-],
-[
-"ECHO",
-"ECHO",
-"EchoStar Corporation",
-[
-"S&P500"
-]
-],
-[
-"EME",
-"EME",
-"EMCOR Group, Inc.",
-[
-"S&P500"
-]
-],
-[
-"EL",
-"EL",
-"The Estée Lauder Companies Inc.",
-[
-"S&P500"
-]
-],
-[
-"ED",
-"ED",
-"Consolidated Edison, Inc.",
-[
-"S&P500"
-]
-],
-[
-"EFX",
-"EFX",
-"Equifax Inc.",
-[
-"S&P500"
-]
-],
-[
-"EIX",
-"EIX",
-"Edison International",
-[
-"S&P500"
-]
-],
-[
-"EQIX",
-"EQIX",
-"Equinix, Inc.",
-[
-"S&P500"
-]
-],
-[
-"EOG",
-"EOG",
-"EOG Resources, Inc.",
-[
-"S&P500"
-]
-],
-[
-"EMR",
-"EMR",
-"Emerson Electric Co.",
-[
-"S&P500"
-]
-],
-[
-"EQT",
-"EQT",
-"EQT Corporation",
-[
-"S&P500"
-]
-],
-[
-"EW",
-"EW",
-"Edwards Lifesciences Corporation",
-[
-"S&P500"
-]
-],
-[
-"ESS",
-"ESS",
-"Essex Property Trust, Inc.",
-[
-"S&P500"
-]
-],
-[
-"ES",
-"ES",
-"Eversource Energy",
-[
-"S&P500"
-]
-],
-[
-"ETN",
-"ETN",
-"Eaton Corporation plc",
-[
-"S&P500"
-]
-],
-[
-"ERIE",
-"ERIE",
-"Erie Indemnity Company",
-[
-"S&P500"
-]
-],
-[
-"ETR",
-"ETR",
-"Entergy Corporation",
-[
-"S&P500"
-]
-],
-[
-"EXC",
-"EXC",
-"Exelon Corporation",
-[
-"Nasdaq100",
-"S&P500"
-]
-],
-[
-"EVRG",
-"EVRG",
-"Evergy, Inc.",
-[
-"S&P500"
-]
-],
-[
-"EXPE",
-"EXPE",
-"Expedia Group, Inc.",
-[
-"S&P500"
-]
-],
-[
-"EXR",
-"EXR",
-"Extra Space Storage Inc.",
-[
-"S&P500"
-]
-],
-[
-"FANG",
-"FANG",
-"Diamondback Energy, Inc.",
-[
-"Nasdaq100",
-"S&P500"
-]
-],
-[
-"EXE",
-"EXE",
-"Expand Energy Corporation",
-[
-"S&P500"
-]
-],
-[
-"EXPD",
-"EXPD",
-"Expeditors International of Washington, Inc.",
-[
-"S&P500"
-]
-],
-[
-"FCX",
-"FCX",
-"Freeport-McMoRan Inc.",
-[
-"S&P500"
-]
-],
-[
-"FAST",
-"FAST",
-"Fastenal Company",
-[
-"Nasdaq100",
-"S&P500"
-]
-],
-[
-"FDS",
-"FDS",
-"FactSet Research Systems Inc.",
-[
-"S&P500"
-]
-],
-[
-"FDX",
-"FDX",
-"FedEx Corporation",
-[
-"S&P500"
-]
-],
-[
-"FE",
-"FE",
-"FirstEnergy Corp.",
-[
-"S&P500"
-]
-],
-[
-"F",
-"F",
-"Ford Motor Company",
-[
-"S&P500"
-]
-],
-[
-"FER",
-"FER",
-"Ferrovial N.V.",
-[
-"Nasdaq100"
-]
-],
-[
-"FERG",
-"FERG",
-"Ferguson Enterprises Inc.",
-[
-"S&P500"
-]
-],
-[
-"FFIV",
-"FFIV",
-"F5, Inc.",
-[
-"S&P500"
-]
-],
-[
-"FISV",
-"FISV",
-"Fiserv, Inc.",
-[
-"S&P500"
-]
-],
-[
-"FICO",
-"FICO",
-"Fair Isaac Corporation",
-[
-"S&P500"
-]
-],
-[
-"FITB",
-"FITB",
-"Fifth Third Bancorp",
-[
-"S&P500"
-]
-],
-[
-"FOX",
-"FOX",
-"Fox Corporation",
-[
-"S&P500"
-]
-],
-[
-"FIS",
-"FIS",
-"Fidelity National Information Services, Inc.",
-[
-"S&P500"
-]
-],
-[
-"FLEX",
-"FLEX",
-"Flex Ltd.",
-[
-"S&P500"
-]
-],
-[
-"FIX",
-"FIX",
-"Comfort Systems USA, Inc.",
-[
-"S&P500"
-]
-],
-[
-"FOXA",
-"FOXA",
-"Fox Corporation",
-[
-"S&P500"
-]
-],
-[
-"FRT",
-"FRT",
-"Federal Realty Investment Trust",
-[
-"S&P500"
-]
-],
-[
-"FSLR",
-"FSLR",
-"First Solar, Inc.",
-[
-"S&P500"
-]
-],
-[
-"FTNT",
-"FTNT",
-"Fortinet, Inc.",
-[
-"Nasdaq100",
-"S&P500"
-]
-],
-[
-"FTV",
-"FTV",
-"Fortive Corporation",
-[
-"S&P500"
-]
-],
-[
-"GD",
-"GD",
-"General Dynamics Corporation",
-[
-"S&P500"
-]
-],
-[
-"GDDY",
-"GDDY",
-"GoDaddy Inc.",
-[
-"S&P500"
-]
-],
-[
-"GE",
-"GE",
-"GE Aerospace",
-[
-"S&P500"
-]
-],
-[
-"GEV",
-"GEV",
-"GE Vernova Inc.",
-[
-"S&P500"
-]
-],
-[
-"GILD",
-"GILD",
-"Gilead Sciences, Inc.",
-[
-"Nasdaq100",
-"S&P500"
-]
-],
-[
-"GEN",
-"GEN",
-"Gen Digital Inc.",
-[
-"S&P500"
-]
-],
-[
-"GEHC",
-"GEHC",
-"GE HealthCare Technologies Inc.",
-[
-"Nasdaq100",
-"S&P500"
-]
-],
-[
-"GNRC",
-"GNRC",
-"Generac Holdings Inc.",
-[
-"S&P500"
-]
-],
-[
-"GM",
-"GM",
-"General Motors Company",
-[
-"S&P500"
-]
-],
-[
-"GOOG",
-"GOOG",
-"Alphabet Inc.",
-[
-"Nasdaq100",
-"S&P500"
-]
-],
-[
-"GIS",
-"GIS",
-"General Mills, Inc.",
-[
-"S&P500"
-]
-],
-[
-"GOOGL",
-"GOOGL",
-"Alphabet Inc.",
-[
-"Nasdaq100",
-"S&P500"
-]
-],
-[
-"GL",
-"GL",
-"Globe Life Inc.",
-[
-"S&P500"
-]
-],
-[
-"GLW",
-"GLW",
-"Corning Incorporated",
-[
-"S&P500"
-]
-],
-[
-"GS",
-"GS",
-"The Goldman Sachs Group, Inc.",
-[
-"S&P500"
-]
-],
-[
-"GPN",
-"GPN",
-"Global Payments Inc.",
-[
-"S&P500"
-]
-],
-[
-"GPC",
-"GPC",
-"Genuine Parts Company",
-[
-"S&P500"
-]
-],
-[
-"GRMN",
-"GRMN",
-"Garmin Ltd.",
-[
-"S&P500"
-]
-],
-[
-"GWW",
-"GWW",
-"W.W. Grainger, Inc.",
-[
-"S&P500"
-]
-],
-[
-"HII",
-"HII",
-"Huntington Ingalls Industries, Inc.",
-[
-"S&P500"
-]
-],
-[
-"HIG",
-"HIG",
-"The Hartford Insurance Group, Inc.",
-[
-"S&P500"
-]
-],
-[
-"HBAN",
-"HBAN",
-"Huntington Bancshares Incorporated",
-[
-"S&P500"
-]
-],
-[
-"HD",
-"HD",
-"The Home Depot, Inc.",
-[
-"S&P500"
-]
-],
-[
-"HCA",
-"HCA",
-"HCA Healthcare, Inc.",
-[
-"S&P500"
-]
-],
-[
-"HAL",
-"HAL",
-"Halliburton Company",
-[
-"S&P500"
-]
-],
-[
-"HAS",
-"HAS",
-"Hasbro, Inc.",
-[
-"S&P500"
-]
-],
-[
-"HOOD",
-"HOOD",
-"Robinhood Markets, Inc.",
-[
-"S&P500"
-]
-],
-[
-"HLT",
-"HLT",
-"Hilton Worldwide Holdings Inc.",
-[
-"S&P500"
-]
-],
-[
-"HSIC",
-"HSIC",
-"Henry Schein, Inc.",
-[
-"S&P500"
-]
-],
-[
-"HON",
-"HON",
-"Honeywell International Inc.",
-[
-"Nasdaq100",
-"S&P500"
-]
-],
-[
-"HPE",
-"HPE",
-"Hewlett Packard Enterprise Company",
-[
-"S&P500"
-]
-],
-[
-"HST",
-"HST",
-"Host Hotels & Resorts, Inc.",
-[
-"S&P500"
-]
-],
-[
-"HUBB",
-"HUBB",
-"Hubbell Incorporated",
-[
-"S&P500"
-]
-],
-[
-"HPQ",
-"HPQ",
-"HP Inc.",
-[
-"S&P500"
-]
-],
-[
-"HUM",
-"HUM",
-"Humana Inc.",
-[
-"S&P500"
-]
-],
-[
-"HSY",
-"HSY",
-"The Hershey Company",
-[
-"S&P500"
-]
-],
-[
-"HRL",
-"HRL",
-"Hormel Foods Corporation",
-[
-"S&P500"
-]
-],
-[
-"HWM",
-"HWM",
-"Howmet Aerospace Inc.",
-[
-"S&P500"
-]
-],
-[
-"IDXX",
-"IDXX",
-"IDEXX Laboratories, Inc.",
-[
-"Nasdaq100",
-"S&P500"
-]
-],
-[
-"ICE",
-"ICE",
-"Intercontinental Exchange, Inc.",
-[
-"S&P500"
-]
-],
-[
-"IBM",
-"IBM",
-"International Business Machines Corporation",
-[
-"S&P500"
-]
-],
-[
-"IEX",
-"IEX",
-"IDEX Corporation",
-[
-"S&P500"
-]
-],
-[
-"IBKR",
-"IBKR",
-"Interactive Brokers Group, Inc.",
-[
-"S&P500"
-]
-],
-[
-"IFF",
-"IFF",
-"International Flavors & Fragrances Inc.",
-[
-"S&P500"
-]
-],
-[
-"INCY",
-"INCY",
-"Incyte Corporation",
-[
-"S&P500"
-]
-],
-[
-"IQV",
-"IQV",
-"IQVIA Holdings Inc.",
-[
-"S&P500"
-]
-],
-[
-"INTC",
-"INTC",
-"Intel Corporation",
-[
-"Nasdaq100",
-"S&P500"
-]
-],
-[
-"INTU",
-"INTU",
-"Intuit Inc.",
-[
-"Nasdaq100",
-"S&P500"
-]
-],
-[
-"IR",
-"IR",
-"Ingersoll Rand Inc.",
-[
-"S&P500"
-]
-],
-[
-"ISRG",
-"ISRG",
-"Intuitive Surgical, Inc.",
-[
-"Nasdaq100",
-"S&P500"
-]
-],
-[
-"IRM",
-"IRM",
-"Iron Mountain Incorporated",
-[
-"S&P500"
-]
-],
-[
-"IT",
-"IT",
-"Gartner, Inc.",
-[
-"S&P500"
-]
-],
-[
-"IP",
-"IP",
-"International Paper Company",
-[
-"S&P500"
-]
-],
-[
-"INVH",
-"INVH",
-"Invitation Homes Inc.",
-[
-"S&P500"
-]
-],
-[
-"KEYS",
-"KEYS",
-"Keysight Technologies, Inc.",
-[
-"S&P500"
-]
-],
-[
-"J",
-"J",
-"Jacobs Solutions Inc.",
-[
-"S&P500"
-]
-],
-[
-"KDP",
-"KDP",
-"Keurig Dr Pepper Inc.",
-[
-"Nasdaq100",
-"S&P500"
-]
-],
-[
-"JBL",
-"JBL",
-"Jabil Inc.",
-[
-"S&P500"
-]
-],
-[
-"ITW",
-"ITW",
-"Illinois Tool Works Inc.",
-[
-"S&P500"
-]
-],
-[
-"IVZ",
-"IVZ",
-"Invesco Ltd.",
-[
-"S&P500"
-]
-],
-[
-"JKHY",
-"JKHY",
-"Jack Henry & Associates, Inc.",
-[
-"S&P500"
-]
-],
-[
-"JCI",
-"JCI",
-"Johnson Controls International plc",
-[
-"S&P500"
-]
-],
-[
-"KEY",
-"KEY",
-"KeyCorp",
-[
-"S&P500"
-]
-],
-[
-"JPM",
-"JPM",
-"JPMorgan Chase & Co.",
-[
-"S&P500"
-]
-],
-[
-"JBHT",
-"JBHT",
-"J.B. Hunt Transport Services, Inc.",
-[
-"S&P500"
-]
-],
-[
-"JNJ",
-"JNJ",
-"Johnson & Johnson",
-[
-"S&P500"
-]
-],
-[
-"KIM",
-"KIM",
-"Kimco Realty Corporation",
-[
-"S&P500"
-]
-],
-[
-"KHC",
-"KHC",
-"The Kraft Heinz Company",
-[
-"S&P500"
-]
-],
-[
-"KVUE",
-"KVUE",
-"Kenvue Inc.",
-[
-"S&P500"
-]
-],
-[
-"KKR",
-"KKR",
-"KKR & Co. Inc.",
-[
-"S&P500"
-]
-],
-[
-"KMI",
-"KMI",
-"Kinder Morgan, Inc.",
-[
-"S&P500"
-]
-],
-[
-"LDOS",
-"LDOS",
-"Leidos Holdings, Inc.",
-[
-"S&P500"
-]
-],
-[
-"KLAC",
-"KLAC",
-"KLA Corporation",
-[
-"Nasdaq100",
-"S&P500"
-]
-],
-[
-"KMB",
-"KMB",
-"Kimberly-Clark Corporation",
-[
-"S&P500"
-]
-],
-[
-"L",
-"L",
-"Loews Corporation",
-[
-"S&P500"
-]
-],
-[
-"KR",
-"KR",
-"The Kroger Co.",
-[
-"S&P500"
-]
-],
-[
-"KO",
-"KO",
-"The Coca-Cola Company",
-[
-"S&P500"
-]
-],
-[
-"LEN",
-"LEN",
-"Lennar Corporation",
-[
-"S&P500"
-]
-],
-[
-"LHX",
-"LHX",
-"L3Harris Technologies, Inc.",
-[
-"S&P500"
-]
-],
-[
-"LII",
-"LII",
-"Lennox International Inc.",
-[
-"S&P500"
-]
-],
-[
-"LITE",
-"LITE",
-"Lumentum Holdings Inc.",
-[
-"Nasdaq100",
-"S&P500"
-]
-],
-[
-"LH",
-"LH",
-"Labcorp Holdings Inc.",
-[
-"S&P500"
-]
-],
-[
-"LIN",
-"LIN",
-"Linde plc",
-[
-"Nasdaq100",
-"S&P500"
-]
-],
-[
-"LNT",
-"LNT",
-"Alliant Energy Corporation",
-[
-"S&P500"
-]
-],
-[
-"LULU",
-"LULU",
-"lululemon athletica inc.",
-[
-"S&P500"
-]
-],
-[
-"LMT",
-"LMT",
-"Lockheed Martin Corporation",
-[
-"S&P500"
-]
-],
-[
-"LOW",
-"LOW",
-"Lowe's Companies, Inc.",
-[
-"S&P500"
-]
-],
-[
-"LRCX",
-"LRCX",
-"Lam Research Corporation",
-[
-"Nasdaq100",
-"S&P500"
-]
-],
-[
-"LUV",
-"LUV",
-"Southwest Airlines Co.",
-[
-"S&P500"
-]
-],
-[
-"LLY",
-"LLY",
-"Eli Lilly and Company",
-[
-"S&P500"
-]
-],
-[
-"LVS",
-"LVS",
-"Las Vegas Sands Corp.",
-[
-"S&P500"
-]
-],
-[
-"LYV",
-"LYV",
-"Live Nation Entertainment, Inc.",
-[
-"S&P500"
-]
-],
-[
-"LYB",
-"LYB",
-"LyondellBasell Industries N.V.",
-[
-"S&P500"
-]
-],
-[
-"MA",
-"MA",
-"Mastercard Incorporated",
-[
-"S&P500"
-]
-],
-[
-"MAA",
-"MAA",
-"Mid-America Apartment Communities, Inc.",
-[
-"S&P500"
-]
-],
-[
-"MAR",
-"MAR",
-"Marriott International, Inc.",
-[
-"Nasdaq100",
-"S&P500"
-]
-],
-[
-"MCHP",
-"MCHP",
-"Microchip Technology Incorporated",
-[
-"Nasdaq100",
-"S&P500"
-]
-],
-[
-"MCK",
-"MCK",
-"McKesson Corporation",
-[
-"S&P500"
-]
-],
-[
-"MCD",
-"MCD",
-"McDonald's Corporation",
-[
-"S&P500"
-]
-],
-[
-"MDLZ",
-"MDLZ",
-"Mondelez International, Inc.",
-[
-"Nasdaq100",
-"S&P500"
-]
-],
-[
-"MCO",
-"MCO",
-"Moody's Corporation",
-[
-"S&P500"
-]
-],
-[
-"MDT",
-"MDT",
-"Medtronic plc",
-[
-"S&P500"
-]
-],
-[
-"MELI",
-"MELI",
-"MercadoLibre, Inc.",
-[
-"Nasdaq100"
-]
-],
-[
-"MAS",
-"MAS",
-"Masco Corporation",
-[
-"S&P500"
-]
-],
-[
-"MET",
-"MET",
-"MetLife, Inc.",
-[
-"S&P500"
-]
-],
-[
-"META",
-"META",
-"Meta Platforms, Inc.",
-[
-"Nasdaq100",
-"S&P500"
-]
-],
-[
-"MGM",
-"MGM",
-"MGM Resorts International",
-[
-"S&P500"
-]
-],
-[
-"MLM",
-"MLM",
-"Martin Marietta Materials, Inc.",
-[
-"S&P500"
-]
-],
-[
-"MNST",
-"MNST",
-"Monster Beverage Corporation",
-[
-"Nasdaq100",
-"S&P500"
-]
-],
-[
-"MKC",
-"MKC",
-"McCormick & Company, Incorporated",
-[
-"S&P500"
-]
-],
-[
-"MMM",
-"MMM",
-"3M Company",
-[
-"S&P500"
-]
-],
-[
-"MO",
-"MO",
-"Altria Group, Inc.",
-[
-"S&P500"
-]
-],
-[
-"MOS",
-"MOS",
-"The Mosaic Company",
-[
-"S&P500"
-]
-],
-[
-"MRNA",
-"MRNA",
-"Moderna, Inc.",
-[
-"S&P500"
-]
-],
-[
-"MPC",
-"MPC",
-"Marathon Petroleum Corporation",
-[
-"S&P500"
-]
-],
-[
-"MPWR",
-"MPWR",
-"Monolithic Power Systems, Inc.",
-[
-"Nasdaq100",
-"S&P500"
-]
-],
-[
-"MRK",
-"MRK",
-"Merck & Co., Inc.",
-[
-"S&P500"
-]
-],
-[
-"MRSH",
-"MRSH",
-"Marsh & McLennan Companies, Inc.",
-[
-"S&P500"
-]
-],
-[
-"MRVL",
-"MRVL",
-"Marvell Technology, Inc.",
-[
-"Nasdaq100",
-"S&P500"
-]
-],
-[
-"MS",
-"MS",
-"Morgan Stanley",
-[
-"S&P500"
-]
-],
-[
-"MSCI",
-"MSCI",
-"MSCI Inc.",
-[
-"S&P500"
-]
-],
-[
-"MSFT",
-"MSFT",
-"Microsoft Corporation",
-[
-"Nasdaq100",
-"S&P500"
-]
-],
-[
-"MTD",
-"MTD",
-"Mettler-Toledo International Inc.",
-[
-"S&P500"
-]
-],
-[
-"MSTR",
-"MSTR",
-"Strategy Inc",
-[
-"Nasdaq100"
-]
-],
-[
-"MSI",
-"MSI",
-"Motorola Solutions, Inc.",
-[
-"S&P500"
-]
-],
-[
-"NBIS",
-"NBIS",
-"Nebius Group N.V.",
-[
-"Nasdaq100"
-]
-],
-[
-"MTB",
-"MTB",
-"M&T Bank Corporation",
-[
-"S&P500"
-]
-],
-[
-"NCLH",
-"NCLH",
-"Norwegian Cruise Line Holdings Ltd.",
-[
-"S&P500"
-]
-],
-[
-"MU",
-"MU",
-"Micron Technology, Inc.",
-[
-"Nasdaq100",
-"S&P500"
-]
-],
-[
-"NDAQ",
-"NDAQ",
-"Nasdaq, Inc.",
-[
-"S&P500"
-]
-],
-[
-"NDSN",
-"NDSN",
-"Nordson Corporation",
-[
-"S&P500"
-]
-],
-[
-"NFLX",
-"NFLX",
-"Netflix, Inc.",
-[
-"Nasdaq100",
-"S&P500"
-]
-],
-[
-"NEM",
-"NEM",
-"Newmont Corporation",
-[
-"S&P500"
-]
-],
-[
-"NRG",
-"NRG",
-"NRG Energy, Inc.",
-[
-"S&P500"
-]
-],
-[
-"NI",
-"NI",
-"NiSource Inc.",
-[
-"S&P500"
-]
-],
-[
-"NEE",
-"NEE",
-"NextEra Energy, Inc.",
-[
-"S&P500"
-]
-],
-[
-"NKE",
-"NKE",
-"NIKE, Inc.",
-[
-"S&P500"
-]
-],
-[
-"NOW",
-"NOW",
-"ServiceNow, Inc.",
-[
-"S&P500"
-]
-],
-[
-"NOC",
-"NOC",
-"Northrop Grumman Corporation",
-[
-"S&P500"
-]
-],
-[
-"NTAP",
-"NTAP",
-"NetApp, Inc.",
-[
-"S&P500"
-]
-],
-[
-"NSC",
-"NSC",
-"Norfolk Southern Corporation",
-[
-"S&P500"
-]
-],
-[
-"NTRS",
-"NTRS",
-"Northern Trust Corporation",
-[
-"S&P500"
-]
-],
-[
-"NVR",
-"NVR",
-"NVR, Inc.",
-[
-"S&P500"
-]
-],
-[
-"NVDA",
-"NVDA",
-"NVIDIA Corporation",
-[
-"Nasdaq100",
-"S&P500"
-]
-],
-[
-"NUE",
-"NUE",
-"Nucor Corporation",
-[
-"S&P500"
-]
-],
-[
-"NWS",
-"NWS",
-"News Corporation",
-[
-"S&P500"
-]
-],
-[
-"ODFL",
-"ODFL",
-"Old Dominion Freight Line, Inc.",
-[
-"Nasdaq100",
-"S&P500"
-]
-],
-[
-"NWSA",
-"NWSA",
-"News Corporation",
-[
-"S&P500"
-]
-],
-[
-"O",
-"O",
-"Realty Income Corporation",
-[
-"S&P500"
-]
-],
-[
-"NXPI",
-"NXPI",
-"NXP Semiconductors N.V.",
-[
-"Nasdaq100",
-"S&P500"
-]
-],
-[
-"ON",
-"ON",
-"ON Semiconductor Corporation",
-[
-"S&P500"
-]
-],
-[
-"ORCL",
-"ORCL",
-"Oracle Corporation",
-[
-"S&P500"
-]
-],
-[
-"ORLY",
-"ORLY",
-"O'Reilly Automotive, Inc.",
-[
-"Nasdaq100",
-"S&P500"
-]
-],
-[
-"OKE",
-"OKE",
-"ONEOK, Inc.",
-[
-"S&P500"
-]
-],
-[
-"OMC",
-"OMC",
-"Omnicom Group Inc.",
-[
-"S&P500"
-]
-],
-[
-"OTIS",
-"OTIS",
-"Otis Worldwide Corporation",
-[
-"S&P500"
-]
-],
-[
-"PANW",
-"PANW",
-"Palo Alto Networks, Inc.",
-[
-"Nasdaq100",
-"S&P500"
-]
-],
-[
-"OXY",
-"OXY",
-"Occidental Petroleum Corporation",
-[
-"S&P500"
-]
-],
-[
-"PCAR",
-"PCAR",
-"PACCAR Inc",
-[
-"Nasdaq100",
-"S&P500"
-]
-],
-[
-"PAYX",
-"PAYX",
-"Paychex, Inc.",
-[
-"Nasdaq100",
-"S&P500"
-]
-],
-[
-"PCG",
-"PCG",
-"PG&E Corporation",
-[
-"S&P500"
-]
-],
-[
-"PDD",
-"PDD",
-"PDD Holdings Inc.",
-[
-"Nasdaq100"
-]
-],
-[
-"PEG",
-"PEG",
-"Public Service Enterprise Group Incorporated",
-[
-"S&P500"
-]
-],
-[
-"PFG",
-"PFG",
-"Principal Financial Group, Inc.",
-[
-"S&P500"
-]
-],
-[
-"PFE",
-"PFE",
-"Pfizer Inc.",
-[
-"S&P500"
-]
-],
-[
-"PH",
-"PH",
-"Parker-Hannifin Corporation",
-[
-"S&P500"
-]
-],
-[
-"PGR",
-"PGR",
-"The Progressive Corporation",
-[
-"S&P500"
-]
-],
-[
-"PG",
-"PG",
-"The Procter & Gamble Company",
-[
-"S&P500"
-]
-],
-[
-"PEP",
-"PEP",
-"PepsiCo, Inc.",
-[
-"Nasdaq100",
-"S&P500"
-]
-],
-[
-"PKG",
-"PKG",
-"Packaging Corporation of America",
-[
-"S&P500"
-]
-],
-[
-"PHM",
-"PHM",
-"PulteGroup, Inc.",
-[
-"S&P500"
-]
-],
-[
-"PLD",
-"PLD",
-"Prologis, Inc.",
-[
-"S&P500"
-]
-],
-[
-"PLTR",
-"PLTR",
-"Palantir Technologies Inc.",
-[
-"Nasdaq100",
-"S&P500"
-]
-],
-[
-"PM",
-"PM",
-"Philip Morris International Inc.",
-[
-"S&P500"
-]
-],
-[
-"PNC",
-"PNC",
-"The PNC Financial Services Group, Inc.",
-[
-"S&P500"
-]
-],
-[
-"PNR",
-"PNR",
-"Pentair plc",
-[
-"S&P500"
-]
-],
-[
-"PNW",
-"PNW",
-"Pinnacle West Capital Corporation",
-[
-"S&P500"
-]
-],
-[
-"PODD",
-"PODD",
-"Insulet Corporation",
-[
-"S&P500"
-]
-],
-[
-"PPG",
-"PPG",
-"PPG Industries, Inc.",
-[
-"S&P500"
-]
-],
-[
-"PSKY",
-"PSKY",
-"Paramount Skydance Corporation",
-[
-"S&P500"
-]
-],
-[
-"PPL",
-"PPL",
-"PPL Corporation",
-[
-"S&P500"
-]
-],
-[
-"PSA",
-"PSA",
-"Public Storage",
-[
-"S&P500"
-]
-],
-[
-"PRU",
-"PRU",
-"Prudential Financial, Inc.",
-[
-"S&P500"
-]
-],
-[
-"PSX",
-"PSX",
-"Phillips 66",
-[
-"S&P500"
-]
-],
-[
-"PTC",
-"PTC",
-"PTC Inc.",
-[
-"S&P500"
-]
-],
-[
-"Q",
-"Q",
-"Qnity Electronics, Inc.",
-[
-"S&P500"
-]
-],
-[
-"PYPL",
-"PYPL",
-"PayPal Holdings, Inc.",
-[
-"Nasdaq100",
-"S&P500"
-]
-],
-[
-"RKLB",
-"RKLB",
-"Rocket Lab Corporation",
-[
-"Nasdaq100"
-]
-],
-[
-"RDDT",
-"RDDT",
-"Reddit, Inc.",
-[
-"S&P500"
-]
-],
-[
-"REGN",
-"REGN",
-"Regeneron Pharmaceuticals, Inc.",
-[
-"Nasdaq100",
-"S&P500"
-]
-],
-[
-"PWR",
-"PWR",
-"Quanta Services, Inc.",
-[
-"S&P500"
-]
-],
-[
-"QCOM",
-"QCOM",
-"QUALCOMM Incorporated",
-[
-"Nasdaq100",
-"S&P500"
-]
-],
-[
-"REG",
-"REG",
-"Regency Centers Corporation",
-[
-"S&P500"
-]
-],
-[
-"RJF",
-"RJF",
-"Raymond James Financial, Inc.",
-[
-"S&P500"
-]
-],
-[
-"RCL",
-"RCL",
-"Royal Caribbean Cruises Ltd.",
-[
-"S&P500"
-]
-],
-[
-"RF",
-"RF",
-"Regions Financial Corporation",
-[
-"S&P500"
-]
-],
-[
-"RL",
-"RL",
-"Ralph Lauren Corporation",
-[
-"S&P500"
-]
-],
-[
-"RMD",
-"RMD",
-"ResMed Inc.",
-[
-"S&P500"
-]
-],
-[
-"ROK",
-"ROK",
-"Rockwell Automation, Inc.",
-[
-"S&P500"
-]
-],
-[
-"ROL",
-"ROL",
-"Rollins, Inc.",
-[
-"S&P500"
-]
-],
-[
-"ROP",
-"ROP",
-"Roper Technologies, Inc.",
-[
-"Nasdaq100",
-"S&P500"
-]
-],
-[
-"RSG",
-"RSG",
-"Republic Services, Inc.",
-[
-"S&P500"
-]
-],
-[
-"ROST",
-"ROST",
-"Ross Stores, Inc.",
-[
-"Nasdaq100",
-"S&P500"
-]
-],
-[
-"SBAC",
-"SBAC",
-"SBA Communications Corporation",
-[
-"S&P500"
-]
-],
-[
-"RVTY",
-"RVTY",
-"Revvity, Inc.",
-[
-"S&P500"
-]
-],
-[
-"SBUX",
-"SBUX",
-"Starbucks Corporation",
-[
-"Nasdaq100",
-"S&P500"
-]
-],
-[
-"RTX",
-"RTX",
-"RTX Corporation",
-[
-"S&P500"
-]
-],
-[
-"SCHW",
-"SCHW",
-"The Charles Schwab Corporation",
-[
-"S&P500"
-]
-],
-[
-"SHOP",
-"SHOP",
-"Shopify Inc.",
-[
-"Nasdaq100"
-]
-],
-[
-"SHW",
-"SHW",
-"The Sherwin-Williams Company",
-[
-"S&P500"
-]
-],
-[
-"SJM",
-"SJM",
-"The J. M. Smucker Company",
-[
-"S&P500"
-]
-],
-[
-"SNPS",
-"SNPS",
-"Synopsys, Inc.",
-[
-"Nasdaq100",
-"S&P500"
-]
-],
-[
-"SMCI",
-"SMCI",
-"Super Micro Computer, Inc.",
-[
-"S&P500"
-]
-],
-[
-"SNDK",
-"SNDK",
-"Sandisk Corporation",
-[
-"Nasdaq100",
-"S&P500"
-]
-],
-[
-"SOLV",
-"SOLV",
-"Solventum Corporation",
-[
-"S&P500"
-]
-],
-[
-"SLB",
-"SLB",
-"SLB N.V.",
-[
-"S&P500"
-]
-],
-[
-"SNA",
-"SNA",
-"Snap-on Incorporated",
-[
-"S&P500"
-]
-],
-[
-"SPG",
-"SPG",
-"Simon Property Group, Inc.",
-[
-"S&P500"
-]
-],
-[
-"SO",
-"SO",
-"The Southern Company",
-[
-"S&P500"
-]
-],
-[
-"SPGI",
-"SPGI",
-"S&P Global Inc.",
-[
-"S&P500"
-]
-],
-[
-"SRE",
-"SRE",
-"Sempra",
-[
-"S&P500"
-]
-],
-[
-"STE",
-"STE",
-"STERIS plc",
-[
-"S&P500"
-]
-],
-[
-"STLD",
-"STLD",
-"Steel Dynamics, Inc.",
-[
-"S&P500"
-]
-],
-[
-"STT",
-"STT",
-"State Street Corporation",
-[
-"S&P500"
-]
-],
-[
-"STZ",
-"STZ",
-"Constellation Brands, Inc.",
-[
-"S&P500"
-]
-],
-[
-"STX",
-"STX",
-"Seagate Technology Holdings plc",
-[
-"Nasdaq100",
-"S&P500"
-]
-],
-[
-"SW",
-"SW",
-"Smurfit Westrock Plc",
-[
-"S&P500"
-]
-],
-[
-"SWK",
-"SWK",
-"Stanley Black & Decker, Inc.",
-[
-"S&P500"
-]
-],
-[
-"SWKS",
-"SWKS",
-"Skyworks Solutions, Inc.",
-[
-"S&P500"
-]
-],
-[
-"SYF",
-"SYF",
-"Synchrony Financial",
-[
-"S&P500"
-]
-],
-[
-"SYK",
-"SYK",
-"Stryker Corporation",
-[
-"S&P500"
-]
-],
-[
-"TDY",
-"TDY",
-"Teledyne Technologies Incorporated",
-[
-"S&P500"
-]
-],
-[
-"T",
-"T",
-"AT&T Inc.",
-[
-"S&P500"
-]
-],
-[
-"SYY",
-"SYY",
-"Sysco Corporation",
-[
-"S&P500"
-]
-],
-[
-"TDG",
-"TDG",
-"TransDigm Group Incorporated",
-[
-"S&P500"
-]
-],
-[
-"TFC",
-"TFC",
-"Truist Financial Corporation",
-[
-"S&P500"
-]
-],
-[
-"TER",
-"TER",
-"Teradyne, Inc.",
-[
-"Nasdaq100",
-"S&P500"
-]
-],
-[
-"TGT",
-"TGT",
-"Target Corporation",
-[
-"S&P500"
-]
-],
-[
-"TECH",
-"TECH",
-"Bio-Techne Corporation",
-[
-"S&P500"
-]
-],
-[
-"TEL",
-"TEL",
-"TE Connectivity plc",
-[
-"S&P500"
-]
-],
-[
-"TAP",
-"TAP",
-"Molson Coors Beverage Company",
-[
-"S&P500"
-]
-],
-[
-"TKO",
-"TKO",
-"TKO Group Holdings, Inc.",
-[
-"S&P500"
-]
-],
-[
-"TJX",
-"TJX",
-"The TJX Companies, Inc.",
-[
-"S&P500"
-]
-],
-[
-"TMUS",
-"TMUS",
-"T-Mobile US, Inc.",
-[
-"Nasdaq100",
-"S&P500"
-]
-],
-[
-"TPR",
-"TPR",
-"Tapestry, Inc.",
-[
-"S&P500"
-]
-],
-[
-"TPL",
-"TPL",
-"Texas Pacific Land Corporation",
-[
-"S&P500"
-]
-],
-[
-"TRGP",
-"TRGP",
-"Targa Resources Corp.",
-[
-"S&P500"
-]
-],
-[
-"TRI",
-"TRI",
-"Thomson Reuters Corporation",
-[
-"Nasdaq100"
-]
-],
-[
-"TMO",
-"TMO",
-"Thermo Fisher Scientific Inc.",
-[
-"S&P500"
-]
-],
-[
-"TRMB",
-"TRMB",
-"Trimble Inc.",
-[
-"S&P500"
-]
-],
-[
-"TSCO",
-"TSCO",
-"Tractor Supply Company",
-[
-"S&P500"
-]
-],
-[
-"TSLA",
-"TSLA",
-"Tesla, Inc.",
-[
-"Nasdaq100",
-"S&P500"
-]
-],
-[
-"TROW",
-"TROW",
-"T. Rowe Price Group, Inc.",
-[
-"S&P500"
-]
-],
-[
-"TRV",
-"TRV",
-"The Travelers Companies, Inc.",
-[
-"S&P500"
-]
-],
-[
-"TSN",
-"TSN",
-"Tyson Foods, Inc.",
-[
-"S&P500"
-]
-],
-[
-"TTD",
-"TTD",
-"The Trade Desk, Inc.",
-[
-"S&P500"
-]
-],
-[
-"TTWO",
-"TTWO",
-"Take-Two Interactive Software, Inc.",
-[
-"Nasdaq100",
-"S&P500"
-]
-],
-[
-"TT",
-"TT",
-"Trane Technologies plc",
-[
-"S&P500"
-]
-],
-[
-"TYL",
-"TYL",
-"Tyler Technologies, Inc.",
-[
-"S&P500"
-]
-],
-[
-"TXT",
-"TXT",
-"Textron Inc.",
-[
-"S&P500"
-]
-],
-[
-"UAL",
-"UAL",
-"United Airlines Holdings, Inc.",
-[
-"S&P500"
-]
-],
-[
-"UBER",
-"UBER",
-"Uber Technologies, Inc.",
-[
-"S&P500"
-]
-],
-[
-"TXN",
-"TXN",
-"Texas Instruments Incorporated",
-[
-"Nasdaq100",
-"S&P500"
-]
-],
-[
-"UDR",
-"UDR",
-"UDR, Inc.",
-[
-"S&P500"
-]
-],
-[
-"URI",
-"URI",
-"United Rentals, Inc.",
-[
-"S&P500"
-]
-],
-[
-"UHS",
-"UHS",
-"Universal Health Services, Inc.",
-[
-"S&P500"
-]
-],
-[
-"UNP",
-"UNP",
-"Union Pacific Corporation",
-[
-"S&P500"
-]
-],
-[
-"ULTA",
-"ULTA",
-"Ulta Beauty, Inc.",
-[
-"S&P500"
-]
-],
-[
-"VEEV",
-"VEEV",
-"Veeva Systems Inc.",
-[
-"S&P500"
-]
-],
-[
-"V",
-"V",
-"Visa Inc.",
-[
-"S&P500"
-]
-],
-[
-"UPS",
-"UPS",
-"United Parcel Service, Inc.",
-[
-"S&P500"
-]
-],
-[
-"UNH",
-"UNH",
-"UnitedHealth Group Incorporated",
-[
-"S&P500"
-]
-],
-[
-"VICI",
-"VICI",
-"VICI Properties Inc.",
-[
-"S&P500"
-]
-],
-[
-"VLO",
-"VLO",
-"Valero Energy Corporation",
-[
-"S&P500"
-]
-],
-[
-"USB",
-"USB",
-"U.S. Bancorp",
-[
-"S&P500"
-]
-],
-[
-"VLTO",
-"VLTO",
-"Veralto Corporation",
-[
-"S&P500"
-]
-],
-[
-"VMC",
-"VMC",
-"Vulcan Materials Company",
-[
-"S&P500"
-]
-],
-[
-"VRSK",
-"VRSK",
-"Verisk Analytics, Inc.",
-[
-"S&P500"
-]
-],
-[
-"VRSN",
-"VRSN",
-"VeriSign, Inc.",
-[
-"S&P500"
-]
-],
-[
-"VRT",
-"VRT",
-"Vertiv Holdings Co",
-[
-"S&P500"
-]
-],
-[
-"VRTX",
-"VRTX",
-"Vertex Pharmaceuticals Incorporated",
-[
-"Nasdaq100",
-"S&P500"
-]
-],
-[
-"VMRK",
-"VMRK",
-"Vivmark Residential",
-[
-"S&P500"
-]
-],
-[
-"VST",
-"VST",
-"Vistra Corp.",
-[
-"S&P500"
-]
-],
-[
-"VTR",
-"VTR",
-"Ventas, Inc.",
-[
-"S&P500"
-]
-],
-[
-"VZ",
-"VZ",
-"Verizon Communications Inc.",
-[
-"S&P500"
-]
-],
-[
-"VTRS",
-"VTRS",
-"Viatris Inc.",
-[
-"S&P500"
-]
-],
-[
-"WAT",
-"WAT",
-"Waters Corporation",
-[
-"S&P500"
-]
-],
-[
-"WAB",
-"WAB",
-"Westinghouse Air Brake Technologies Corporation",
-[
-"S&P500"
-]
-],
-[
-"WBD",
-"WBD",
-"Warner Bros. Discovery, Inc.",
-[
-"Nasdaq100",
-"S&P500"
-]
-],
-[
-"WDAY",
-"WDAY",
-"Workday, Inc.",
-[
-"Nasdaq100",
-"S&P500"
-]
-],
-[
-"WEC",
-"WEC",
-"WEC Energy Group, Inc.",
-[
-"S&P500"
-]
-],
-[
-"WELL",
-"WELL",
-"Welltower Inc.",
-[
-"S&P500"
-]
-],
-[
-"WDC",
-"WDC",
-"Western Digital Corporation",
-[
-"Nasdaq100",
-"S&P500"
-]
-],
-[
-"WMB",
-"WMB",
-"The Williams Companies, Inc.",
-[
-"S&P500"
-]
-],
-[
-"WM",
-"WM",
-"Waste Management, Inc.",
-[
-"S&P500"
-]
-],
-[
-"WFC",
-"WFC",
-"Wells Fargo & Company",
-[
-"S&P500"
-]
-],
-[
-"WRB",
-"WRB",
-"W. R. Berkley Corporation",
-[
-"S&P500"
-]
-],
-[
-"WSM",
-"WSM",
-"Williams-Sonoma, Inc.",
-[
-"S&P500"
-]
-],
-[
-"WMT",
-"WMT",
-"Walmart Inc.",
-[
-"Nasdaq100",
-"S&P500"
-]
-],
-[
-"WST",
-"WST",
-"West Pharmaceutical Services, Inc.",
-[
-"S&P500"
-]
-],
-[
-"WTW",
-"WTW",
-"Willis Towers Watson Public Limited Company",
-[
-"S&P500"
-]
-],
-[
-"WYNN",
-"WYNN",
-"Wynn Resorts, Limited",
-[
-"S&P500"
-]
-],
-[
-"WY",
-"WY",
-"Weyerhaeuser Company",
-[
-"S&P500"
-]
-],
-[
-"XYL",
-"XYL",
-"Xylem Inc.",
-[
-"S&P500"
-]
-],
-[
-"XEL",
-"XEL",
-"Xcel Energy Inc.",
-[
-"Nasdaq100",
-"S&P500"
-]
-],
-[
-"XOM",
-"XOM",
-"ExxonMobil Holdings Corporation",
-[
-"S&P500"
-]
-],
-[
-"XYZ",
-"XYZ",
-"Block, Inc.",
-[
-"S&P500"
-]
-],
-[
-"YUM",
-"YUM",
-"Yum! Brands, Inc.",
-[
-"S&P500"
-]
-],
-[
-"ZBH",
-"ZBH",
-"Zimmer Biomet Holdings, Inc.",
-[
-"S&P500"
-]
-],
-[
-"ZBRA",
-"ZBRA",
-"Zebra Technologies Corporation",
-[
-"S&P500"
-]
-],
-[
-"ZTS",
-"ZTS",
-"Zoetis Inc.",
-[
-"S&P500"
-]
-]
+ [
+  "A",
+  "A",
+  "Agilent Technologies, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "AA",
+  "AA",
+  "Alcoa Corporation",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "AAL",
+  "AAL",
+  "American Airlines Group Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "AAON",
+  "AAON",
+  "Aaon Inc",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "AAPL",
+  "AAPL",
+  "Apple Inc.",
+  [
+   "Nasdaq100",
+   "S&P500"
+  ]
+ ],
+ [
+  "ABBV",
+  "ABBV",
+  "AbbVie Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "ABNB",
+  "ABNB",
+  "Airbnb, Inc.",
+  [
+   "Nasdaq100",
+   "S&P500"
+  ]
+ ],
+ [
+  "ABT",
+  "ABT",
+  "Abbott Laboratories",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "ACGL",
+  "ACGL",
+  "Arch Capital Group Ltd.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "ACI",
+  "ACI",
+  "Albertsons Companies, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "ACM",
+  "ACM",
+  "Aecom",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "ACN",
+  "ACN",
+  "Accenture plc",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "ADBE",
+  "ADBE",
+  "Adobe Inc.",
+  [
+   "Nasdaq100",
+   "S&P500"
+  ]
+ ],
+ [
+  "ADC",
+  "ADC",
+  "Agree Realty Corporation",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "ADI",
+  "ADI",
+  "Analog Devices, Inc.",
+  [
+   "Nasdaq100",
+   "S&P500"
+  ]
+ ],
+ [
+  "ADM",
+  "ADM",
+  "Archer-Daniels-Midland Company",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "ADP",
+  "ADP",
+  "Automatic Data Processing, Inc.",
+  [
+   "Nasdaq100",
+   "S&P500"
+  ]
+ ],
+ [
+  "ADSK",
+  "ADSK",
+  "Autodesk, Inc.",
+  [
+   "Nasdaq100",
+   "S&P500"
+  ]
+ ],
+ [
+  "AEE",
+  "AEE",
+  "Ameren Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "AEIS",
+  "AEIS",
+  "Advanced Energy Industries Inc",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "AEP",
+  "AEP",
+  "American Electric Power Company, Inc.",
+  [
+   "Nasdaq100",
+   "S&P500"
+  ]
+ ],
+ [
+  "AES",
+  "AES",
+  "The AES Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "AFG",
+  "AFG",
+  "American Financial Group, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "AFL",
+  "AFL",
+  "Aflac Incorporated",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "AGCO",
+  "AGCO",
+  "AGCO Corporation",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "AGNC",
+  "AGNC",
+  "AGNC Investment Corp.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "AHR",
+  "AHR",
+  "American Healthcare REIT, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "AIG",
+  "AIG",
+  "American International Group, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "AIT",
+  "AIT",
+  "Applied Industrial Technologies, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "AIZ",
+  "AIZ",
+  "Assurant, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "AJG",
+  "AJG",
+  "Arthur J. Gallagher & Co.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "AKAM",
+  "AKAM",
+  "Akamai Technologies, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "ALAB",
+  "ALAB",
+  "Astera Labs, Inc.",
+  [
+   "Nasdaq100"
+  ]
+ ],
+ [
+  "ALB",
+  "ALB",
+  "Albemarle Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "ALGM",
+  "ALGM",
+  "Allegro MicroSystems, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "ALGN",
+  "ALGN",
+  "Align Technology, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "ALK",
+  "ALK",
+  "Alaska Air Group, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "ALL",
+  "ALL",
+  "The Allstate Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "ALLE",
+  "ALLE",
+  "Allegion plc",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "ALLY",
+  "ALLY",
+  "Ally Financial Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "ALNY",
+  "ALNY",
+  "Alnylam Pharmaceuticals, Inc.",
+  [
+   "Nasdaq100"
+  ]
+ ],
+ [
+  "ALSN",
+  "ALSN",
+  "ALLISON TRANSMISSION HOLDINGS, INC.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "ALV",
+  "ALV",
+  "Autoliv, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "AM",
+  "AM",
+  "Antero Midstream Corporation",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "AMAT",
+  "AMAT",
+  "Applied Materials, Inc.",
+  [
+   "Nasdaq100",
+   "S&P500"
+  ]
+ ],
+ [
+  "AMCR",
+  "AMCR",
+  "Amcor plc",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "AMD",
+  "AMD",
+  "Advanced Micro Devices, Inc.",
+  [
+   "Nasdaq100",
+   "S&P500"
+  ]
+ ],
+ [
+  "AME",
+  "AME",
+  "AMETEK, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "AMG",
+  "AMG",
+  "Affiliated Managers Group",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "AMGN",
+  "AMGN",
+  "Amgen Inc.",
+  [
+   "Nasdaq100",
+   "S&P500"
+  ]
+ ],
+ [
+  "AMH",
+  "AMH",
+  "AMERICAN HOMES 4 RENT",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "AMKR",
+  "AMKR",
+  "Amkor Technology Inc",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "AMP",
+  "AMP",
+  "Ameriprise Financial, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "AMT",
+  "AMT",
+  "American Tower Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "AMZN",
+  "AMZN",
+  "Amazon.com, Inc.",
+  [
+   "Nasdaq100",
+   "S&P500"
+  ]
+ ],
+ [
+  "AN",
+  "AN",
+  "AutoNation, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "ANET",
+  "ANET",
+  "Arista Networks, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "ANF",
+  "ANF",
+  "Abercrombie & Fitch Co.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "AON",
+  "AON",
+  "Aon plc",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "AOS",
+  "AOS",
+  "A. O. Smith Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "APA",
+  "APA",
+  "APA Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "APD",
+  "APD",
+  "Air Products and Chemicals, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "APG",
+  "APG",
+  "APi Group Corporation",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "APH",
+  "APH",
+  "Amphenol Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "APO",
+  "APO",
+  "Apollo Global Management, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "APP",
+  "APP",
+  "AppLovin Corporation",
+  [
+   "Nasdaq100",
+   "S&P500"
+  ]
+ ],
+ [
+  "APPF",
+  "APPF",
+  "AppFolio, Inc. Class A",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "APTV",
+  "APTV",
+  "Aptiv PLC",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "AR",
+  "AR",
+  "ANTERO RESOURCES CORPORATION",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "ARE",
+  "ARE",
+  "Alexandria Real Estate Equities, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "ARES",
+  "ARES",
+  "Ares Management Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "ARM",
+  "ARM",
+  "Arm Holdings plc",
+  [
+   "Nasdaq100"
+  ]
+ ],
+ [
+  "ARMK",
+  "ARMK",
+  "ARAMARK",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "ARW",
+  "ARW",
+  "Arrow Electronics, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "ARWR",
+  "ARWR",
+  "Arrowhead Research Corporation",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "ASB",
+  "ASB",
+  "Associated Banc-Corp",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "ASH",
+  "ASH",
+  "Ashland Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "ASML",
+  "ASML",
+  "ASML Holding N.V.",
+  [
+   "Nasdaq100"
+  ]
+ ],
+ [
+  "ATI",
+  "ATI",
+  "ATI Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "ATO",
+  "ATO",
+  "Atmos Energy Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "ATR",
+  "ATR",
+  "AptarGroup, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "AVAV",
+  "AVAV",
+  "AeroVironment, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "AVGO",
+  "AVGO",
+  "Broadcom Inc.",
+  [
+   "Nasdaq100",
+   "S&P500"
+  ]
+ ],
+ [
+  "AVNT",
+  "AVNT",
+  "Avient Corporation",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "AVT",
+  "AVT",
+  "Avnet, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "AVTR",
+  "AVTR",
+  "Avantor, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "AVY",
+  "AVY",
+  "Avery Dennison Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "AWK",
+  "AWK",
+  "American Water Works Company, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "AXON",
+  "AXON",
+  "Axon Enterprise, Inc.",
+  [
+   "Nasdaq100",
+   "S&P500"
+  ]
+ ],
+ [
+  "AXP",
+  "AXP",
+  "American Express Company",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "AXTA",
+  "AXTA",
+  "Axalta Coating Systems Ltd.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "AYI",
+  "AYI",
+  "Acuity Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "AZO",
+  "AZO",
+  "AutoZone, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "BA",
+  "BA",
+  "The Boeing Company",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "BAC",
+  "BAC",
+  "Bank of America Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "BAH",
+  "BAH",
+  "Booz Allen Hamilton Holding Corporation",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "BALL",
+  "BALL",
+  "Ball Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "BAX",
+  "BAX",
+  "Baxter International Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "BBWI",
+  "BBWI",
+  "Bath & Body Works, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "BBY",
+  "BBY",
+  "Best Buy Co., Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "BC",
+  "BC",
+  "Brunswick Corporation",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "BCO",
+  "BCO",
+  "The Brink's Company",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "BDC",
+  "BDC",
+  "Belden Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "BDX",
+  "BDX",
+  "Becton, Dickinson and Company",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "BEN",
+  "BEN",
+  "Franklin Templeton Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "BF.B",
+  "BF-B",
+  "Brown-Forman Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "BG",
+  "BG",
+  "Bunge Global SA",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "BHF",
+  "BHF",
+  "Brighthouse Financial, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "BIIB",
+  "BIIB",
+  "Biogen Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "BILL",
+  "BILL",
+  "BILL Holdings, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "BIO",
+  "BIO",
+  "Bio-Rad Laboratories, Inc.Class A",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "BJ",
+  "BJ",
+  "BJs Wholesale Club Holdings, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "BKH",
+  "BKH",
+  "Black Hills Corporation",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "BKNG",
+  "BKNG",
+  "Booking Holdings Inc.",
+  [
+   "Nasdaq100",
+   "S&P500"
+  ]
+ ],
+ [
+  "BKR",
+  "BKR",
+  "Baker Hughes Company",
+  [
+   "Nasdaq100",
+   "S&P500"
+  ]
+ ],
+ [
+  "BLDR",
+  "BLDR",
+  "Builders FirstSource, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "BLK",
+  "BLK",
+  "BlackRock, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "BMRN",
+  "BMRN",
+  "BioMarin Pharmaceuticals Inc",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "BMY",
+  "BMY",
+  "Bristol-Myers Squibb Company",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "BNY",
+  "BNY",
+  "The Bank of New York Mellon Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "BR",
+  "BR",
+  "Broadridge Financial Solutions, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "BRK.B",
+  "BRK-B",
+  "Berkshire Hathaway Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "BRKR",
+  "BRKR",
+  "Bruker Corporation",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "BRO",
+  "BRO",
+  "Brown & Brown, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "BROS",
+  "BROS",
+  "Dutch Bros Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "BRX",
+  "BRX",
+  "BRIXMOR PROPERTY GROUP INC.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "BSX",
+  "BSX",
+  "Boston Scientific Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "BSY",
+  "BSY",
+  "Bentley Systems, Incorporated",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "BTSG",
+  "BTSG",
+  "BrightSpring Health Services, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "BURL",
+  "BURL",
+  "BURLINGTON STORES, INC.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "BWA",
+  "BWA",
+  "BorgWarner Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "BWXT",
+  "BWXT",
+  "BWX Technologies, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "BX",
+  "BX",
+  "Blackstone Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "BXP",
+  "BXP",
+  "BXP, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "BYD",
+  "BYD",
+  "Boyd Gaming Corporation",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "C",
+  "C",
+  "Citigroup Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "CACI",
+  "CACI",
+  "CACI INTERNATIONAL CLA",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "CAH",
+  "CAH",
+  "Cardinal Health, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "CAR",
+  "CAR",
+  "Avis Budget Group, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "CARR",
+  "CARR",
+  "Carrier Global Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "CART",
+  "CART",
+  "Maplebear Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "CASY",
+  "CASY",
+  "Casey's General Stores, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "CAT",
+  "CAT",
+  "Caterpillar Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "CAVA",
+  "CAVA",
+  "CAVA Group, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "CB",
+  "CB",
+  "Chubb Limited",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "CBOE",
+  "CBOE",
+  "Cboe Global Markets, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "CBRE",
+  "CBRE",
+  "CBRE Group, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "CBSH",
+  "CBSH",
+  "Commerce Bancshares Inc",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "CBT",
+  "CBT",
+  "Cabot Corporation",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "CCEP",
+  "CCEP",
+  "Coca-Cola Europacific Partners PLC",
+  [
+   "Nasdaq100"
+  ]
+ ],
+ [
+  "CCI",
+  "CCI",
+  "Crown Castle Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "CCK",
+  "CCK",
+  "Crown Holdings Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "CCL",
+  "CCL",
+  "Carnival Corporation Ltd.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "CDE",
+  "CDE",
+  "Coeur Mining, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "CDNS",
+  "CDNS",
+  "Cadence Design Systems, Inc.",
+  [
+   "Nasdaq100",
+   "S&P500"
+  ]
+ ],
+ [
+  "CDP",
+  "CDP",
+  "COPT Defense Properties",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "CDW",
+  "CDW",
+  "CDW Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "CEG",
+  "CEG",
+  "Constellation Energy Corporation",
+  [
+   "Nasdaq100",
+   "S&P500"
+  ]
+ ],
+ [
+  "CELH",
+  "CELH",
+  "Celsius Holdings, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "CF",
+  "CF",
+  "CF Industries Holdings, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "CFG",
+  "CFG",
+  "Citizens Financial Group, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "CFR",
+  "CFR",
+  "Cullen/Frost Bankers Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "CG",
+  "CG",
+  "The Carlyle Group Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "CGNX",
+  "CGNX",
+  "Cognex Corp",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "CHD",
+  "CHD",
+  "Church & Dwight Co., Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "CHDN",
+  "CHDN",
+  "Churchill Downs Inc",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "CHE",
+  "CHE",
+  "Chemed Corporation",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "CHH",
+  "CHH",
+  "Choice Hotels Intnl.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "CHRD",
+  "CHRD",
+  "Chord Energy Corporation",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "CHRW",
+  "CHRW",
+  "C.H. Robinson Worldwide, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "CHTR",
+  "CHTR",
+  "Charter Communications, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "CHWY",
+  "CHWY",
+  "Chewy, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "CI",
+  "CI",
+  "The Cigna Group",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "CIEN",
+  "CIEN",
+  "Ciena Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "CINF",
+  "CINF",
+  "Cincinnati Financial Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "CL",
+  "CL",
+  "Colgate-Palmolive Company",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "CLF",
+  "CLF",
+  "Cleveland-Cliffs Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "CLH",
+  "CLH",
+  "Clean Harbors, Inc",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "CLX",
+  "CLX",
+  "The Clorox Company",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "CMC",
+  "CMC",
+  "Commercial Metals Company",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "CMCSA",
+  "CMCSA",
+  "Comcast Corporation",
+  [
+   "Nasdaq100",
+   "S&P500"
+  ]
+ ],
+ [
+  "CME",
+  "CME",
+  "CME Group Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "CMG",
+  "CMG",
+  "Chipotle Mexican Grill, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "CMI",
+  "CMI",
+  "Cummins Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "CMS",
+  "CMS",
+  "CMS Energy Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "CNC",
+  "CNC",
+  "Centene Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "CNH",
+  "CNH",
+  "CNH INDUSTRIAL N.V.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "CNM",
+  "CNM",
+  "Core & Main, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "CNO",
+  "CNO",
+  "CNO Financial Group, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "CNP",
+  "CNP",
+  "CenterPoint Energy, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "CNX",
+  "CNX",
+  "CNX Resources Corporation",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "COF",
+  "COF",
+  "Capital One Financial Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "COHR",
+  "COHR",
+  "Coherent Corp.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "COIN",
+  "COIN",
+  "Coinbase Global, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "COKE",
+  "COKE",
+  "Coca-Cola Consolidated, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "COLB",
+  "COLB",
+  "Columbia Banking Systems Inc",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "COLM",
+  "COLM",
+  "Columbia Sportswear Co",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "COO",
+  "COO",
+  "The Cooper Companies, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "COP",
+  "COP",
+  "ConocoPhillips",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "COR",
+  "COR",
+  "Cencora, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "CORT",
+  "CORT",
+  "Corcept Therapeutics Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "COST",
+  "COST",
+  "Costco Wholesale Corporation",
+  [
+   "Nasdaq100",
+   "S&P500"
+  ]
+ ],
+ [
+  "CPAY",
+  "CPAY",
+  "Corpay, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "CPRT",
+  "CPRT",
+  "Copart, Inc.",
+  [
+   "Nasdaq100",
+   "S&P500"
+  ]
+ ],
+ [
+  "CPT",
+  "CPT",
+  "Camden Property Trust",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "CR",
+  "CR",
+  "Crane Company",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "CRBG",
+  "CRBG",
+  "Corebridge Financial, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "CRH",
+  "CRH",
+  "CRH plc",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "CRL",
+  "CRL",
+  "Charles River Laboratories International, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "CRM",
+  "CRM",
+  "Salesforce, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "CROX",
+  "CROX",
+  "Crocs, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "CRS",
+  "CRS",
+  "Carpenter Technology Corp",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "CRUS",
+  "CRUS",
+  "Cirrus Logic Inc",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "CRWD",
+  "CRWD",
+  "CrowdStrike Holdings, Inc.",
+  [
+   "Nasdaq100",
+   "S&P500"
+  ]
+ ],
+ [
+  "CRWV",
+  "CRWV",
+  "CoreWeave, Inc.",
+  [
+   "Nasdaq100"
+  ]
+ ],
+ [
+  "CSCO",
+  "CSCO",
+  "Cisco Systems, Inc.",
+  [
+   "Nasdaq100",
+   "S&P500"
+  ]
+ ],
+ [
+  "CSGP",
+  "CSGP",
+  "CoStar Group, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "CSL",
+  "CSL",
+  "Carlisle Companies, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "CSX",
+  "CSX",
+  "CSX Corporation",
+  [
+   "Nasdaq100",
+   "S&P500"
+  ]
+ ],
+ [
+  "CTAS",
+  "CTAS",
+  "Cintas Corporation",
+  [
+   "Nasdaq100",
+   "S&P500"
+  ]
+ ],
+ [
+  "CTRE",
+  "CTRE",
+  "CareTrust REIT, Inc",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "CTSH",
+  "CTSH",
+  "Cognizant Technology Solutions Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "CTVA",
+  "CTVA",
+  "Corteva, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "CUBE",
+  "CUBE",
+  "CubeSmart",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "CUZ",
+  "CUZ",
+  "Cousins Properties Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "CVLT",
+  "CVLT",
+  "Commault Systems, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "CVNA",
+  "CVNA",
+  "Carvana Co.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "CVS",
+  "CVS",
+  "CVS Health Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "CVX",
+  "CVX",
+  "Chevron Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "CW",
+  "CW",
+  "Curtiss-Wright Corp.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "CXT",
+  "CXT",
+  "Crane NXT, Co.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "CYTK",
+  "CYTK",
+  "Cytokinetics Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "D",
+  "D",
+  "Dominion Energy, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "DAL",
+  "DAL",
+  "Delta Air Lines, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "DAR",
+  "DAR",
+  "DARLING INGREDIENTS INC.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "DASH",
+  "DASH",
+  "DoorDash, Inc.",
+  [
+   "Nasdaq100",
+   "S&P500"
+  ]
+ ],
+ [
+  "DBX",
+  "DBX",
+  "Dropbox, Inc. Class A",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "DCI",
+  "DCI",
+  "Donaldson Company, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "DD",
+  "DD",
+  "DuPont de Nemours, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "DDOG",
+  "DDOG",
+  "Datadog, Inc.",
+  [
+   "Nasdaq100",
+   "S&P500"
+  ]
+ ],
+ [
+  "DE",
+  "DE",
+  "Deere & Company",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "DECK",
+  "DECK",
+  "Deckers Outdoor Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "DELL",
+  "DELL",
+  "Dell Technologies Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "DG",
+  "DG",
+  "Dollar General Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "DGX",
+  "DGX",
+  "Quest Diagnostics Incorporated",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "DHI",
+  "DHI",
+  "D.R. Horton, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "DHR",
+  "DHR",
+  "Danaher Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "DINO",
+  "DINO",
+  "HF Sinclair Corporation",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "DIS",
+  "DIS",
+  "The Walt Disney Company",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "DKS",
+  "DKS",
+  "Dick's Sporting Goods, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "DLB",
+  "DLB",
+  "Dolby Laboratories, Inc.Class A",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "DLR",
+  "DLR",
+  "Digital Realty Trust, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "DLTR",
+  "DLTR",
+  "Dollar Tree, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "DOC",
+  "DOC",
+  "Healthpeak Properties, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "DOCN",
+  "DOCN",
+  "DigitalOcean Holdings, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "DOCS",
+  "DOCS",
+  "Doximity, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "DOCU",
+  "DOCU",
+  "DocuSign, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "DOV",
+  "DOV",
+  "Dover Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "DOW",
+  "DOW",
+  "Dow Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "DPZ",
+  "DPZ",
+  "Domino's Pizza, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "DRI",
+  "DRI",
+  "Darden Restaurants, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "DT",
+  "DT",
+  "Dynatrace, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "DTE",
+  "DTE",
+  "DTE Energy Company",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "DTM",
+  "DTM",
+  "DT Midstream, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "DUK",
+  "DUK",
+  "Duke Energy Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "DUOL",
+  "DUOL",
+  "Duolingo, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "DVA",
+  "DVA",
+  "DaVita Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "DVN",
+  "DVN",
+  "Devon Energy Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "DXCM",
+  "DXCM",
+  "DexCom, Inc.",
+  [
+   "Nasdaq100",
+   "S&P500"
+  ]
+ ],
+ [
+  "DY",
+  "DY",
+  "Dycom Industries, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "EAT",
+  "EAT",
+  "Brinker International, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "EBAY",
+  "EBAY",
+  "eBay Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "ECHO",
+  "ECHO",
+  "EchoStar Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "ECL",
+  "ECL",
+  "Ecolab Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "ED",
+  "ED",
+  "Consolidated Edison, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "EEFT",
+  "EEFT",
+  "Euronet Worldwide Inc",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "EFX",
+  "EFX",
+  "Equifax Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "EG",
+  "EG",
+  "Everest Group, Ltd.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "EGP",
+  "EGP",
+  "EastGroup Properties Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "EHC",
+  "EHC",
+  "Encompass Health Corporation",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "EIX",
+  "EIX",
+  "Edison International",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "EL",
+  "EL",
+  "The Estée Lauder Companies Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "ELAN",
+  "ELAN",
+  "Elanco Animal Health Incorporated",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "ELF",
+  "ELF",
+  "e.l.f. Beauty, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "ELS",
+  "ELS",
+  "Equity Lifestyle Properties, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "ELV",
+  "ELV",
+  "Elevance Health, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "EME",
+  "EME",
+  "EMCOR Group, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "EMR",
+  "EMR",
+  "Emerson Electric Co.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "ENS",
+  "ENS",
+  "EnerSys, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "ENSG",
+  "ENSG",
+  "The Ensign Group, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "ENTG",
+  "ENTG",
+  "Entegris Inc",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "EOG",
+  "EOG",
+  "EOG Resources, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "EPR",
+  "EPR",
+  "EPR Properties",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "EQH",
+  "EQH",
+  "Equitable Holdings, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "EQIX",
+  "EQIX",
+  "Equinix, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "EQT",
+  "EQT",
+  "EQT Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "ERIE",
+  "ERIE",
+  "Erie Indemnity Company",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "ES",
+  "ES",
+  "Eversource Energy",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "ESAB",
+  "ESAB",
+  "ESAB Corporation",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "ESNT",
+  "ESNT",
+  "Essent Group LTD",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "ESS",
+  "ESS",
+  "Essex Property Trust, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "ETN",
+  "ETN",
+  "Eaton Corporation plc",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "ETR",
+  "ETR",
+  "Entergy Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "EVR",
+  "EVR",
+  "Evercore Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "EVRG",
+  "EVRG",
+  "Evergy, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "EW",
+  "EW",
+  "Edwards Lifesciences Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "EWBC",
+  "EWBC",
+  "East-West Bancorp Inc",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "EXC",
+  "EXC",
+  "Exelon Corporation",
+  [
+   "Nasdaq100",
+   "S&P500"
+  ]
+ ],
+ [
+  "EXE",
+  "EXE",
+  "Expand Energy Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "EXEL",
+  "EXEL",
+  "Exelixis Inc",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "EXLS",
+  "EXLS",
+  "ExlService Holdings, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "EXP",
+  "EXP",
+  "Eagle Materials, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "EXPD",
+  "EXPD",
+  "Expeditors International of Washington, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "EXPE",
+  "EXPE",
+  "Expedia Group, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "EXPO",
+  "EXPO",
+  "Exponent Inc",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "EXR",
+  "EXR",
+  "Extra Space Storage Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "F",
+  "F",
+  "Ford Motor Company",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "FAF",
+  "FAF",
+  "First American Financial Corporation",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "FANG",
+  "FANG",
+  "Diamondback Energy, Inc.",
+  [
+   "Nasdaq100",
+   "S&P500"
+  ]
+ ],
+ [
+  "FAST",
+  "FAST",
+  "Fastenal Company",
+  [
+   "Nasdaq100",
+   "S&P500"
+  ]
+ ],
+ [
+  "FBIN",
+  "FBIN",
+  "Fortune Brands Innovations, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "FCFS",
+  "FCFS",
+  "FirstCash Holdings, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "FCN",
+  "FCN",
+  "FTI Consulting, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "FCX",
+  "FCX",
+  "Freeport-McMoRan Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "FDS",
+  "FDS",
+  "FactSet Research Systems Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "FDX",
+  "FDX",
+  "FedEx Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "FE",
+  "FE",
+  "FirstEnergy Corp.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "FER",
+  "FER",
+  "Ferrovial N.V.",
+  [
+   "Nasdaq100"
+  ]
+ ],
+ [
+  "FERG",
+  "FERG",
+  "Ferguson Enterprises Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "FFIN",
+  "FFIN",
+  "First Financial Bankshares Inc",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "FFIV",
+  "FFIV",
+  "F5, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "FHI",
+  "FHI",
+  "Federated Hermes, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "FHN",
+  "FHN",
+  "First Horizon Corporation",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "FICO",
+  "FICO",
+  "Fair Isaac Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "FIS",
+  "FIS",
+  "Fidelity National Information Services, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "FISV",
+  "FISV",
+  "Fiserv, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "FITB",
+  "FITB",
+  "Fifth Third Bancorp",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "FIVE",
+  "FIVE",
+  "Five Below, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "FIX",
+  "FIX",
+  "Comfort Systems USA, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "FLEX",
+  "FLEX",
+  "Flex Ltd.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "FLG",
+  "FLG",
+  "Flagstar Bank, National Association",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "FLR",
+  "FLR",
+  "Fluor Corporation",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "FLS",
+  "FLS",
+  "Flowserve Corporation",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "FN",
+  "FN",
+  "Fabrinet",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "FNB",
+  "FNB",
+  "F.N.B. Corp",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "FND",
+  "FND",
+  "Floor & Decor Holdings, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "FNF",
+  "FNF",
+  "Fidelity National Financial, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "FOUR",
+  "FOUR",
+  "Shift4 Payments, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "FOX",
+  "FOX",
+  "Fox Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "FOXA",
+  "FOXA",
+  "Fox Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "FR",
+  "FR",
+  "First Industrial Realty Trust, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "FRT",
+  "FRT",
+  "Federal Realty Investment Trust",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "FSLR",
+  "FSLR",
+  "First Solar, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "FTI",
+  "FTI",
+  "TechnipFMC plc",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "FTNT",
+  "FTNT",
+  "Fortinet, Inc.",
+  [
+   "Nasdaq100",
+   "S&P500"
+  ]
+ ],
+ [
+  "FTV",
+  "FTV",
+  "Fortive Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "G",
+  "G",
+  "GENPACT LIMITED",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "GAP",
+  "GAP",
+  "The Gap, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "GATX",
+  "GATX",
+  "GATX Corporation",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "GBCI",
+  "GBCI",
+  "Glacier Bancorp Inc",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "GD",
+  "GD",
+  "General Dynamics Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "GDDY",
+  "GDDY",
+  "GoDaddy Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "GE",
+  "GE",
+  "GE Aerospace",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "GEF",
+  "GEF",
+  "Greif, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "GEHC",
+  "GEHC",
+  "GE HealthCare Technologies Inc.",
+  [
+   "Nasdaq100",
+   "S&P500"
+  ]
+ ],
+ [
+  "GEN",
+  "GEN",
+  "Gen Digital Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "GEV",
+  "GEV",
+  "GE Vernova Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "GGG",
+  "GGG",
+  "Graco Inc",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "GHC",
+  "GHC",
+  "GRAHAM HOLDINGS COMPANY",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "GILD",
+  "GILD",
+  "Gilead Sciences, Inc.",
+  [
+   "Nasdaq100",
+   "S&P500"
+  ]
+ ],
+ [
+  "GIS",
+  "GIS",
+  "General Mills, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "GL",
+  "GL",
+  "Globe Life Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "GLPI",
+  "GLPI",
+  "Gaming and Leisure Properties, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "GLW",
+  "GLW",
+  "Corning Incorporated",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "GM",
+  "GM",
+  "General Motors Company",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "GME",
+  "GME",
+  "GameStop Corp. Class A",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "GMED",
+  "GMED",
+  "GLOBUS MEDICAL INC",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "GNRC",
+  "GNRC",
+  "Generac Holdings Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "GNTX",
+  "GNTX",
+  "Gentex Corp",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "GOOG",
+  "GOOG",
+  "Alphabet Inc.",
+  [
+   "Nasdaq100",
+   "S&P500"
+  ]
+ ],
+ [
+  "GOOGL",
+  "GOOGL",
+  "Alphabet Inc.",
+  [
+   "Nasdaq100",
+   "S&P500"
+  ]
+ ],
+ [
+  "GPC",
+  "GPC",
+  "Genuine Parts Company",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "GPK",
+  "GPK",
+  "Graphic Packaging Holding Company",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "GPN",
+  "GPN",
+  "Global Payments Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "GRMN",
+  "GRMN",
+  "Garmin Ltd.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "GS",
+  "GS",
+  "The Goldman Sachs Group, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "GWRE",
+  "GWRE",
+  "GUIDEWIRE SOFTWARE, INC.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "GWW",
+  "GWW",
+  "W.W. Grainger, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "GXO",
+  "GXO",
+  "GXO Logistics, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "H",
+  "H",
+  "Hyatt Hotels Corporation",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "HAE",
+  "HAE",
+  "Haemonetics Corporation",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "HAL",
+  "HAL",
+  "Halliburton Company",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "HALO",
+  "HALO",
+  "Halozyme Therapeutics, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "HAS",
+  "HAS",
+  "Hasbro, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "HBAN",
+  "HBAN",
+  "Huntington Bancshares Incorporated",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "HCA",
+  "HCA",
+  "HCA Healthcare, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "HD",
+  "HD",
+  "The Home Depot, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "HGV",
+  "HGV",
+  "Hilton Grand Vacations Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "HIG",
+  "HIG",
+  "The Hartford Insurance Group, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "HII",
+  "HII",
+  "Huntington Ingalls Industries, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "HIMS",
+  "HIMS",
+  "Hims & Hers Health, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "HL",
+  "HL",
+  "Hecla Mining Company",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "HLI",
+  "HLI",
+  "Houlihan Lokey, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "HLNE",
+  "HLNE",
+  "Hamilton Lane Incorporated",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "HLT",
+  "HLT",
+  "Hilton Worldwide Holdings Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "HOG",
+  "HOG",
+  "Harley-Davidson, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "HOMB",
+  "HOMB",
+  "Home BancShares, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "HON",
+  "HON",
+  "Honeywell International Inc.",
+  [
+   "Nasdaq100",
+   "S&P500"
+  ]
+ ],
+ [
+  "HOOD",
+  "HOOD",
+  "Robinhood Markets, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "HPE",
+  "HPE",
+  "Hewlett Packard Enterprise Company",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "HPQ",
+  "HPQ",
+  "HP Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "HQY",
+  "HQY",
+  "HealthEquity, Inc",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "HR",
+  "HR",
+  "Healthcare Realty Trust Incorporated",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "HRB",
+  "HRB",
+  "H&R Block, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "HRL",
+  "HRL",
+  "Hormel Foods Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "HSIC",
+  "HSIC",
+  "Henry Schein, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "HST",
+  "HST",
+  "Host Hotels & Resorts, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "HSY",
+  "HSY",
+  "The Hershey Company",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "HUBB",
+  "HUBB",
+  "Hubbell Incorporated",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "HUBS",
+  "HUBS",
+  "HUBSPOT, INC.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "HUM",
+  "HUM",
+  "Humana Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "HWC",
+  "HWC",
+  "Hancock Whitney Corporation",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "HWM",
+  "HWM",
+  "Howmet Aerospace Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "HXL",
+  "HXL",
+  "Hexcel Corporation",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "IBKR",
+  "IBKR",
+  "Interactive Brokers Group, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "IBM",
+  "IBM",
+  "International Business Machines Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "IBOC",
+  "IBOC",
+  "International Bancshares Corp",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "ICE",
+  "ICE",
+  "Intercontinental Exchange, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "IDA",
+  "IDA",
+  "IDACORP, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "IDCC",
+  "IDCC",
+  "InterDigital, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "IDXX",
+  "IDXX",
+  "IDEXX Laboratories, Inc.",
+  [
+   "Nasdaq100",
+   "S&P500"
+  ]
+ ],
+ [
+  "IESC",
+  "IESC",
+  "IES Holdings, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "IEX",
+  "IEX",
+  "IDEX Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "IFF",
+  "IFF",
+  "International Flavors & Fragrances Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "INCY",
+  "INCY",
+  "Incyte Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "INGR",
+  "INGR",
+  "Ingredion Incorporated",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "INTC",
+  "INTC",
+  "Intel Corporation",
+  [
+   "Nasdaq100",
+   "S&P500"
+  ]
+ ],
+ [
+  "INTU",
+  "INTU",
+  "Intuit Inc.",
+  [
+   "Nasdaq100",
+   "S&P500"
+  ]
+ ],
+ [
+  "INVH",
+  "INVH",
+  "Invitation Homes Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "IP",
+  "IP",
+  "International Paper Company",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "IPGP",
+  "IPGP",
+  "IPG Photonics Corporation",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "IQV",
+  "IQV",
+  "IQVIA Holdings Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "IR",
+  "IR",
+  "Ingersoll Rand Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "IRM",
+  "IRM",
+  "Iron Mountain Incorporated",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "IRT",
+  "IRT",
+  "Independence Realty Trust Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "ISRG",
+  "ISRG",
+  "Intuitive Surgical, Inc.",
+  [
+   "Nasdaq100",
+   "S&P500"
+  ]
+ ],
+ [
+  "IT",
+  "IT",
+  "Gartner, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "ITT",
+  "ITT",
+  "ITT Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "ITW",
+  "ITW",
+  "Illinois Tool Works Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "IVZ",
+  "IVZ",
+  "Invesco Ltd.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "J",
+  "J",
+  "Jacobs Solutions Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "JAZZ",
+  "JAZZ",
+  "Jazz Pharmaceuticals, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "JBHT",
+  "JBHT",
+  "J.B. Hunt Transport Services, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "JBL",
+  "JBL",
+  "Jabil Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "JCI",
+  "JCI",
+  "Johnson Controls International plc",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "JEF",
+  "JEF",
+  "Jefferies Financial Group Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "JKHY",
+  "JKHY",
+  "Jack Henry & Associates, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "JLL",
+  "JLL",
+  "Jones Lang LaSalle, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "JNJ",
+  "JNJ",
+  "Johnson & Johnson",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "JPM",
+  "JPM",
+  "JPMorgan Chase & Co.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "KBH",
+  "KBH",
+  "KB Home",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "KBR",
+  "KBR",
+  "KBR, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "KD",
+  "KD",
+  "Kyndryl Holdings, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "KDP",
+  "KDP",
+  "Keurig Dr Pepper Inc.",
+  [
+   "Nasdaq100",
+   "S&P500"
+  ]
+ ],
+ [
+  "KEX",
+  "KEX",
+  "Kirby Corporation",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "KEY",
+  "KEY",
+  "KeyCorp",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "KEYS",
+  "KEYS",
+  "Keysight Technologies, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "KHC",
+  "KHC",
+  "The Kraft Heinz Company",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "KIM",
+  "KIM",
+  "Kimco Realty Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "KKR",
+  "KKR",
+  "KKR & Co. Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "KLAC",
+  "KLAC",
+  "KLA Corporation",
+  [
+   "Nasdaq100",
+   "S&P500"
+  ]
+ ],
+ [
+  "KMB",
+  "KMB",
+  "Kimberly-Clark Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "KMI",
+  "KMI",
+  "Kinder Morgan, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "KNF",
+  "KNF",
+  "Knife River Corporation",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "KNSL",
+  "KNSL",
+  "Kinsale Capital Group, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "KNX",
+  "KNX",
+  "Knight-Swift Transportation Holdings Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "KO",
+  "KO",
+  "The Coca-Cola Company",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "KR",
+  "KR",
+  "The Kroger Co.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "KRC",
+  "KRC",
+  "Kilroy Realty Corp.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "KRG",
+  "KRG",
+  "Kite Realty Group Trust",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "KRYS",
+  "KRYS",
+  "Krystal Biotech, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "KTOS",
+  "KTOS",
+  "Kratos Defense & Security Solutions, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "KVUE",
+  "KVUE",
+  "Kenvue Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "L",
+  "L",
+  "Loews Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "LAD",
+  "LAD",
+  "Lithia Motors, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "LAMR",
+  "LAMR",
+  "Lamar Advertising Co",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "LDOS",
+  "LDOS",
+  "Leidos Holdings, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "LEA",
+  "LEA",
+  "Lear Corporation",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "LECO",
+  "LECO",
+  "Lincoln Electric Holdings Inc",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "LEN",
+  "LEN",
+  "Lennar Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "LFUS",
+  "LFUS",
+  "Littelfuse Inc",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "LH",
+  "LH",
+  "Labcorp Holdings Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "LHX",
+  "LHX",
+  "L3Harris Technologies, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "LII",
+  "LII",
+  "Lennox International Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "LIN",
+  "LIN",
+  "Linde plc",
+  [
+   "Nasdaq100",
+   "S&P500"
+  ]
+ ],
+ [
+  "LITE",
+  "LITE",
+  "Lumentum Holdings Inc.",
+  [
+   "Nasdaq100",
+   "S&P500"
+  ]
+ ],
+ [
+  "LIVN",
+  "LIVN",
+  "LivaNova PLC",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "LLY",
+  "LLY",
+  "Eli Lilly and Company",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "LMT",
+  "LMT",
+  "Lockheed Martin Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "LNT",
+  "LNT",
+  "Alliant Energy Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "LNTH",
+  "LNTH",
+  "Lantheus Holdings, Inc",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "LOPE",
+  "LOPE",
+  "Grand Canyon Education, Inc",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "LOW",
+  "LOW",
+  "Lowe's Companies, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "LPX",
+  "LPX",
+  "Louisiana-Pacific Corp.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "LRCX",
+  "LRCX",
+  "Lam Research Corporation",
+  [
+   "Nasdaq100",
+   "S&P500"
+  ]
+ ],
+ [
+  "LSCC",
+  "LSCC",
+  "Lattice Semiconductor Corp",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "LSTR",
+  "LSTR",
+  "Landstar System Inc",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "LULU",
+  "LULU",
+  "lululemon athletica inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "LUV",
+  "LUV",
+  "Southwest Airlines Co.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "LVS",
+  "LVS",
+  "Las Vegas Sands Corp.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "LYB",
+  "LYB",
+  "LyondellBasell Industries N.V.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "LYV",
+  "LYV",
+  "Live Nation Entertainment, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "M",
+  "M",
+  "Macy's Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "MA",
+  "MA",
+  "Mastercard Incorporated",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "MAA",
+  "MAA",
+  "Mid-America Apartment Communities, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "MANH",
+  "MANH",
+  "Manhattan Associates Inc",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "MAR",
+  "MAR",
+  "Marriott International, Inc.",
+  [
+   "Nasdaq100",
+   "S&P500"
+  ]
+ ],
+ [
+  "MAS",
+  "MAS",
+  "Masco Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "MAT",
+  "MAT",
+  "Mattel, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "MCD",
+  "MCD",
+  "McDonald's Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "MCHP",
+  "MCHP",
+  "Microchip Technology Incorporated",
+  [
+   "Nasdaq100",
+   "S&P500"
+  ]
+ ],
+ [
+  "MCK",
+  "MCK",
+  "McKesson Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "MCO",
+  "MCO",
+  "Moody's Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "MDLZ",
+  "MDLZ",
+  "Mondelez International, Inc.",
+  [
+   "Nasdaq100",
+   "S&P500"
+  ]
+ ],
+ [
+  "MDT",
+  "MDT",
+  "Medtronic plc",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "MEDP",
+  "MEDP",
+  "Medpace Holdings, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "MELI",
+  "MELI",
+  "MercadoLibre, Inc.",
+  [
+   "Nasdaq100"
+  ]
+ ],
+ [
+  "MET",
+  "MET",
+  "MetLife, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "META",
+  "META",
+  "Meta Platforms, Inc.",
+  [
+   "Nasdaq100",
+   "S&P500"
+  ]
+ ],
+ [
+  "MGM",
+  "MGM",
+  "MGM Resorts International",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "MIDD",
+  "MIDD",
+  "Middleby Corp",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "MKC",
+  "MKC",
+  "McCormick & Company, Incorporated",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "MKSI",
+  "MKSI",
+  "MKS Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "MLI",
+  "MLI",
+  "Mueller Industries, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "MLM",
+  "MLM",
+  "Martin Marietta Materials, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "MMM",
+  "MMM",
+  "3M Company",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "MMS",
+  "MMS",
+  "MAXIMUS, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "MNST",
+  "MNST",
+  "Monster Beverage Corporation",
+  [
+   "Nasdaq100",
+   "S&P500"
+  ]
+ ],
+ [
+  "MO",
+  "MO",
+  "Altria Group, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "MOG.A",
+  "MOG-A",
+  "Moog Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "MOH",
+  "MOH",
+  "Molina Healthcare, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "MORN",
+  "MORN",
+  "Morningstar, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "MOS",
+  "MOS",
+  "The Mosaic Company",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "MP",
+  "MP",
+  "MP Materials Corp.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "MPC",
+  "MPC",
+  "Marathon Petroleum Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "MPWR",
+  "MPWR",
+  "Monolithic Power Systems, Inc.",
+  [
+   "Nasdaq100",
+   "S&P500"
+  ]
+ ],
+ [
+  "MRK",
+  "MRK",
+  "Merck & Co., Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "MRNA",
+  "MRNA",
+  "Moderna, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "MRSH",
+  "MRSH",
+  "Marsh & McLennan Companies, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "MRVL",
+  "MRVL",
+  "Marvell Technology, Inc.",
+  [
+   "Nasdaq100",
+   "S&P500"
+  ]
+ ],
+ [
+  "MS",
+  "MS",
+  "Morgan Stanley",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "MSA",
+  "MSA",
+  "Mine Safety Incorporated",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "MSCI",
+  "MSCI",
+  "MSCI Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "MSFT",
+  "MSFT",
+  "Microsoft Corporation",
+  [
+   "Nasdaq100",
+   "S&P500"
+  ]
+ ],
+ [
+  "MSI",
+  "MSI",
+  "Motorola Solutions, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "MSM",
+  "MSM",
+  "MSC Industrial Direct Co., Inc. Class A",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "MSTR",
+  "MSTR",
+  "Strategy Inc",
+  [
+   "Nasdaq100"
+  ]
+ ],
+ [
+  "MTB",
+  "MTB",
+  "M&T Bank Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "MTD",
+  "MTD",
+  "Mettler-Toledo International Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "MTDR",
+  "MTDR",
+  "MATADOR RESOURCES COMPANY",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "MTG",
+  "MTG",
+  "MGIC Investment Corp.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "MTN",
+  "MTN",
+  "Vail Resorts, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "MTSI",
+  "MTSI",
+  "MACOM Technology Solutions Holdings, Inc",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "MTZ",
+  "MTZ",
+  "MasTec, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "MU",
+  "MU",
+  "Micron Technology, Inc.",
+  [
+   "Nasdaq100",
+   "S&P500"
+  ]
+ ],
+ [
+  "MUR",
+  "MUR",
+  "Murphy Oil Corp.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "MUSA",
+  "MUSA",
+  "MURPHY USA INC.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "MZTI",
+  "MZTI",
+  "The Marzetti Company",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "NBIS",
+  "NBIS",
+  "Nebius Group N.V.",
+  [
+   "Nasdaq100"
+  ]
+ ],
+ [
+  "NBIX",
+  "NBIX",
+  "Neurocrine Biosciences Inc",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "NCLH",
+  "NCLH",
+  "Norwegian Cruise Line Holdings Ltd.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "NDAQ",
+  "NDAQ",
+  "Nasdaq, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "NDSN",
+  "NDSN",
+  "Nordson Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "NEE",
+  "NEE",
+  "NextEra Energy, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "NEM",
+  "NEM",
+  "Newmont Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "NEU",
+  "NEU",
+  "NewMarket Corporation",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "NFG",
+  "NFG",
+  "National Fuel Gas Co.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "NFLX",
+  "NFLX",
+  "Netflix, Inc.",
+  [
+   "Nasdaq100",
+   "S&P500"
+  ]
+ ],
+ [
+  "NI",
+  "NI",
+  "NiSource Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "NJR",
+  "NJR",
+  "New Jersey Resources Corp",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "NKE",
+  "NKE",
+  "NIKE, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "NLY",
+  "NLY",
+  "Annaly Capital Management. Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "NNN",
+  "NNN",
+  "NNN REIT, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "NOC",
+  "NOC",
+  "Northrop Grumman Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "NOV",
+  "NOV",
+  "NOV Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "NOVT",
+  "NOVT",
+  "Novanta Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "NOW",
+  "NOW",
+  "ServiceNow, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "NRG",
+  "NRG",
+  "NRG Energy, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "NSC",
+  "NSC",
+  "Norfolk Southern Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "NTAP",
+  "NTAP",
+  "NetApp, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "NTNX",
+  "NTNX",
+  "Nutanix, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "NTRS",
+  "NTRS",
+  "Northern Trust Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "NUE",
+  "NUE",
+  "Nucor Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "NVDA",
+  "NVDA",
+  "NVIDIA Corporation",
+  [
+   "Nasdaq100",
+   "S&P500"
+  ]
+ ],
+ [
+  "NVR",
+  "NVR",
+  "NVR, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "NVST",
+  "NVST",
+  "Envista Holdings Corporation Common stock, $0.01 par value per share",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "NVT",
+  "NVT",
+  "nVent Electric plc",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "NWE",
+  "NWE",
+  "NorthWestern Energy Group, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "NWS",
+  "NWS",
+  "News Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "NWSA",
+  "NWSA",
+  "News Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "NXPI",
+  "NXPI",
+  "NXP Semiconductors N.V.",
+  [
+   "Nasdaq100",
+   "S&P500"
+  ]
+ ],
+ [
+  "NXST",
+  "NXST",
+  "Nexstar Media Group, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "NXT",
+  "NXT",
+  "Nextpower Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "NYT",
+  "NYT",
+  "New York Times Co.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "O",
+  "O",
+  "Realty Income Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "OC",
+  "OC",
+  "Owens Corning",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "ODFL",
+  "ODFL",
+  "Old Dominion Freight Line, Inc.",
+  [
+   "Nasdaq100",
+   "S&P500"
+  ]
+ ],
+ [
+  "OGE",
+  "OGE",
+  "OGE Energy Corp.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "OGS",
+  "OGS",
+  "ONE GAS, INC.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "OHI",
+  "OHI",
+  "Omega Healthcare Investors Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "OKE",
+  "OKE",
+  "ONEOK, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "OKTA",
+  "OKTA",
+  "Okta, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "OLED",
+  "OLED",
+  "Universal Display Corp",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "OLLI",
+  "OLLI",
+  "Ollie's Bargain Outlet Holdings, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "OLN",
+  "OLN",
+  "Olin Corp.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "OMC",
+  "OMC",
+  "Omnicom Group Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "ON",
+  "ON",
+  "ON Semiconductor Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "ONB",
+  "ONB",
+  "Old National Bancorp",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "ONTO",
+  "ONTO",
+  "Onto Innovation Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "OPCH",
+  "OPCH",
+  "Option Care Health, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "ORA",
+  "ORA",
+  "Ormat Technologies, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "ORCL",
+  "ORCL",
+  "Oracle Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "ORI",
+  "ORI",
+  "Old Republic International Corporation",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "ORLY",
+  "ORLY",
+  "O'Reilly Automotive, Inc.",
+  [
+   "Nasdaq100",
+   "S&P500"
+  ]
+ ],
+ [
+  "OSK",
+  "OSK",
+  "Oshkosh Corp.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "OTIS",
+  "OTIS",
+  "Otis Worldwide Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "OVV",
+  "OVV",
+  "Ovintiv Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "OXY",
+  "OXY",
+  "Occidental Petroleum Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "OZK",
+  "OZK",
+  "Bank OZK",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "PAG",
+  "PAG",
+  "Penske Automotive Group, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "PANW",
+  "PANW",
+  "Palo Alto Networks, Inc.",
+  [
+   "Nasdaq100",
+   "S&P500"
+  ]
+ ],
+ [
+  "PATH",
+  "PATH",
+  "UiPath, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "PAYX",
+  "PAYX",
+  "Paychex, Inc.",
+  [
+   "Nasdaq100",
+   "S&P500"
+  ]
+ ],
+ [
+  "PB",
+  "PB",
+  "Prosperity Bancshares Inc",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "PBF",
+  "PBF",
+  "PBF ENERGY INC.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "PCAR",
+  "PCAR",
+  "PACCAR Inc",
+  [
+   "Nasdaq100",
+   "S&P500"
+  ]
+ ],
+ [
+  "PCG",
+  "PCG",
+  "PG&E Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "PCTY",
+  "PCTY",
+  "Paylocity Holding Corporation",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "PDD",
+  "PDD",
+  "PDD Holdings Inc.",
+  [
+   "Nasdaq100"
+  ]
+ ],
+ [
+  "PEG",
+  "PEG",
+  "Public Service Enterprise Group Incorporated",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "PEGA",
+  "PEGA",
+  "Pegasystems Inc",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "PEN",
+  "PEN",
+  "Penumbra, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "PEP",
+  "PEP",
+  "PepsiCo, Inc.",
+  [
+   "Nasdaq100",
+   "S&P500"
+  ]
+ ],
+ [
+  "PFE",
+  "PFE",
+  "Pfizer Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "PFG",
+  "PFG",
+  "Principal Financial Group, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "PFGC",
+  "PFGC",
+  "Performance Food Group Company",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "PG",
+  "PG",
+  "The Procter & Gamble Company",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "PGR",
+  "PGR",
+  "The Progressive Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "PH",
+  "PH",
+  "Parker-Hannifin Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "PHM",
+  "PHM",
+  "PulteGroup, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "PII",
+  "PII",
+  "Polaris Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "PINS",
+  "PINS",
+  "Pinterest, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "PK",
+  "PK",
+  "Park Hotels & Resorts Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "PKG",
+  "PKG",
+  "Packaging Corporation of America",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "PLD",
+  "PLD",
+  "Prologis, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "PLNT",
+  "PLNT",
+  "Planet Fitness, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "PLTR",
+  "PLTR",
+  "Palantir Technologies Inc.",
+  [
+   "Nasdaq100",
+   "S&P500"
+  ]
+ ],
+ [
+  "PM",
+  "PM",
+  "Philip Morris International Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "PNC",
+  "PNC",
+  "The PNC Financial Services Group, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "PNFP",
+  "PNFP",
+  "Pinnacle Financial Partners, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "PNR",
+  "PNR",
+  "Pentair plc",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "PNW",
+  "PNW",
+  "Pinnacle West Capital Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "PODD",
+  "PODD",
+  "Insulet Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "POR",
+  "POR",
+  "Portland General Electric Company",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "POST",
+  "POST",
+  "POST HOLDINGS, INC.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "PPC",
+  "PPC",
+  "Pilgrims Pride Corporation",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "PPG",
+  "PPG",
+  "PPG Industries, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "PPL",
+  "PPL",
+  "PPL Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "PR",
+  "PR",
+  "Permian Resources Corporation",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "PRI",
+  "PRI",
+  "PRIMERICA, INC.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "PRU",
+  "PRU",
+  "Prudential Financial, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "PSA",
+  "PSA",
+  "Public Storage",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "PSKY",
+  "PSKY",
+  "Paramount Skydance Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "PSN",
+  "PSN",
+  "Parsons Corporation",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "PSX",
+  "PSX",
+  "Phillips 66",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "PTC",
+  "PTC",
+  "PTC Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "PVH",
+  "PVH",
+  "PVH Corp.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "PWR",
+  "PWR",
+  "Quanta Services, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "PYPL",
+  "PYPL",
+  "PayPal Holdings, Inc.",
+  [
+   "Nasdaq100",
+   "S&P500"
+  ]
+ ],
+ [
+  "Q",
+  "Q",
+  "Qnity Electronics, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "QCOM",
+  "QCOM",
+  "QUALCOMM Incorporated",
+  [
+   "Nasdaq100",
+   "S&P500"
+  ]
+ ],
+ [
+  "QLYS",
+  "QLYS",
+  "Qualys, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "R",
+  "R",
+  "Ryder System, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "RBA",
+  "RBA",
+  "RB Global, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "RBC",
+  "RBC",
+  "RBC Bearings Incorporated",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "RCL",
+  "RCL",
+  "Royal Caribbean Cruises Ltd.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "RDDT",
+  "RDDT",
+  "Reddit, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "REG",
+  "REG",
+  "Regency Centers Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "REGN",
+  "REGN",
+  "Regeneron Pharmaceuticals, Inc.",
+  [
+   "Nasdaq100",
+   "S&P500"
+  ]
+ ],
+ [
+  "REXR",
+  "REXR",
+  "REXFORD INDUSTRIAL REALTY, INC.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "RF",
+  "RF",
+  "Regions Financial Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "RGA",
+  "RGA",
+  "Reinsurance Group of America, Incorporated",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "RGEN",
+  "RGEN",
+  "Repligen Corp",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "RGLD",
+  "RGLD",
+  "Royal Gold Inc",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "RH",
+  "RH",
+  "RH",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "RJF",
+  "RJF",
+  "Raymond James Financial, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "RKLB",
+  "RKLB",
+  "Rocket Lab Corporation",
+  [
+   "Nasdaq100"
+  ]
+ ],
+ [
+  "RL",
+  "RL",
+  "Ralph Lauren Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "RLI",
+  "RLI",
+  "RLI Corp.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "RMBS",
+  "RMBS",
+  "Rambus Inc",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "RMD",
+  "RMD",
+  "ResMed Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "RNR",
+  "RNR",
+  "RenaissanceRe Holdings Ltd.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "ROIV",
+  "ROIV",
+  "Roivant Sciences Ltd. Common Shares",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "ROK",
+  "ROK",
+  "Rockwell Automation, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "ROKU",
+  "ROKU",
+  "Roku, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "ROL",
+  "ROL",
+  "Rollins, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "ROP",
+  "ROP",
+  "Roper Technologies, Inc.",
+  [
+   "Nasdaq100",
+   "S&P500"
+  ]
+ ],
+ [
+  "ROST",
+  "ROST",
+  "Ross Stores, Inc.",
+  [
+   "Nasdaq100",
+   "S&P500"
+  ]
+ ],
+ [
+  "RPM",
+  "RPM",
+  "RPM International, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "RRC",
+  "RRC",
+  "Range Resources Corp",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "RRX",
+  "RRX",
+  "Regal Rexnord Corporation",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "RS",
+  "RS",
+  "Reliance, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "RSG",
+  "RSG",
+  "Republic Services, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "RTX",
+  "RTX",
+  "RTX Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "RVTY",
+  "RVTY",
+  "Revvity, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "RYAN",
+  "RYAN",
+  "Ryan Specialty Holdings, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "RYN",
+  "RYN",
+  "Rayonier Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "SAIA",
+  "SAIA",
+  "Saia, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "SAIC",
+  "SAIC",
+  "Science Applications International Corporation",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "SANM",
+  "SANM",
+  "Sanmina  Corp",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "SARO",
+  "SARO",
+  "StandardAero, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "SBAC",
+  "SBAC",
+  "SBA Communications Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "SBRA",
+  "SBRA",
+  "Sabra Healthcare REIT, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "SBUX",
+  "SBUX",
+  "Starbucks Corporation",
+  [
+   "Nasdaq100",
+   "S&P500"
+  ]
+ ],
+ [
+  "SCHW",
+  "SCHW",
+  "The Charles Schwab Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "SCI",
+  "SCI",
+  "Service Corporation International",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "SEIC",
+  "SEIC",
+  "SEI Investments Co",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "SF",
+  "SF",
+  "Stifel Financial Corp.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "SFM",
+  "SFM",
+  "Sprouts Farmers Market, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "SGI",
+  "SGI",
+  "Somnigroup International Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "SHC",
+  "SHC",
+  "Sotera Health Company",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "SHOP",
+  "SHOP",
+  "Shopify Inc.",
+  [
+   "Nasdaq100"
+  ]
+ ],
+ [
+  "SHW",
+  "SHW",
+  "The Sherwin-Williams Company",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "SIGI",
+  "SIGI",
+  "Selective Insurance Group",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "SIRI",
+  "SIRI",
+  "Sirius XM Holdings,  Inc",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "SITM",
+  "SITM",
+  "SiTime Corporation",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "SJM",
+  "SJM",
+  "The J. M. Smucker Company",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "SLAB",
+  "SLAB",
+  "Silicon Laboratories Inc",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "SLB",
+  "SLB",
+  "SLB N.V.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "SLGN",
+  "SLGN",
+  "Silgan Holdings Inc",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "SLM",
+  "SLM",
+  "SLM Corporation",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "SMCI",
+  "SMCI",
+  "Super Micro Computer, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "SMG",
+  "SMG",
+  "The Scotts Miracle-Gro Company",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "SMTC",
+  "SMTC",
+  "Semtech Corp",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "SN",
+  "SN",
+  "SharkNinja, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "SNA",
+  "SNA",
+  "Snap-on Incorporated",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "SNDK",
+  "SNDK",
+  "Sandisk Corporation",
+  [
+   "Nasdaq100",
+   "S&P500"
+  ]
+ ],
+ [
+  "SNPS",
+  "SNPS",
+  "Synopsys, Inc.",
+  [
+   "Nasdaq100",
+   "S&P500"
+  ]
+ ],
+ [
+  "SNX",
+  "SNX",
+  "TD SYNNEX Corporation",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "SO",
+  "SO",
+  "The Southern Company",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "SOLS",
+  "SOLS",
+  "Solstice Advanced Materials Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "SOLV",
+  "SOLV",
+  "Solventum Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "SON",
+  "SON",
+  "Sonoco Products Company",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "SPG",
+  "SPG",
+  "Simon Property Group, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "SPGI",
+  "SPGI",
+  "S&P Global Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "SPXC",
+  "SPXC",
+  "SPX Technologies, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "SR",
+  "SR",
+  "Spire Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "SRE",
+  "SRE",
+  "Sempra",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "SSB",
+  "SSB",
+  "SouthState Bank Corporation",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "SSD",
+  "SSD",
+  "Simpson Manufacturing Co., Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "ST",
+  "ST",
+  "Sensata Technologies Holding plc",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "STAG",
+  "STAG",
+  "STAG INDUSTRIAL, INC.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "STE",
+  "STE",
+  "STERIS plc",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "STLD",
+  "STLD",
+  "Steel Dynamics, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "STRL",
+  "STRL",
+  "Sterling Infrastructure, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "STT",
+  "STT",
+  "State Street Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "STWD",
+  "STWD",
+  "STARWOOD PROPERTY TRUST, INC.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "STX",
+  "STX",
+  "Seagate Technology Holdings plc",
+  [
+   "Nasdaq100",
+   "S&P500"
+  ]
+ ],
+ [
+  "STZ",
+  "STZ",
+  "Constellation Brands, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "SUI",
+  "SUI",
+  "Sun Communities, Inc",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "SW",
+  "SW",
+  "Smurfit Westrock Plc",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "SWK",
+  "SWK",
+  "Stanley Black & Decker, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "SWKS",
+  "SWKS",
+  "Skyworks Solutions, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "SWX",
+  "SWX",
+  "Southwest Gas Holdings, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "SYF",
+  "SYF",
+  "Synchrony Financial",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "SYK",
+  "SYK",
+  "Stryker Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "SYNA",
+  "SYNA",
+  "Synaptics Inc",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "SYY",
+  "SYY",
+  "Sysco Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "T",
+  "T",
+  "AT&T Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "TAP",
+  "TAP",
+  "Molson Coors Beverage Company",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "TCBI",
+  "TCBI",
+  "Texas Capital Bancshares, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "TDG",
+  "TDG",
+  "TransDigm Group Incorporated",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "TDY",
+  "TDY",
+  "Teledyne Technologies Incorporated",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "TECH",
+  "TECH",
+  "Bio-Techne Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "TEL",
+  "TEL",
+  "TE Connectivity plc",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "TER",
+  "TER",
+  "Teradyne, Inc.",
+  [
+   "Nasdaq100",
+   "S&P500"
+  ]
+ ],
+ [
+  "TEX",
+  "TEX",
+  "Terex Corporation",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "TFC",
+  "TFC",
+  "Truist Financial Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "TGT",
+  "TGT",
+  "Target Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "THC",
+  "THC",
+  "Tenet Healthcare Corporation New",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "THG",
+  "THG",
+  "The Hanover Insurance Group, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "THO",
+  "THO",
+  "Thor Industries, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "TJX",
+  "TJX",
+  "The TJX Companies, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "TKO",
+  "TKO",
+  "TKO Group Holdings, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "TKR",
+  "TKR",
+  "The Timken Company",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "TLN",
+  "TLN",
+  "Talen Energy Corporation",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "TMO",
+  "TMO",
+  "Thermo Fisher Scientific Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "TMUS",
+  "TMUS",
+  "T-Mobile US, Inc.",
+  [
+   "Nasdaq100",
+   "S&P500"
+  ]
+ ],
+ [
+  "TNL",
+  "TNL",
+  "Travel + Leisure Co.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "TOL",
+  "TOL",
+  "Toll Brothers, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "TOST",
+  "TOST",
+  "Toast, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "TPL",
+  "TPL",
+  "Texas Pacific Land Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "TPR",
+  "TPR",
+  "Tapestry, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "TREX",
+  "TREX",
+  "Trex Company, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "TRGP",
+  "TRGP",
+  "Targa Resources Corp.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "TRI",
+  "TRI",
+  "Thomson Reuters Corporation",
+  [
+   "Nasdaq100"
+  ]
+ ],
+ [
+  "TRMB",
+  "TRMB",
+  "Trimble Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "TROW",
+  "TROW",
+  "T. Rowe Price Group, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "TRU",
+  "TRU",
+  "TransUnion",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "TRV",
+  "TRV",
+  "The Travelers Companies, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "TSCO",
+  "TSCO",
+  "Tractor Supply Company",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "TSLA",
+  "TSLA",
+  "Tesla, Inc.",
+  [
+   "Nasdaq100",
+   "S&P500"
+  ]
+ ],
+ [
+  "TSN",
+  "TSN",
+  "Tyson Foods, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "TT",
+  "TT",
+  "Trane Technologies plc",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "TTC",
+  "TTC",
+  "Toro Company (The)",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "TTD",
+  "TTD",
+  "The Trade Desk, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "TTEK",
+  "TTEK",
+  "Tetra Tech Inc",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "TTMI",
+  "TTMI",
+  "TTM Technologies Inc",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "TTWO",
+  "TTWO",
+  "Take-Two Interactive Software, Inc.",
+  [
+   "Nasdaq100",
+   "S&P500"
+  ]
+ ],
+ [
+  "TWLO",
+  "TWLO",
+  "Twilio Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "TXN",
+  "TXN",
+  "Texas Instruments Incorporated",
+  [
+   "Nasdaq100",
+   "S&P500"
+  ]
+ ],
+ [
+  "TXNM",
+  "TXNM",
+  "TXNM Energy, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "TXRH",
+  "TXRH",
+  "Texas Roadhouse, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "TXT",
+  "TXT",
+  "Textron Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "TYL",
+  "TYL",
+  "Tyler Technologies, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "UAL",
+  "UAL",
+  "United Airlines Holdings, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "UBER",
+  "UBER",
+  "Uber Technologies, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "UBSI",
+  "UBSI",
+  "United Bankshares Inc",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "UDR",
+  "UDR",
+  "UDR, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "UFPI",
+  "UFPI",
+  "UFP Industries, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "UGI",
+  "UGI",
+  "UGI Corporation",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "UHS",
+  "UHS",
+  "Universal Health Services, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "ULS",
+  "ULS",
+  "UL Solutions Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "ULTA",
+  "ULTA",
+  "Ulta Beauty, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "UMBF",
+  "UMBF",
+  "UMB Financial Corp",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "UNH",
+  "UNH",
+  "UnitedHealth Group Incorporated",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "UNM",
+  "UNM",
+  "Unum Group",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "UNP",
+  "UNP",
+  "Union Pacific Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "UPS",
+  "UPS",
+  "United Parcel Service, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "URI",
+  "URI",
+  "United Rentals, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "USB",
+  "USB",
+  "U.S. Bancorp",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "USFD",
+  "USFD",
+  "US Foods Holding Corp.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "UTHR",
+  "UTHR",
+  "United Therapeutics Corp",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "V",
+  "V",
+  "Visa Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "VAL",
+  "VAL",
+  "Valaris Limited",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "VC",
+  "VC",
+  "VISTEON CORPORATION",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "VEEV",
+  "VEEV",
+  "Veeva Systems Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "VFC",
+  "VFC",
+  "V.F. Corporation",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "VIAV",
+  "VIAV",
+  "Viavi Solutions Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "VICI",
+  "VICI",
+  "VICI Properties Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "VICR",
+  "VICR",
+  "Vicor Corp",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "VLO",
+  "VLO",
+  "Valero Energy Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "VLTO",
+  "VLTO",
+  "Veralto Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "VLY",
+  "VLY",
+  "Valley National Bancorp",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "VMC",
+  "VMC",
+  "Vulcan Materials Company",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "VMI",
+  "VMI",
+  "Valmont Industries, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "VMRK",
+  "VMRK",
+  "Vivmark Residential",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "VNO",
+  "VNO",
+  "Vornado Realty Trust",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "VNOM",
+  "VNOM",
+  "Viper Energy, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "VNT",
+  "VNT",
+  "Vontier Corporation",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "VOYA",
+  "VOYA",
+  "VOYA FINANCIAL, INC.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "VRSK",
+  "VRSK",
+  "Verisk Analytics, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "VRSN",
+  "VRSN",
+  "VeriSign, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "VRT",
+  "VRT",
+  "Vertiv Holdings Co",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "VRTX",
+  "VRTX",
+  "Vertex Pharmaceuticals Incorporated",
+  [
+   "Nasdaq100",
+   "S&P500"
+  ]
+ ],
+ [
+  "VST",
+  "VST",
+  "Vistra Corp.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "VTR",
+  "VTR",
+  "Ventas, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "VTRS",
+  "VTRS",
+  "Viatris Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "VVV",
+  "VVV",
+  "Valvoline Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "VZ",
+  "VZ",
+  "Verizon Communications Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "WAB",
+  "WAB",
+  "Westinghouse Air Brake Technologies Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "WAL",
+  "WAL",
+  "Western Alliance Bancorporation",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "WAT",
+  "WAT",
+  "Waters Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "WBD",
+  "WBD",
+  "Warner Bros. Discovery, Inc.",
+  [
+   "Nasdaq100",
+   "S&P500"
+  ]
+ ],
+ [
+  "WCC",
+  "WCC",
+  "Wesco International Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "WDAY",
+  "WDAY",
+  "Workday, Inc.",
+  [
+   "Nasdaq100",
+   "S&P500"
+  ]
+ ],
+ [
+  "WDC",
+  "WDC",
+  "Western Digital Corporation",
+  [
+   "Nasdaq100",
+   "S&P500"
+  ]
+ ],
+ [
+  "WEC",
+  "WEC",
+  "WEC Energy Group, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "WELL",
+  "WELL",
+  "Welltower Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "WEX",
+  "WEX",
+  "WEX Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "WFC",
+  "WFC",
+  "Wells Fargo & Company",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "WFRD",
+  "WFRD",
+  "Weatherford International plc",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "WH",
+  "WH",
+  "Wyndham Hotels & Resorts, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "WHR",
+  "WHR",
+  "Whirlpool Corp.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "WING",
+  "WING",
+  "Wingstop Inc",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "WLK",
+  "WLK",
+  "Westlake Corporation",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "WM",
+  "WM",
+  "Waste Management, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "WMB",
+  "WMB",
+  "The Williams Companies, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "WMG",
+  "WMG",
+  "Warner Music Group Corp.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "WMS",
+  "WMS",
+  "ADVANCED DRAINAGE SYSTEMS, INC.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "WMT",
+  "WMT",
+  "Walmart Inc.",
+  [
+   "Nasdaq100",
+   "S&P500"
+  ]
+ ],
+ [
+  "WPC",
+  "WPC",
+  "W.P. Carey Inc. (REIT)",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "WRB",
+  "WRB",
+  "W. R. Berkley Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "WSM",
+  "WSM",
+  "Williams-Sonoma, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "WSO",
+  "WSO",
+  "Watsco, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "WST",
+  "WST",
+  "West Pharmaceutical Services, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "WTFC",
+  "WTFC",
+  "Wintrust Financial Corp",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "WTRG",
+  "WTRG",
+  "Essential Utilities, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "WTS",
+  "WTS",
+  "Watts Water Technologies, Inc. Class A",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "WTW",
+  "WTW",
+  "Willis Towers Watson Public Limited Company",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "WWD",
+  "WWD",
+  "Woodward, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "WY",
+  "WY",
+  "Weyerhaeuser Company",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "WYNN",
+  "WYNN",
+  "Wynn Resorts, Limited",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "XEL",
+  "XEL",
+  "Xcel Energy Inc.",
+  [
+   "Nasdaq100",
+   "S&P500"
+  ]
+ ],
+ [
+  "XOM",
+  "XOM",
+  "ExxonMobil Holdings Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "XPO",
+  "XPO",
+  "XPO, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "XRAY",
+  "XRAY",
+  "DENTSPLY SIRONA Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "XYL",
+  "XYL",
+  "Xylem Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "XYZ",
+  "XYZ",
+  "Block, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "YETI",
+  "YETI",
+  "YETI Holdings, Inc.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "YUM",
+  "YUM",
+  "Yum! Brands, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "ZBH",
+  "ZBH",
+  "Zimmer Biomet Holdings, Inc.",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "ZBRA",
+  "ZBRA",
+  "Zebra Technologies Corporation",
+  [
+   "S&P500"
+  ]
+ ],
+ [
+  "ZION",
+  "ZION",
+  "Zions Bancorporation N.A.",
+  [
+   "S&P400"
+  ]
+ ],
+ [
+  "ZTS",
+  "ZTS",
+  "Zoetis Inc.",
+  [
+   "S&P500"
+  ]
+ ]
 ]

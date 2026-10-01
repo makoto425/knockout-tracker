@@ -72,25 +72,25 @@ def fetch_slickcharts_table(url):
 
 def refresh_universe_from_web():
     """選用：從 slickcharts.com 重新抓成分股清單並覆寫 data/universe.json。
+    涵蓋 S&P500 + S&P400 中型股 + Nasdaq100（2026-10-01 起擴大範圍）。
     注意：slickcharts.com 有 Cloudflare 反機器人防護，從 GitHub Actions 的伺服器
     直接請求通常會被擋下（回傳的是驗證挑戰頁而不是資料），只建議在網路沒有
     這類防護的環境（例如本機、或用瀏覽器抓好再貼回來）手動執行這個函式。
     """
     universe = {}
-    sp500 = fetch_slickcharts_table("https://www.slickcharts.com/sp500")
-    for _, row in sp500.iterrows():
-        sym = str(row["Symbol"]).strip().upper()
-        name = str(row.get("Company", "")).strip()
-        if sym:
-            universe.setdefault(sym, {"name": name, "idx": set()})
-            universe[sym]["idx"].add("S&P500")
-    nd100 = fetch_slickcharts_table("https://www.slickcharts.com/nasdaq100")
-    for _, row in nd100.iterrows():
-        sym = str(row["Symbol"]).strip().upper()
-        name = str(row.get("Company", "")).strip()
-        if sym:
-            universe.setdefault(sym, {"name": name, "idx": set()})
-            universe[sym]["idx"].add("Nasdaq100")
+    sources = [
+        ("https://www.slickcharts.com/sp500", "S&P500"),
+        ("https://www.slickcharts.com/sp400", "S&P400"),
+        ("https://www.slickcharts.com/nasdaq100", "Nasdaq100"),
+    ]
+    for url, idx_label in sources:
+        table = fetch_slickcharts_table(url)
+        for _, row in table.iterrows():
+            sym = str(row["Symbol"]).strip().upper()
+            name = str(row.get("Company", "")).strip()
+            if sym:
+                universe.setdefault(sym, {"name": name, "idx": set()})
+                universe[sym]["idx"].add(idx_label)
     if not universe:
         raise RuntimeError("無法取得任何成分股清單，中止")
     rows = [[t, t.replace(".", "-"), v["name"], sorted(v["idx"])] for t, v in sorted(universe.items())]

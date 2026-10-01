@@ -18,15 +18,23 @@ mu_hist，不是完整歷史價格）再用 device_bash 做最終運算與產生
    `navigate(url: "https://query1.finance.yahoo.com/v8/finance/chart/AAPL?range=5d&interval=1d")`
 
 3. **載入 UNIVERSE**：讀取 `data/universe.json`（device_bash: `cat data/universe.json`），
-   內容是 `[[ticker, yahooSymbol, [idx,...]], ...]`，共 ~515 檔。
-   若這份清單超過 30 天沒更新，建議重新從 https://www.slickcharts.com/sp500 與
-   https://www.slickcharts.com/nasdaq100 各抓一次（server-rendered table，用
-   `document.querySelector('table')` 直接解析即可），合併去重後覆寫 `data/universe.json`。
+   內容是 `[[ticker, yahooSymbol, name, [idx,...]], ...]`（注意是 4 個欄位，第 3 個是公司名稱；
+   貼進 Chrome 給 `fetch_daily.js` 用的 `window.UNIVERSE` 時，`fetchOne` 用
+   `const [ticker, ysym, idx] = entry` 解構，只吃 3 個欄位，所以要先把 name 欄位去掉，
+   轉成 `[ticker, ysym, [idx,...]]` 再塞進去，不要直接整包貼，否則 idx 會被誤填成公司名稱字串）。
+   目前(2026-10-01 起)已擴大到 S&P500 + S&P400 中型股 + Nasdaq100，共 ~915 檔。
+   若這份清單超過 30 天沒更新，建議重新從 https://www.slickcharts.com/sp500、
+   https://www.slickcharts.com/sp400 與 https://www.slickcharts.com/nasdaq100 各抓一次
+   （server-rendered table，用 `document.querySelector('table')` 直接解析即可），
+   合併去重後覆寫 `data/universe.json`，並記得同時更新 `scripts/gh_fetch_and_build.py` 裡
+   `refresh_universe_from_web()` 的三個來源。
 
 4. **在 Chrome 分頁執行 `scripts/fetch_daily.js` 的內容**（用 javascript_tool 貼上整段程式碼），
    接著設定 `window.UNIVERSE = <上面讀到的 universe.json 內容>`（也可以在同一段程式碼開頭一起貼）。
 
-5. **分批呼叫 `window.runBatch(start, end, 12)`**，每批約 130 檔，直到跑完全部（4 次左右）。
+5. **分批呼叫 `window.runBatch(start, end, 12)`**，每批約 130 檔。批次數量要照
+   `window.UNIVERSE.length` 實際算，不要假設固定次數(例如 915 檔大約要跑 7 批：
+   0-130、130-260、260-390、390-520、520-650、650-780、780-915)。
    完成後 `window.RESULTS` 會是每檔的 `{ticker, idx, name, s0, sigma, muHist, nDays}`。
 
 6. **把結果存成檔案**：
