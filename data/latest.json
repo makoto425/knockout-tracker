@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T22:40:20.356634+00:00",
+  "generated_at": "2026-10-03T21:53:42.442453+00:00",
   "params": {
     "barrier_ratio": 1.05,
     "horizon_years": 1.0,
@@ -13,10 +13,10 @@
         "S&P500"
       ],
       "s0": 232.99,
-      "sigma": 0.202,
-      "mu_hist": 0.3653,
-      "p_zero_drift": 0.6535,
-      "p_hist_drift": 0.9722
+      "sigma": 0.2026,
+      "mu_hist": 0.3685,
+      "p_zero_drift": 0.6539,
+      "p_hist_drift": 0.9728
     },
     {
       "ticker": "CNO",
@@ -545,7 +545,7 @@
       ],
       "s0": 69.52,
       "sigma": 0.3262,
-      "mu_hist": 0.394,
+      "mu_hist": 0.3941,
       "p_zero_drift": 0.7107,
       "p_hist_drift": 0.9344
     },
@@ -575,19 +575,6 @@
       "p_hist_drift": 0.9318
     },
     {
-      "ticker": "CSCO",
-      "name": "Cisco Systems, Inc.",
-      "idx": [
-        "Nasdaq100",
-        "S&P500"
-      ],
-      "s0": 112.2,
-      "sigma": 0.3433,
-      "mu_hist": 0.4,
-      "p_zero_drift": 0.7148,
-      "p_hist_drift": 0.9309
-    },
-    {
       "ticker": "VOYA",
       "name": "VOYA FINANCIAL, INC.",
       "idx": [
@@ -598,6 +585,19 @@
       "mu_hist": 0.2876,
       "p_zero_drift": 0.6695,
       "p_hist_drift": 0.9309
+    },
+    {
+      "ticker": "CSCO",
+      "name": "Cisco Systems, Inc.",
+      "idx": [
+        "Nasdaq100",
+        "S&P500"
+      ],
+      "s0": 112.2,
+      "sigma": 0.3442,
+      "mu_hist": 0.4,
+      "p_zero_drift": 0.715,
+      "p_hist_drift": 0.9306
     },
     {
       "ticker": "LIVN",
@@ -721,6 +721,18 @@
       "p_hist_drift": 0.9271
     },
     {
+      "ticker": "BMY",
+      "name": "Bristol-Myers Squibb Company",
+      "idx": [
+        "S&P500"
+      ],
+      "s0": 61.15,
+      "sigma": 0.2605,
+      "mu_hist": 0.3113,
+      "p_zero_drift": 0.6881,
+      "p_hist_drift": 0.9267
+    },
+    {
       "ticker": "OVV",
       "name": "Ovintiv Inc.",
       "idx": [
@@ -815,18 +827,6 @@
       "mu_hist": 0.3028,
       "p_zero_drift": 0.6889,
       "p_hist_drift": 0.9221
-    },
-    {
-      "ticker": "BMY",
-      "name": "Bristol-Myers Squibb Company",
-      "idx": [
-        "S&P500"
-      ],
-      "s0": 61.15,
-      "sigma": 0.2606,
-      "mu_hist": 0.301,
-      "p_zero_drift": 0.6882,
-      "p_hist_drift": 0.9219
     },
     {
       "ticker": "AIT",
@@ -967,7 +967,7 @@
       "idx": [
         "S&P400"
       ],
-      "s0": 106.93,
+      "s0": 106.94,
       "sigma": 0.3936,
       "mu_hist": 0.4,
       "p_zero_drift": 0.7243,
@@ -2660,6 +2660,18 @@
       "p_hist_drift": 0.8602
     },
     {
+      "ticker": "PM",
+      "name": "Philip Morris International Inc.",
+      "idx": [
+        "S&P500"
+      ],
+      "s0": 187.46,
+      "sigma": 0.2693,
+      "mu_hist": 0.1971,
+      "p_zero_drift": 0.6919,
+      "p_hist_drift": 0.8589
+    },
+    {
       "ticker": "LRCX",
       "name": "Lam Research Corporation",
       "idx": [
@@ -2866,18 +2878,6 @@
       "mu_hist": 0.2367,
       "p_zero_drift": 0.7238,
       "p_hist_drift": 0.8532
-    },
-    {
-      "ticker": "PM",
-      "name": "Philip Morris International Inc.",
-      "idx": [
-        "S&P500"
-      ],
-      "s0": 187.46,
-      "sigma": 0.2693,
-      "mu_hist": 0.1886,
-      "p_zero_drift": 0.6919,
-      "p_hist_drift": 0.853
     },
     {
       "ticker": "ENTG",
@@ -3839,6 +3839,18 @@
       "p_hist_drift": 0.8203
     },
     {
+      "ticker": "RGLD",
+      "name": "Royal Gold Inc",
+      "idx": [
+        "S&P400"
+      ],
+      "s0": 234.64,
+      "sigma": 0.3934,
+      "mu_hist": 0.1699,
+      "p_zero_drift": 0.7242,
+      "p_hist_drift": 0.8203
+    },
+    {
       "ticker": "KMI",
       "name": "Kinder Morgan, Inc.",
       "idx": [
@@ -3885,18 +3897,6 @@
       "mu_hist": 0.142,
       "p_zero_drift": 0.6894,
       "p_hist_drift": 0.8195
-    },
-    {
-      "ticker": "RGLD",
-      "name": "Royal Gold Inc",
-      "idx": [
-        "S&P400"
-      ],
-      "s0": 234.64,
-      "sigma": 0.3933,
-      "mu_hist": 0.1679,
-      "p_zero_drift": 0.7242,
-      "p_hist_drift": 0.8193
     },
     {
       "ticker": "PNW",
@@ -6014,6 +6014,18 @@
       "p_hist_drift": 0.7149
     },
     {
+      "ticker": "BRX",
+      "name": "BRIXMOR PROPERTY GROUP INC.",
+      "idx": [
+        "S&P400"
+      ],
+      "s0": 27.39,
+      "sigma": 0.16,
+      "mu_hist": 0.0559,
+      "p_zero_drift": 0.612,
+      "p_hist_drift": 0.7146
+    },
+    {
       "ticker": "V",
       "name": "Visa Inc.",
       "idx": [
@@ -6421,18 +6433,6 @@
       "mu_hist": 0.0376,
       "p_zero_drift": 0.6364,
       "p_hist_drift": 0.6958
-    },
-    {
-      "ticker": "BRX",
-      "name": "BRIXMOR PROPERTY GROUP INC.",
-      "idx": [
-        "S&P400"
-      ],
-      "s0": 27.39,
-      "sigma": 0.1599,
-      "mu_hist": 0.0446,
-      "p_zero_drift": 0.6118,
-      "p_hist_drift": 0.6946
     },
     {
       "ticker": "ALLY",
@@ -7314,6 +7314,18 @@
       "p_hist_drift": 0.6393
     },
     {
+      "ticker": "SYY",
+      "name": "Sysco Corporation",
+      "idx": [
+        "S&P500"
+      ],
+      "s0": 77.49,
+      "sigma": 0.2361,
+      "mu_hist": -0.0314,
+      "p_zero_drift": 0.676,
+      "p_hist_drift": 0.6391
+    },
+    {
       "ticker": "CRWV",
       "name": "CoreWeave, Inc.",
       "idx": [
@@ -7493,18 +7505,6 @@
       "mu_hist": -0.1144,
       "p_zero_drift": 0.7158,
       "p_hist_drift": 0.6317
-    },
-    {
-      "ticker": "SYY",
-      "name": "Sysco Corporation",
-      "idx": [
-        "S&P500"
-      ],
-      "s0": 77.49,
-      "sigma": 0.2361,
-      "mu_hist": -0.0385,
-      "p_zero_drift": 0.6759,
-      "p_hist_drift": 0.6306
     },
     {
       "ticker": "WLK",
@@ -8250,9 +8250,9 @@
       ],
       "s0": 46.71,
       "sigma": 0.2153,
-      "mu_hist": -0.0447,
+      "mu_hist": -0.0446,
       "p_zero_drift": 0.6631,
-      "p_hist_drift": 0.604
+      "p_hist_drift": 0.6041
     },
     {
       "ticker": "HIG",
@@ -8304,6 +8304,18 @@
       "p_hist_drift": 0.6027
     },
     {
+      "ticker": "SLM",
+      "name": "SLM Corporation",
+      "idx": [
+        "S&P400"
+      ],
+      "s0": 22.75,
+      "sigma": 0.3608,
+      "mu_hist": -0.1641,
+      "p_zero_drift": 0.7185,
+      "p_hist_drift": 0.6025
+    },
+    {
       "ticker": "ADP",
       "name": "Automatic Data Processing, Inc.",
       "idx": [
@@ -8314,18 +8326,6 @@
       "sigma": 0.2768,
       "mu_hist": -0.0951,
       "p_zero_drift": 0.6949,
-      "p_hist_drift": 0.6023
-    },
-    {
-      "ticker": "SLM",
-      "name": "SLM Corporation",
-      "idx": [
-        "S&P400"
-      ],
-      "s0": 22.75,
-      "sigma": 0.3608,
-      "mu_hist": -0.1643,
-      "p_zero_drift": 0.7185,
       "p_hist_drift": 0.6023
     },
     {
@@ -8389,6 +8389,18 @@
       "p_hist_drift": 0.6001
     },
     {
+      "ticker": "MORN",
+      "name": "Morningstar, Inc.",
+      "idx": [
+        "S&P400"
+      ],
+      "s0": 183.55,
+      "sigma": 0.3994,
+      "mu_hist": -0.1996,
+      "p_zero_drift": 0.7252,
+      "p_hist_drift": 0.6
+    },
+    {
       "ticker": "AEE",
       "name": "Ameren Corporation",
       "idx": [
@@ -8436,18 +8448,6 @@
       "mu_hist": -0.2261,
       "p_zero_drift": 0.729,
       "p_hist_drift": 0.5988
-    },
-    {
-      "ticker": "MORN",
-      "name": "Morningstar, Inc.",
-      "idx": [
-        "S&P400"
-      ],
-      "s0": 183.55,
-      "sigma": 0.4001,
-      "mu_hist": -0.2023,
-      "p_zero_drift": 0.7253,
-      "p_hist_drift": 0.5987
     },
     {
       "ticker": "VVV",
@@ -9159,6 +9159,18 @@
       "p_hist_drift": 0.5491
     },
     {
+      "ticker": "RSG",
+      "name": "Republic Services, Inc.",
+      "idx": [
+        "S&P500"
+      ],
+      "s0": 209.56,
+      "sigma": 0.1955,
+      "mu_hist": -0.0665,
+      "p_zero_drift": 0.6482,
+      "p_hist_drift": 0.5485
+    },
+    {
       "ticker": "PINS",
       "name": "Pinterest, Inc.",
       "idx": [
@@ -9267,18 +9279,6 @@
       "mu_hist": -0.4,
       "p_zero_drift": 0.7354,
       "p_hist_drift": 0.5434
-    },
-    {
-      "ticker": "RSG",
-      "name": "Republic Services, Inc.",
-      "idx": [
-        "S&P500"
-      ],
-      "s0": 209.56,
-      "sigma": 0.1949,
-      "mu_hist": -0.0698,
-      "p_zero_drift": 0.6477,
-      "p_hist_drift": 0.5427
     },
     {
       "ticker": "NCLH",
@@ -9603,10 +9603,10 @@
         "S&P400"
       ],
       "s0": 69.9,
-      "sigma": 0.4785,
+      "sigma": 0.4789,
       "mu_hist": -0.4,
       "p_zero_drift": 0.7338,
-      "p_hist_drift": 0.5309
+      "p_hist_drift": 0.5312
     },
     {
       "ticker": "TTWO",
@@ -10486,7 +10486,7 @@
       "idx": [
         "S&P500"
       ],
-      "s0": 297.61,
+      "s0": 297.62,
       "sigma": 0.3337,
       "mu_hist": -0.3423,
       "p_zero_drift": 0.7126,
@@ -10584,10 +10584,10 @@
         "S&P500"
       ],
       "s0": 354.32,
-      "sigma": 0.3169,
-      "mu_hist": -0.3316,
-      "p_zero_drift": 0.7082,
-      "p_hist_drift": 0.4367
+      "sigma": 0.3165,
+      "mu_hist": -0.3291,
+      "p_zero_drift": 0.7081,
+      "p_hist_drift": 0.4381
     },
     {
       "ticker": "SO",
