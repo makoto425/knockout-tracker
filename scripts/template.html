@@ -84,73 +84,139 @@
   footer{color:var(--muted);font-size:11px;margin-top:24px;line-height:1.8;}
   .empty{color:var(--muted);text-align:center;padding:30px;}
   a{color:var(--accent);}
+  .tabnav{display:flex;gap:8px;margin-top:14px;flex-wrap:wrap;}
+  .tabbtn{
+    padding:8px 16px;border-radius:10px;border:1px solid var(--border);background:var(--panel2);
+    color:var(--muted);font-size:13px;cursor:pointer;font-weight:600;
+  }
+  .tabbtn:hover{color:var(--text);}
+  .tabbtn.active{background:var(--accent);color:#fff;border-color:var(--accent);}
+  .hidden{display:none;}
+  .note-callout{font-size:12.5px;color:var(--muted);line-height:1.9;}
+  .note-callout b{color:var(--text);}
+  .unavail-row td{color:var(--muted);font-style:italic;}
 </style>
 </head>
 <body>
 <div class="wrap">
   <header>
-    <h1>美股「105% 敲出機率」排行</h1>
+    <h1>美股結構型商品分析平台</h1>
     <div class="sub" id="subhead">載入中…</div>
+    <div class="tabnav">
+      <button class="tabbtn active" data-tab="main">全市場 105% 敲出機率排行</button>
+      <button class="tabbtn" data-tab="notes">科技巨頭「8折買入 / 105%敲出」排行</button>
+    </div>
   </header>
 
-  <div class="card">
-    <div class="controls">
-      <div class="ctrl-group">
-        <div class="ctrl-label">漂移假設：<b id="driftLabel">50% 歷史動能</b></div>
-        <input type="range" id="driftSlider" min="0" max="100" value="50">
-        <div style="display:flex;justify-content:space-between;font-size:10px;color:var(--muted);margin-top:4px;">
-          <span>0% 保守（零漂移）</span><span>100% 完全採用過去一年趨勢</span>
+  <div id="tab-main">
+    <div class="card">
+      <div class="controls">
+        <div class="ctrl-group">
+          <div class="ctrl-label">漂移假設：<b id="driftLabel">50% 歷史動能</b></div>
+          <input type="range" id="driftSlider" min="0" max="100" value="50">
+          <div style="display:flex;justify-content:space-between;font-size:10px;color:var(--muted);margin-top:4px;">
+            <span>0% 保守（零漂移）</span><span>100% 完全採用過去一年趨勢</span>
+          </div>
+        </div>
+        <div class="ctrl-group" style="max-width:220px;">
+          <div class="ctrl-label">指數範圍</div>
+          <select id="idxFilter">
+            <option value="all">S&P500 + Nasdaq100（全部）</option>
+            <option value="S&P500">僅 S&P500</option>
+            <option value="Nasdaq100">僅 Nasdaq100</option>
+          </select>
+        </div>
+        <div class="ctrl-group" style="max-width:260px;">
+          <div class="ctrl-label">搜尋代號 / 公司名稱</div>
+          <input type="search" id="search" placeholder="例如 NVDA、Apple…">
         </div>
       </div>
-      <div class="ctrl-group" style="max-width:220px;">
-        <div class="ctrl-label">指數範圍</div>
-        <select id="idxFilter">
-          <option value="all">S&P500 + Nasdaq100（全部）</option>
-          <option value="S&P500">僅 S&P500</option>
-          <option value="Nasdaq100">僅 Nasdaq100</option>
-        </select>
-      </div>
-      <div class="ctrl-group" style="max-width:260px;">
-        <div class="ctrl-label">搜尋代號 / 公司名稱</div>
-        <input type="search" id="search" placeholder="例如 NVDA、Apple…">
+    </div>
+
+    <div class="card">
+      <div style="font-size:13px;color:var(--muted);margin-bottom:12px;">今日 Top 10 —— 最有可能在 12 個月內、每月觀察收盤觸及 105% 的標的</div>
+      <div class="top-grid" id="topGrid"></div>
+    </div>
+
+    <div class="card">
+      <div style="font-size:13px;color:var(--muted);margin-bottom:10px;">完整排行（依目前漂移假設下的敲出機率排序，可點欄位標題排序）</div>
+      <div style="overflow-x:auto;">
+      <table id="fullTable">
+        <thead>
+          <tr>
+            <th data-key="rank">#</th>
+            <th data-key="ticker">代號</th>
+            <th data-key="name">公司名稱</th>
+            <th data-key="idx">指數</th>
+            <th data-key="s0" class="num">最新收盤</th>
+            <th data-key="sigma" class="num">年化波動率</th>
+            <th data-key="mu_hist" class="num">歷史年化漂移</th>
+            <th data-key="prob" class="num">敲出機率</th>
+          </tr>
+        </thead>
+        <tbody id="tbody"></tbody>
+      </table>
+      <div class="empty" id="emptyMsg" style="display:none;">找不到符合條件的標的</div>
       </div>
     </div>
+
+    <footer>
+      方法論：以 GBM (幾何布朗運動) 反射原理解析公式，估算每檔股票在 12 個月、每月觀察一次收盤價的條件下，
+      價格觸及買入價 105% 的機率（並以 Broadie-Glasserman-Kou 連續性修正逼近離散監控）。
+      波動率取「過去 63 個交易日」與「過去 252 個交易日」已實現波動率的平均；歷史漂移取過去一年對數報酬年化後截尾於 ±40%。
+      此為統計估算，僅供研究與篩選參考，<b>不構成投資建議</b>，實際票據條款、股利、借券成本與波動率微笑等因素未計入模型。
+      <br>資料來源：Yahoo Finance（透過 yfinance）、Wikipedia（成分股清單）。
+    </footer>
   </div>
 
-  <div class="card">
-    <div style="font-size:13px;color:var(--muted);margin-bottom:12px;">今日 Top 10 —— 最有可能在 12 個月內、每月觀察收盤觸及 105% 的標的</div>
-    <div class="top-grid" id="topGrid"></div>
-  </div>
-
-  <div class="card">
-    <div style="font-size:13px;color:var(--muted);margin-bottom:10px;">完整排行（依目前漂移假設下的敲出機率排序，可點欄位標題排序）</div>
-    <div style="overflow-x:auto;">
-    <table id="fullTable">
-      <thead>
-        <tr>
-          <th data-key="rank">#</th>
-          <th data-key="ticker">代號</th>
-          <th data-key="name">公司名稱</th>
-          <th data-key="idx">指數</th>
-          <th data-key="s0" class="num">最新收盤</th>
-          <th data-key="sigma" class="num">年化波動率</th>
-          <th data-key="mu_hist" class="num">歷史年化漂移</th>
-          <th data-key="prob" class="num">敲出機率</th>
-        </tr>
-      </thead>
-      <tbody id="tbody"></tbody>
-    </table>
-    <div class="empty" id="emptyMsg" style="display:none;">找不到符合條件的標的</div>
+  <div id="tab-notes" class="hidden">
+    <div class="card note-callout">
+      <b>商品結構假設</b>（以下為通用結構的簡化說明，<b>非特定銀行或券商的實際條款</b>，本頁不構成投資建議）：<br>
+      · 預設 10 檔標的：Apple、Microsoft、Google（Alphabet A 股，GOOGL）、Meta、Nvidia、Amazon、OpenAI、Tesla、Netflix、Palantir。<br>
+      · <b>OpenAI 目前尚未公開上市，沒有市場交易價格，無法納入下方量化計算</b>，僅列出供參考，其餘 9 檔正常分析。<br>
+      · 買入價 = 參考現價 × <b>80%</b>（8 折進場）。<br>
+      · 強制敲出門檻 = 參考現價 × <b>105%</b>；監控方式與主頁相同（12 個月期間、每月觀察一次收盤價）。<br>
+      · <b>假設</b>一旦觸發敲出即以 100% 參考現價兌付出場，因此固定報酬 ≈ 1/0.8 − 1 = <b>25%</b>（未計入利息、手續費與匯率成本，實際兌付金額依發行條款可能不同）。<br>
+      · 「預期敲出月數」與「預期年化報酬」以 Monte Carlo 模擬（每檔股票 8,000 條模擬路徑）估算：在模擬中被敲出的路徑裡，平均於第幾個月觸及門檻，再將固定 25% 報酬依該月數換算成年化報酬；<b>若模擬中到 12 個月都未被敲出</b>，該情境的實際報酬依發行條款另定，不在本模型計算範圍內。<br>
+      · <b>「預期年化報酬」只是把單次 25% 報酬依模擬平均敲出月數換算成的年化化比較指標，假設可以不斷用相同條件重複投入新一筆同類商品</b>（現實中通常做不到：需要持續找到類似折價與條件的新商品、還有等待期與再投資風險），<b>請不要直接當成可持續的實際年化收益率</b>，建議搭配「105%敲出機率」與「預期敲出月數」一起看，數字愈高只代表模型估計這檔資金週轉得愈快，不代表真的能賺到那麼多。
     </div>
-  </div>
 
-  <footer>
-    方法論：以 GBM (幾何布朗運動) 反射原理解析公式，估算每檔股票在 12 個月、每月觀察一次收盤價的條件下，
-    價格觸及買入價 105% 的機率（並以 Broadie-Glasserman-Kou 連續性修正逼近離散監控）。
-    波動率取「過去 63 個交易日」與「過去 252 個交易日」已實現波動率的平均；歷史漂移取過去一年對數報酬年化後截尾於 ±40%。
-    此為統計估算，僅供研究與篩選參考，<b>不構成投資建議</b>，實際票據條款、股利、借券成本與波動率微笑等因素未計入模型。
-    <br>資料來源：Yahoo Finance（透過 yfinance）、Wikipedia（成分股清單）。
-  </footer>
+    <div class="card">
+      <div class="controls">
+        <div class="ctrl-group">
+          <div class="ctrl-label">漂移假設：<b id="notesDriftLabel">50% 歷史動能</b></div>
+          <input type="range" id="notesDriftSlider" min="0" max="100" value="50">
+          <div style="display:flex;justify-content:space-between;font-size:10px;color:var(--muted);margin-top:4px;">
+            <span>0% 保守（零漂移）</span><span>100% 完全採用過去一年趨勢</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div style="font-size:13px;color:var(--muted);margin-bottom:12px;">
+        排序依據：<b>預期年化報酬（模擬，若敲出）</b> 由高到低 — 可作為「相對值不值得買」的參考指標之一，非絕對建議
+      </div>
+      <div style="overflow-x:auto;">
+      <table id="notesTable">
+        <thead>
+          <tr>
+            <th>#</th><th>代號</th><th>公司</th><th class="num">現價</th><th class="num">8折買入價</th>
+            <th class="num">年化波動率</th><th class="num">歷史年化漂移</th><th class="num">105%敲出機率</th>
+            <th class="num">預期敲出月數</th><th class="num">預期年化報酬(若敲出)</th>
+          </tr>
+        </thead>
+        <tbody id="notesTbody"></tbody>
+      </table>
+      </div>
+    </div>
+
+    <footer>
+      以上排行套用與主頁相同的機率模型（GBM 反射原理 + BGK 連續性修正），僅將標的範圍換成使用者指定的 10 檔科技股（OpenAI 除外）。
+      「8 折買入 / 105% 強制敲出」只是通用結構型商品概念的簡化描述；實際發行的結構型商品在票息、下檔保護機制、提前贖回規則、計價幣別與交易成本等方面都可能與本頁假設不同，請以正式條款說明書為準。
+      本頁純為量化研究與排序參考，<b>不構成亦不應被視為投資建議</b>，Claude 並非持牌投資顧問。
+    </footer>
+  </div>
 </div>
 
 <script>
@@ -242,7 +308,7 @@ function render(){
     </tr>
   `).join('');
 
-  document.querySelectorAll('thead th').forEach(th=>{
+  document.querySelectorAll('#fullTable thead th').forEach(th=>{
     th.classList.toggle('sorted', th.dataset.key===sortKey || (sortKey==='prob'&&th.dataset.key==='prob'));
   });
 }
@@ -254,7 +320,7 @@ document.getElementById('driftSlider').addEventListener('input', (e)=>{
 });
 document.getElementById('idxFilter').addEventListener('change', render);
 document.getElementById('search').addEventListener('input', render);
-document.querySelectorAll('thead th').forEach(th=>{
+document.querySelectorAll('#fullTable thead th').forEach(th=>{
   th.addEventListener('click', ()=>{
     const key = th.dataset.key;
     if(sortKey===key) sortDir*=-1; else { sortKey=key; sortDir = key==='ticker'||key==='name'||key==='idx' ? 1 : -1; }
@@ -270,6 +336,114 @@ document.getElementById('subhead').innerHTML =
   `<span class="badge">${T*12|0} 個月期 / 每月觀察</span>`;
 
 render();
+
+/* ---------- Tab 2: 結構型商品（8折買入 / 105%敲出）排行 ---------- */
+
+const NOTE_TICKERS = ['AAPL','MSFT','GOOGL','META','NVDA','AMZN','TSLA','NFLX','PLTR'];
+const FIXED_RETURN_IF_KO = 1/0.8 - 1; // 25%，假設敲出時以 100% 參考價兌付
+
+function mulberry32(seed){
+  return function(){
+    seed |= 0; seed = seed + 0x6D2B79F5 | 0;
+    let t = Math.imul(seed ^ seed>>>15, 1 | seed);
+    t = t + Math.imul(t ^ t>>>7, 61 | t) ^ t;
+    return ((t ^ t>>>14) >>> 0) / 4294967296;
+  };
+}
+function hashStr(s){
+  let h = 0;
+  for(let i=0;i<s.length;i++){ h = (h*31 + s.charCodeAt(i)) | 0; }
+  return h;
+}
+function randNormal(rng){
+  let u=0, v=0;
+  while(u===0) u = rng();
+  while(v===0) v = rng();
+  return Math.sqrt(-2*Math.log(u)) * Math.cos(2*Math.PI*v);
+}
+function simulateKO(sigma, mu, seed, paths, months){
+  paths = paths || 8000; months = months || 12;
+  const rng = mulberry32(seed);
+  const stepDt = 1/12;
+  const drift = (mu - 0.5*sigma*sigma)*stepDt;
+  const vol = sigma*Math.sqrt(stepDt);
+  let koCount = 0, sumMonth = 0;
+  for(let p=0; p<paths; p++){
+    let S = 1, koMonth = -1;
+    for(let m=1; m<=months; m++){
+      S = S * Math.exp(drift + vol*randNormal(rng));
+      if(S >= BARRIER_RATIO){ koMonth = m; break; }
+    }
+    if(koMonth > 0){ koCount++; sumMonth += koMonth; }
+  }
+  return {
+    pSim: koCount/paths,
+    avgMonth: koCount>0 ? sumMonth/koCount : null
+  };
+}
+
+function computeNotesRows(){
+  const w = document.getElementById('notesDriftSlider').value/100;
+  const rows = NOTE_TICKERS.map(t=>{
+    const s = DATA.stocks.find(x=>x.ticker===t);
+    if(!s) return {ticker:t, missing:true};
+    const mu = w * s.mu_hist;
+    const prob = koProb(s.sigma, mu);
+    const sim = simulateKO(s.sigma, mu, hashStr(t+'|'+w.toFixed(2)));
+    let annReturn = null;
+    if(sim.avgMonth){ annReturn = Math.pow(1+FIXED_RETURN_IF_KO, 12/sim.avgMonth) - 1; }
+    return {
+      ticker:t, name:s.name, s0:s.s0,
+      buy80: Math.round(s.s0*0.8*100)/100,
+      sigma:s.sigma, mu_hist:s.mu_hist, prob,
+      avgMonth: sim.avgMonth, annReturn
+    };
+  });
+  rows.sort((a,b2)=> (b2.annReturn ?? -1) - (a.annReturn ?? -1));
+  return rows;
+}
+
+function renderNotes(){
+  const rows = computeNotesRows();
+  const tbody = document.getElementById('notesTbody');
+  tbody.innerHTML = rows.map((r,i)=>`
+    <tr>
+      <td class="rank-cell">${i+1}</td>
+      <td><b>${r.ticker}</b></td>
+      <td>${r.name||''}</td>
+      <td class="num">$${r.s0}</td>
+      <td class="num">$${r.buy80}</td>
+      <td class="num">${fmtPct(r.sigma)}</td>
+      <td class="num">${fmtPct(r.mu_hist)}</td>
+      <td class="num">${fmtPct(r.prob)}</td>
+      <td class="num">${r.avgMonth ? r.avgMonth.toFixed(1)+' 個月' : '—'}</td>
+      <td class="num">${r.annReturn!=null ? fmtPct(r.annReturn) : '—'}</td>
+    </tr>
+  `).join('') + `
+    <tr class="unavail-row">
+      <td>—</td><td><b>OpenAI</b></td>
+      <td colspan="8">尚未公開上市，無市場交易價格，無法計算</td>
+    </tr>
+  `;
+}
+
+document.getElementById('notesDriftSlider').addEventListener('input', (e)=>{
+  const v = e.target.value;
+  document.getElementById('notesDriftLabel').textContent = v==0 ? '0%（完全保守）' : v==100 ? '100% 完全採用歷史動能' : v+'% 歷史動能';
+  renderNotes();
+});
+
+document.querySelectorAll('.tabbtn').forEach(btn=>{
+  btn.addEventListener('click', ()=>{
+    document.querySelectorAll('.tabbtn').forEach(b=>b.classList.remove('active'));
+    btn.classList.add('active');
+    const tab = btn.dataset.tab;
+    document.getElementById('tab-main').classList.toggle('hidden', tab!=='main');
+    document.getElementById('tab-notes').classList.toggle('hidden', tab!=='notes');
+  });
+});
+
+renderNotes();
 </script>
 </body>
 </html>
