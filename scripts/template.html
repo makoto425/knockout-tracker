@@ -195,15 +195,20 @@
 
     <div class="card">
       <div style="font-size:13px;color:var(--muted);margin-bottom:12px;">
-        排序依據：<b>預期年化報酬（模擬，若敲出）</b> 由高到低 — 可作為「相對值不值得買」的參考指標之一，非絕對建議
+        預設依<b>預期年化報酬（模擬，若敲出）</b>由高到低排序 — 可點擊下方任一欄位標題依該欄位重新排序
       </div>
       <div style="overflow-x:auto;">
       <table id="notesTable">
         <thead>
           <tr>
-            <th>#</th><th>代號</th><th>公司</th><th class="num">現價</th><th class="num">8折買入價</th>
-            <th class="num">年化波動率</th><th class="num">歷史年化漂移</th><th class="num">105%敲出機率</th>
-            <th class="num">預期敲出月數</th><th class="num">預期年化報酬(若敲出)</th>
+            <th>#</th><th>代號</th><th>公司</th>
+            <th data-key="s0" class="num">現價</th>
+            <th data-key="buy80" class="num">8折買入價</th>
+            <th data-key="sigma" class="num">年化波動率</th>
+            <th data-key="mu_hist" class="num">歷史年化漂移</th>
+            <th data-key="prob" class="num">105%敲出機率</th>
+            <th data-key="avgMonth" class="num">預期敲出月數</th>
+            <th data-key="annReturn" class="num">預期年化報酬(若敲出)</th>
           </tr>
         </thead>
         <tbody id="notesTbody"></tbody>
@@ -341,6 +346,7 @@ render();
 
 const NOTE_TICKERS = ['AAPL','MSFT','GOOGL','META','NVDA','AMZN','TSLA','NFLX','PLTR'];
 const FIXED_RETURN_IF_KO = 1/0.8 - 1; // 25%，假設敲出時以 100% 參考價兌付
+let notesSortKey = 'annReturn', notesSortDir = -1;
 
 function mulberry32(seed){
   return function(){
@@ -399,7 +405,13 @@ function computeNotesRows(){
       avgMonth: sim.avgMonth, annReturn
     };
   });
-  rows.sort((a,b2)=> (b2.annReturn ?? -1) - (a.annReturn ?? -1));
+  rows.sort((a,b2)=>{
+    const av = a[notesSortKey], bv = b2[notesSortKey];
+    if(av==null && bv==null) return 0;
+    if(av==null) return 1;
+    if(bv==null) return -1;
+    return notesSortDir*(av-bv);
+  });
   return rows;
 }
 
@@ -425,6 +437,9 @@ function renderNotes(){
       <td colspan="8">尚未公開上市，無市場交易價格，無法計算</td>
     </tr>
   `;
+  document.querySelectorAll('#notesTable thead th[data-key]').forEach(th=>{
+    th.classList.toggle('sorted', th.dataset.key===notesSortKey);
+  });
 }
 
 document.getElementById('notesDriftSlider').addEventListener('input', (e)=>{
@@ -440,6 +455,14 @@ document.querySelectorAll('.tabbtn').forEach(btn=>{
     const tab = btn.dataset.tab;
     document.getElementById('tab-main').classList.toggle('hidden', tab!=='main');
     document.getElementById('tab-notes').classList.toggle('hidden', tab!=='notes');
+  });
+});
+
+document.querySelectorAll('#notesTable thead th[data-key]').forEach(th=>{
+  th.addEventListener('click', ()=>{
+    const key = th.dataset.key;
+    if(notesSortKey===key) notesSortDir*=-1; else { notesSortKey=key; notesSortDir=-1; }
+    renderNotes();
   });
 });
 
