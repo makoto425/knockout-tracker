@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T15:54:29.403114+00:00",
+  "generated_at": "2026-10-11T22:35:04.818470+00:00",
   "params": {
     "barrier_ratio": 1.05,
     "horizon_years": 1.0,
@@ -7324,7 +7324,7 @@
       "sigma": 0.2873,
       "mu_hist": -0.046,
       "p_zero_drift": 0.6988,
-      "p_hist_drift": 0.6566
+      "p_hist_drift": 0.6565
     },
     {
       "ticker": "EQT",
