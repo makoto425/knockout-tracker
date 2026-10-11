@@ -95,7 +95,28 @@
   .note-callout{font-size:12.5px;color:var(--muted);line-height:1.9;}
   .note-callout b{color:var(--text);}
   .unavail-row td{color:var(--muted);font-style:italic;}
+  .top-card{cursor:pointer;transition:transform .12s, border-color .12s;}
+  .top-card:hover{border-color:var(--accent);transform:translateY(-2px);}
+  .top-click-hint{font-size:10px;color:var(--accent);margin-top:8px;font-weight:600;}
+  .chart-modal{position:fixed;inset:0;z-index:1000;display:flex;align-items:center;justify-content:center;padding:16px;}
+  .chart-modal.hidden{display:none;}
+  .chart-modal-backdrop{position:absolute;inset:0;background:rgba(0,0,0,.6);}
+  .chart-modal-panel{position:relative;background:var(--panel);border:1px solid var(--border);border-radius:var(--radius);width:100%;max-width:960px;max-height:90vh;display:flex;flex-direction:column;padding:18px 20px;overflow:hidden;}
+  .chart-modal-header{display:flex;justify-content:space-between;align-items:flex-start;gap:10px;}
+  .chart-modal-title{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap;}
+  .chart-modal-ticker{font-size:20px;font-weight:800;}
+  .chart-modal-name{font-size:13px;color:var(--muted);}
+  .chart-modal-close{background:none;border:none;font-size:26px;line-height:1;color:var(--muted);cursor:pointer;padding:0 4px;}
+  .chart-modal-close:hover{color:var(--text);}
+  .chart-modal-sub{font-size:12px;color:var(--muted);margin:6px 0 2px;}
+  .chart-container{flex:1;min-height:360px;margin-top:10px;border-radius:10px;overflow:hidden;background:var(--panel2);}
+  .chart-modal-hint{font-size:11px;color:var(--muted);margin-top:10px;line-height:1.6;}
+  @media (max-width:640px){
+    .chart-modal-panel{max-height:94vh;padding:14px;}
+    .chart-container{min-height:280px;}
+  }
 </style>
+<script src="https://s3.tradingview.com/tv.js" defer></script>
 </head>
 <body>
 <div class="wrap">
@@ -224,6 +245,28 @@
       本頁純為量化研究與排序參考，<b>不構成亦不應被視為投資建議</b>，Claude 並非持牌投資顧問。
     </footer>
   </div>
+
+  <div id="chartModal" class="chart-modal hidden">
+    <div class="chart-modal-backdrop" id="chartModalBackdrop"></div>
+    <div class="chart-modal-panel">
+      <div class="chart-modal-header">
+        <div class="chart-modal-title">
+          <span class="chart-modal-ticker" id="chartModalTicker"></span>
+          <span class="chart-modal-name" id="chartModalName"></span>
+        </div>
+        <button class="chart-modal-close" id="chartModalClose" aria-label="關閉">&times;</button>
+      </div>
+      <div class="chart-modal-sub" id="chartModalSub"></div>
+      <div class="tabnav" id="chartTabNav">
+        <button class="tabbtn active" data-ck="d">日K</button>
+        <button class="tabbtn" data-ck="m">月K</button>
+        <button class="tabbtn" data-ck="h">半年K</button>
+        <button class="tabbtn" data-ck="m5">5分K</button>
+      </div>
+      <div id="tvChartContainer" class="chart-container"></div>
+      <div class="chart-modal-hint">圖表由 TradingView 提供，開啟本頁時需要網路連線即時讀取；僅供參考，不構成投資建議。</div>
+    </div>
+  </div>
 </div>
 
 <script>
@@ -291,12 +334,13 @@ function render(){
 
   const topGrid = document.getElementById('topGrid');
   topGrid.innerHTML = top10.map((r,i)=>`
-    <div class="top-card">
+    <div class="top-card" data-ticker="${r.ticker}" data-name="${(r.name||'').replace(/"/g,'&quot;')}" data-prob="敲出機率 ${fmtPct(r.prob)} · 波動 ${fmtPct(r.sigma)} · 現價 $${r.s0}">
       <div class="top-rank">#${i+1}</div>
       <div class="top-ticker">${r.ticker}</div>
       <div class="top-name">${r.name||''}</div>
       <div class="top-prob">${fmtPct(r.prob)}</div>
       <div class="top-meta"><span>波動 ${fmtPct(r.sigma)}</span><span>$${r.s0}</span></div>
+      <div class="top-click-hint">點擊看K線 →</div>
     </div>
   `).join('');
 
@@ -343,6 +387,89 @@ document.getElementById('subhead').innerHTML =
   `<span class="badge">${T*12|0} 個月期 / 每月觀察</span>`;
 
 render();
+
+/* ---------- Top10 K線圖 Modal ---------- */
+
+const CHART_TABS = {
+  d:  { label:'日K',  interval:'D', range:'12M' },
+  m:  { label:'月K',  interval:'M', range:'60M' },
+  h:  { label:'半年K', interval:'D', range:'6M' },
+  m5: { label:'5分K',  interval:'5', range:'5D' }
+};
+let currentChartTicker = null;
+let currentChartTab = 'd';
+
+function tvSymbol(ticker){
+  return ticker;
+}
+
+function isDarkMode(){
+  return window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+}
+
+function loadTVChart(retries){
+  retries = retries || 0;
+  const container = document.getElementById('tvChartContainer');
+  if(!window.TradingView){
+    if(retries < 25){
+      container.innerHTML = '<div style="padding:30px;text-align:center;color:var(--muted);font-size:13px;">圖表載入中…</div>';
+      setTimeout(()=>loadTVChart(retries+1), 300);
+      return;
+    }
+    container.innerHTML = '<div style="padding:30px;text-align:center;color:var(--muted);font-size:13px;">無法載入圖表元件，請確認網路連線後重新開啟本頁再試一次。</div>';
+    return;
+  }
+  container.innerHTML = '';
+  const cfg = CHART_TABS[currentChartTab];
+  new TradingView.widget({
+    autosize: true,
+    symbol: tvSymbol(currentChartTicker),
+    interval: cfg.interval,
+    range: cfg.range,
+    timezone: 'Asia/Taipei',
+    theme: isDarkMode() ? 'dark' : 'light',
+    style: '1',
+    locale: 'zh_TW',
+    toolbar_bg: 'rgba(0,0,0,0)',
+    enable_publishing: false,
+    allow_symbol_change: false,
+    hide_side_toolbar: true,
+    withdateranges: false,
+    container_id: 'tvChartContainer'
+  });
+}
+
+function openChartModal(ticker, name, probText){
+  currentChartTicker = ticker;
+  currentChartTab = 'd';
+  document.getElementById('chartModalTicker').textContent = ticker;
+  document.getElementById('chartModalName').textContent = name || '';
+  document.getElementById('chartModalSub').textContent = probText || '';
+  document.querySelectorAll('#chartTabNav .tabbtn').forEach(b=>b.classList.toggle('active', b.dataset.ck==='d'));
+  document.getElementById('chartModal').classList.remove('hidden');
+  loadTVChart();
+}
+function closeChartModal(){
+  document.getElementById('chartModal').classList.add('hidden');
+  document.getElementById('tvChartContainer').innerHTML = '';
+}
+
+document.getElementById('chartModalClose').addEventListener('click', closeChartModal);
+document.getElementById('chartModalBackdrop').addEventListener('click', closeChartModal);
+document.addEventListener('keydown', (e)=>{ if(e.key==='Escape') closeChartModal(); });
+document.querySelectorAll('#chartTabNav .tabbtn').forEach(btn=>{
+  btn.addEventListener('click', ()=>{
+    document.querySelectorAll('#chartTabNav .tabbtn').forEach(b=>b.classList.remove('active'));
+    btn.classList.add('active');
+    currentChartTab = btn.dataset.ck;
+    loadTVChart();
+  });
+});
+document.getElementById('topGrid').addEventListener('click', (e)=>{
+  const card = e.target.closest('.top-card');
+  if(!card) return;
+  openChartModal(card.dataset.ticker, card.dataset.name, card.dataset.prob);
+});
 
 /* ---------- Tab 2: 結構型商品（8折買入 / 105%敲出）排行 ---------- */
 
