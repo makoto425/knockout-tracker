@@ -45,9 +45,26 @@ def ko_probability(sigma, mu, barrier_ratio=BARRIER_RATIO, T=HORIZON_YEARS,
     return float(min(max(p, 0.0), 1.0))
 
 
+def load_name_zh_map():
+    """從 data/universe.json 的第 5 欄（name_zh，常見中文名，非必填）建立 ticker -> 中文名 對照表，
+    供「搜尋代號/公司名稱」支援中文搜尋用。找不到檔案或格式不符時回傳空字典，不中止流程。"""
+    try:
+        with open("data/universe.json", "r", encoding="utf-8") as f:
+            rows = json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        return {}
+    name_zh_map = {}
+    for row in rows:
+        if len(row) > 4 and row[4]:
+            name_zh_map[row[0]] = row[4]
+    return name_zh_map
+
+
 def main():
     with open("data/ko_results_raw.json", "r", encoding="utf-8") as f:
         raw = json.load(f)
+
+    name_zh_map = load_name_zh_map()
 
     stocks = []
     for r in raw:
@@ -58,6 +75,7 @@ def main():
         stocks.append({
             "ticker": r["ticker"],
             "name": r.get("name", r["ticker"]),
+            "name_zh": name_zh_map.get(r["ticker"], ""),
             "idx": r["idx"],
             "s0": r["s0"],
             "sigma": round(sigma, 4),

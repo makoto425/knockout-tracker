@@ -46,13 +46,15 @@ UNIVERSE_FILE = "data/universe.json"
 
 
 def get_universe():
-    """讀取 data/universe.json：[[ticker, yahooSymbol, name, [idx,...]], ...]"""
+    """讀取 data/universe.json：[[ticker, yahooSymbol, name, [idx,...], name_zh?], ...]
+    name_zh 是第 5 個欄位（常見中文名，非必填，舊格式沒有這欄也要能相容）。"""
     with open(UNIVERSE_FILE, "r", encoding="utf-8") as f:
         rows = json.load(f)
     universe = {}
     for row in rows:
-        ticker, ysym, name, idx = row
-        universe[ticker] = {"ysym": ysym, "name": name, "idx": set(idx)}
+        ticker, ysym, name, idx = row[0], row[1], row[2], row[3]
+        name_zh = row[4] if len(row) > 4 else ""
+        universe[ticker] = {"ysym": ysym, "name": name, "idx": set(idx), "name_zh": name_zh}
     log(f"從 {UNIVERSE_FILE} 讀取 {len(universe)} 檔標的")
     if not universe:
         raise RuntimeError(f"{UNIVERSE_FILE} 是空的，中止")
@@ -93,10 +95,13 @@ def refresh_universe_from_web():
                 universe[sym]["idx"].add(idx_label)
     if not universe:
         raise RuntimeError("無法取得任何成分股清單，中止")
-    rows = [[t, t.replace(".", "-"), v["name"], sorted(v["idx"])] for t, v in sorted(universe.items())]
+    rows = [[t, t.replace(".", "-"), v["name"], sorted(v["idx"]), ""] for t, v in sorted(universe.items())]
     with open(UNIVERSE_FILE, "w", encoding="utf-8") as f:
         json.dump(rows, f, ensure_ascii=False)
     log(f"已更新 {UNIVERSE_FILE}，共 {len(rows)} 檔")
+    log("注意：這個函式會把第 5 欄 name_zh（常見中文名）全部重置為空字串，"
+        "重新抓完成分股清單之後記得重新套用中文名對照表，否則「搜尋代號/公司名稱」"
+        "的中文搜尋會失效。")
     return universe
 
 
@@ -186,6 +191,7 @@ def main():
             stocks.append({
                 "ticker": t,
                 "name": universe[t]["name"],
+                "name_zh": universe[t].get("name_zh", ""),
                 "idx": sorted(universe[t]["idx"]),
                 "s0": round(m["s0"], 2),
                 "sigma": round(m["sigma"], 4),

@@ -149,7 +149,7 @@
         </div>
         <div class="ctrl-group" style="max-width:260px;">
           <div class="ctrl-label">搜尋代號 / 公司名稱</div>
-          <input type="search" id="search" placeholder="例如 NVDA、Apple…">
+          <input type="search" id="search" placeholder="例如 NVDA、Apple、蘋果…">
         </div>
       </div>
     </div>
@@ -317,7 +317,7 @@ function computeRows(){
     return {...s, prob, idx: s.idx.join('/')};
   });
   if(idxF!=='all') rows = rows.filter(r=>r.idx.includes(idxF));
-  if(q) rows = rows.filter(r=> r.ticker.includes(q) || (r.name||'').toUpperCase().includes(q));
+  if(q) rows = rows.filter(r=> r.ticker.includes(q) || (r.name||'').toUpperCase().includes(q) || (r.name_zh||'').includes(q));
   rows.sort((a,b2)=>{
     let av=a[sortKey], bv=b2[sortKey];
     if(typeof av==='string'){ av=av.toUpperCase(); bv=bv.toUpperCase(); return sortDir*(av<bv?-1:av>bv?1:0); }
@@ -334,10 +334,10 @@ function render(){
 
   const topGrid = document.getElementById('topGrid');
   topGrid.innerHTML = top10.map((r,i)=>`
-    <div class="top-card" data-ticker="${r.ticker}" data-name="${(r.name||'').replace(/"/g,'&quot;')}" data-prob="敲出機率 ${fmtPct(r.prob)} · 波動 ${fmtPct(r.sigma)} · 現價 $${r.s0}">
+    <div class="top-card" data-ticker="${r.ticker}" data-name="${((r.name||'')+(r.name_zh?' · '+r.name_zh:'')).replace(/"/g,'&quot;')}" data-prob="敲出機率 ${fmtPct(r.prob)} · 波動 ${fmtPct(r.sigma)} · 現價 $${r.s0}">
       <div class="top-rank">#${i+1}</div>
       <div class="top-ticker">${r.ticker}</div>
-      <div class="top-name">${r.name||''}</div>
+      <div class="top-name">${r.name||''}${r.name_zh?` · ${r.name_zh}`:''}</div>
       <div class="top-prob">${fmtPct(r.prob)}</div>
       <div class="top-meta"><span>波動 ${fmtPct(r.sigma)}</span><span>$${r.s0}</span></div>
       <div class="top-click-hint">點擊看K線 →</div>
@@ -350,7 +350,7 @@ function render(){
     <tr>
       <td class="rank-cell">${i+1}</td>
       <td><b>${r.ticker}</b></td>
-      <td>${r.name||''}</td>
+      <td>${r.name||''}${r.name_zh?`<div style="font-size:11px;color:var(--muted);margin-top:2px;">${r.name_zh}</div>`:''}</td>
       <td>${r.idx.split('/').map(x=>`<span class="idx-tag">${x}</span>`).join('')}</td>
       <td class="num">$${r.s0}</td>
       <td class="num">${fmtPct(r.sigma)}</td>
