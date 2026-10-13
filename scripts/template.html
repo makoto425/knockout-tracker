@@ -101,7 +101,7 @@
   .chart-modal{position:fixed;inset:0;z-index:1000;display:flex;align-items:center;justify-content:center;padding:16px;}
   .chart-modal.hidden{display:none;}
   .chart-modal-backdrop{position:absolute;inset:0;background:rgba(0,0,0,.6);}
-  .chart-modal-panel{position:relative;background:var(--panel);border:1px solid var(--border);border-radius:var(--radius);width:100%;max-width:960px;max-height:90vh;display:flex;flex-direction:column;padding:18px 20px;overflow:hidden;}
+  .chart-modal-panel{position:relative;background:var(--panel);border:1px solid var(--border);border-radius:var(--radius);width:100%;max-width:1200px;height:88vh;max-height:88vh;display:flex;flex-direction:column;padding:18px 20px;overflow:hidden;}
   .chart-modal-header{display:flex;justify-content:space-between;align-items:flex-start;gap:10px;}
   .chart-modal-title{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap;}
   .chart-modal-ticker{font-size:20px;font-weight:800;}
@@ -109,11 +109,11 @@
   .chart-modal-close{background:none;border:none;font-size:26px;line-height:1;color:var(--muted);cursor:pointer;padding:0 4px;}
   .chart-modal-close:hover{color:var(--text);}
   .chart-modal-sub{font-size:12px;color:var(--muted);margin:6px 0 2px;}
-  .chart-container{flex:1;min-height:360px;margin-top:10px;border-radius:10px;overflow:hidden;background:var(--panel2);}
+  .chart-container{flex:1 1 auto;min-height:460px;margin-top:10px;border-radius:10px;overflow:hidden;background:var(--panel2);}
   .chart-modal-hint{font-size:11px;color:var(--muted);margin-top:10px;line-height:1.6;}
   @media (max-width:640px){
-    .chart-modal-panel{max-height:94vh;padding:14px;}
-    .chart-container{min-height:280px;}
+    .chart-modal-panel{height:94vh;max-height:94vh;padding:14px;}
+    .chart-container{min-height:320px;}
   }
 </style>
 <script src="https://s3.tradingview.com/tv.js" defer></script>
@@ -436,6 +436,13 @@ function loadTVChart(retries){
     hide_side_toolbar: true,
     withdateranges: false,
     container_id: 'tvChartContainer'
+  });
+  // TradingView's autosize widget sometimes measures the container before the
+  // modal's flex layout has settled (especially right after it becomes visible),
+  // which can leave the chart much shorter than the panel. Nudging a resize
+  // event shortly after creation makes it re-measure and fill the real space.
+  [50, 200, 500].forEach(delay=>{
+    setTimeout(()=>{ try{ window.dispatchEvent(new Event('resize')); }catch(e){} }, delay);
   });
 }
 
