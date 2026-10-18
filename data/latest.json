@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T21:08:35.826274+00:00",
+  "generated_at": "2026-10-18T21:09:18.053502+00:00",
   "params": {
     "barrier_ratio": 1.05,
     "horizon_years": 1.0,
@@ -7649,7 +7649,7 @@
       "sigma": 0.1643,
       "mu_hist": 0.0261,
       "p_zero_drift": 0.6171,
-      "p_hist_drift": 0.6645
+      "p_hist_drift": 0.6646
     },
     {
       "ticker": "RDDT",
