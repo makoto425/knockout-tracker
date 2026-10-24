@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T21:45:58.243460+00:00",
+  "generated_at": "2026-10-24T21:18:33.644174+00:00",
   "params": {
     "barrier_ratio": 1.05,
     "horizon_years": 1.0,
@@ -208,7 +208,7 @@
       ],
       "s0": 108.57,
       "sigma": 0.2229,
-      "mu_hist": 0.35,
+      "mu_hist": 0.3501,
       "p_zero_drift": 0.6681,
       "p_hist_drift": 0.9585
     },
@@ -1077,10 +1077,10 @@
         "S&P400"
       ],
       "s0": 203.31,
-      "sigma": 0.3551,
+      "sigma": 0.3546,
       "mu_hist": 0.4,
-      "p_zero_drift": 0.7174,
-      "p_hist_drift": 0.9272
+      "p_zero_drift": 0.7173,
+      "p_hist_drift": 0.9274
     },
     {
       "ticker": "MPC",
@@ -1401,11 +1401,11 @@
       "idx": [
         "S&P400"
       ],
-      "s0": 102.29,
+      "s0": 102.3,
       "sigma": 0.1996,
-      "mu_hist": 0.2403,
-      "p_zero_drift": 0.6516,
-      "p_hist_drift": 0.9162
+      "mu_hist": 0.2404,
+      "p_zero_drift": 0.6515,
+      "p_hist_drift": 0.9163
     },
     {
       "ticker": "FIVE",
@@ -1437,11 +1437,11 @@
       "idx": [
         "S&P400"
       ],
-      "s0": 30.85,
-      "sigma": 0.2283,
-      "mu_hist": 0.2604,
+      "s0": 30.86,
+      "sigma": 0.2284,
+      "mu_hist": 0.2606,
       "p_zero_drift": 0.6715,
-      "p_hist_drift": 0.9145
+      "p_hist_drift": 0.9146
     },
     {
       "ticker": "AME",
@@ -3756,9 +3756,9 @@
       ],
       "s0": 30.74,
       "sigma": 0.2527,
-      "mu_hist": 0.1653,
+      "mu_hist": 0.1654,
       "p_zero_drift": 0.6845,
-      "p_hist_drift": 0.8399
+      "p_hist_drift": 0.84
     },
     {
       "ticker": "HPQ",
@@ -3840,10 +3840,10 @@
         "S&P400"
       ],
       "s0": 125.4,
-      "sigma": 0.5437,
-      "mu_hist": 0.2622,
+      "sigma": 0.5436,
+      "mu_hist": 0.2638,
       "p_zero_drift": 0.7375,
-      "p_hist_drift": 0.8375
+      "p_hist_drift": 0.8381
     },
     {
       "ticker": "YETI",
@@ -4032,7 +4032,7 @@
       "idx": [
         "S&P400"
       ],
-      "s0": 30.44,
+      "s0": 30.45,
       "sigma": 0.8299,
       "mu_hist": 0.4,
       "p_zero_drift": 0.7364,
@@ -5542,6 +5542,18 @@
       "p_hist_drift": 0.7758
     },
     {
+      "ticker": "PG",
+      "name": "The Procter & Gamble Company",
+      "idx": [
+        "S&P500"
+      ],
+      "s0": 161.02,
+      "sigma": 0.2045,
+      "mu_hist": 0.0919,
+      "p_zero_drift": 0.6554,
+      "p_hist_drift": 0.7753
+    },
+    {
       "ticker": "EPR",
       "name": "EPR Properties",
       "idx": [
@@ -5708,18 +5720,6 @@
       "mu_hist": 0.086,
       "p_zero_drift": 0.6516,
       "p_hist_drift": 0.7679
-    },
-    {
-      "ticker": "PG",
-      "name": "The Procter & Gamble Company",
-      "idx": [
-        "S&P500"
-      ],
-      "s0": 161.02,
-      "sigma": 0.2067,
-      "mu_hist": 0.0853,
-      "p_zero_drift": 0.657,
-      "p_hist_drift": 0.7675
     },
     {
       "ticker": "SAIA",
@@ -7759,6 +7759,19 @@
       "p_hist_drift": 0.6706
     },
     {
+      "ticker": "GEHC",
+      "name": "GE HealthCare Technologies Inc.",
+      "idx": [
+        "Nasdaq100",
+        "S&P500"
+      ],
+      "s0": 71.45,
+      "sigma": 0.3453,
+      "mu_hist": -0.0611,
+      "p_zero_drift": 0.7153,
+      "p_hist_drift": 0.6705
+    },
+    {
       "ticker": "ALLY",
       "name": "Ally Financial Inc.",
       "idx": [
@@ -7769,19 +7782,6 @@
       "mu_hist": -0.0102,
       "p_zero_drift": 0.6815,
       "p_hist_drift": 0.6703
-    },
-    {
-      "ticker": "GEHC",
-      "name": "GE HealthCare Technologies Inc.",
-      "idx": [
-        "Nasdaq100",
-        "S&P500"
-      ],
-      "s0": 71.45,
-      "sigma": 0.3453,
-      "mu_hist": -0.0617,
-      "p_zero_drift": 0.7153,
-      "p_hist_drift": 0.6701
     },
     {
       "ticker": "GPC",
@@ -8143,6 +8143,18 @@
       "mu_hist": -0.1056,
       "p_zero_drift": 0.7201,
       "p_hist_drift": 0.6482
+    },
+    {
+      "ticker": "TXNM",
+      "name": "TXNM Energy, Inc.",
+      "idx": [
+        "S&P400"
+      ],
+      "s0": 58.27,
+      "sigma": 0.0498,
+      "mu_hist": 0.058,
+      "p_zero_drift": 0.2439,
+      "p_hist_drift": 0.6481
     },
     {
       "ticker": "SUI",
@@ -9206,18 +9218,6 @@
       "p_hist_drift": 0.5999
     },
     {
-      "ticker": "TXNM",
-      "name": "TXNM Energy, Inc.",
-      "idx": [
-        "S&P400"
-      ],
-      "s0": 58.27,
-      "sigma": 0.0515,
-      "mu_hist": 0.0507,
-      "p_zero_drift": 0.2567,
-      "p_hist_drift": 0.5994
-    },
-    {
       "ticker": "FLG",
       "name": "Flagstar Bank, National Association",
       "idx": [
@@ -10126,8 +10126,8 @@
         "S&P400"
       ],
       "s0": 19.42,
-      "sigma": 0.3946,
-      "mu_hist": -0.3079,
+      "sigma": 0.3944,
+      "mu_hist": -0.3076,
       "p_zero_drift": 0.7244,
       "p_hist_drift": 0.5281
     },
@@ -10264,6 +10264,18 @@
       "p_hist_drift": 0.5204
     },
     {
+      "ticker": "ACI",
+      "name": "Albertsons Companies, Inc.",
+      "idx": [
+        "S&P400"
+      ],
+      "s0": 13.96,
+      "sigma": 0.3632,
+      "mu_hist": -0.2832,
+      "p_zero_drift": 0.719,
+      "p_hist_drift": 0.5196
+    },
+    {
       "ticker": "BR",
       "name": "Broadridge Financial Solutions, Inc.",
       "idx": [
@@ -10370,18 +10382,6 @@
       "mu_hist": -0.4,
       "p_zero_drift": 0.7311,
       "p_hist_drift": 0.5123
-    },
-    {
-      "ticker": "ACI",
-      "name": "Albertsons Companies, Inc.",
-      "idx": [
-        "S&P400"
-      ],
-      "s0": 13.96,
-      "sigma": 0.3623,
-      "mu_hist": -0.2956,
-      "p_zero_drift": 0.7188,
-      "p_hist_drift": 0.5102
     },
     {
       "ticker": "VNT",
@@ -10981,10 +10981,10 @@
         "S&P500"
       ],
       "s0": 55.3,
-      "sigma": 0.3043,
+      "sigma": 0.3044,
       "mu_hist": -0.4,
       "p_zero_drift": 0.7045,
-      "p_hist_drift": 0.3691
+      "p_hist_drift": 0.3692
     },
     {
       "ticker": "ROL",
