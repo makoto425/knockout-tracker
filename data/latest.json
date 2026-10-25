@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T21:18:33.644174+00:00",
+  "generated_at": "2026-10-25T21:19:16.923448+00:00",
   "params": {
     "barrier_ratio": 1.05,
     "horizon_years": 1.0,
@@ -6406,7 +6406,7 @@
       "sigma": 0.2356,
       "mu_hist": 0.0495,
       "p_zero_drift": 0.6757,
-      "p_hist_drift": 0.7316
+      "p_hist_drift": 0.7315
     },
     {
       "ticker": "XYZ",
