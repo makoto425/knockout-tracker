@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T22:43:14.854291+00:00",
+  "generated_at": "2026-10-31T22:00:36.402484+00:00",
   "params": {
     "barrier_ratio": 1.05,
     "horizon_years": 1.0,
@@ -689,10 +689,10 @@
         "S&P500"
       ],
       "s0": 314.99,
-      "sigma": 0.2964,
+      "sigma": 0.2966,
       "mu_hist": 0.4,
-      "p_zero_drift": 0.7019,
-      "p_hist_drift": 0.9465
+      "p_zero_drift": 0.702,
+      "p_hist_drift": 0.9464
     },
     {
       "ticker": "MNST",
@@ -785,7 +785,7 @@
       "idx": [
         "S&P500"
       ],
-      "s0": 19.03,
+      "s0": 19.04,
       "sigma": 0.3021,
       "mu_hist": 0.4,
       "p_zero_drift": 0.7038,
@@ -1397,6 +1397,19 @@
       "p_hist_drift": 0.9244
     },
     {
+      "ticker": "TXN",
+      "name": "Texas Instruments Incorporated",
+      "idx": [
+        "Nasdaq100",
+        "S&P500"
+      ],
+      "s0": 300.84,
+      "sigma": 0.3669,
+      "mu_hist": 0.4,
+      "p_zero_drift": 0.7197,
+      "p_hist_drift": 0.9237
+    },
+    {
       "ticker": "XPO",
       "name": "XPO, Inc.",
       "idx": [
@@ -1419,19 +1432,6 @@
       "mu_hist": 0.4,
       "p_zero_drift": 0.72,
       "p_hist_drift": 0.9233
-    },
-    {
-      "ticker": "TXN",
-      "name": "Texas Instruments Incorporated",
-      "idx": [
-        "Nasdaq100",
-        "S&P500"
-      ],
-      "s0": 300.84,
-      "sigma": 0.3683,
-      "mu_hist": 0.4,
-      "p_zero_drift": 0.72,
-      "p_hist_drift": 0.9232
     },
     {
       "ticker": "PKG",
@@ -1587,7 +1587,7 @@
       "sigma": 0.3837,
       "mu_hist": 0.3997,
       "p_zero_drift": 0.7227,
-      "p_hist_drift": 0.9186
+      "p_hist_drift": 0.9187
     },
     {
       "ticker": "VRSN",
@@ -1696,6 +1696,18 @@
       "mu_hist": 0.4,
       "p_zero_drift": 0.7239,
       "p_hist_drift": 0.9166
+    },
+    {
+      "ticker": "CFG",
+      "name": "Citizens Financial Group, Inc.",
+      "idx": [
+        "S&P500"
+      ],
+      "s0": 63.81,
+      "sigma": 0.2289,
+      "mu_hist": 0.2639,
+      "p_zero_drift": 0.6718,
+      "p_hist_drift": 0.9163
     },
     {
       "ticker": "AME",
@@ -1915,18 +1927,6 @@
       "mu_hist": 0.4,
       "p_zero_drift": 0.727,
       "p_hist_drift": 0.9107
-    },
-    {
-      "ticker": "CFG",
-      "name": "Citizens Financial Group, Inc.",
-      "idx": [
-        "S&P500"
-      ],
-      "s0": 63.81,
-      "sigma": 0.2313,
-      "mu_hist": 0.256,
-      "p_zero_drift": 0.6732,
-      "p_hist_drift": 0.9106
     },
     {
       "ticker": "MTDR",
@@ -2428,10 +2428,10 @@
         "S&P500"
       ],
       "s0": 414.5,
-      "sigma": 0.4263,
-      "mu_hist": 0.3589,
+      "sigma": 0.4262,
+      "mu_hist": 0.361,
       "p_zero_drift": 0.7287,
-      "p_hist_drift": 0.8937
+      "p_hist_drift": 0.8944
     },
     {
       "ticker": "HAE",
@@ -2652,6 +2652,18 @@
       "p_hist_drift": 0.8871
     },
     {
+      "ticker": "UNM",
+      "name": "Unum Group",
+      "idx": [
+        "S&P400"
+      ],
+      "s0": 91.14,
+      "sigma": 0.2379,
+      "mu_hist": 0.2201,
+      "p_zero_drift": 0.6769,
+      "p_hist_drift": 0.8849
+    },
+    {
       "ticker": "V",
       "name": "Visa Inc.",
       "idx": [
@@ -2734,18 +2746,6 @@
       "mu_hist": 0.2339,
       "p_zero_drift": 0.6925,
       "p_hist_drift": 0.8819
-    },
-    {
-      "ticker": "UNM",
-      "name": "Unum Group",
-      "idx": [
-        "S&P400"
-      ],
-      "s0": 91.14,
-      "sigma": 0.238,
-      "mu_hist": 0.2146,
-      "p_zero_drift": 0.677,
-      "p_hist_drift": 0.8811
     },
     {
       "ticker": "AMCR",
@@ -3501,6 +3501,18 @@
       "p_hist_drift": 0.8588
     },
     {
+      "ticker": "CASY",
+      "name": "Casey's General Stores, Inc.",
+      "idx": [
+        "S&P500"
+      ],
+      "s0": 680.19,
+      "sigma": 0.405,
+      "mu_hist": 0.2556,
+      "p_zero_drift": 0.726,
+      "p_hist_drift": 0.8587
+    },
+    {
       "ticker": "CME",
       "name": "CME Group Inc.",
       "idx": [
@@ -3511,18 +3523,6 @@
       "mu_hist": 0.1857,
       "p_zero_drift": 0.6792,
       "p_hist_drift": 0.8586
-    },
-    {
-      "ticker": "CASY",
-      "name": "Casey's General Stores, Inc.",
-      "idx": [
-        "S&P500"
-      ],
-      "s0": 680.19,
-      "sigma": 0.405,
-      "mu_hist": 0.2547,
-      "p_zero_drift": 0.726,
-      "p_hist_drift": 0.8583
     },
     {
       "ticker": "DTM",
@@ -3621,6 +3621,18 @@
       "mu_hist": 0.1635,
       "p_zero_drift": 0.6485,
       "p_hist_drift": 0.8551
+    },
+    {
+      "ticker": "EPR",
+      "name": "EPR Properties",
+      "idx": [
+        "S&P400"
+      ],
+      "s0": 57.71,
+      "sigma": 0.2225,
+      "mu_hist": 0.1735,
+      "p_zero_drift": 0.6679,
+      "p_hist_drift": 0.8549
     },
     {
       "ticker": "NXPI",
@@ -3767,18 +3779,6 @@
       "mu_hist": 0.4,
       "p_zero_drift": 0.7392,
       "p_hist_drift": 0.8503
-    },
-    {
-      "ticker": "EPR",
-      "name": "EPR Properties",
-      "idx": [
-        "S&P400"
-      ],
-      "s0": 57.71,
-      "sigma": 0.223,
-      "mu_hist": 0.1681,
-      "p_zero_drift": 0.6682,
-      "p_hist_drift": 0.8502
     },
     {
       "ticker": "OKTA",
@@ -4787,6 +4787,18 @@
       "p_hist_drift": 0.8217
     },
     {
+      "ticker": "MS",
+      "name": "Morgan Stanley",
+      "idx": [
+        "S&P500"
+      ],
+      "s0": 184.3,
+      "sigma": 0.265,
+      "mu_hist": 0.145,
+      "p_zero_drift": 0.6901,
+      "p_hist_drift": 0.8216
+    },
+    {
       "ticker": "LEA",
       "name": "Lear Corporation",
       "idx": [
@@ -4942,18 +4954,6 @@
       "mu_hist": 0.1313,
       "p_zero_drift": 0.6658,
       "p_hist_drift": 0.8169
-    },
-    {
-      "ticker": "MS",
-      "name": "Morgan Stanley",
-      "idx": [
-        "S&P500"
-      ],
-      "s0": 184.3,
-      "sigma": 0.2666,
-      "mu_hist": 0.1389,
-      "p_zero_drift": 0.6908,
-      "p_hist_drift": 0.8166
     },
     {
       "ticker": "SW",
@@ -5354,6 +5354,19 @@
       "p_hist_drift": 0.8001
     },
     {
+      "ticker": "COST",
+      "name": "Costco Wholesale Corporation",
+      "idx": [
+        "Nasdaq100",
+        "S&P500"
+      ],
+      "s0": 1012.28,
+      "sigma": 0.1895,
+      "mu_hist": 0.1112,
+      "p_zero_drift": 0.643,
+      "p_hist_drift": 0.7991
+    },
+    {
       "ticker": "APH",
       "name": "Amphenol Corporation",
       "idx": [
@@ -5424,19 +5437,6 @@
       "mu_hist": 0.1815,
       "p_zero_drift": 0.7396,
       "p_hist_drift": 0.7976
-    },
-    {
-      "ticker": "COST",
-      "name": "Costco Wholesale Corporation",
-      "idx": [
-        "Nasdaq100",
-        "S&P500"
-      ],
-      "s0": 1012.28,
-      "sigma": 0.1891,
-      "mu_hist": 0.1097,
-      "p_zero_drift": 0.6427,
-      "p_hist_drift": 0.7974
     },
     {
       "ticker": "GEN",
@@ -5873,6 +5873,18 @@
       "p_hist_drift": 0.7778
     },
     {
+      "ticker": "LNT",
+      "name": "Alliant Energy Corporation",
+      "idx": [
+        "S&P500"
+      ],
+      "s0": 71.65,
+      "sigma": 0.1753,
+      "mu_hist": 0.0936,
+      "p_zero_drift": 0.6294,
+      "p_hist_drift": 0.777
+    },
+    {
       "ticker": "PRI",
       "name": "PRIMERICA, INC.",
       "idx": [
@@ -5955,6 +5967,18 @@
       "mu_hist": 0.0883,
       "p_zero_drift": 0.7079,
       "p_hist_drift": 0.7756
+    },
+    {
+      "ticker": "AES",
+      "name": "The AES Corporation",
+      "idx": [
+        "S&P500"
+      ],
+      "s0": 14.83,
+      "sigma": 0.1484,
+      "mu_hist": 0.0919,
+      "p_zero_drift": 0.5963,
+      "p_hist_drift": 0.7747
     },
     {
       "ticker": "HR",
@@ -6197,18 +6221,6 @@
       "p_hist_drift": 0.766
     },
     {
-      "ticker": "LNT",
-      "name": "Alliant Energy Corporation",
-      "idx": [
-        "S&P500"
-      ],
-      "s0": 71.65,
-      "sigma": 0.1734,
-      "mu_hist": 0.086,
-      "p_zero_drift": 0.6274,
-      "p_hist_drift": 0.766
-    },
-    {
       "ticker": "HL",
       "name": "Hecla Mining Company",
       "idx": [
@@ -6257,6 +6269,18 @@
       "p_hist_drift": 0.7617
     },
     {
+      "ticker": "STZ",
+      "name": "Constellation Brands, Inc.",
+      "idx": [
+        "S&P500"
+      ],
+      "s0": 135.33,
+      "sigma": 0.3152,
+      "mu_hist": 0.0694,
+      "p_zero_drift": 0.7077,
+      "p_hist_drift": 0.7616
+    },
+    {
       "ticker": "AEIS",
       "name": "Advanced Energy Industries Inc",
       "idx": [
@@ -6267,6 +6291,18 @@
       "mu_hist": 0.0666,
       "p_zero_drift": 0.7396,
       "p_hist_drift": 0.7611
+    },
+    {
+      "ticker": "NI",
+      "name": "NiSource Inc.",
+      "idx": [
+        "S&P500"
+      ],
+      "s0": 44.57,
+      "sigma": 0.1851,
+      "mu_hist": 0.0817,
+      "p_zero_drift": 0.639,
+      "p_hist_drift": 0.7609
     },
     {
       "ticker": "TXT",
@@ -6425,30 +6461,6 @@
       "p_hist_drift": 0.756
     },
     {
-      "ticker": "STZ",
-      "name": "Constellation Brands, Inc.",
-      "idx": [
-        "S&P500"
-      ],
-      "s0": 135.33,
-      "sigma": 0.3126,
-      "mu_hist": 0.0615,
-      "p_zero_drift": 0.7069,
-      "p_hist_drift": 0.7554
-    },
-    {
-      "ticker": "AES",
-      "name": "The AES Corporation",
-      "idx": [
-        "S&P500"
-      ],
-      "s0": 14.83,
-      "sigma": 0.1551,
-      "mu_hist": 0.0801,
-      "p_zero_drift": 0.6056,
-      "p_hist_drift": 0.755
-    },
-    {
       "ticker": "KHC",
       "name": "The Kraft Heinz Company",
       "idx": [
@@ -6495,18 +6507,6 @@
       "mu_hist": 0.0422,
       "p_zero_drift": 0.731,
       "p_hist_drift": 0.7528
-    },
-    {
-      "ticker": "NI",
-      "name": "NiSource Inc.",
-      "idx": [
-        "S&P500"
-      ],
-      "s0": 44.57,
-      "sigma": 0.1851,
-      "mu_hist": 0.0749,
-      "p_zero_drift": 0.6391,
-      "p_hist_drift": 0.7516
     },
     {
       "ticker": "BLK",
@@ -6727,6 +6727,18 @@
       "sigma": 0.2439,
       "mu_hist": 0.0562,
       "p_zero_drift": 0.6801,
+      "p_hist_drift": 0.7407
+    },
+    {
+      "ticker": "NNN",
+      "name": "NNN REIT, Inc.",
+      "idx": [
+        "S&P400"
+      ],
+      "s0": 41.0,
+      "sigma": 0.1774,
+      "mu_hist": 0.0685,
+      "p_zero_drift": 0.6315,
       "p_hist_drift": 0.7407
     },
     {
@@ -7222,18 +7234,6 @@
       "mu_hist": 0.0194,
       "p_zero_drift": 0.7013,
       "p_hist_drift": 0.7182
-    },
-    {
-      "ticker": "NNN",
-      "name": "NNN REIT, Inc.",
-      "idx": [
-        "S&P400"
-      ],
-      "s0": 41.0,
-      "sigma": 0.1781,
-      "mu_hist": 0.0534,
-      "p_zero_drift": 0.6323,
-      "p_hist_drift": 0.7181
     },
     {
       "ticker": "NTNX",
@@ -7843,6 +7843,18 @@
       "p_hist_drift": 0.6855
     },
     {
+      "ticker": "AOS",
+      "name": "A. O. Smith Corporation",
+      "idx": [
+        "S&P500"
+      ],
+      "s0": 63.07,
+      "sigma": 0.2765,
+      "mu_hist": -0.011,
+      "p_zero_drift": 0.6948,
+      "p_hist_drift": 0.6844
+    },
+    {
       "ticker": "IRT",
       "name": "Independence Realty Trust Inc.",
       "idx": [
@@ -7915,18 +7927,6 @@
       "p_hist_drift": 0.6798
     },
     {
-      "ticker": "AOS",
-      "name": "A. O. Smith Corporation",
-      "idx": [
-        "S&P500"
-      ],
-      "s0": 63.07,
-      "sigma": 0.2767,
-      "mu_hist": -0.017,
-      "p_zero_drift": 0.6949,
-      "p_hist_drift": 0.6787
-    },
-    {
       "ticker": "CRS",
       "name": "Carpenter Technology Corp",
       "idx": [
@@ -7961,6 +7961,18 @@
       "mu_hist": -0.0352,
       "p_zero_drift": 0.7068,
       "p_hist_drift": 0.6778
+    },
+    {
+      "ticker": "O",
+      "name": "Realty Income Corporation",
+      "idx": [
+        "S&P500"
+      ],
+      "s0": 56.93,
+      "sigma": 0.1626,
+      "mu_hist": 0.0336,
+      "p_zero_drift": 0.6151,
+      "p_hist_drift": 0.6767
     },
     {
       "ticker": "ELS",
@@ -8167,18 +8179,6 @@
       "p_hist_drift": 0.6685
     },
     {
-      "ticker": "O",
-      "name": "Realty Income Corporation",
-      "idx": [
-        "S&P500"
-      ],
-      "s0": 56.93,
-      "sigma": 0.1627,
-      "mu_hist": 0.0288,
-      "p_zero_drift": 0.6152,
-      "p_hist_drift": 0.6682
-    },
-    {
       "ticker": "DLB",
       "name": "Dolby Laboratories, Inc.Class A",
       "idx": [
@@ -8311,6 +8311,18 @@
       "mu_hist": -0.0526,
       "p_zero_drift": 0.708,
       "p_hist_drift": 0.6651
+    },
+    {
+      "ticker": "AGNC",
+      "name": "AGNC Investment Corp.",
+      "idx": [
+        "S&P400"
+      ],
+      "s0": 8.65,
+      "sigma": 0.2197,
+      "mu_hist": -0.0016,
+      "p_zero_drift": 0.6661,
+      "p_hist_drift": 0.6641
     },
     {
       "ticker": "ALLY",
@@ -8540,18 +8552,6 @@
       "mu_hist": -0.0638,
       "p_zero_drift": 0.7047,
       "p_hist_drift": 0.6501
-    },
-    {
-      "ticker": "AGNC",
-      "name": "AGNC Investment Corp.",
-      "idx": [
-        "S&P400"
-      ],
-      "s0": 8.65,
-      "sigma": 0.2235,
-      "mu_hist": -0.0151,
-      "p_zero_drift": 0.6685,
-      "p_hist_drift": 0.6497
     },
     {
       "ticker": "REXR",
@@ -9897,6 +9897,18 @@
       "p_hist_drift": 0.5687
     },
     {
+      "ticker": "ADC",
+      "name": "Agree Realty Corporation",
+      "idx": [
+        "S&P400"
+      ],
+      "s0": 67.07,
+      "sigma": 0.1787,
+      "mu_hist": -0.0392,
+      "p_zero_drift": 0.6328,
+      "p_hist_drift": 0.5672
+    },
+    {
       "ticker": "CHTR",
       "name": "Charter Communications, Inc.",
       "idx": [
@@ -9955,18 +9967,6 @@
       "mu_hist": -0.1022,
       "p_zero_drift": 0.679,
       "p_hist_drift": 0.5609
-    },
-    {
-      "ticker": "ADC",
-      "name": "Agree Realty Corporation",
-      "idx": [
-        "S&P400"
-      ],
-      "s0": 67.07,
-      "sigma": 0.1789,
-      "mu_hist": -0.0432,
-      "p_zero_drift": 0.6331,
-      "p_hist_drift": 0.5608
     },
     {
       "ticker": "WHR",
@@ -10848,10 +10848,10 @@
         "S&P500"
       ],
       "s0": 79.72,
-      "sigma": 0.3608,
+      "sigma": 0.3616,
       "mu_hist": -0.4,
-      "p_zero_drift": 0.7185,
-      "p_hist_drift": 0.4389
+      "p_zero_drift": 0.7187,
+      "p_hist_drift": 0.4397
     },
     {
       "ticker": "PNR",
