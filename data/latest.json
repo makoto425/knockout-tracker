@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T22:31:36.502728+00:00",
+  "generated_at": "2026-11-03T01:25:06.151830+00:00",
   "params": {
     "barrier_ratio": 1.05,
     "horizon_years": 1.0,
@@ -3706,18 +3706,6 @@
       "mu_hist": 0.4,
       "p_zero_drift": 0.7394,
       "p_hist_drift": 0.8521
-    },
-    {
-      "ticker": "ST",
-      "name": "Sensata Technologies Holding plc",
-      "idx": [
-        "S&P400"
-      ],
-      "s0": 40.27,
-      "sigma": 0.3641,
-      "mu_hist": 0.2225,
-      "p_zero_drift": 0.7192,
-      "p_hist_drift": 0.8516
     },
     {
       "ticker": "TTEK",
