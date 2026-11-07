@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T23:35:49.789060+00:00",
+  "generated_at": "2026-11-07T22:25:47.345609+00:00",
   "params": {
     "barrier_ratio": 1.05,
     "horizon_years": 1.0,
@@ -206,10 +206,10 @@
         "S&P500"
       ],
       "s0": 165.56,
-      "sigma": 0.2352,
-      "mu_hist": 0.3662,
-      "p_zero_drift": 0.6755,
-      "p_hist_drift": 0.9588
+      "sigma": 0.2355,
+      "mu_hist": 0.3715,
+      "p_zero_drift": 0.6756,
+      "p_hist_drift": 0.9604
     },
     {
       "ticker": "CNO",
@@ -453,6 +453,18 @@
       "p_hist_drift": 0.9463
     },
     {
+      "ticker": "IEX",
+      "name": "IDEX Corporation",
+      "idx": [
+        "S&P500"
+      ],
+      "s0": 226.99,
+      "sigma": 0.2203,
+      "mu_hist": 0.313,
+      "p_zero_drift": 0.6665,
+      "p_hist_drift": 0.9451
+    },
+    {
       "ticker": "UNP",
       "name": "Union Pacific Corporation",
       "idx": [
@@ -463,18 +475,6 @@
       "mu_hist": 0.3096,
       "p_zero_drift": 0.6653,
       "p_hist_drift": 0.9445
-    },
-    {
-      "ticker": "IEX",
-      "name": "IDEX Corporation",
-      "idx": [
-        "S&P500"
-      ],
-      "s0": 226.99,
-      "sigma": 0.2198,
-      "mu_hist": 0.3098,
-      "p_zero_drift": 0.6661,
-      "p_hist_drift": 0.944
     },
     {
       "ticker": "ABBV",
@@ -682,6 +682,18 @@
       "p_hist_drift": 0.9386
     },
     {
+      "ticker": "CAH",
+      "name": "Cardinal Health, Inc.",
+      "idx": [
+        "S&P500"
+      ],
+      "s0": 271.72,
+      "sigma": 0.254,
+      "mu_hist": 0.332,
+      "p_zero_drift": 0.6851,
+      "p_hist_drift": 0.9383
+    },
+    {
       "ticker": "TRGP",
       "name": "Targa Resources Corp.",
       "idx": [
@@ -692,18 +704,6 @@
       "mu_hist": 0.4,
       "p_zero_drift": 0.7095,
       "p_hist_drift": 0.9379
-    },
-    {
-      "ticker": "CAH",
-      "name": "Cardinal Health, Inc.",
-      "idx": [
-        "S&P500"
-      ],
-      "s0": 271.72,
-      "sigma": 0.2532,
-      "mu_hist": 0.3297,
-      "p_zero_drift": 0.6848,
-      "p_hist_drift": 0.9377
     },
     {
       "ticker": "CB",
@@ -749,10 +749,10 @@
         "S&P400"
       ],
       "s0": 32.4,
-      "sigma": 0.329,
+      "sigma": 0.3276,
       "mu_hist": 0.4,
-      "p_zero_drift": 0.7114,
-      "p_hist_drift": 0.9355
+      "p_zero_drift": 0.711,
+      "p_hist_drift": 0.9359
     },
     {
       "ticker": "FTI",
@@ -949,6 +949,30 @@
       "p_hist_drift": 0.9288
     },
     {
+      "ticker": "PM",
+      "name": "Philip Morris International Inc.",
+      "idx": [
+        "S&P500"
+      ],
+      "s0": 197.88,
+      "sigma": 0.2686,
+      "mu_hist": 0.3225,
+      "p_zero_drift": 0.6916,
+      "p_hist_drift": 0.9284
+    },
+    {
+      "ticker": "BMY",
+      "name": "Bristol-Myers Squibb Company",
+      "idx": [
+        "S&P500"
+      ],
+      "s0": 62.14,
+      "sigma": 0.2825,
+      "mu_hist": 0.3341,
+      "p_zero_drift": 0.6971,
+      "p_hist_drift": 0.9279
+    },
+    {
       "ticker": "CCEP",
       "name": "Coca-Cola Europacific Partners PLC",
       "idx": [
@@ -1057,18 +1081,6 @@
       "p_hist_drift": 0.9254
     },
     {
-      "ticker": "PM",
-      "name": "Philip Morris International Inc.",
-      "idx": [
-        "S&P500"
-      ],
-      "s0": 197.88,
-      "sigma": 0.2687,
-      "mu_hist": 0.314,
-      "p_zero_drift": 0.6917,
-      "p_hist_drift": 0.9246
-    },
-    {
       "ticker": "DE",
       "name": "Deere & Company",
       "idx": [
@@ -1117,18 +1129,6 @@
       "p_hist_drift": 0.9237
     },
     {
-      "ticker": "BMY",
-      "name": "Bristol-Myers Squibb Company",
-      "idx": [
-        "S&P500"
-      ],
-      "s0": 62.14,
-      "sigma": 0.2824,
-      "mu_hist": 0.3238,
-      "p_zero_drift": 0.6971,
-      "p_hist_drift": 0.9236
-    },
-    {
       "ticker": "NDSN",
       "name": "Nordson Corporation",
       "idx": [
@@ -1139,6 +1139,18 @@
       "mu_hist": 0.2962,
       "p_zero_drift": 0.6837,
       "p_hist_drift": 0.9236
+    },
+    {
+      "ticker": "APD",
+      "name": "Air Products and Chemicals, Inc.",
+      "idx": [
+        "S&P500"
+      ],
+      "s0": 304.84,
+      "sigma": 0.2276,
+      "mu_hist": 0.2756,
+      "p_zero_drift": 0.671,
+      "p_hist_drift": 0.9234
     },
     {
       "ticker": "AVNT",
@@ -1201,6 +1213,18 @@
       "p_hist_drift": 0.9212
     },
     {
+      "ticker": "PFE",
+      "name": "Pfizer Inc.",
+      "idx": [
+        "S&P500"
+      ],
+      "s0": 29.39,
+      "sigma": 0.2142,
+      "mu_hist": 0.2598,
+      "p_zero_drift": 0.6624,
+      "p_hist_drift": 0.9209
+    },
+    {
       "ticker": "VLY",
       "name": "Valley National Bancorp",
       "idx": [
@@ -1236,18 +1260,6 @@
       "mu_hist": 0.2657,
       "p_zero_drift": 0.6685,
       "p_hist_drift": 0.9198
-    },
-    {
-      "ticker": "APD",
-      "name": "Air Products and Chemicals, Inc.",
-      "idx": [
-        "S&P500"
-      ],
-      "s0": 304.84,
-      "sigma": 0.2288,
-      "mu_hist": 0.2691,
-      "p_zero_drift": 0.6717,
-      "p_hist_drift": 0.9193
     },
     {
       "ticker": "OKE",
@@ -1483,18 +1495,6 @@
       "p_hist_drift": 0.9127
     },
     {
-      "ticker": "RGLD",
-      "name": "Royal Gold Inc",
-      "idx": [
-        "S&P400"
-      ],
-      "s0": 265.81,
-      "sigma": 0.4084,
-      "mu_hist": 0.4,
-      "p_zero_drift": 0.7264,
-      "p_hist_drift": 0.9119
-    },
-    {
       "ticker": "ALL",
       "name": "The Allstate Corporation",
       "idx": [
@@ -1504,6 +1504,18 @@
       "sigma": 0.2703,
       "mu_hist": 0.288,
       "p_zero_drift": 0.6923,
+      "p_hist_drift": 0.9118
+    },
+    {
+      "ticker": "RGLD",
+      "name": "Royal Gold Inc",
+      "idx": [
+        "S&P400"
+      ],
+      "s0": 265.81,
+      "sigma": 0.4085,
+      "mu_hist": 0.4,
+      "p_zero_drift": 0.7264,
       "p_hist_drift": 0.9118
     },
     {
@@ -1541,18 +1553,6 @@
       "mu_hist": 0.4,
       "p_zero_drift": 0.7267,
       "p_hist_drift": 0.9114
-    },
-    {
-      "ticker": "PFE",
-      "name": "Pfizer Inc.",
-      "idx": [
-        "S&P500"
-      ],
-      "s0": 29.39,
-      "sigma": 0.216,
-      "mu_hist": 0.2453,
-      "p_zero_drift": 0.6636,
-      "p_hist_drift": 0.9111
     },
     {
       "ticker": "PNC",
@@ -1627,6 +1627,18 @@
       "p_hist_drift": 0.9085
     },
     {
+      "ticker": "FRT",
+      "name": "Federal Realty Investment Trust",
+      "idx": [
+        "S&P500"
+      ],
+      "s0": 112.58,
+      "sigma": 0.1596,
+      "mu_hist": 0.1992,
+      "p_zero_drift": 0.6114,
+      "p_hist_drift": 0.9084
+    },
+    {
       "ticker": "ELV",
       "name": "Elevance Health, Inc.",
       "idx": [
@@ -1685,6 +1697,18 @@
       "mu_hist": 0.4,
       "p_zero_drift": 0.7287,
       "p_hist_drift": 0.9072
+    },
+    {
+      "ticker": "FHI",
+      "name": "Federated Hermes, Inc.",
+      "idx": [
+        "S&P400"
+      ],
+      "s0": 63.99,
+      "sigma": 0.2654,
+      "mu_hist": 0.2749,
+      "p_zero_drift": 0.6903,
+      "p_hist_drift": 0.907
     },
     {
       "ticker": "MET",
@@ -1844,18 +1868,6 @@
       "p_hist_drift": 0.9039
     },
     {
-      "ticker": "FHI",
-      "name": "Federated Hermes, Inc.",
-      "idx": [
-        "S&P400"
-      ],
-      "s0": 63.99,
-      "sigma": 0.2653,
-      "mu_hist": 0.2689,
-      "p_zero_drift": 0.6902,
-      "p_hist_drift": 0.9038
-    },
-    {
       "ticker": "LUV",
       "name": "Southwest Airlines Co.",
       "idx": [
@@ -1891,6 +1903,18 @@
       "mu_hist": 0.2657,
       "p_zero_drift": 0.6893,
       "p_hist_drift": 0.9029
+    },
+    {
+      "ticker": "CUBE",
+      "name": "CubeSmart",
+      "idx": [
+        "S&P400"
+      ],
+      "s0": 45.02,
+      "sigma": 0.2188,
+      "mu_hist": 0.2336,
+      "p_zero_drift": 0.6655,
+      "p_hist_drift": 0.9022
     },
     {
       "ticker": "ATI",
@@ -2050,18 +2074,6 @@
       "p_hist_drift": 0.8992
     },
     {
-      "ticker": "FRT",
-      "name": "Federal Realty Investment Trust",
-      "idx": [
-        "S&P500"
-      ],
-      "s0": 112.58,
-      "sigma": 0.159,
-      "mu_hist": 0.1884,
-      "p_zero_drift": 0.6106,
-      "p_hist_drift": 0.8987
-    },
-    {
       "ticker": "FCX",
       "name": "Freeport-McMoRan Inc.",
       "idx": [
@@ -2207,18 +2219,6 @@
       "p_hist_drift": 0.8941
     },
     {
-      "ticker": "CUBE",
-      "name": "CubeSmart",
-      "idx": [
-        "S&P400"
-      ],
-      "s0": 45.02,
-      "sigma": 0.2181,
-      "mu_hist": 0.2194,
-      "p_zero_drift": 0.665,
-      "p_hist_drift": 0.8927
-    },
-    {
       "ticker": "ROIV",
       "name": "Roivant Sciences Ltd. Common Shares",
       "idx": [
@@ -2328,6 +2328,18 @@
       "p_hist_drift": 0.8888
     },
     {
+      "ticker": "SSB",
+      "name": "SouthState Bank Corporation",
+      "idx": [
+        "S&P400"
+      ],
+      "s0": 104.11,
+      "sigma": 0.1942,
+      "mu_hist": 0.1995,
+      "p_zero_drift": 0.6471,
+      "p_hist_drift": 0.8885
+    },
+    {
       "ticker": "THC",
       "name": "Tenet Healthcare Corporation New",
       "idx": [
@@ -2376,6 +2388,18 @@
       "p_hist_drift": 0.8868
     },
     {
+      "ticker": "MAS",
+      "name": "Masco Corporation",
+      "idx": [
+        "S&P500"
+      ],
+      "s0": 82.22,
+      "sigma": 0.3373,
+      "mu_hist": 0.282,
+      "p_zero_drift": 0.7134,
+      "p_hist_drift": 0.8868
+    },
+    {
       "ticker": "ADM",
       "name": "Archer-Daniels-Midland Company",
       "idx": [
@@ -2396,7 +2420,7 @@
       "s0": 20.85,
       "sigma": 0.2236,
       "mu_hist": 0.2143,
-      "p_zero_drift": 0.6685,
+      "p_zero_drift": 0.6686,
       "p_hist_drift": 0.8866
     },
     {
@@ -2458,18 +2482,6 @@
       "mu_hist": 0.3046,
       "p_zero_drift": 0.722,
       "p_hist_drift": 0.8851
-    },
-    {
-      "ticker": "MAS",
-      "name": "Masco Corporation",
-      "idx": [
-        "S&P500"
-      ],
-      "s0": 82.22,
-      "sigma": 0.3378,
-      "mu_hist": 0.2782,
-      "p_zero_drift": 0.7136,
-      "p_hist_drift": 0.8849
     },
     {
       "ticker": "ONB",
@@ -2545,16 +2557,16 @@
       "p_hist_drift": 0.8831
     },
     {
-      "ticker": "SSB",
-      "name": "SouthState Bank Corporation",
+      "ticker": "BRX",
+      "name": "BRIXMOR PROPERTY GROUP INC.",
       "idx": [
         "S&P400"
       ],
-      "s0": 104.11,
-      "sigma": 0.1944,
-      "mu_hist": 0.1931,
-      "p_zero_drift": 0.6473,
-      "p_hist_drift": 0.883
+      "s0": 30.02,
+      "sigma": 0.1706,
+      "mu_hist": 0.1795,
+      "p_zero_drift": 0.6243,
+      "p_hist_drift": 0.8828
     },
     {
       "ticker": "KNX",
@@ -2689,6 +2701,19 @@
       "p_hist_drift": 0.8788
     },
     {
+      "ticker": "CSCO",
+      "name": "Cisco Systems, Inc.",
+      "idx": [
+        "Nasdaq100",
+        "S&P500"
+      ],
+      "s0": 93.85,
+      "sigma": 0.3695,
+      "mu_hist": 0.282,
+      "p_zero_drift": 0.7202,
+      "p_hist_drift": 0.8782
+    },
+    {
       "ticker": "MUR",
       "name": "Murphy Oil Corp.",
       "idx": [
@@ -2701,17 +2726,16 @@
       "p_hist_drift": 0.878
     },
     {
-      "ticker": "CSCO",
-      "name": "Cisco Systems, Inc.",
+      "ticker": "RSG",
+      "name": "Republic Services, Inc.",
       "idx": [
-        "Nasdaq100",
         "S&P500"
       ],
-      "s0": 93.85,
-      "sigma": 0.3685,
-      "mu_hist": 0.2781,
-      "p_zero_drift": 0.72,
-      "p_hist_drift": 0.8767
+      "s0": 246.85,
+      "sigma": 0.2015,
+      "mu_hist": 0.1908,
+      "p_zero_drift": 0.6531,
+      "p_hist_drift": 0.8777
     },
     {
       "ticker": "EQIX",
@@ -2736,18 +2760,6 @@
       "mu_hist": 0.2575,
       "p_zero_drift": 0.7132,
       "p_hist_drift": 0.8753
-    },
-    {
-      "ticker": "RSG",
-      "name": "Republic Services, Inc.",
-      "idx": [
-        "S&P500"
-      ],
-      "s0": 246.85,
-      "sigma": 0.2011,
-      "mu_hist": 0.1875,
-      "p_zero_drift": 0.6527,
-      "p_hist_drift": 0.8751
     },
     {
       "ticker": "TECH",
@@ -2917,18 +2929,6 @@
       "mu_hist": 0.3867,
       "p_zero_drift": 0.7384,
       "p_hist_drift": 0.8716
-    },
-    {
-      "ticker": "BRX",
-      "name": "BRIXMOR PROPERTY GROUP INC.",
-      "idx": [
-        "S&P400"
-      ],
-      "s0": 30.02,
-      "sigma": 0.1708,
-      "mu_hist": 0.1683,
-      "p_zero_drift": 0.6246,
-      "p_hist_drift": 0.8712
     },
     {
       "ticker": "MDLZ",
@@ -3120,10 +3120,10 @@
         "S&P500"
       ],
       "s0": 217.55,
-      "sigma": 0.3809,
-      "mu_hist": 0.2533,
+      "sigma": 0.3808,
+      "mu_hist": 0.2554,
       "p_zero_drift": 0.7222,
-      "p_hist_drift": 0.8627
+      "p_hist_drift": 0.8637
     },
     {
       "ticker": "TTEK",
@@ -3559,6 +3559,18 @@
       "p_hist_drift": 0.8522
     },
     {
+      "ticker": "CHH",
+      "name": "Choice Hotels Intnl.",
+      "idx": [
+        "S&P400"
+      ],
+      "s0": 118.91,
+      "sigma": 0.3438,
+      "mu_hist": 0.2152,
+      "p_zero_drift": 0.7149,
+      "p_hist_drift": 0.852
+    },
+    {
       "ticker": "BIO",
       "name": "Bio-Rad Laboratories, Inc.Class A",
       "idx": [
@@ -3607,18 +3619,6 @@
       "mu_hist": 0.1845,
       "p_zero_drift": 0.6909,
       "p_hist_drift": 0.8508
-    },
-    {
-      "ticker": "CHH",
-      "name": "Choice Hotels Intnl.",
-      "idx": [
-        "S&P400"
-      ],
-      "s0": 118.91,
-      "sigma": 0.3438,
-      "mu_hist": 0.2124,
-      "p_zero_drift": 0.7149,
-      "p_hist_drift": 0.8505
     },
     {
       "ticker": "URI",
@@ -3705,6 +3705,18 @@
       "p_hist_drift": 0.8486
     },
     {
+      "ticker": "PNFP",
+      "name": "Pinnacle Financial Partners, Inc.",
+      "idx": [
+        "S&P400"
+      ],
+      "s0": 100.64,
+      "sigma": 0.2485,
+      "mu_hist": 0.1747,
+      "p_zero_drift": 0.6825,
+      "p_hist_drift": 0.8483
+    },
+    {
       "ticker": "OMC",
       "name": "Omnicom Group Inc.",
       "idx": [
@@ -3760,7 +3772,7 @@
         "Nasdaq100",
         "S&P500"
       ],
-      "s0": 332.71,
+      "s0": 332.72,
       "sigma": 0.6125,
       "mu_hist": 0.3285,
       "p_zero_drift": 0.7393,
@@ -3887,6 +3899,18 @@
       "p_hist_drift": 0.8449
     },
     {
+      "ticker": "EHC",
+      "name": "Encompass Health Corporation",
+      "idx": [
+        "S&P400"
+      ],
+      "s0": 137.54,
+      "sigma": 0.2903,
+      "mu_hist": 0.1837,
+      "p_zero_drift": 0.6999,
+      "p_hist_drift": 0.8448
+    },
+    {
       "ticker": "FDS",
       "name": "FactSet Research Systems Inc.",
       "idx": [
@@ -3897,18 +3921,6 @@
       "mu_hist": 0.2454,
       "p_zero_drift": 0.7322,
       "p_hist_drift": 0.8445
-    },
-    {
-      "ticker": "PNFP",
-      "name": "Pinnacle Financial Partners, Inc.",
-      "idx": [
-        "S&P400"
-      ],
-      "s0": 100.64,
-      "sigma": 0.2488,
-      "mu_hist": 0.1698,
-      "p_zero_drift": 0.6826,
-      "p_hist_drift": 0.8444
     },
     {
       "ticker": "MKSI",
@@ -3944,18 +3956,6 @@
       "sigma": 0.2788,
       "mu_hist": 0.1781,
       "p_zero_drift": 0.6957,
-      "p_hist_drift": 0.8435
-    },
-    {
-      "ticker": "EHC",
-      "name": "Encompass Health Corporation",
-      "idx": [
-        "S&P400"
-      ],
-      "s0": 137.54,
-      "sigma": 0.2906,
-      "mu_hist": 0.182,
-      "p_zero_drift": 0.7,
       "p_hist_drift": 0.8435
     },
     {
@@ -4105,6 +4105,18 @@
       "p_hist_drift": 0.8397
     },
     {
+      "ticker": "NSC",
+      "name": "Norfolk Southern Corporation",
+      "idx": [
+        "S&P500"
+      ],
+      "s0": 319.94,
+      "sigma": 0.2103,
+      "mu_hist": 0.1522,
+      "p_zero_drift": 0.6596,
+      "p_hist_drift": 0.8393
+    },
+    {
       "ticker": "NYT",
       "name": "New York Times Co.",
       "idx": [
@@ -4190,6 +4202,18 @@
       "p_hist_drift": 0.8364
     },
     {
+      "ticker": "MRSH",
+      "name": "Marsh & McLennan Companies, Inc.",
+      "idx": [
+        "S&P500"
+      ],
+      "s0": 204.82,
+      "sigma": 0.2504,
+      "mu_hist": 0.1598,
+      "p_zero_drift": 0.6834,
+      "p_hist_drift": 0.8361
+    },
+    {
       "ticker": "WWD",
       "name": "Woodward, Inc.",
       "idx": [
@@ -4236,18 +4260,6 @@
       "mu_hist": 0.1499,
       "p_zero_drift": 0.6641,
       "p_hist_drift": 0.8355
-    },
-    {
-      "ticker": "NSC",
-      "name": "Norfolk Southern Corporation",
-      "idx": [
-        "S&P500"
-      ],
-      "s0": 319.94,
-      "sigma": 0.2116,
-      "mu_hist": 0.1481,
-      "p_zero_drift": 0.6606,
-      "p_hist_drift": 0.835
     },
     {
       "ticker": "AEE",
@@ -4332,18 +4344,6 @@
       "mu_hist": 0.232,
       "p_zero_drift": 0.7357,
       "p_hist_drift": 0.8321
-    },
-    {
-      "ticker": "MRSH",
-      "name": "Marsh & McLennan Companies, Inc.",
-      "idx": [
-        "S&P500"
-      ],
-      "s0": 204.82,
-      "sigma": 0.2498,
-      "mu_hist": 0.1539,
-      "p_zero_drift": 0.6831,
-      "p_hist_drift": 0.8315
     },
     {
       "ticker": "AMCR",
@@ -4479,6 +4479,18 @@
       "p_hist_drift": 0.8265
     },
     {
+      "ticker": "SSD",
+      "name": "Simpson Manufacturing Co., Inc.",
+      "idx": [
+        "S&P400"
+      ],
+      "s0": 196.89,
+      "sigma": 0.2865,
+      "mu_hist": 0.1555,
+      "p_zero_drift": 0.6986,
+      "p_hist_drift": 0.8261
+    },
+    {
       "ticker": "SITM",
       "name": "SiTime Corporation",
       "idx": [
@@ -4527,6 +4539,18 @@
       "p_hist_drift": 0.8252
     },
     {
+      "ticker": "PGR",
+      "name": "The Progressive Corporation",
+      "idx": [
+        "S&P500"
+      ],
+      "s0": 227.77,
+      "sigma": 0.264,
+      "mu_hist": 0.1493,
+      "p_zero_drift": 0.6897,
+      "p_hist_drift": 0.8252
+    },
+    {
       "ticker": "EL",
       "name": "The Estée Lauder Companies Inc.",
       "idx": [
@@ -4536,18 +4560,6 @@
       "sigma": 0.4778,
       "mu_hist": 0.2033,
       "p_zero_drift": 0.7337,
-      "p_hist_drift": 0.8249
-    },
-    {
-      "ticker": "SSD",
-      "name": "Simpson Manufacturing Co., Inc.",
-      "idx": [
-        "S&P400"
-      ],
-      "s0": 196.89,
-      "sigma": 0.2863,
-      "mu_hist": 0.1538,
-      "p_zero_drift": 0.6985,
       "p_hist_drift": 0.8249
     },
     {
@@ -4572,18 +4584,6 @@
       "sigma": 0.8868,
       "mu_hist": 0.4,
       "p_zero_drift": 0.7342,
-      "p_hist_drift": 0.8248
-    },
-    {
-      "ticker": "PGR",
-      "name": "The Progressive Corporation",
-      "idx": [
-        "S&P500"
-      ],
-      "s0": 227.77,
-      "sigma": 0.2639,
-      "mu_hist": 0.1488,
-      "p_zero_drift": 0.6896,
       "p_hist_drift": 0.8248
     },
     {
@@ -4818,6 +4818,18 @@
       "p_hist_drift": 0.8153
     },
     {
+      "ticker": "WFRD",
+      "name": "Weatherford International plc",
+      "idx": [
+        "S&P400"
+      ],
+      "s0": 84.43,
+      "sigma": 0.4134,
+      "mu_hist": 0.1627,
+      "p_zero_drift": 0.7271,
+      "p_hist_drift": 0.8144
+    },
+    {
       "ticker": "EXPE",
       "name": "Expedia Group, Inc.",
       "idx": [
@@ -4889,18 +4901,6 @@
       "mu_hist": 0.1736,
       "p_zero_drift": 0.7334,
       "p_hist_drift": 0.813
-    },
-    {
-      "ticker": "WFRD",
-      "name": "Weatherford International plc",
-      "idx": [
-        "S&P400"
-      ],
-      "s0": 84.43,
-      "sigma": 0.4128,
-      "mu_hist": 0.1594,
-      "p_zero_drift": 0.727,
-      "p_hist_drift": 0.8128
     },
     {
       "ticker": "ANET",
@@ -4987,6 +4987,18 @@
       "p_hist_drift": 0.8099
     },
     {
+      "ticker": "MORN",
+      "name": "Morningstar, Inc.",
+      "idx": [
+        "S&P400"
+      ],
+      "s0": 244.15,
+      "sigma": 0.3931,
+      "mu_hist": 0.1495,
+      "p_zero_drift": 0.7242,
+      "p_hist_drift": 0.8098
+    },
+    {
       "ticker": "CSL",
       "name": "Carlisle Companies, Inc.",
       "idx": [
@@ -5023,18 +5035,6 @@
       "p_hist_drift": 0.8094
     },
     {
-      "ticker": "MORN",
-      "name": "Morningstar, Inc.",
-      "idx": [
-        "S&P400"
-      ],
-      "s0": 244.15,
-      "sigma": 0.3939,
-      "mu_hist": 0.1469,
-      "p_zero_drift": 0.7243,
-      "p_hist_drift": 0.8083
-    },
-    {
       "ticker": "PWR",
       "name": "Quanta Services, Inc.",
       "idx": [
@@ -5042,7 +5042,7 @@
       ],
       "s0": 540.9,
       "sigma": 0.5342,
-      "mu_hist": 0.177,
+      "mu_hist": 0.1771,
       "p_zero_drift": 0.7371,
       "p_hist_drift": 0.8083
     },
@@ -5579,6 +5579,18 @@
       "p_hist_drift": 0.7893
     },
     {
+      "ticker": "CCL",
+      "name": "Carnival Corporation Ltd.",
+      "idx": [
+        "S&P500"
+      ],
+      "s0": 29.58,
+      "sigma": 0.4678,
+      "mu_hist": 0.116,
+      "p_zero_drift": 0.7329,
+      "p_hist_drift": 0.7883
+    },
+    {
       "ticker": "BILL",
       "name": "BILL Holdings, Inc.",
       "idx": [
@@ -5649,18 +5661,6 @@
       "mu_hist": 0.1158,
       "p_zero_drift": 0.7354,
       "p_hist_drift": 0.7865
-    },
-    {
-      "ticker": "CCL",
-      "name": "Carnival Corporation Ltd.",
-      "idx": [
-        "S&P500"
-      ],
-      "s0": 29.58,
-      "sigma": 0.4678,
-      "mu_hist": 0.1109,
-      "p_zero_drift": 0.7329,
-      "p_hist_drift": 0.7859
     },
     {
       "ticker": "AMP",
@@ -5911,7 +5911,7 @@
         "Nasdaq100",
         "S&P500"
       ],
-      "s0": 218.21,
+      "s0": 218.22,
       "sigma": 0.7763,
       "mu_hist": 0.1532,
       "p_zero_drift": 0.738,
@@ -6305,6 +6305,31 @@
       "p_hist_drift": 0.7675
     },
     {
+      "ticker": "ROP",
+      "name": "Roper Technologies, Inc.",
+      "idx": [
+        "Nasdaq100",
+        "S&P500"
+      ],
+      "s0": 476.6,
+      "sigma": 0.3236,
+      "mu_hist": 0.0763,
+      "p_zero_drift": 0.71,
+      "p_hist_drift": 0.7672
+    },
+    {
+      "ticker": "SYY",
+      "name": "Sysco Corporation",
+      "idx": [
+        "S&P500"
+      ],
+      "s0": 76.86,
+      "sigma": 0.2958,
+      "mu_hist": 0.0776,
+      "p_zero_drift": 0.7018,
+      "p_hist_drift": 0.7666
+    },
+    {
       "ticker": "WMG",
       "name": "Warner Music Group Corp.",
       "idx": [
@@ -6327,19 +6352,6 @@
       "sigma": 0.1761,
       "mu_hist": 0.0855,
       "p_zero_drift": 0.6302,
-      "p_hist_drift": 0.7655
-    },
-    {
-      "ticker": "ROP",
-      "name": "Roper Technologies, Inc.",
-      "idx": [
-        "Nasdaq100",
-        "S&P500"
-      ],
-      "s0": 476.6,
-      "sigma": 0.3241,
-      "mu_hist": 0.0738,
-      "p_zero_drift": 0.7101,
       "p_hist_drift": 0.7655
     },
     {
@@ -6425,18 +6437,6 @@
       "mu_hist": 0.0612,
       "p_zero_drift": 0.7269,
       "p_hist_drift": 0.7615
-    },
-    {
-      "ticker": "SYY",
-      "name": "Sysco Corporation",
-      "idx": [
-        "S&P500"
-      ],
-      "s0": 76.86,
-      "sigma": 0.2957,
-      "mu_hist": 0.0705,
-      "p_zero_drift": 0.7017,
-      "p_hist_drift": 0.761
     },
     {
       "ticker": "HGV",
@@ -6530,7 +6530,7 @@
       ],
       "s0": 69.78,
       "sigma": 0.7414,
-      "mu_hist": 0.0669,
+      "mu_hist": 0.067,
       "p_zero_drift": 0.7388,
       "p_hist_drift": 0.7582
     },
@@ -6558,6 +6558,18 @@
       "mu_hist": 0.0616,
       "p_zero_drift": 0.7045,
       "p_hist_drift": 0.7547
+    },
+    {
+      "ticker": "LAD",
+      "name": "Lithia Motors, Inc.",
+      "idx": [
+        "S&P400"
+      ],
+      "s0": 308.77,
+      "sigma": 0.4289,
+      "mu_hist": 0.0451,
+      "p_zero_drift": 0.729,
+      "p_hist_drift": 0.7535
     },
     {
       "ticker": "BMRN",
@@ -6594,18 +6606,6 @@
       "mu_hist": 0.0579,
       "p_zero_drift": 0.7073,
       "p_hist_drift": 0.7528
-    },
-    {
-      "ticker": "LAD",
-      "name": "Lithia Motors, Inc.",
-      "idx": [
-        "S&P400"
-      ],
-      "s0": 308.77,
-      "sigma": 0.4292,
-      "mu_hist": 0.0427,
-      "p_zero_drift": 0.7291,
-      "p_hist_drift": 0.7522
     },
     {
       "ticker": "ROK",
@@ -6892,9 +6892,9 @@
       ],
       "s0": 26.39,
       "sigma": 0.3324,
-      "mu_hist": 0.0362,
+      "mu_hist": 0.0364,
       "p_zero_drift": 0.7122,
-      "p_hist_drift": 0.739
+      "p_hist_drift": 0.7392
     },
     {
       "ticker": "BKR",
@@ -7194,10 +7194,22 @@
         "S&P500"
       ],
       "s0": 205.81,
-      "sigma": 0.4292,
-      "mu_hist": -0.0003,
+      "sigma": 0.4293,
+      "mu_hist": 0.0004,
       "p_zero_drift": 0.7291,
-      "p_hist_drift": 0.7289
+      "p_hist_drift": 0.7293
+    },
+    {
+      "ticker": "FE",
+      "name": "FirstEnergy Corp.",
+      "idx": [
+        "S&P500"
+      ],
+      "s0": 46.43,
+      "sigma": 0.1543,
+      "mu_hist": 0.0654,
+      "p_zero_drift": 0.6045,
+      "p_hist_drift": 0.7292
     },
     {
       "ticker": "PLD",
@@ -7354,6 +7366,18 @@
       "mu_hist": -0.0102,
       "p_zero_drift": 0.7258,
       "p_hist_drift": 0.7197
+    },
+    {
+      "ticker": "RJF",
+      "name": "Raymond James Financial, Inc.",
+      "idx": [
+        "S&P500"
+      ],
+      "s0": 162.81,
+      "sigma": 0.2492,
+      "mu_hist": 0.0343,
+      "p_zero_drift": 0.6828,
+      "p_hist_drift": 0.7193
     },
     {
       "ticker": "CNX",
@@ -7526,18 +7550,6 @@
       "p_hist_drift": 0.7166
     },
     {
-      "ticker": "RJF",
-      "name": "Raymond James Financial, Inc.",
-      "idx": [
-        "S&P500"
-      ],
-      "s0": 162.81,
-      "sigma": 0.2487,
-      "mu_hist": 0.0309,
-      "p_zero_drift": 0.6826,
-      "p_hist_drift": 0.7155
-    },
-    {
       "ticker": "WLK",
       "name": "Westlake Corporation",
       "idx": [
@@ -7586,18 +7598,6 @@
       "mu_hist": -0.0003,
       "p_zero_drift": 0.7136,
       "p_hist_drift": 0.7134
-    },
-    {
-      "ticker": "FE",
-      "name": "FirstEnergy Corp.",
-      "idx": [
-        "S&P500"
-      ],
-      "s0": 46.43,
-      "sigma": 0.1558,
-      "mu_hist": 0.0555,
-      "p_zero_drift": 0.6066,
-      "p_hist_drift": 0.712
     },
     {
       "ticker": "NWS",
@@ -8303,6 +8303,18 @@
       "p_hist_drift": 0.6769
     },
     {
+      "ticker": "WFC",
+      "name": "Wells Fargo & Company",
+      "idx": [
+        "S&P500"
+      ],
+      "s0": 83.94,
+      "sigma": 0.252,
+      "mu_hist": -0.0077,
+      "p_zero_drift": 0.6842,
+      "p_hist_drift": 0.6759
+    },
+    {
       "ticker": "ETN",
       "name": "Eaton Corporation plc",
       "idx": [
@@ -8469,18 +8481,6 @@
       "mu_hist": -0.1752,
       "p_zero_drift": 0.739,
       "p_hist_drift": 0.6707
-    },
-    {
-      "ticker": "WFC",
-      "name": "Wells Fargo & Company",
-      "idx": [
-        "S&P500"
-      ],
-      "s0": 83.94,
-      "sigma": 0.2525,
-      "mu_hist": -0.0137,
-      "p_zero_drift": 0.6844,
-      "p_hist_drift": 0.6698
     },
     {
       "ticker": "PLTR",
@@ -9583,6 +9583,18 @@
       "p_hist_drift": 0.6099
     },
     {
+      "ticker": "CMS",
+      "name": "CMS Energy Corporation",
+      "idx": [
+        "S&P500"
+      ],
+      "s0": 69.18,
+      "sigma": 0.1712,
+      "mu_hist": -0.009,
+      "p_zero_drift": 0.625,
+      "p_hist_drift": 0.6092
+    },
+    {
       "ticker": "NEU",
       "name": "NewMarket Corporation",
       "idx": [
@@ -9650,9 +9662,9 @@
         "Nasdaq100",
         "S&P500"
       ],
-      "s0": 160.66,
+      "s0": 160.67,
       "sigma": 0.3931,
-      "mu_hist": -0.192,
+      "mu_hist": -0.1919,
       "p_zero_drift": 0.7242,
       "p_hist_drift": 0.6016
     },
@@ -9765,18 +9777,6 @@
       "mu_hist": 0.051,
       "p_zero_drift": 0.2425,
       "p_hist_drift": 0.5979
-    },
-    {
-      "ticker": "CMS",
-      "name": "CMS Energy Corporation",
-      "idx": [
-        "S&P500"
-      ],
-      "s0": 69.18,
-      "sigma": 0.1733,
-      "mu_hist": -0.0171,
-      "p_zero_drift": 0.6273,
-      "p_hist_drift": 0.5977
     },
     {
       "ticker": "STAG",
@@ -10087,10 +10087,10 @@
         "S&P400"
       ],
       "s0": 82.83,
-      "sigma": 0.4755,
-      "mu_hist": -0.3028,
-      "p_zero_drift": 0.7335,
-      "p_hist_drift": 0.5787
+      "sigma": 0.4759,
+      "mu_hist": -0.301,
+      "p_zero_drift": 0.7336,
+      "p_hist_drift": 0.5798
     },
     {
       "ticker": "ISRG",
@@ -10595,10 +10595,10 @@
         "S&P400"
       ],
       "s0": 32.4,
-      "sigma": 0.473,
+      "sigma": 0.4732,
       "mu_hist": -0.4,
-      "p_zero_drift": 0.7333,
-      "p_hist_drift": 0.5278
+      "p_zero_drift": 0.7334,
+      "p_hist_drift": 0.5279
     },
     {
       "ticker": "ADBE",
@@ -10866,6 +10866,18 @@
       "p_hist_drift": 0.4625
     },
     {
+      "ticker": "INGR",
+      "name": "Ingredion Incorporated",
+      "idx": [
+        "S&P400"
+      ],
+      "s0": 91.72,
+      "sigma": 0.1951,
+      "mu_hist": -0.1284,
+      "p_zero_drift": 0.6479,
+      "p_hist_drift": 0.456
+    },
+    {
       "ticker": "PNR",
       "name": "Pentair plc",
       "idx": [
@@ -10900,18 +10912,6 @@
       "mu_hist": -0.4,
       "p_zero_drift": 0.7199,
       "p_hist_drift": 0.4463
-    },
-    {
-      "ticker": "INGR",
-      "name": "Ingredion Incorporated",
-      "idx": [
-        "S&P400"
-      ],
-      "s0": 91.72,
-      "sigma": 0.1955,
-      "mu_hist": -0.1371,
-      "p_zero_drift": 0.6482,
-      "p_hist_drift": 0.4444
     },
     {
       "ticker": "TSCO",
