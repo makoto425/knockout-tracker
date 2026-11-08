@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T22:25:47.345609+00:00",
+  "generated_at": "2026-11-08T22:35:24.831677+00:00",
   "params": {
     "barrier_ratio": 1.05,
     "horizon_years": 1.0,
@@ -2420,7 +2420,7 @@
       "s0": 20.85,
       "sigma": 0.2236,
       "mu_hist": 0.2143,
-      "p_zero_drift": 0.6686,
+      "p_zero_drift": 0.6685,
       "p_hist_drift": 0.8866
     },
     {
@@ -3921,18 +3921,6 @@
       "mu_hist": 0.2454,
       "p_zero_drift": 0.7322,
       "p_hist_drift": 0.8445
-    },
-    {
-      "ticker": "MKSI",
-      "name": "MKS Inc.",
-      "idx": [
-        "S&P400"
-      ],
-      "s0": 192.27,
-      "sigma": 0.6245,
-      "mu_hist": 0.322,
-      "p_zero_drift": 0.7395,
-      "p_hist_drift": 0.8438
     },
     {
       "ticker": "OKTA",
