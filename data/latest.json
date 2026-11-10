@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T22:35:24.831677+00:00",
+  "generated_at": "2026-11-10T01:48:56.778067+00:00",
   "params": {
     "barrier_ratio": 1.05,
     "horizon_years": 1.0,
@@ -127,6 +127,18 @@
       "p_hist_drift": 0.967
     },
     {
+      "ticker": "CNO",
+      "name": "CNO Financial Group, Inc.",
+      "idx": [
+        "S&P400"
+      ],
+      "s0": 57.16,
+      "sigma": 0.214,
+      "mu_hist": 0.3602,
+      "p_zero_drift": 0.6623,
+      "p_hist_drift": 0.9657
+    },
+    {
       "ticker": "MAR",
       "name": "Marriott International, Inc.",
       "idx": [
@@ -212,18 +224,6 @@
       "p_hist_drift": 0.9604
     },
     {
-      "ticker": "CNO",
-      "name": "CNO Financial Group, Inc.",
-      "idx": [
-        "S&P400"
-      ],
-      "s0": 55.45,
-      "sigma": 0.2094,
-      "mu_hist": 0.3338,
-      "p_zero_drift": 0.659,
-      "p_hist_drift": 0.9586
-    },
-    {
       "ticker": "CVX",
       "name": "Chevron Corporation",
       "idx": [
@@ -270,18 +270,6 @@
       "mu_hist": 0.39,
       "p_zero_drift": 0.6889,
       "p_hist_drift": 0.9558
-    },
-    {
-      "ticker": "ROKU",
-      "name": "Roku, Inc.",
-      "idx": [
-        "S&P400"
-      ],
-      "s0": 160.52,
-      "sigma": 0.271,
-      "mu_hist": 0.4,
-      "p_zero_drift": 0.6926,
-      "p_hist_drift": 0.9555
     },
     {
       "ticker": "TTC",
@@ -2420,7 +2408,7 @@
       "s0": 20.85,
       "sigma": 0.2236,
       "mu_hist": 0.2143,
-      "p_zero_drift": 0.6685,
+      "p_zero_drift": 0.6686,
       "p_hist_drift": 0.8866
     },
     {
@@ -3681,18 +3669,6 @@
       "p_hist_drift": 0.8491
     },
     {
-      "ticker": "TCBI",
-      "name": "Texas Capital Bancshares, Inc.",
-      "idx": [
-        "S&P400"
-      ],
-      "s0": 101.03,
-      "sigma": 0.2457,
-      "mu_hist": 0.1743,
-      "p_zero_drift": 0.6811,
-      "p_hist_drift": 0.8487
-    },
-    {
       "ticker": "ITW",
       "name": "Illinois Tool Works Inc.",
       "idx": [
@@ -3739,6 +3715,18 @@
       "mu_hist": 0.1603,
       "p_zero_drift": 0.6575,
       "p_hist_drift": 0.848
+    },
+    {
+      "ticker": "GHC",
+      "name": "GRAHAM HOLDINGS COMPANY",
+      "idx": [
+        "S&P400"
+      ],
+      "s0": 1215.76,
+      "sigma": 0.2221,
+      "mu_hist": 0.1653,
+      "p_zero_drift": 0.6676,
+      "p_hist_drift": 0.8479
     },
     {
       "ticker": "ANF",
@@ -3887,18 +3875,6 @@
       "p_hist_drift": 0.845
     },
     {
-      "ticker": "GHC",
-      "name": "GRAHAM HOLDINGS COMPANY",
-      "idx": [
-        "S&P400"
-      ],
-      "s0": 1212.02,
-      "sigma": 0.2221,
-      "mu_hist": 0.1618,
-      "p_zero_drift": 0.6676,
-      "p_hist_drift": 0.8449
-    },
-    {
       "ticker": "EHC",
       "name": "Encompass Health Corporation",
       "idx": [
@@ -3921,6 +3897,18 @@
       "mu_hist": 0.2454,
       "p_zero_drift": 0.7322,
       "p_hist_drift": 0.8445
+    },
+    {
+      "ticker": "MKSI",
+      "name": "MKS Inc.",
+      "idx": [
+        "S&P400"
+      ],
+      "s0": 192.27,
+      "sigma": 0.6245,
+      "mu_hist": 0.322,
+      "p_zero_drift": 0.7395,
+      "p_hist_drift": 0.8438
     },
     {
       "ticker": "OKTA",
