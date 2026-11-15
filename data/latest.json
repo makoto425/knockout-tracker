@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T22:47:53.327504+00:00",
+  "generated_at": "2026-11-15T23:14:05.478923+00:00",
   "params": {
     "barrier_ratio": 1.05,
     "horizon_years": 1.0,
@@ -5254,18 +5254,6 @@
       "sigma": 0.3656,
       "mu_hist": 0.1361,
       "p_zero_drift": 0.7195,
-      "p_hist_drift": 0.8047
-    },
-    {
-      "ticker": "OC",
-      "name": "Owens Corning",
-      "idx": [
-        "S&P400"
-      ],
-      "s0": 115.94,
-      "sigma": 0.4208,
-      "mu_hist": 0.1443,
-      "p_zero_drift": 0.728,
       "p_hist_drift": 0.8047
     },
     {
