@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T23:14:05.478923+00:00",
+  "generated_at": "2026-11-17T02:11:48.414726+00:00",
   "params": {
     "barrier_ratio": 1.05,
     "horizon_years": 1.0,
@@ -1117,18 +1117,6 @@
       "p_hist_drift": 0.9219
     },
     {
-      "ticker": "NWE",
-      "name": "NorthWestern Energy Group, Inc.",
-      "idx": [
-        "S&P400"
-      ],
-      "s0": 84.91,
-      "sigma": 0.2253,
-      "mu_hist": 0.2709,
-      "p_zero_drift": 0.6696,
-      "p_hist_drift": 0.9219
-    },
-    {
       "ticker": "ZION",
       "name": "Zions Bancorporation N.A.",
       "idx": [
@@ -2182,18 +2170,6 @@
       "p_hist_drift": 0.8935
     },
     {
-      "ticker": "BKH",
-      "name": "Black Hills Corporation",
-      "idx": [
-        "S&P400"
-      ],
-      "s0": 86.7,
-      "sigma": 0.2221,
-      "mu_hist": 0.2217,
-      "p_zero_drift": 0.6676,
-      "p_hist_drift": 0.8925
-    },
-    {
       "ticker": "BBY",
       "name": "Best Buy Co., Inc.",
       "idx": [
@@ -2662,7 +2638,7 @@
       ],
       "s0": 184.93,
       "sigma": 0.3402,
-      "mu_hist": 0.2655,
+      "mu_hist": 0.2656,
       "p_zero_drift": 0.7141,
       "p_hist_drift": 0.8783
     },
@@ -5254,6 +5230,18 @@
       "sigma": 0.3656,
       "mu_hist": 0.1361,
       "p_zero_drift": 0.7195,
+      "p_hist_drift": 0.8047
+    },
+    {
+      "ticker": "OC",
+      "name": "Owens Corning",
+      "idx": [
+        "S&P400"
+      ],
+      "s0": 115.94,
+      "sigma": 0.4208,
+      "mu_hist": 0.1443,
+      "p_zero_drift": 0.728,
       "p_hist_drift": 0.8047
     },
     {
