@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T00:51:26.002414+00:00",
+  "generated_at": "2026-11-19T05:31:07.388868+00:00",
   "params": {
     "barrier_ratio": 1.05,
     "horizon_years": 1.0,
@@ -9,6 +9,7 @@
     {
       "ticker": "LNTH",
       "name": "Lantheus Holdings, Inc",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -21,6 +22,7 @@
     {
       "ticker": "KO",
       "name": "The Coca-Cola Company",
+      "name_zh": "可口可樂",
       "idx": [
         "S&P500"
       ],
@@ -33,6 +35,7 @@
     {
       "ticker": "RGA",
       "name": "Reinsurance Group of America, Incorporated",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -45,6 +48,7 @@
     {
       "ticker": "UBSI",
       "name": "United Bankshares Inc",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -57,6 +61,7 @@
     {
       "ticker": "HST",
       "name": "Host Hotels & Resorts, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -69,6 +74,7 @@
     {
       "ticker": "CNO",
       "name": "CNO Financial Group, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -81,6 +87,7 @@
     {
       "ticker": "CSX",
       "name": "CSX Corporation",
+      "name_zh": "",
       "idx": [
         "Nasdaq100",
         "S&P500"
@@ -94,6 +101,7 @@
     {
       "ticker": "SLAB",
       "name": "Silicon Laboratories Inc",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -106,6 +114,7 @@
     {
       "ticker": "STT",
       "name": "State Street Corporation",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -118,6 +127,7 @@
     {
       "ticker": "GWW",
       "name": "W.W. Grainger, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -130,6 +140,7 @@
     {
       "ticker": "MAR",
       "name": "Marriott International, Inc.",
+      "name_zh": "萬豪國際",
       "idx": [
         "Nasdaq100",
         "S&P500"
@@ -143,6 +154,7 @@
     {
       "ticker": "AIZ",
       "name": "Assurant, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -155,6 +167,7 @@
     {
       "ticker": "TTC",
       "name": "Toro Company (The)",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -167,6 +180,7 @@
     {
       "ticker": "IEX",
       "name": "IDEX Corporation",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -179,6 +193,7 @@
     {
       "ticker": "RS",
       "name": "Reliance, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -191,6 +206,7 @@
     {
       "ticker": "TRV",
       "name": "The Travelers Companies, Inc.",
+      "name_zh": "旅行者保險",
       "idx": [
         "S&P500"
       ],
@@ -203,6 +219,7 @@
     {
       "ticker": "BNY",
       "name": "The Bank of New York Mellon Corporation",
+      "name_zh": "紐約梅隆銀行",
       "idx": [
         "S&P500"
       ],
@@ -215,6 +232,7 @@
     {
       "ticker": "BDX",
       "name": "Becton, Dickinson and Company",
+      "name_zh": "碧迪醫療",
       "idx": [
         "S&P500"
       ],
@@ -227,6 +245,7 @@
     {
       "ticker": "THG",
       "name": "The Hanover Insurance Group, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -239,6 +258,7 @@
     {
       "ticker": "CLH",
       "name": "Clean Harbors, Inc",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -251,6 +271,7 @@
     {
       "ticker": "MSI",
       "name": "Motorola Solutions, Inc.",
+      "name_zh": "摩托羅拉解決方案",
       "idx": [
         "S&P500"
       ],
@@ -263,6 +284,7 @@
     {
       "ticker": "NTRS",
       "name": "Northern Trust Corporation",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -275,6 +297,7 @@
     {
       "ticker": "NDSN",
       "name": "Nordson Corporation",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -287,6 +310,7 @@
     {
       "ticker": "WST",
       "name": "West Pharmaceutical Services, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -299,6 +323,7 @@
     {
       "ticker": "DGX",
       "name": "Quest Diagnostics Incorporated",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -309,8 +334,22 @@
       "p_hist_drift": 0.9556
     },
     {
+      "ticker": "ROKU",
+      "name": "Roku, Inc.",
+      "name_zh": "",
+      "idx": [
+        "S&P400"
+      ],
+      "s0": 160.52,
+      "sigma": 0.271,
+      "mu_hist": 0.4,
+      "p_zero_drift": 0.6926,
+      "p_hist_drift": 0.9555
+    },
+    {
       "ticker": "FDX",
       "name": "FedEx Corporation",
+      "name_zh": "聯邦快遞",
       "idx": [
         "S&P500"
       ],
@@ -323,6 +362,7 @@
     {
       "ticker": "SPG",
       "name": "Simon Property Group, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -335,6 +375,7 @@
     {
       "ticker": "KIM",
       "name": "Kimco Realty Corporation",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -347,6 +388,7 @@
     {
       "ticker": "VOYA",
       "name": "VOYA FINANCIAL, INC.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -359,6 +401,7 @@
     {
       "ticker": "ARMK",
       "name": "ARAMARK",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -371,6 +414,7 @@
     {
       "ticker": "UNP",
       "name": "Union Pacific Corporation",
+      "name_zh": "聯合太平洋鐵路",
       "idx": [
         "S&P500"
       ],
@@ -383,6 +427,7 @@
     {
       "ticker": "FAST",
       "name": "Fastenal Company",
+      "name_zh": "",
       "idx": [
         "Nasdaq100",
         "S&P500"
@@ -396,6 +441,7 @@
     {
       "ticker": "HLT",
       "name": "Hilton Worldwide Holdings Inc.",
+      "name_zh": "希爾頓酒店集團",
       "idx": [
         "S&P500"
       ],
@@ -408,6 +454,7 @@
     {
       "ticker": "JNJ",
       "name": "Johnson & Johnson",
+      "name_zh": "嬌生",
       "idx": [
         "S&P500"
       ],
@@ -420,6 +467,7 @@
     {
       "ticker": "VTRS",
       "name": "Viatris Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -432,6 +480,7 @@
     {
       "ticker": "WAB",
       "name": "Westinghouse Air Brake Technologies Corporation",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -444,6 +493,7 @@
     {
       "ticker": "BEN",
       "name": "Franklin Templeton Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -456,6 +506,7 @@
     {
       "ticker": "LH",
       "name": "Labcorp Holdings Inc.",
+      "name_zh": "徕博科",
       "idx": [
         "S&P500"
       ],
@@ -468,6 +519,7 @@
     {
       "ticker": "PAG",
       "name": "Penske Automotive Group, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -480,6 +532,7 @@
     {
       "ticker": "MRK",
       "name": "Merck & Co., Inc.",
+      "name_zh": "默克",
       "idx": [
         "S&P500"
       ],
@@ -492,6 +545,7 @@
     {
       "ticker": "CPAY",
       "name": "Corpay, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -504,6 +558,7 @@
     {
       "ticker": "MIDD",
       "name": "Middleby Corp",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -516,6 +571,7 @@
     {
       "ticker": "MO",
       "name": "Altria Group, Inc.",
+      "name_zh": "奧馳亞",
       "idx": [
         "S&P500"
       ],
@@ -528,6 +584,7 @@
     {
       "ticker": "ASH",
       "name": "Ashland Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -540,6 +597,7 @@
     {
       "ticker": "VLY",
       "name": "Valley National Bancorp",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -552,6 +610,7 @@
     {
       "ticker": "PFG",
       "name": "Principal Financial Group, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -564,6 +623,7 @@
     {
       "ticker": "CHD",
       "name": "Church & Dwight Co., Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -576,6 +636,7 @@
     {
       "ticker": "PK",
       "name": "Park Hotels & Resorts Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -588,6 +649,7 @@
     {
       "ticker": "EBAY",
       "name": "eBay Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -600,6 +662,7 @@
     {
       "ticker": "BIIB",
       "name": "Biogen Inc.",
+      "name_zh": "百健",
       "idx": [
         "S&P500"
       ],
@@ -612,6 +675,7 @@
     {
       "ticker": "LAMR",
       "name": "Lamar Advertising Co",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -624,6 +688,7 @@
     {
       "ticker": "USFD",
       "name": "US Foods Holding Corp.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -636,6 +701,7 @@
     {
       "ticker": "GRMN",
       "name": "Garmin Ltd.",
+      "name_zh": "台灣國際航電（Garmin）",
       "idx": [
         "S&P500"
       ],
@@ -648,6 +714,7 @@
     {
       "ticker": "R",
       "name": "Ryder System, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -658,8 +725,22 @@
       "p_hist_drift": 0.9413
     },
     {
+      "ticker": "CVX",
+      "name": "Chevron Corporation",
+      "name_zh": "雪佛龍",
+      "idx": [
+        "S&P500"
+      ],
+      "s0": 205.88,
+      "sigma": 0.2478,
+      "mu_hist": 0.3319,
+      "p_zero_drift": 0.6821,
+      "p_hist_drift": 0.9409
+    },
+    {
       "ticker": "SIGI",
       "name": "Selective Insurance Group",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -672,6 +753,7 @@
     {
       "ticker": "TRGP",
       "name": "Targa Resources Corp.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -684,11 +766,12 @@
     {
       "ticker": "HAS",
       "name": "Hasbro, Inc.",
+      "name_zh": "孩之寶",
       "idx": [
         "S&P500"
       ],
       "s0": 118.64,
-      "sigma": 0.3142,
+      "sigma": 0.3143,
       "mu_hist": 0.4,
       "p_zero_drift": 0.7074,
       "p_hist_drift": 0.9404
@@ -696,6 +779,7 @@
     {
       "ticker": "COP",
       "name": "ConocoPhillips",
+      "name_zh": "康菲石油",
       "idx": [
         "S&P500"
       ],
@@ -708,6 +792,7 @@
     {
       "ticker": "EXEL",
       "name": "Exelixis Inc",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -720,6 +805,7 @@
     {
       "ticker": "SEIC",
       "name": "SEI Investments Co",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -732,6 +818,7 @@
     {
       "ticker": "DRI",
       "name": "Darden Restaurants, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -744,6 +831,7 @@
     {
       "ticker": "AMG",
       "name": "Affiliated Managers Group",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -756,6 +844,7 @@
     {
       "ticker": "ROST",
       "name": "Ross Stores, Inc.",
+      "name_zh": "羅斯百貨",
       "idx": [
         "Nasdaq100",
         "S&P500"
@@ -769,6 +858,7 @@
     {
       "ticker": "TGT",
       "name": "Target Corporation",
+      "name_zh": "目標百貨",
       "idx": [
         "S&P500"
       ],
@@ -781,6 +871,7 @@
     {
       "ticker": "SIRI",
       "name": "Sirius XM Holdings,  Inc",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -793,6 +884,7 @@
     {
       "ticker": "MET",
       "name": "MetLife, Inc.",
+      "name_zh": "大都會人壽",
       "idx": [
         "S&P500"
       ],
@@ -803,20 +895,9 @@
       "p_hist_drift": 0.9364
     },
     {
-      "ticker": "CVX",
-      "name": "Chevron Corporation",
-      "idx": [
-        "S&P500"
-      ],
-      "s0": 205.88,
-      "sigma": 0.2516,
-      "mu_hist": 0.3237,
-      "p_zero_drift": 0.684,
-      "p_hist_drift": 0.9359
-    },
-    {
       "ticker": "LYV",
       "name": "Live Nation Entertainment, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -829,6 +910,7 @@
     {
       "ticker": "ALSN",
       "name": "ALLISON TRANSMISSION HOLDINGS, INC.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -841,6 +923,7 @@
     {
       "ticker": "ZION",
       "name": "Zions Bancorporation N.A.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -853,6 +936,7 @@
     {
       "ticker": "SAIC",
       "name": "Science Applications International Corporation",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -865,6 +949,7 @@
     {
       "ticker": "USB",
       "name": "U.S. Bancorp",
+      "name_zh": "美國合眾銀行",
       "idx": [
         "S&P500"
       ],
@@ -877,6 +962,7 @@
     {
       "ticker": "EG",
       "name": "Everest Group, Ltd.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -889,6 +975,7 @@
     {
       "ticker": "WTS",
       "name": "Watts Water Technologies, Inc. Class A",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -901,6 +988,7 @@
     {
       "ticker": "GILD",
       "name": "Gilead Sciences, Inc.",
+      "name_zh": "吉利德科學",
       "idx": [
         "Nasdaq100",
         "S&P500"
@@ -914,6 +1002,7 @@
     {
       "ticker": "NUE",
       "name": "Nucor Corporation",
+      "name_zh": "紐柯鋼鐵",
       "idx": [
         "S&P500"
       ],
@@ -926,6 +1015,7 @@
     {
       "ticker": "COLM",
       "name": "Columbia Sportswear Co",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -938,6 +1028,7 @@
     {
       "ticker": "XOM",
       "name": "ExxonMobil Holdings Corporation",
+      "name_zh": "埃克森美孚",
       "idx": [
         "S&P500"
       ],
@@ -950,6 +1041,7 @@
     {
       "ticker": "CAH",
       "name": "Cardinal Health, Inc.",
+      "name_zh": "卡地納健康",
       "idx": [
         "S&P500"
       ],
@@ -962,6 +1054,7 @@
     {
       "ticker": "PSX",
       "name": "Phillips 66",
+      "name_zh": "菲利普66",
       "idx": [
         "S&P500"
       ],
@@ -974,6 +1067,7 @@
     {
       "ticker": "FTI",
       "name": "TechnipFMC plc",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -986,6 +1080,7 @@
     {
       "ticker": "RNR",
       "name": "RenaissanceRe Holdings Ltd.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -998,6 +1093,7 @@
     {
       "ticker": "CFR",
       "name": "Cullen/Frost Bankers Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -1010,6 +1106,7 @@
     {
       "ticker": "JAZZ",
       "name": "Jazz Pharmaceuticals, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -1022,6 +1119,7 @@
     {
       "ticker": "KNX",
       "name": "Knight-Swift Transportation Holdings Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -1034,6 +1132,7 @@
     {
       "ticker": "DAR",
       "name": "DARLING INGREDIENTS INC.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -1046,6 +1145,7 @@
     {
       "ticker": "EWBC",
       "name": "East-West Bancorp Inc",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -1058,6 +1158,7 @@
     {
       "ticker": "ASB",
       "name": "Associated Banc-Corp",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -1070,6 +1171,7 @@
     {
       "ticker": "BALL",
       "name": "Ball Corporation",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -1082,6 +1184,7 @@
     {
       "ticker": "OVV",
       "name": "Ovintiv Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -1094,6 +1197,7 @@
     {
       "ticker": "WSM",
       "name": "Williams-Sonoma, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -1106,6 +1210,7 @@
     {
       "ticker": "AVNT",
       "name": "Avient Corporation",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -1118,6 +1223,7 @@
     {
       "ticker": "PR",
       "name": "Permian Resources Corporation",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -1130,6 +1236,7 @@
     {
       "ticker": "CUBE",
       "name": "CubeSmart",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -1142,6 +1249,7 @@
     {
       "ticker": "EOG",
       "name": "EOG Resources, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -1154,6 +1262,7 @@
     {
       "ticker": "AAPL",
       "name": "Apple Inc.",
+      "name_zh": "蘋果",
       "idx": [
         "Nasdaq100",
         "S&P500"
@@ -1167,6 +1276,7 @@
     {
       "ticker": "CCEP",
       "name": "Coca-Cola Europacific Partners PLC",
+      "name_zh": "",
       "idx": [
         "Nasdaq100"
       ],
@@ -1179,6 +1289,7 @@
     {
       "ticker": "MAS",
       "name": "Masco Corporation",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -1191,6 +1302,7 @@
     {
       "ticker": "DAL",
       "name": "Delta Air Lines, Inc.",
+      "name_zh": "達美航空",
       "idx": [
         "S&P500"
       ],
@@ -1203,6 +1315,7 @@
     {
       "ticker": "SWK",
       "name": "Stanley Black & Decker, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -1215,6 +1328,7 @@
     {
       "ticker": "CB",
       "name": "Chubb Limited",
+      "name_zh": "丘博保險",
       "idx": [
         "S&P500"
       ],
@@ -1225,8 +1339,22 @@
       "p_hist_drift": 0.9194
     },
     {
+      "ticker": "EQIX",
+      "name": "Equinix, Inc.",
+      "name_zh": "",
+      "idx": [
+        "S&P500"
+      ],
+      "s0": 1036.5,
+      "sigma": 0.2831,
+      "mu_hist": 0.3145,
+      "p_zero_drift": 0.6973,
+      "p_hist_drift": 0.9193
+    },
+    {
       "ticker": "NJR",
       "name": "New Jersey Resources Corp",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -1239,6 +1367,7 @@
     {
       "ticker": "DOW",
       "name": "Dow Inc.",
+      "name_zh": "陶氏化學",
       "idx": [
         "S&P500"
       ],
@@ -1251,6 +1380,7 @@
     {
       "ticker": "EXPD",
       "name": "Expeditors International of Washington, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -1263,6 +1393,7 @@
     {
       "ticker": "MUSA",
       "name": "MURPHY USA INC.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -1275,6 +1406,7 @@
     {
       "ticker": "XPO",
       "name": "XPO, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -1285,20 +1417,9 @@
       "p_hist_drift": 0.9174
     },
     {
-      "ticker": "EQIX",
-      "name": "Equinix, Inc.",
-      "idx": [
-        "S&P500"
-      ],
-      "s0": 1036.5,
-      "sigma": 0.2829,
-      "mu_hist": 0.3095,
-      "p_zero_drift": 0.6972,
-      "p_hist_drift": 0.9172
-    },
-    {
       "ticker": "PNC",
       "name": "The PNC Financial Services Group, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -1311,6 +1432,7 @@
     {
       "ticker": "STLD",
       "name": "Steel Dynamics, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -1323,6 +1445,7 @@
     {
       "ticker": "LUV",
       "name": "Southwest Airlines Co.",
+      "name_zh": "西南航空",
       "idx": [
         "S&P500"
       ],
@@ -1335,6 +1458,7 @@
     {
       "ticker": "FITB",
       "name": "Fifth Third Bancorp",
+      "name_zh": "第五三銀行",
       "idx": [
         "S&P500"
       ],
@@ -1347,6 +1471,7 @@
     {
       "ticker": "OKE",
       "name": "ONEOK, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -1359,6 +1484,7 @@
     {
       "ticker": "LIVN",
       "name": "LivaNova PLC",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -1371,6 +1497,7 @@
     {
       "ticker": "BAX",
       "name": "Baxter International Inc.",
+      "name_zh": "百特國際",
       "idx": [
         "S&P500"
       ],
@@ -1383,6 +1510,7 @@
     {
       "ticker": "LIN",
       "name": "Linde plc",
+      "name_zh": "林德集團",
       "idx": [
         "Nasdaq100",
         "S&P500"
@@ -1396,6 +1524,7 @@
     {
       "ticker": "FIVE",
       "name": "Five Below, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -1408,6 +1537,7 @@
     {
       "ticker": "ABNB",
       "name": "Airbnb, Inc.",
+      "name_zh": "愛彼迎",
       "idx": [
         "Nasdaq100",
         "S&P500"
@@ -1421,6 +1551,7 @@
     {
       "ticker": "KRYS",
       "name": "Krystal Biotech, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -1433,6 +1564,7 @@
     {
       "ticker": "MOG.A",
       "name": "Moog Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -1445,6 +1577,7 @@
     {
       "ticker": "HAE",
       "name": "Haemonetics Corporation",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -1457,18 +1590,20 @@
     {
       "ticker": "MPC",
       "name": "Marathon Petroleum Corporation",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
       "s0": 373.86,
-      "sigma": 0.4046,
+      "sigma": 0.4037,
       "mu_hist": 0.4,
-      "p_zero_drift": 0.7259,
-      "p_hist_drift": 0.9129
+      "p_zero_drift": 0.7258,
+      "p_hist_drift": 0.9132
     },
     {
       "ticker": "CHRD",
       "name": "Chord Energy Corporation",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -1481,6 +1616,7 @@
     {
       "ticker": "SBUX",
       "name": "Starbucks Corporation",
+      "name_zh": "星巴克",
       "idx": [
         "Nasdaq100",
         "S&P500"
@@ -1494,6 +1630,7 @@
     {
       "ticker": "FTV",
       "name": "Fortive Corporation",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -1506,6 +1643,7 @@
     {
       "ticker": "BRX",
       "name": "BRIXMOR PROPERTY GROUP INC.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -1518,6 +1656,7 @@
     {
       "ticker": "SN",
       "name": "SharkNinja, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -1530,6 +1669,7 @@
     {
       "ticker": "MANH",
       "name": "Manhattan Associates Inc",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -1542,6 +1682,7 @@
     {
       "ticker": "RVTY",
       "name": "Revvity, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -1554,6 +1695,7 @@
     {
       "ticker": "V",
       "name": "Visa Inc.",
+      "name_zh": "Visa",
       "idx": [
         "S&P500"
       ],
@@ -1566,6 +1708,7 @@
     {
       "ticker": "SNX",
       "name": "TD SYNNEX Corporation",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -1578,6 +1721,7 @@
     {
       "ticker": "ADI",
       "name": "Analog Devices, Inc.",
+      "name_zh": "亞德諾半導體",
       "idx": [
         "Nasdaq100",
         "S&P500"
@@ -1591,6 +1735,7 @@
     {
       "ticker": "TXN",
       "name": "Texas Instruments Incorporated",
+      "name_zh": "德州儀器",
       "idx": [
         "Nasdaq100",
         "S&P500"
@@ -1604,6 +1749,7 @@
     {
       "ticker": "DE",
       "name": "Deere & Company",
+      "name_zh": "迪爾公司",
       "idx": [
         "S&P500"
       ],
@@ -1616,6 +1762,7 @@
     {
       "ticker": "TKR",
       "name": "The Timken Company",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -1628,6 +1775,7 @@
     {
       "ticker": "VFC",
       "name": "V.F. Corporation",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -1640,6 +1788,7 @@
     {
       "ticker": "UMBF",
       "name": "UMB Financial Corp",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -1652,6 +1801,7 @@
     {
       "ticker": "FRT",
       "name": "Federal Realty Investment Trust",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -1664,6 +1814,7 @@
     {
       "ticker": "VLO",
       "name": "Valero Energy Corporation",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -1676,6 +1827,7 @@
     {
       "ticker": "CL",
       "name": "Colgate-Palmolive Company",
+      "name_zh": "高露潔棕欖",
       "idx": [
         "S&P500"
       ],
@@ -1688,6 +1840,7 @@
     {
       "ticker": "BMY",
       "name": "Bristol-Myers Squibb Company",
+      "name_zh": "必治妥施貴寶",
       "idx": [
         "S&P500"
       ],
@@ -1700,6 +1853,7 @@
     {
       "ticker": "PSA",
       "name": "Public Storage",
+      "name_zh": "公共儲存",
       "idx": [
         "S&P500"
       ],
@@ -1712,6 +1866,7 @@
     {
       "ticker": "AVTR",
       "name": "Avantor, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -1724,6 +1879,7 @@
     {
       "ticker": "HOG",
       "name": "Harley-Davidson, Inc.",
+      "name_zh": "哈雷機車",
       "idx": [
         "S&P400"
       ],
@@ -1736,6 +1892,7 @@
     {
       "ticker": "APA",
       "name": "APA Corporation",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -1748,6 +1905,7 @@
     {
       "ticker": "CCK",
       "name": "Crown Holdings Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -1760,6 +1918,7 @@
     {
       "ticker": "JBHT",
       "name": "J.B. Hunt Transport Services, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -1772,6 +1931,7 @@
     {
       "ticker": "DXCM",
       "name": "DexCom, Inc.",
+      "name_zh": "德康醫療",
       "idx": [
         "Nasdaq100",
         "S&P500"
@@ -1785,6 +1945,7 @@
     {
       "ticker": "EXR",
       "name": "Extra Space Storage Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -1797,6 +1958,7 @@
     {
       "ticker": "CFG",
       "name": "Citizens Financial Group, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -1809,6 +1971,7 @@
     {
       "ticker": "WELL",
       "name": "Welltower Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -1821,6 +1984,7 @@
     {
       "ticker": "LYB",
       "name": "LyondellBasell Industries N.V.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -1833,6 +1997,7 @@
     {
       "ticker": "FHI",
       "name": "Federated Hermes, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -1845,6 +2010,7 @@
     {
       "ticker": "TREX",
       "name": "Trex Company, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -1857,6 +2023,7 @@
     {
       "ticker": "LLY",
       "name": "Eli Lilly and Company",
+      "name_zh": "禮來",
       "idx": [
         "S&P500"
       ],
@@ -1869,6 +2036,7 @@
     {
       "ticker": "ARW",
       "name": "Arrow Electronics, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -1881,6 +2049,7 @@
     {
       "ticker": "EPR",
       "name": "EPR Properties",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -1893,6 +2062,7 @@
     {
       "ticker": "PM",
       "name": "Philip Morris International Inc.",
+      "name_zh": "菲利普莫里斯國際",
       "idx": [
         "S&P500"
       ],
@@ -1905,6 +2075,7 @@
     {
       "ticker": "DINO",
       "name": "HF Sinclair Corporation",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -1917,6 +2088,7 @@
     {
       "ticker": "CF",
       "name": "CF Industries Holdings, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -1929,6 +2101,7 @@
     {
       "ticker": "BTSG",
       "name": "BrightSpring Health Services, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -1941,6 +2114,7 @@
     {
       "ticker": "AVT",
       "name": "Avnet, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -1953,6 +2127,7 @@
     {
       "ticker": "ONB",
       "name": "Old National Bancorp",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -1965,6 +2140,7 @@
     {
       "ticker": "CART",
       "name": "Maplebear Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -1977,6 +2153,7 @@
     {
       "ticker": "KDP",
       "name": "Keurig Dr Pepper Inc.",
+      "name_zh": "奇寶飲料",
       "idx": [
         "Nasdaq100",
         "S&P500"
@@ -1990,6 +2167,7 @@
     {
       "ticker": "THC",
       "name": "Tenet Healthcare Corporation New",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -2002,6 +2180,7 @@
     {
       "ticker": "CNC",
       "name": "Centene Corporation",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -2014,6 +2193,7 @@
     {
       "ticker": "CBOE",
       "name": "Cboe Global Markets, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -2026,6 +2206,7 @@
     {
       "ticker": "SLB",
       "name": "SLB N.V.",
+      "name_zh": "斯倫貝謝",
       "idx": [
         "S&P500"
       ],
@@ -2038,6 +2219,7 @@
     {
       "ticker": "ALL",
       "name": "The Allstate Corporation",
+      "name_zh": "好事達保險",
       "idx": [
         "S&P500"
       ],
@@ -2050,6 +2232,7 @@
     {
       "ticker": "SJM",
       "name": "The J. M. Smucker Company",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -2062,6 +2245,7 @@
     {
       "ticker": "KRG",
       "name": "Kite Realty Group Trust",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -2074,6 +2258,7 @@
     {
       "ticker": "PPG",
       "name": "PPG Industries, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -2086,6 +2271,7 @@
     {
       "ticker": "CHH",
       "name": "Choice Hotels Intnl.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -2098,6 +2284,7 @@
     {
       "ticker": "TNL",
       "name": "Travel + Leisure Co.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -2110,6 +2297,7 @@
     {
       "ticker": "ATI",
       "name": "ATI Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -2122,6 +2310,7 @@
     {
       "ticker": "DD",
       "name": "DuPont de Nemours, Inc.",
+      "name_zh": "杜邦",
       "idx": [
         "S&P500"
       ],
@@ -2134,6 +2323,7 @@
     {
       "ticker": "AMGN",
       "name": "Amgen Inc.",
+      "name_zh": "安進",
       "idx": [
         "Nasdaq100",
         "S&P500"
@@ -2147,6 +2337,7 @@
     {
       "ticker": "ABBV",
       "name": "AbbVie Inc.",
+      "name_zh": "艾伯維",
       "idx": [
         "S&P500"
       ],
@@ -2159,6 +2350,7 @@
     {
       "ticker": "CRL",
       "name": "Charles River Laboratories International, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -2171,6 +2363,7 @@
     {
       "ticker": "ELF",
       "name": "e.l.f. Beauty, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -2183,6 +2376,7 @@
     {
       "ticker": "SSB",
       "name": "SouthState Bank Corporation",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -2195,6 +2389,7 @@
     {
       "ticker": "APD",
       "name": "Air Products and Chemicals, Inc.",
+      "name_zh": "空氣化工產品",
       "idx": [
         "S&P500"
       ],
@@ -2207,6 +2402,7 @@
     {
       "ticker": "AFG",
       "name": "American Financial Group, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -2219,6 +2415,7 @@
     {
       "ticker": "HUM",
       "name": "Humana Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -2231,6 +2428,7 @@
     {
       "ticker": "KEYS",
       "name": "Keysight Technologies, Inc.",
+      "name_zh": "是德科技",
       "idx": [
         "S&P500"
       ],
@@ -2243,6 +2441,7 @@
     {
       "ticker": "BBY",
       "name": "Best Buy Co., Inc.",
+      "name_zh": "百思買",
       "idx": [
         "S&P500"
       ],
@@ -2255,6 +2454,7 @@
     {
       "ticker": "TECH",
       "name": "Bio-Techne Corporation",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -2267,6 +2467,7 @@
     {
       "ticker": "PNW",
       "name": "Pinnacle West Capital Corporation",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -2279,6 +2480,7 @@
     {
       "ticker": "LFUS",
       "name": "Littelfuse Inc",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -2291,6 +2493,7 @@
     {
       "ticker": "EXPO",
       "name": "Exponent Inc",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -2303,6 +2506,7 @@
     {
       "ticker": "ODFL",
       "name": "Old Dominion Freight Line, Inc.",
+      "name_zh": "",
       "idx": [
         "Nasdaq100",
         "S&P500"
@@ -2316,6 +2520,7 @@
     {
       "ticker": "ROIV",
       "name": "Roivant Sciences Ltd. Common Shares",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -2328,6 +2533,7 @@
     {
       "ticker": "KEY",
       "name": "KeyCorp",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -2340,6 +2546,7 @@
     {
       "ticker": "EAT",
       "name": "Brinker International, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -2352,6 +2559,7 @@
     {
       "ticker": "CHE",
       "name": "Chemed Corporation",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -2364,6 +2572,7 @@
     {
       "ticker": "NTAP",
       "name": "NetApp, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -2376,6 +2585,7 @@
     {
       "ticker": "MOH",
       "name": "Molina Healthcare, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -2388,6 +2598,7 @@
     {
       "ticker": "EMR",
       "name": "Emerson Electric Co.",
+      "name_zh": "艾默生電氣",
       "idx": [
         "S&P500"
       ],
@@ -2400,6 +2611,7 @@
     {
       "ticker": "PKG",
       "name": "Packaging Corporation of America",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -2412,6 +2624,7 @@
     {
       "ticker": "REGN",
       "name": "Regeneron Pharmaceuticals, Inc.",
+      "name_zh": "再生元製藥",
       "idx": [
         "Nasdaq100",
         "S&P500"
@@ -2425,6 +2638,7 @@
     {
       "ticker": "GATX",
       "name": "GATX Corporation",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -2437,6 +2651,7 @@
     {
       "ticker": "WTFC",
       "name": "Wintrust Financial Corp",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -2449,6 +2664,7 @@
     {
       "ticker": "ZBRA",
       "name": "Zebra Technologies Corporation",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -2461,6 +2677,7 @@
     {
       "ticker": "SYNA",
       "name": "Synaptics Inc",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -2473,6 +2690,7 @@
     {
       "ticker": "MDLZ",
       "name": "Mondelez International, Inc.",
+      "name_zh": "億滋國際",
       "idx": [
         "Nasdaq100",
         "S&P500"
@@ -2481,11 +2699,12 @@
       "sigma": 0.2292,
       "mu_hist": 0.2155,
       "p_zero_drift": 0.672,
-      "p_hist_drift": 0.8851
+      "p_hist_drift": 0.8852
     },
     {
       "ticker": "H",
       "name": "Hyatt Hotels Corporation",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -2498,6 +2717,7 @@
     {
       "ticker": "MTB",
       "name": "M&T Bank Corporation",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -2510,6 +2730,7 @@
     {
       "ticker": "SOLS",
       "name": "Solstice Advanced Materials Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -2522,6 +2743,7 @@
     {
       "ticker": "WEX",
       "name": "WEX Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -2534,6 +2756,7 @@
     {
       "ticker": "COKE",
       "name": "Coca-Cola Consolidated, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -2546,6 +2769,7 @@
     {
       "ticker": "AXTA",
       "name": "Axalta Coating Systems Ltd.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -2558,6 +2782,7 @@
     {
       "ticker": "OXY",
       "name": "Occidental Petroleum Corporation",
+      "name_zh": "西方石油",
       "idx": [
         "S&P500"
       ],
@@ -2570,6 +2795,7 @@
     {
       "ticker": "CROX",
       "name": "Crocs, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -2582,6 +2808,7 @@
     {
       "ticker": "WMT",
       "name": "Walmart Inc.",
+      "name_zh": "沃爾瑪",
       "idx": [
         "Nasdaq100",
         "S&P500"
@@ -2595,6 +2822,7 @@
     {
       "ticker": "ADP",
       "name": "Automatic Data Processing, Inc.",
+      "name_zh": "",
       "idx": [
         "Nasdaq100",
         "S&P500"
@@ -2608,6 +2836,7 @@
     {
       "ticker": "CBT",
       "name": "Cabot Corporation",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -2618,8 +2847,22 @@
       "p_hist_drift": 0.8804
     },
     {
+      "ticker": "CSL",
+      "name": "Carlisle Companies, Inc.",
+      "name_zh": "",
+      "idx": [
+        "S&P400"
+      ],
+      "s0": 395.21,
+      "sigma": 0.3709,
+      "mu_hist": 0.2879,
+      "p_zero_drift": 0.7205,
+      "p_hist_drift": 0.8804
+    },
+    {
       "ticker": "IVZ",
       "name": "Invesco Ltd.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -2632,6 +2875,7 @@
     {
       "ticker": "AHR",
       "name": "American Healthcare REIT, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -2644,6 +2888,7 @@
     {
       "ticker": "VRSN",
       "name": "VeriSign, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -2656,6 +2901,7 @@
     {
       "ticker": "OGE",
       "name": "OGE Energy Corp.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -2668,6 +2914,7 @@
     {
       "ticker": "CDP",
       "name": "COPT Defense Properties",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -2680,6 +2927,7 @@
     {
       "ticker": "MCK",
       "name": "McKesson Corporation",
+      "name_zh": "麥克森",
       "idx": [
         "S&P500"
       ],
@@ -2692,6 +2940,7 @@
     {
       "ticker": "URI",
       "name": "United Rentals, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -2704,6 +2953,7 @@
     {
       "ticker": "DVA",
       "name": "DaVita Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -2714,20 +2964,9 @@
       "p_hist_drift": 0.8794
     },
     {
-      "ticker": "CSL",
-      "name": "Carlisle Companies, Inc.",
-      "idx": [
-        "S&P400"
-      ],
-      "s0": 395.21,
-      "sigma": 0.3704,
-      "mu_hist": 0.2846,
-      "p_zero_drift": 0.7204,
-      "p_hist_drift": 0.8791
-    },
-    {
       "ticker": "MNST",
       "name": "Monster Beverage Corporation",
+      "name_zh": "魔爪飲料",
       "idx": [
         "Nasdaq100",
         "S&P500"
@@ -2741,6 +2980,7 @@
     {
       "ticker": "MSM",
       "name": "MSC Industrial Direct Co., Inc. Class A",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -2753,6 +2993,7 @@
     {
       "ticker": "GHC",
       "name": "GRAHAM HOLDINGS COMPANY",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -2765,6 +3006,7 @@
     {
       "ticker": "PRU",
       "name": "Prudential Financial, Inc.",
+      "name_zh": "保德信金融集團",
       "idx": [
         "S&P500"
       ],
@@ -2777,6 +3019,7 @@
     {
       "ticker": "EW",
       "name": "Edwards Lifesciences Corporation",
+      "name_zh": "愛德華生命科學",
       "idx": [
         "S&P500"
       ],
@@ -2789,6 +3032,7 @@
     {
       "ticker": "TDY",
       "name": "Teledyne Technologies Incorporated",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -2801,6 +3045,7 @@
     {
       "ticker": "CRBG",
       "name": "Corebridge Financial, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -2813,6 +3058,7 @@
     {
       "ticker": "VNT",
       "name": "Vontier Corporation",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -2825,6 +3071,7 @@
     {
       "ticker": "COST",
       "name": "Costco Wholesale Corporation",
+      "name_zh": "好市多",
       "idx": [
         "Nasdaq100",
         "S&P500"
@@ -2838,6 +3085,7 @@
     {
       "ticker": "ECHO",
       "name": "EchoStar Corporation",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -2850,6 +3098,7 @@
     {
       "ticker": "ST",
       "name": "Sensata Technologies Holding plc",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -2862,6 +3111,7 @@
     {
       "ticker": "DLTR",
       "name": "Dollar Tree, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -2874,6 +3124,7 @@
     {
       "ticker": "EQH",
       "name": "Equitable Holdings, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -2886,6 +3137,7 @@
     {
       "ticker": "IRM",
       "name": "Iron Mountain Incorporated",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -2898,6 +3150,7 @@
     {
       "ticker": "CUZ",
       "name": "Cousins Properties Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -2910,6 +3163,7 @@
     {
       "ticker": "HALO",
       "name": "Halozyme Therapeutics, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -2922,6 +3176,7 @@
     {
       "ticker": "NDAQ",
       "name": "Nasdaq, Inc.",
+      "name_zh": "那斯達克公司",
       "idx": [
         "S&P500"
       ],
@@ -2932,8 +3187,22 @@
       "p_hist_drift": 0.8735
     },
     {
+      "ticker": "ED",
+      "name": "Consolidated Edison, Inc.",
+      "name_zh": "",
+      "idx": [
+        "S&P500"
+      ],
+      "s0": 119.27,
+      "sigma": 0.1872,
+      "mu_hist": 0.1785,
+      "p_zero_drift": 0.641,
+      "p_hist_drift": 0.8733
+    },
+    {
       "ticker": "CTAS",
       "name": "Cintas Corporation",
+      "name_zh": "",
       "idx": [
         "Nasdaq100",
         "S&P500"
@@ -2947,6 +3216,7 @@
     {
       "ticker": "SSD",
       "name": "Simpson Manufacturing Co., Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -2959,6 +3229,7 @@
     {
       "ticker": "DG",
       "name": "Dollar General Corporation",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -2971,6 +3242,7 @@
     {
       "ticker": "FTNT",
       "name": "Fortinet, Inc.",
+      "name_zh": "飛塔",
       "idx": [
         "Nasdaq100",
         "S&P500"
@@ -2984,6 +3256,7 @@
     {
       "ticker": "Q",
       "name": "Qnity Electronics, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -2996,6 +3269,7 @@
     {
       "ticker": "UPS",
       "name": "United Parcel Service, Inc.",
+      "name_zh": "美國聯合包裹",
       "idx": [
         "S&P500"
       ],
@@ -3008,6 +3282,7 @@
     {
       "ticker": "ANET",
       "name": "Arista Networks, Inc.",
+      "name_zh": "阿里斯塔網路",
       "idx": [
         "S&P500"
       ],
@@ -3020,6 +3295,7 @@
     {
       "ticker": "MTD",
       "name": "Mettler-Toledo International Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -3032,6 +3308,7 @@
     {
       "ticker": "RSG",
       "name": "Republic Services, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -3044,6 +3321,7 @@
     {
       "ticker": "PANW",
       "name": "Palo Alto Networks, Inc.",
+      "name_zh": "派拓網路",
       "idx": [
         "Nasdaq100",
         "S&P500"
@@ -3057,6 +3335,7 @@
     {
       "ticker": "TSN",
       "name": "Tyson Foods, Inc.",
+      "name_zh": "泰森食品",
       "idx": [
         "S&P500"
       ],
@@ -3069,6 +3348,7 @@
     {
       "ticker": "CINF",
       "name": "Cincinnati Financial Corporation",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -3081,6 +3361,7 @@
     {
       "ticker": "COLB",
       "name": "Columbia Banking Systems Inc",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -3093,6 +3374,7 @@
     {
       "ticker": "AME",
       "name": "AMETEK, Inc.",
+      "name_zh": "阿美泰克",
       "idx": [
         "S&P500"
       ],
@@ -3105,6 +3387,7 @@
     {
       "ticker": "IFF",
       "name": "International Flavors & Fragrances Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -3117,6 +3400,7 @@
     {
       "ticker": "NXPI",
       "name": "NXP Semiconductors N.V.",
+      "name_zh": "恩智浦半導體",
       "idx": [
         "Nasdaq100",
         "S&P500"
@@ -3130,6 +3414,7 @@
     {
       "ticker": "ULTA",
       "name": "Ulta Beauty, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -3142,6 +3427,7 @@
     {
       "ticker": "FFIV",
       "name": "F5, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -3154,6 +3440,7 @@
     {
       "ticker": "ASML",
       "name": "ASML Holding N.V.",
+      "name_zh": "艾司摩爾",
       "idx": [
         "Nasdaq100"
       ],
@@ -3166,6 +3453,7 @@
     {
       "ticker": "M",
       "name": "Macy's Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -3178,6 +3466,7 @@
     {
       "ticker": "PG",
       "name": "The Procter & Gamble Company",
+      "name_zh": "寶僑",
       "idx": [
         "S&P500"
       ],
@@ -3190,6 +3479,7 @@
     {
       "ticker": "VRTX",
       "name": "Vertex Pharmaceuticals Incorporated",
+      "name_zh": "福泰製藥",
       "idx": [
         "Nasdaq100",
         "S&P500"
@@ -3203,6 +3493,7 @@
     {
       "ticker": "RGLD",
       "name": "Royal Gold Inc",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -3215,6 +3506,7 @@
     {
       "ticker": "RLI",
       "name": "RLI Corp.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -3227,6 +3519,7 @@
     {
       "ticker": "RRC",
       "name": "Range Resources Corp",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -3239,6 +3532,7 @@
     {
       "ticker": "BRKR",
       "name": "Bruker Corporation",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -3249,20 +3543,9 @@
       "p_hist_drift": 0.8662
     },
     {
-      "ticker": "ED",
-      "name": "Consolidated Edison, Inc.",
-      "idx": [
-        "S&P500"
-      ],
-      "s0": 119.27,
-      "sigma": 0.187,
-      "mu_hist": 0.1711,
-      "p_zero_drift": 0.6408,
-      "p_hist_drift": 0.8662
-    },
-    {
       "ticker": "LMT",
       "name": "Lockheed Martin Corporation",
+      "name_zh": "洛克希德馬丁",
       "idx": [
         "S&P500"
       ],
@@ -3275,6 +3558,7 @@
     {
       "ticker": "ITW",
       "name": "Illinois Tool Works Inc.",
+      "name_zh": "伊利諾工具",
       "idx": [
         "S&P500"
       ],
@@ -3287,6 +3571,7 @@
     {
       "ticker": "VLTO",
       "name": "Veralto Corporation",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -3299,6 +3584,7 @@
     {
       "ticker": "EVRG",
       "name": "Evergy, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -3311,6 +3597,7 @@
     {
       "ticker": "CASY",
       "name": "Casey's General Stores, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -3323,6 +3610,7 @@
     {
       "ticker": "PFE",
       "name": "Pfizer Inc.",
+      "name_zh": "輝瑞",
       "idx": [
         "S&P500"
       ],
@@ -3335,6 +3623,7 @@
     {
       "ticker": "MA",
       "name": "Mastercard Incorporated",
+      "name_zh": "萬事達卡",
       "idx": [
         "S&P500"
       ],
@@ -3347,6 +3636,7 @@
     {
       "ticker": "OZK",
       "name": "Bank OZK",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -3359,6 +3649,7 @@
     {
       "ticker": "RF",
       "name": "Regions Financial Corporation",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -3371,6 +3662,7 @@
     {
       "ticker": "PWR",
       "name": "Quanta Services, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -3383,6 +3675,7 @@
     {
       "ticker": "MKSI",
       "name": "MKS Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -3395,6 +3688,7 @@
     {
       "ticker": "OMC",
       "name": "Omnicom Group Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -3407,6 +3701,7 @@
     {
       "ticker": "AMAT",
       "name": "Applied Materials, Inc.",
+      "name_zh": "應用材料",
       "idx": [
         "Nasdaq100",
         "S&P500"
@@ -3420,6 +3715,7 @@
     {
       "ticker": "RCL",
       "name": "Royal Caribbean Cruises Ltd.",
+      "name_zh": "皇家加勒比郵輪",
       "idx": [
         "S&P500"
       ],
@@ -3432,6 +3728,7 @@
     {
       "ticker": "GME",
       "name": "GameStop Corp. Class A",
+      "name_zh": "遊戲驛站",
       "idx": [
         "S&P400"
       ],
@@ -3444,6 +3741,7 @@
     {
       "ticker": "XYZ",
       "name": "Block, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -3456,6 +3754,7 @@
     {
       "ticker": "CRWD",
       "name": "CrowdStrike Holdings, Inc.",
+      "name_zh": "",
       "idx": [
         "Nasdaq100",
         "S&P500"
@@ -3469,6 +3768,7 @@
     {
       "ticker": "MPWR",
       "name": "Monolithic Power Systems, Inc.",
+      "name_zh": "",
       "idx": [
         "Nasdaq100",
         "S&P500"
@@ -3482,6 +3782,7 @@
     {
       "ticker": "FCN",
       "name": "FTI Consulting, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -3494,6 +3795,7 @@
     {
       "ticker": "TWLO",
       "name": "Twilio Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -3506,6 +3808,7 @@
     {
       "ticker": "ECL",
       "name": "Ecolab Inc.",
+      "name_zh": "藝康集團",
       "idx": [
         "S&P500"
       ],
@@ -3518,6 +3821,7 @@
     {
       "ticker": "PBF",
       "name": "PBF ENERGY INC.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -3530,6 +3834,7 @@
     {
       "ticker": "ATR",
       "name": "AptarGroup, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -3542,6 +3847,7 @@
     {
       "ticker": "SWX",
       "name": "Southwest Gas Holdings, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -3554,6 +3860,7 @@
     {
       "ticker": "TPR",
       "name": "Tapestry, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -3566,6 +3873,7 @@
     {
       "ticker": "CSCO",
       "name": "Cisco Systems, Inc.",
+      "name_zh": "思科",
       "idx": [
         "Nasdaq100",
         "S&P500"
@@ -3579,6 +3887,7 @@
     {
       "ticker": "ON",
       "name": "ON Semiconductor Corporation",
+      "name_zh": "安森美半導體",
       "idx": [
         "S&P500"
       ],
@@ -3591,6 +3900,7 @@
     {
       "ticker": "PEN",
       "name": "Penumbra, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -3603,6 +3913,7 @@
     {
       "ticker": "GBCI",
       "name": "Glacier Bancorp Inc",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -3615,6 +3926,7 @@
     {
       "ticker": "GNRC",
       "name": "Generac Holdings Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -3627,6 +3939,7 @@
     {
       "ticker": "TMO",
       "name": "Thermo Fisher Scientific Inc.",
+      "name_zh": "賽默飛世爾科技",
       "idx": [
         "S&P500"
       ],
@@ -3639,6 +3952,7 @@
     {
       "ticker": "HPE",
       "name": "Hewlett Packard Enterprise Company",
+      "name_zh": "慧與科技",
       "idx": [
         "S&P500"
       ],
@@ -3651,6 +3965,7 @@
     {
       "ticker": "A",
       "name": "Agilent Technologies, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -3663,6 +3978,7 @@
     {
       "ticker": "C",
       "name": "Citigroup Inc.",
+      "name_zh": "花旗集團",
       "idx": [
         "S&P500"
       ],
@@ -3675,6 +3991,7 @@
     {
       "ticker": "KMI",
       "name": "Kinder Morgan, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -3687,6 +4004,7 @@
     {
       "ticker": "LSCC",
       "name": "Lattice Semiconductor Corp",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -3699,6 +4017,7 @@
     {
       "ticker": "FCX",
       "name": "Freeport-McMoRan Inc.",
+      "name_zh": "自由港邁克莫蘭銅金礦",
       "idx": [
         "S&P500"
       ],
@@ -3711,6 +4030,7 @@
     {
       "ticker": "WAT",
       "name": "Waters Corporation",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -3723,6 +4043,7 @@
     {
       "ticker": "SON",
       "name": "Sonoco Products Company",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -3735,6 +4056,7 @@
     {
       "ticker": "CGNX",
       "name": "Cognex Corp",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -3747,6 +4069,7 @@
     {
       "ticker": "GL",
       "name": "Globe Life Inc.",
+      "name_zh": "環球人壽",
       "idx": [
         "S&P500"
       ],
@@ -3759,6 +4082,7 @@
     {
       "ticker": "ACGL",
       "name": "Arch Capital Group Ltd.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -3771,6 +4095,7 @@
     {
       "ticker": "HSIC",
       "name": "Henry Schein, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -3783,6 +4108,7 @@
     {
       "ticker": "HPQ",
       "name": "HP Inc.",
+      "name_zh": "惠普",
       "idx": [
         "S&P500"
       ],
@@ -3795,6 +4121,7 @@
     {
       "ticker": "SWKS",
       "name": "Skyworks Solutions, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -3807,6 +4134,7 @@
     {
       "ticker": "PVH",
       "name": "PVH Corp.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -3819,6 +4147,7 @@
     {
       "ticker": "ELV",
       "name": "Elevance Health, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -3831,6 +4160,7 @@
     {
       "ticker": "SAIA",
       "name": "Saia, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -3843,6 +4173,7 @@
     {
       "ticker": "VAL",
       "name": "Valaris Limited",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -3855,6 +4186,7 @@
     {
       "ticker": "EHC",
       "name": "Encompass Health Corporation",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -3867,6 +4199,7 @@
     {
       "ticker": "PRI",
       "name": "PRIMERICA, INC.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -3879,6 +4212,7 @@
     {
       "ticker": "ENTG",
       "name": "Entegris Inc",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -3891,6 +4225,7 @@
     {
       "ticker": "LECO",
       "name": "Lincoln Electric Holdings Inc",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -3903,6 +4238,7 @@
     {
       "ticker": "ANF",
       "name": "Abercrombie & Fitch Co.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -3915,6 +4251,7 @@
     {
       "ticker": "DOC",
       "name": "Healthpeak Properties, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -3927,6 +4264,7 @@
     {
       "ticker": "WM",
       "name": "Waste Management, Inc.",
+      "name_zh": "廢物管理公司",
       "idx": [
         "S&P500"
       ],
@@ -3939,6 +4277,7 @@
     {
       "ticker": "BILL",
       "name": "BILL Holdings, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -3951,6 +4290,7 @@
     {
       "ticker": "AM",
       "name": "Antero Midstream Corporation",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -3963,6 +4303,7 @@
     {
       "ticker": "TROW",
       "name": "T. Rowe Price Group, Inc.",
+      "name_zh": "普信集團",
       "idx": [
         "S&P500"
       ],
@@ -3975,6 +4316,7 @@
     {
       "ticker": "FNB",
       "name": "F.N.B. Corp",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -3987,6 +4329,7 @@
     {
       "ticker": "WTRG",
       "name": "Essential Utilities, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -3999,6 +4342,7 @@
     {
       "ticker": "RRX",
       "name": "Regal Rexnord Corporation",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -4011,6 +4355,7 @@
     {
       "ticker": "VZ",
       "name": "Verizon Communications Inc.",
+      "name_zh": "威訊通訊",
       "idx": [
         "S&P500"
       ],
@@ -4023,6 +4368,7 @@
     {
       "ticker": "AIT",
       "name": "Applied Industrial Technologies, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -4035,6 +4381,7 @@
     {
       "ticker": "SW",
       "name": "Smurfit Westrock Plc",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -4047,6 +4394,7 @@
     {
       "ticker": "LSTR",
       "name": "Landstar System Inc",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -4059,6 +4407,7 @@
     {
       "ticker": "MTDR",
       "name": "MATADOR RESOURCES COMPANY",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -4071,6 +4420,7 @@
     {
       "ticker": "GEV",
       "name": "GE Vernova Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -4083,6 +4433,7 @@
     {
       "ticker": "BC",
       "name": "Brunswick Corporation",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -4095,6 +4446,7 @@
     {
       "ticker": "BIO",
       "name": "Bio-Rad Laboratories, Inc.Class A",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -4107,6 +4459,7 @@
     {
       "ticker": "ELAN",
       "name": "Elanco Animal Health Incorporated",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -4119,6 +4472,7 @@
     {
       "ticker": "FLS",
       "name": "Flowserve Corporation",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -4131,6 +4485,7 @@
     {
       "ticker": "QLYS",
       "name": "Qualys, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -4143,6 +4498,7 @@
     {
       "ticker": "ALGN",
       "name": "Align Technology, Inc.",
+      "name_zh": "愛齊科技",
       "idx": [
         "S&P500"
       ],
@@ -4155,6 +4511,7 @@
     {
       "ticker": "JLL",
       "name": "Jones Lang LaSalle, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -4167,6 +4524,7 @@
     {
       "ticker": "LRCX",
       "name": "Lam Research Corporation",
+      "name_zh": "科林研發",
       "idx": [
         "Nasdaq100",
         "S&P500"
@@ -4180,6 +4538,7 @@
     {
       "ticker": "NVST",
       "name": "Envista Holdings Corporation Common stock, $0.01 par value per share",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -4192,6 +4551,7 @@
     {
       "ticker": "FANG",
       "name": "Diamondback Energy, Inc.",
+      "name_zh": "",
       "idx": [
         "Nasdaq100",
         "S&P500"
@@ -4203,8 +4563,22 @@
       "p_hist_drift": 0.8428
     },
     {
+      "ticker": "ADM",
+      "name": "Archer-Daniels-Midland Company",
+      "name_zh": "",
+      "idx": [
+        "S&P500"
+      ],
+      "s0": 67.78,
+      "sigma": 0.2864,
+      "mu_hist": 0.1795,
+      "p_zero_drift": 0.6985,
+      "p_hist_drift": 0.8427
+    },
+    {
       "ticker": "PNFP",
       "name": "Pinnacle Financial Partners, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -4217,6 +4591,7 @@
     {
       "ticker": "SBRA",
       "name": "Sabra Healthcare REIT, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -4229,6 +4604,7 @@
     {
       "ticker": "OKTA",
       "name": "Okta, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -4241,6 +4617,7 @@
     {
       "ticker": "NSC",
       "name": "Norfolk Southern Corporation",
+      "name_zh": "諾福克南方鐵路",
       "idx": [
         "S&P500"
       ],
@@ -4253,6 +4630,7 @@
     {
       "ticker": "WWD",
       "name": "Woodward, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -4265,6 +4643,7 @@
     {
       "ticker": "DVN",
       "name": "Devon Energy Corporation",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -4277,6 +4656,7 @@
     {
       "ticker": "AMD",
       "name": "Advanced Micro Devices, Inc.",
+      "name_zh": "超微半導體",
       "idx": [
         "Nasdaq100",
         "S&P500"
@@ -4290,6 +4670,7 @@
     {
       "ticker": "STX",
       "name": "Seagate Technology Holdings plc",
+      "name_zh": "希捷科技",
       "idx": [
         "Nasdaq100",
         "S&P500"
@@ -4303,6 +4684,7 @@
     {
       "ticker": "MU",
       "name": "Micron Technology, Inc.",
+      "name_zh": "美光科技",
       "idx": [
         "Nasdaq100",
         "S&P500"
@@ -4316,6 +4698,7 @@
     {
       "ticker": "UTHR",
       "name": "United Therapeutics Corp",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -4328,6 +4711,7 @@
     {
       "ticker": "HAL",
       "name": "Halliburton Company",
+      "name_zh": "哈里伯頓",
       "idx": [
         "S&P500"
       ],
@@ -4340,6 +4724,7 @@
     {
       "ticker": "ETR",
       "name": "Entergy Corporation",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -4352,6 +4737,7 @@
     {
       "ticker": "BJ",
       "name": "BJs Wholesale Club Holdings, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -4364,6 +4750,7 @@
     {
       "ticker": "GM",
       "name": "General Motors Company",
+      "name_zh": "通用汽車",
       "idx": [
         "S&P500"
       ],
@@ -4376,6 +4763,7 @@
     {
       "ticker": "IDA",
       "name": "IDACORP, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -4388,6 +4776,7 @@
     {
       "ticker": "BRK.B",
       "name": "Berkshire Hathaway Inc.",
+      "name_zh": "波克夏海瑟威",
       "idx": [
         "S&P500"
       ],
@@ -4398,20 +4787,9 @@
       "p_hist_drift": 0.8376
     },
     {
-      "ticker": "ADM",
-      "name": "Archer-Daniels-Midland Company",
-      "idx": [
-        "S&P500"
-      ],
-      "s0": 67.78,
-      "sigma": 0.2876,
-      "mu_hist": 0.1719,
-      "p_zero_drift": 0.699,
-      "p_hist_drift": 0.8374
-    },
-    {
       "ticker": "WDC",
       "name": "Western Digital Corporation",
+      "name_zh": "威騰電子",
       "idx": [
         "Nasdaq100",
         "S&P500"
@@ -4425,6 +4803,7 @@
     {
       "ticker": "ONTO",
       "name": "Onto Innovation Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -4437,6 +4816,7 @@
     {
       "ticker": "DIS",
       "name": "The Walt Disney Company",
+      "name_zh": "迪士尼",
       "idx": [
         "S&P500"
       ],
@@ -4449,6 +4829,7 @@
     {
       "ticker": "SMG",
       "name": "The Scotts Miracle-Gro Company",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -4461,6 +4842,7 @@
     {
       "ticker": "WCC",
       "name": "Wesco International Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -4471,8 +4853,22 @@
       "p_hist_drift": 0.8351
     },
     {
+      "ticker": "AFL",
+      "name": "Aflac Incorporated",
+      "name_zh": "美國家庭人壽保險",
+      "idx": [
+        "S&P500"
+      ],
+      "s0": 125.27,
+      "sigma": 0.1661,
+      "mu_hist": 0.135,
+      "p_zero_drift": 0.6192,
+      "p_hist_drift": 0.8346
+    },
+    {
       "ticker": "ALLE",
       "name": "Allegion plc",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -4485,6 +4881,7 @@
     {
       "ticker": "HGV",
       "name": "Hilton Grand Vacations Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -4497,6 +4894,7 @@
     {
       "ticker": "CR",
       "name": "Crane Company",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -4509,6 +4907,7 @@
     {
       "ticker": "AWK",
       "name": "American Water Works Company, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -4521,6 +4920,7 @@
     {
       "ticker": "HOMB",
       "name": "Home BancShares, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -4533,6 +4933,7 @@
     {
       "ticker": "PCTY",
       "name": "Paylocity Holding Corporation",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -4545,6 +4946,7 @@
     {
       "ticker": "DELL",
       "name": "Dell Technologies Inc.",
+      "name_zh": "戴爾科技",
       "idx": [
         "S&P500"
       ],
@@ -4557,6 +4959,7 @@
     {
       "ticker": "RL",
       "name": "Ralph Lauren Corporation",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -4569,6 +4972,7 @@
     {
       "ticker": "IQV",
       "name": "IQVIA Holdings Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -4581,6 +4985,7 @@
     {
       "ticker": "TEX",
       "name": "Terex Corporation",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -4593,6 +4998,7 @@
     {
       "ticker": "KEX",
       "name": "Kirby Corporation",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -4605,6 +5011,7 @@
     {
       "ticker": "EL",
       "name": "The Estée Lauder Companies Inc.",
+      "name_zh": "雅詩蘭黛",
       "idx": [
         "S&P500"
       ],
@@ -4617,6 +5024,7 @@
     {
       "ticker": "JCI",
       "name": "Johnson Controls International plc",
+      "name_zh": "江森自控",
       "idx": [
         "S&P500"
       ],
@@ -4629,6 +5037,7 @@
     {
       "ticker": "VIAV",
       "name": "Viavi Solutions Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -4641,6 +5050,7 @@
     {
       "ticker": "GEHC",
       "name": "GE HealthCare Technologies Inc.",
+      "name_zh": "奇異醫療",
       "idx": [
         "Nasdaq100",
         "S&P500"
@@ -4654,6 +5064,7 @@
     {
       "ticker": "MTN",
       "name": "Vail Resorts, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -4666,6 +5077,7 @@
     {
       "ticker": "EGP",
       "name": "EastGroup Properties Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -4678,6 +5090,7 @@
     {
       "ticker": "AES",
       "name": "The AES Corporation",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -4690,6 +5103,7 @@
     {
       "ticker": "MRVL",
       "name": "Marvell Technology, Inc.",
+      "name_zh": "邁威爾科技",
       "idx": [
         "Nasdaq100",
         "S&P500"
@@ -4701,20 +5115,9 @@
       "p_hist_drift": 0.8281
     },
     {
-      "ticker": "AFL",
-      "name": "Aflac Incorporated",
-      "idx": [
-        "S&P500"
-      ],
-      "s0": 125.27,
-      "sigma": 0.1674,
-      "mu_hist": 0.1303,
-      "p_zero_drift": 0.6207,
-      "p_hist_drift": 0.828
-    },
-    {
       "ticker": "CMG",
       "name": "Chipotle Mexican Grill, Inc.",
+      "name_zh": "奇波雷墨式燒烤",
       "idx": [
         "S&P500"
       ],
@@ -4727,6 +5130,7 @@
     {
       "ticker": "MRSH",
       "name": "Marsh & McLennan Companies, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -4739,6 +5143,7 @@
     {
       "ticker": "SITM",
       "name": "SiTime Corporation",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -4751,6 +5156,7 @@
     {
       "ticker": "IBKR",
       "name": "Interactive Brokers Group, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -4763,6 +5169,7 @@
     {
       "ticker": "BLK",
       "name": "BlackRock, Inc.",
+      "name_zh": "貝萊德",
       "idx": [
         "S&P500"
       ],
@@ -4775,6 +5182,7 @@
     {
       "ticker": "JBL",
       "name": "Jabil Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -4787,6 +5195,7 @@
     {
       "ticker": "WH",
       "name": "Wyndham Hotels & Resorts, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -4799,6 +5208,7 @@
     {
       "ticker": "TER",
       "name": "Teradyne, Inc.",
+      "name_zh": "",
       "idx": [
         "Nasdaq100",
         "S&P500"
@@ -4812,6 +5222,7 @@
     {
       "ticker": "CME",
       "name": "CME Group Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -4824,6 +5235,7 @@
     {
       "ticker": "GEF",
       "name": "Greif, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -4836,6 +5248,7 @@
     {
       "ticker": "DOCN",
       "name": "DigitalOcean Holdings, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -4848,6 +5261,7 @@
     {
       "ticker": "ICE",
       "name": "Intercontinental Exchange, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -4860,6 +5274,7 @@
     {
       "ticker": "REG",
       "name": "Regency Centers Corporation",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -4872,6 +5287,7 @@
     {
       "ticker": "DLR",
       "name": "Digital Realty Trust, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -4884,6 +5300,7 @@
     {
       "ticker": "NEM",
       "name": "Newmont Corporation",
+      "name_zh": "紐蒙特礦業",
       "idx": [
         "S&P500"
       ],
@@ -4896,6 +5313,7 @@
     {
       "ticker": "ZBH",
       "name": "Zimmer Biomet Holdings, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -4908,6 +5326,7 @@
     {
       "ticker": "CDW",
       "name": "CDW Corporation",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -4920,6 +5339,7 @@
     {
       "ticker": "MS",
       "name": "Morgan Stanley",
+      "name_zh": "摩根士丹利",
       "idx": [
         "S&P500"
       ],
@@ -4932,6 +5352,7 @@
     {
       "ticker": "INTC",
       "name": "Intel Corporation",
+      "name_zh": "英特爾",
       "idx": [
         "Nasdaq100",
         "S&P500"
@@ -4945,6 +5366,7 @@
     {
       "ticker": "KLAC",
       "name": "KLA Corporation",
+      "name_zh": "科磊",
       "idx": [
         "Nasdaq100",
         "S&P500"
@@ -4958,6 +5380,7 @@
     {
       "ticker": "MSA",
       "name": "Mine Safety Incorporated",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -4970,6 +5393,7 @@
     {
       "ticker": "D",
       "name": "Dominion Energy, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -4982,6 +5406,7 @@
     {
       "ticker": "GLW",
       "name": "Corning Incorporated",
+      "name_zh": "康寧",
       "idx": [
         "S&P500"
       ],
@@ -4994,6 +5419,7 @@
     {
       "ticker": "UGI",
       "name": "UGI Corporation",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -5006,6 +5432,7 @@
     {
       "ticker": "MTSI",
       "name": "MACOM Technology Solutions Holdings, Inc",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -5018,6 +5445,7 @@
     {
       "ticker": "CBSH",
       "name": "Commerce Bancshares Inc",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -5030,6 +5458,7 @@
     {
       "ticker": "VTR",
       "name": "Ventas, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -5042,6 +5471,7 @@
     {
       "ticker": "AMP",
       "name": "Ameriprise Financial, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -5054,6 +5484,7 @@
     {
       "ticker": "MSCI",
       "name": "MSCI Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -5066,6 +5497,7 @@
     {
       "ticker": "SNA",
       "name": "Snap-on Incorporated",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -5078,6 +5510,7 @@
     {
       "ticker": "COHR",
       "name": "Coherent Corp.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -5090,6 +5523,7 @@
     {
       "ticker": "WMB",
       "name": "The Williams Companies, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -5102,6 +5536,7 @@
     {
       "ticker": "GPN",
       "name": "Global Payments Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -5114,6 +5549,7 @@
     {
       "ticker": "OSK",
       "name": "Oshkosh Corp.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -5126,6 +5562,7 @@
     {
       "ticker": "PB",
       "name": "Prosperity Bancshares Inc",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -5138,6 +5575,7 @@
     {
       "ticker": "UAL",
       "name": "United Airlines Holdings, Inc.",
+      "name_zh": "美國聯合航空",
       "idx": [
         "S&P500"
       ],
@@ -5150,6 +5588,7 @@
     {
       "ticker": "SMTC",
       "name": "Semtech Corp",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -5162,6 +5601,7 @@
     {
       "ticker": "OC",
       "name": "Owens Corning",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -5174,6 +5614,7 @@
     {
       "ticker": "PFGC",
       "name": "Performance Food Group Company",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -5186,6 +5627,7 @@
     {
       "ticker": "DBX",
       "name": "Dropbox, Inc. Class A",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -5198,6 +5640,7 @@
     {
       "ticker": "TOL",
       "name": "Toll Brothers, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -5210,6 +5653,7 @@
     {
       "ticker": "DOCU",
       "name": "DocuSign, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -5222,6 +5666,7 @@
     {
       "ticker": "RTX",
       "name": "RTX Corporation",
+      "name_zh": "雷神技術",
       "idx": [
         "S&P500"
       ],
@@ -5234,6 +5679,7 @@
     {
       "ticker": "ITT",
       "name": "ITT Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -5246,6 +5692,7 @@
     {
       "ticker": "FDS",
       "name": "FactSet Research Systems Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -5258,6 +5705,7 @@
     {
       "ticker": "GEN",
       "name": "Gen Digital Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -5270,6 +5718,7 @@
     {
       "ticker": "CIEN",
       "name": "Ciena Corporation",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -5282,6 +5731,7 @@
     {
       "ticker": "DOV",
       "name": "Dover Corporation",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -5294,6 +5744,7 @@
     {
       "ticker": "GS",
       "name": "The Goldman Sachs Group, Inc.",
+      "name_zh": "高盛集團",
       "idx": [
         "S&P500"
       ],
@@ -5306,6 +5757,7 @@
     {
       "ticker": "ESS",
       "name": "Essex Property Trust, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -5318,6 +5770,7 @@
     {
       "ticker": "AMZN",
       "name": "Amazon.com, Inc.",
+      "name_zh": "亞馬遜",
       "idx": [
         "Nasdaq100",
         "S&P500"
@@ -5331,6 +5784,7 @@
     {
       "ticker": "BWA",
       "name": "BorgWarner Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -5343,6 +5797,7 @@
     {
       "ticker": "MORN",
       "name": "Morningstar, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -5355,6 +5810,7 @@
     {
       "ticker": "ALAB",
       "name": "Astera Labs, Inc.",
+      "name_zh": "",
       "idx": [
         "Nasdaq100"
       ],
@@ -5367,6 +5823,7 @@
     {
       "ticker": "VNOM",
       "name": "Viper Energy, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -5379,6 +5836,7 @@
     {
       "ticker": "WFRD",
       "name": "Weatherford International plc",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -5391,6 +5849,7 @@
     {
       "ticker": "FHN",
       "name": "First Horizon Corporation",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -5403,6 +5862,7 @@
     {
       "ticker": "TFC",
       "name": "Truist Financial Corporation",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -5415,6 +5875,7 @@
     {
       "ticker": "CVLT",
       "name": "Commault Systems, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -5427,6 +5888,7 @@
     {
       "ticker": "NOV",
       "name": "NOV Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -5439,6 +5901,7 @@
     {
       "ticker": "OHI",
       "name": "Omega Healthcare Investors Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -5451,6 +5914,7 @@
     {
       "ticker": "HWC",
       "name": "Hancock Whitney Corporation",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -5463,6 +5927,7 @@
     {
       "ticker": "FIX",
       "name": "Comfort Systems USA, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -5475,6 +5940,7 @@
     {
       "ticker": "LITE",
       "name": "Lumentum Holdings Inc.",
+      "name_zh": "",
       "idx": [
         "Nasdaq100",
         "S&P500"
@@ -5488,6 +5954,7 @@
     {
       "ticker": "GXO",
       "name": "GXO Logistics, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -5500,6 +5967,7 @@
     {
       "ticker": "MUR",
       "name": "Murphy Oil Corp.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -5512,6 +5980,7 @@
     {
       "ticker": "MCHP",
       "name": "Microchip Technology Incorporated",
+      "name_zh": "微芯科技",
       "idx": [
         "Nasdaq100",
         "S&P500"
@@ -5525,6 +5994,7 @@
     {
       "ticker": "SOLV",
       "name": "Solventum Corporation",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -5535,21 +6005,9 @@
       "p_hist_drift": 0.8056
     },
     {
-      "ticker": "SNDK",
-      "name": "Sandisk Corporation",
-      "idx": [
-        "Nasdaq100",
-        "S&P500"
-      ],
-      "s0": 776.22,
-      "sigma": 1.0338,
-      "mu_hist": 0.4,
-      "p_zero_drift": 0.727,
-      "p_hist_drift": 0.8055
-    },
-    {
       "ticker": "CCL",
       "name": "Carnival Corporation Ltd.",
+      "name_zh": "嘉年華郵輪",
       "idx": [
         "S&P500"
       ],
@@ -5562,6 +6020,7 @@
     {
       "ticker": "BF.B",
       "name": "Brown-Forman Corporation",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -5574,6 +6033,7 @@
     {
       "ticker": "FLEX",
       "name": "Flex Ltd.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -5586,6 +6046,7 @@
     {
       "ticker": "TXRH",
       "name": "Texas Roadhouse, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -5598,6 +6059,7 @@
     {
       "ticker": "VICR",
       "name": "Vicor Corp",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -5610,6 +6072,7 @@
     {
       "ticker": "VMRK",
       "name": "Vivmark Residential",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -5622,6 +6085,7 @@
     {
       "ticker": "PCAR",
       "name": "PACCAR Inc",
+      "name_zh": "",
       "idx": [
         "Nasdaq100",
         "S&P500"
@@ -5635,6 +6099,7 @@
     {
       "ticker": "HR",
       "name": "Healthcare Realty Trust Incorporated",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -5647,6 +6112,7 @@
     {
       "ticker": "FLR",
       "name": "Fluor Corporation",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -5659,6 +6125,7 @@
     {
       "ticker": "AVY",
       "name": "Avery Dennison Corporation",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -5671,6 +6138,7 @@
     {
       "ticker": "APG",
       "name": "APi Group Corporation",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -5683,6 +6151,7 @@
     {
       "ticker": "NYT",
       "name": "New York Times Co.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -5695,6 +6164,7 @@
     {
       "ticker": "CNH",
       "name": "CNH INDUSTRIAL N.V.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -5707,6 +6177,7 @@
     {
       "ticker": "APH",
       "name": "Amphenol Corporation",
+      "name_zh": "安費諾",
       "idx": [
         "S&P500"
       ],
@@ -5719,6 +6190,7 @@
     {
       "ticker": "ARM",
       "name": "Arm Holdings plc",
+      "name_zh": "安謀控股",
       "idx": [
         "Nasdaq100"
       ],
@@ -5731,6 +6203,7 @@
     {
       "ticker": "RGEN",
       "name": "Repligen Corp",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -5743,6 +6216,7 @@
     {
       "ticker": "INCY",
       "name": "Incyte Corporation",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -5755,6 +6229,7 @@
     {
       "ticker": "PH",
       "name": "Parker-Hannifin Corporation",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -5767,6 +6242,7 @@
     {
       "ticker": "HRB",
       "name": "H&R Block, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -5779,6 +6255,7 @@
     {
       "ticker": "NXST",
       "name": "Nexstar Media Group, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -5791,6 +6268,7 @@
     {
       "ticker": "NBIX",
       "name": "Neurocrine Biosciences Inc",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -5803,6 +6281,7 @@
     {
       "ticker": "STZ",
       "name": "Constellation Brands, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -5815,6 +6294,7 @@
     {
       "ticker": "BMRN",
       "name": "BioMarin Pharmaceuticals Inc",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -5827,6 +6307,7 @@
     {
       "ticker": "ALGM",
       "name": "Allegro MicroSystems, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -5839,6 +6320,7 @@
     {
       "ticker": "CAVA",
       "name": "CAVA Group, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -5851,6 +6333,7 @@
     {
       "ticker": "EIX",
       "name": "Edison International",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -5863,6 +6346,7 @@
     {
       "ticker": "CLX",
       "name": "The Clorox Company",
+      "name_zh": "高樂氏",
       "idx": [
         "S&P500"
       ],
@@ -5875,6 +6359,7 @@
     {
       "ticker": "MRNA",
       "name": "Moderna, Inc.",
+      "name_zh": "莫德納",
       "idx": [
         "S&P500"
       ],
@@ -5887,6 +6372,7 @@
     {
       "ticker": "IR",
       "name": "Ingersoll Rand Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -5899,6 +6385,7 @@
     {
       "ticker": "UNH",
       "name": "UnitedHealth Group Incorporated",
+      "name_zh": "聯合健康集團",
       "idx": [
         "S&P500"
       ],
@@ -5911,6 +6398,7 @@
     {
       "ticker": "HXL",
       "name": "Hexcel Corporation",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -5923,6 +6411,7 @@
     {
       "ticker": "NOVT",
       "name": "Novanta Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -5935,6 +6424,7 @@
     {
       "ticker": "MMM",
       "name": "3M Company",
+      "name_zh": "3M公司",
       "idx": [
         "S&P500"
       ],
@@ -5947,6 +6437,7 @@
     {
       "ticker": "FCFS",
       "name": "FirstCash Holdings, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -5959,6 +6450,7 @@
     {
       "ticker": "KHC",
       "name": "The Kraft Heinz Company",
+      "name_zh": "卡夫亨氏",
       "idx": [
         "S&P500"
       ],
@@ -5971,6 +6463,7 @@
     {
       "ticker": "WMG",
       "name": "Warner Music Group Corp.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -5983,6 +6476,7 @@
     {
       "ticker": "YUM",
       "name": "Yum! Brands, Inc.",
+      "name_zh": "百勝餐飲集團",
       "idx": [
         "S&P500"
       ],
@@ -5995,6 +6489,7 @@
     {
       "ticker": "OPCH",
       "name": "Option Care Health, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -6007,6 +6502,7 @@
     {
       "ticker": "RKLB",
       "name": "Rocket Lab Corporation",
+      "name_zh": "火箭實驗室",
       "idx": [
         "Nasdaq100"
       ],
@@ -6019,6 +6515,7 @@
     {
       "ticker": "PHM",
       "name": "PulteGroup, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -6031,6 +6528,7 @@
     {
       "ticker": "PTC",
       "name": "PTC Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -6043,6 +6541,7 @@
     {
       "ticker": "SARO",
       "name": "StandardAero, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -6055,6 +6554,7 @@
     {
       "ticker": "RBC",
       "name": "RBC Bearings Incorporated",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -6067,6 +6567,7 @@
     {
       "ticker": "SLGN",
       "name": "Silgan Holdings Inc",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -6079,6 +6580,7 @@
     {
       "ticker": "VRT",
       "name": "Vertiv Holdings Co",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -6091,6 +6593,7 @@
     {
       "ticker": "MEDP",
       "name": "Medpace Holdings, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -6103,6 +6606,7 @@
     {
       "ticker": "SNPS",
       "name": "Synopsys, Inc.",
+      "name_zh": "新思科技",
       "idx": [
         "Nasdaq100",
         "S&P500"
@@ -6116,6 +6620,7 @@
     {
       "ticker": "HWM",
       "name": "Howmet Aerospace Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -6128,6 +6633,7 @@
     {
       "ticker": "AJG",
       "name": "Arthur J. Gallagher & Co.",
+      "name_zh": "亞瑟嘉利",
       "idx": [
         "S&P500"
       ],
@@ -6140,6 +6646,7 @@
     {
       "ticker": "AEE",
       "name": "Ameren Corporation",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -6152,6 +6659,7 @@
     {
       "ticker": "HON",
       "name": "Honeywell International Inc.",
+      "name_zh": "漢威聯合",
       "idx": [
         "Nasdaq100",
         "S&P500"
@@ -6165,6 +6673,7 @@
     {
       "ticker": "GE",
       "name": "GE Aerospace",
+      "name_zh": "奇異航太",
       "idx": [
         "S&P500"
       ],
@@ -6177,6 +6686,7 @@
     {
       "ticker": "JPM",
       "name": "JPMorgan Chase & Co.",
+      "name_zh": "摩根大通",
       "idx": [
         "S&P500"
       ],
@@ -6189,6 +6699,7 @@
     {
       "ticker": "AMCR",
       "name": "Amcor plc",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -6201,6 +6712,7 @@
     {
       "ticker": "HRL",
       "name": "Hormel Foods Corporation",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -6213,6 +6725,7 @@
     {
       "ticker": "CVNA",
       "name": "Carvana Co.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -6225,6 +6738,7 @@
     {
       "ticker": "PII",
       "name": "Polaris Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -6237,6 +6751,7 @@
     {
       "ticker": "YETI",
       "name": "YETI Holdings, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -6249,6 +6764,7 @@
     {
       "ticker": "AMKR",
       "name": "Amkor Technology Inc",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -6261,6 +6777,7 @@
     {
       "ticker": "AR",
       "name": "ANTERO RESOURCES CORPORATION",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -6273,18 +6790,20 @@
     {
       "ticker": "EXLS",
       "name": "ExlService Holdings, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
-      "s0": 42.22,
+      "s0": 42.23,
       "sigma": 0.3527,
-      "mu_hist": 0.0854,
+      "mu_hist": 0.0855,
       "p_zero_drift": 0.7169,
-      "p_hist_drift": 0.7743
+      "p_hist_drift": 0.7744
     },
     {
       "ticker": "BCO",
       "name": "The Brink's Company",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -6297,6 +6816,7 @@
     {
       "ticker": "ROK",
       "name": "Rockwell Automation, Inc.",
+      "name_zh": "羅克韋爾自動化",
       "idx": [
         "S&P500"
       ],
@@ -6309,6 +6829,7 @@
     {
       "ticker": "UDR",
       "name": "UDR, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -6321,6 +6842,7 @@
     {
       "ticker": "ESNT",
       "name": "Essent Group LTD",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -6333,6 +6855,7 @@
     {
       "ticker": "KMB",
       "name": "Kimberly-Clark Corporation",
+      "name_zh": "金百利克拉克",
       "idx": [
         "S&P500"
       ],
@@ -6345,6 +6868,7 @@
     {
       "ticker": "JKHY",
       "name": "Jack Henry & Associates, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -6357,6 +6881,7 @@
     {
       "ticker": "FERG",
       "name": "Ferguson Enterprises Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -6369,6 +6894,7 @@
     {
       "ticker": "LEA",
       "name": "Lear Corporation",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -6381,6 +6907,7 @@
     {
       "ticker": "LNT",
       "name": "Alliant Energy Corporation",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -6393,6 +6920,7 @@
     {
       "ticker": "NBIS",
       "name": "Nebius Group N.V.",
+      "name_zh": "",
       "idx": [
         "Nasdaq100"
       ],
@@ -6405,6 +6933,7 @@
     {
       "ticker": "MGM",
       "name": "MGM Resorts International",
+      "name_zh": "美高梅",
       "idx": [
         "S&P500"
       ],
@@ -6417,6 +6946,7 @@
     {
       "ticker": "CTRE",
       "name": "CareTrust REIT, Inc",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -6429,6 +6959,7 @@
     {
       "ticker": "TTEK",
       "name": "Tetra Tech Inc",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -6441,6 +6972,7 @@
     {
       "ticker": "ARWR",
       "name": "Arrowhead Research Corporation",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -6453,6 +6985,7 @@
     {
       "ticker": "FAF",
       "name": "First American Financial Corporation",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -6465,6 +6998,7 @@
     {
       "ticker": "AEIS",
       "name": "Advanced Energy Industries Inc",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -6477,6 +7011,7 @@
     {
       "ticker": "PAYX",
       "name": "Paychex, Inc.",
+      "name_zh": "",
       "idx": [
         "Nasdaq100",
         "S&P500"
@@ -6490,6 +7025,7 @@
     {
       "ticker": "MDT",
       "name": "Medtronic plc",
+      "name_zh": "美敦力",
       "idx": [
         "S&P500"
       ],
@@ -6502,6 +7038,7 @@
     {
       "ticker": "CVS",
       "name": "CVS Health Corporation",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -6514,6 +7051,7 @@
     {
       "ticker": "CLF",
       "name": "Cleveland-Cliffs Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -6526,6 +7064,7 @@
     {
       "ticker": "PGR",
       "name": "The Progressive Corporation",
+      "name_zh": "前進保險",
       "idx": [
         "S&P500"
       ],
@@ -6538,6 +7077,7 @@
     {
       "ticker": "WEC",
       "name": "WEC Energy Group, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -6550,6 +7090,7 @@
     {
       "ticker": "ROP",
       "name": "Roper Technologies, Inc.",
+      "name_zh": "",
       "idx": [
         "Nasdaq100",
         "S&P500"
@@ -6563,6 +7104,7 @@
     {
       "ticker": "VVV",
       "name": "Valvoline Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -6575,6 +7117,7 @@
     {
       "ticker": "NVT",
       "name": "nVent Electric plc",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -6587,6 +7130,7 @@
     {
       "ticker": "EME",
       "name": "EMCOR Group, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -6599,6 +7143,7 @@
     {
       "ticker": "AIG",
       "name": "American International Group, Inc.",
+      "name_zh": "美國國際集團",
       "idx": [
         "S&P500"
       ],
@@ -6611,6 +7156,7 @@
     {
       "ticker": "CI",
       "name": "The Cigna Group",
+      "name_zh": "信諾保險",
       "idx": [
         "S&P500"
       ],
@@ -6623,6 +7169,7 @@
     {
       "ticker": "SHW",
       "name": "The Sherwin-Williams Company",
+      "name_zh": "宣偉塗料",
       "idx": [
         "S&P500"
       ],
@@ -6635,6 +7182,7 @@
     {
       "ticker": "BAH",
       "name": "Booz Allen Hamilton Holding Corporation",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -6647,6 +7195,7 @@
     {
       "ticker": "DHI",
       "name": "D.R. Horton, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -6659,6 +7208,7 @@
     {
       "ticker": "AAL",
       "name": "American Airlines Group Inc.",
+      "name_zh": "美國航空",
       "idx": [
         "S&P400"
       ],
@@ -6671,6 +7221,7 @@
     {
       "ticker": "KR",
       "name": "The Kroger Co.",
+      "name_zh": "克羅格",
       "idx": [
         "S&P500"
       ],
@@ -6683,6 +7234,7 @@
     {
       "ticker": "SHC",
       "name": "Sotera Health Company",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -6695,6 +7247,7 @@
     {
       "ticker": "SYY",
       "name": "Sysco Corporation",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -6707,6 +7260,7 @@
     {
       "ticker": "AKAM",
       "name": "Akamai Technologies, Inc.",
+      "name_zh": "阿卡邁",
       "idx": [
         "S&P500"
       ],
@@ -6719,6 +7273,7 @@
     {
       "ticker": "VNO",
       "name": "Vornado Realty Trust",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -6731,6 +7286,7 @@
     {
       "ticker": "AMT",
       "name": "American Tower Corporation",
+      "name_zh": "美國鐵塔",
       "idx": [
         "S&P500"
       ],
@@ -6743,6 +7299,7 @@
     {
       "ticker": "ALV",
       "name": "Autoliv, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -6755,6 +7312,7 @@
     {
       "ticker": "LAD",
       "name": "Lithia Motors, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -6767,6 +7325,7 @@
     {
       "ticker": "AVGO",
       "name": "Broadcom Inc.",
+      "name_zh": "博通",
       "idx": [
         "Nasdaq100",
         "S&P500"
@@ -6780,6 +7339,7 @@
     {
       "ticker": "BSY",
       "name": "Bentley Systems, Incorporated",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -6792,6 +7352,7 @@
     {
       "ticker": "IDXX",
       "name": "IDEXX Laboratories, Inc.",
+      "name_zh": "",
       "idx": [
         "Nasdaq100",
         "S&P500"
@@ -6805,6 +7366,7 @@
     {
       "ticker": "FBIN",
       "name": "Fortune Brands Innovations, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -6817,6 +7379,7 @@
     {
       "ticker": "AGCO",
       "name": "AGCO Corporation",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -6829,6 +7392,7 @@
     {
       "ticker": "J",
       "name": "Jacobs Solutions Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -6841,6 +7405,7 @@
     {
       "ticker": "O",
       "name": "Realty Income Corporation",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -6853,6 +7418,7 @@
     {
       "ticker": "VMI",
       "name": "Valmont Industries, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -6865,6 +7431,7 @@
     {
       "ticker": "SO",
       "name": "The Southern Company",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -6877,6 +7444,7 @@
     {
       "ticker": "WTW",
       "name": "Willis Towers Watson Public Limited Company",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -6889,6 +7457,7 @@
     {
       "ticker": "NCLH",
       "name": "Norwegian Cruise Line Holdings Ltd.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -6901,6 +7470,7 @@
     {
       "ticker": "SR",
       "name": "Spire Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -6913,6 +7483,7 @@
     {
       "ticker": "DUK",
       "name": "Duke Energy Corporation",
+      "name_zh": "杜克能源",
       "idx": [
         "S&P500"
       ],
@@ -6925,6 +7496,7 @@
     {
       "ticker": "CACI",
       "name": "CACI INTERNATIONAL CLA",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -6937,6 +7509,7 @@
     {
       "ticker": "WLK",
       "name": "Westlake Corporation",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -6949,6 +7522,7 @@
     {
       "ticker": "DECK",
       "name": "Deckers Outdoor Corporation",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -6961,6 +7535,7 @@
     {
       "ticker": "AA",
       "name": "Alcoa Corporation",
+      "name_zh": "美鋁",
       "idx": [
         "S&P400"
       ],
@@ -6971,8 +7546,22 @@
       "p_hist_drift": 0.7445
     },
     {
+      "ticker": "EXPE",
+      "name": "Expedia Group, Inc.",
+      "name_zh": "智遊網",
+      "idx": [
+        "S&P500"
+      ],
+      "s0": 245.79,
+      "sigma": 0.5443,
+      "mu_hist": 0.016,
+      "p_zero_drift": 0.7376,
+      "p_hist_drift": 0.7442
+    },
+    {
       "ticker": "TTMI",
       "name": "TTM Technologies Inc",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -6985,6 +7574,7 @@
     {
       "ticker": "RJF",
       "name": "Raymond James Financial, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -6995,20 +7585,9 @@
       "p_hist_drift": 0.7436
     },
     {
-      "ticker": "EXPE",
-      "name": "Expedia Group, Inc.",
-      "idx": [
-        "S&P500"
-      ],
-      "s0": 245.79,
-      "sigma": 0.5441,
-      "mu_hist": 0.0141,
-      "p_zero_drift": 0.7376,
-      "p_hist_drift": 0.7434
-    },
-    {
       "ticker": "META",
       "name": "Meta Platforms, Inc.",
+      "name_zh": "Meta（臉書）",
       "idx": [
         "Nasdaq100",
         "S&P500"
@@ -7022,6 +7601,7 @@
     {
       "ticker": "CMCSA",
       "name": "Comcast Corporation",
+      "name_zh": "康卡斯特",
       "idx": [
         "Nasdaq100",
         "S&P500"
@@ -7035,6 +7615,7 @@
     {
       "ticker": "UNM",
       "name": "Unum Group",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -7047,6 +7628,7 @@
     {
       "ticker": "DTM",
       "name": "DT Midstream, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -7059,6 +7641,7 @@
     {
       "ticker": "TKO",
       "name": "TKO Group Holdings, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -7071,6 +7654,7 @@
     {
       "ticker": "ENS",
       "name": "EnerSys, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -7083,6 +7667,7 @@
     {
       "ticker": "CAT",
       "name": "Caterpillar Inc.",
+      "name_zh": "卡特彼勒",
       "idx": [
         "S&P500"
       ],
@@ -7095,6 +7680,7 @@
     {
       "ticker": "NI",
       "name": "NiSource Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -7107,6 +7693,7 @@
     {
       "ticker": "DHR",
       "name": "Danaher Corporation",
+      "name_zh": "丹納赫",
       "idx": [
         "S&P500"
       ],
@@ -7119,6 +7706,7 @@
     {
       "ticker": "MLI",
       "name": "Mueller Industries, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -7131,6 +7719,7 @@
     {
       "ticker": "SHOP",
       "name": "Shopify Inc.",
+      "name_zh": "",
       "idx": [
         "Nasdaq100"
       ],
@@ -7143,6 +7732,7 @@
     {
       "ticker": "SANM",
       "name": "Sanmina  Corp",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -7155,6 +7745,7 @@
     {
       "ticker": "DT",
       "name": "Dynatrace, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -7167,6 +7758,7 @@
     {
       "ticker": "NWSA",
       "name": "News Corporation",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -7179,6 +7771,7 @@
     {
       "ticker": "AOS",
       "name": "A. O. Smith Corporation",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -7191,6 +7784,7 @@
     {
       "ticker": "FOXA",
       "name": "Fox Corporation",
+      "name_zh": "福斯公司",
       "idx": [
         "S&P500"
       ],
@@ -7203,6 +7797,7 @@
     {
       "ticker": "TXT",
       "name": "Textron Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -7215,6 +7810,7 @@
     {
       "ticker": "ETN",
       "name": "Eaton Corporation plc",
+      "name_zh": "伊頓公司",
       "idx": [
         "S&P500"
       ],
@@ -7227,6 +7823,7 @@
     {
       "ticker": "LPX",
       "name": "Louisiana-Pacific Corp.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -7239,6 +7836,7 @@
     {
       "ticker": "KNSL",
       "name": "Kinsale Capital Group, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -7251,6 +7849,7 @@
     {
       "ticker": "TLN",
       "name": "Talen Energy Corporation",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -7263,6 +7862,7 @@
     {
       "ticker": "OGS",
       "name": "ONE GAS, INC.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -7275,6 +7875,7 @@
     {
       "ticker": "FOX",
       "name": "Fox Corporation",
+      "name_zh": "福斯公司",
       "idx": [
         "S&P500"
       ],
@@ -7287,6 +7888,7 @@
     {
       "ticker": "VEEV",
       "name": "Veeva Systems Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -7299,6 +7901,7 @@
     {
       "ticker": "QCOM",
       "name": "QUALCOMM Incorporated",
+      "name_zh": "高通",
       "idx": [
         "Nasdaq100",
         "S&P500"
@@ -7312,6 +7915,7 @@
     {
       "ticker": "ENSG",
       "name": "The Ensign Group, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -7324,6 +7928,7 @@
     {
       "ticker": "HUBB",
       "name": "Hubbell Incorporated",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -7336,6 +7941,7 @@
     {
       "ticker": "FE",
       "name": "FirstEnergy Corp.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -7348,6 +7954,7 @@
     {
       "ticker": "CRUS",
       "name": "Cirrus Logic Inc",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -7360,6 +7967,7 @@
     {
       "ticker": "NWS",
       "name": "News Corporation",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -7372,6 +7980,7 @@
     {
       "ticker": "RPM",
       "name": "RPM International, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -7384,6 +7993,7 @@
     {
       "ticker": "IBOC",
       "name": "International Bancshares Corp",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -7396,6 +8006,7 @@
     {
       "ticker": "CMC",
       "name": "Commercial Metals Company",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -7408,6 +8019,7 @@
     {
       "ticker": "BKR",
       "name": "Baker Hughes Company",
+      "name_zh": "",
       "idx": [
         "Nasdaq100",
         "S&P500"
@@ -7421,6 +8033,7 @@
     {
       "ticker": "ACN",
       "name": "Accenture plc",
+      "name_zh": "埃森哲",
       "idx": [
         "S&P500"
       ],
@@ -7433,6 +8046,7 @@
     {
       "ticker": "RYN",
       "name": "Rayonier Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -7445,6 +8059,7 @@
     {
       "ticker": "MCO",
       "name": "Moody's Corporation",
+      "name_zh": "穆迪",
       "idx": [
         "S&P500"
       ],
@@ -7457,6 +8072,7 @@
     {
       "ticker": "CAR",
       "name": "Avis Budget Group, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -7469,6 +8085,7 @@
     {
       "ticker": "CDNS",
       "name": "Cadence Design Systems, Inc.",
+      "name_zh": "益華電腦",
       "idx": [
         "Nasdaq100",
         "S&P500"
@@ -7482,6 +8099,7 @@
     {
       "ticker": "HIG",
       "name": "The Hartford Insurance Group, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -7494,6 +8112,7 @@
     {
       "ticker": "HCA",
       "name": "HCA Healthcare, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -7506,6 +8125,7 @@
     {
       "ticker": "AEP",
       "name": "American Electric Power Company, Inc.",
+      "name_zh": "",
       "idx": [
         "Nasdaq100",
         "S&P500"
@@ -7519,6 +8139,7 @@
     {
       "ticker": "CXT",
       "name": "Crane NXT, Co.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -7531,6 +8152,7 @@
     {
       "ticker": "ALLY",
       "name": "Ally Financial Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -7543,6 +8165,7 @@
     {
       "ticker": "EVR",
       "name": "Evercore Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -7555,6 +8178,7 @@
     {
       "ticker": "TOST",
       "name": "Toast, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -7567,6 +8191,7 @@
     {
       "ticker": "IESC",
       "name": "IES Holdings, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -7579,6 +8204,7 @@
     {
       "ticker": "DDOG",
       "name": "Datadog, Inc.",
+      "name_zh": "",
       "idx": [
         "Nasdaq100",
         "S&P500"
@@ -7592,6 +8218,7 @@
     {
       "ticker": "BG",
       "name": "Bunge Global SA",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -7604,6 +8231,7 @@
     {
       "ticker": "LOW",
       "name": "Lowe's Companies, Inc.",
+      "name_zh": "勞氏",
       "idx": [
         "S&P500"
       ],
@@ -7616,6 +8244,7 @@
     {
       "ticker": "PLD",
       "name": "Prologis, Inc.",
+      "name_zh": "普洛斯",
       "idx": [
         "S&P500"
       ],
@@ -7628,6 +8257,7 @@
     {
       "ticker": "GD",
       "name": "General Dynamics Corporation",
+      "name_zh": "通用動力",
       "idx": [
         "S&P500"
       ],
@@ -7640,6 +8270,7 @@
     {
       "ticker": "AMH",
       "name": "AMERICAN HOMES 4 RENT",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -7652,6 +8283,7 @@
     {
       "ticker": "GPC",
       "name": "Genuine Parts Company",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -7664,6 +8296,7 @@
     {
       "ticker": "MSFT",
       "name": "Microsoft Corporation",
+      "name_zh": "微軟",
       "idx": [
         "Nasdaq100",
         "S&P500"
@@ -7677,6 +8310,7 @@
     {
       "ticker": "GOOGL",
       "name": "Alphabet Inc.",
+      "name_zh": "谷歌（字母公司）",
       "idx": [
         "Nasdaq100",
         "S&P500"
@@ -7690,6 +8324,7 @@
     {
       "ticker": "TRU",
       "name": "TransUnion",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -7702,6 +8337,7 @@
     {
       "ticker": "CNX",
       "name": "CNX Resources Corporation",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -7714,6 +8350,7 @@
     {
       "ticker": "BDC",
       "name": "Belden Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -7726,6 +8363,7 @@
     {
       "ticker": "L",
       "name": "Loews Corporation",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -7738,6 +8376,7 @@
     {
       "ticker": "CCI",
       "name": "Crown Castle Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -7750,6 +8389,7 @@
     {
       "ticker": "STE",
       "name": "STERIS plc",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -7762,6 +8402,7 @@
     {
       "ticker": "CORT",
       "name": "Corcept Therapeutics Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -7774,6 +8415,7 @@
     {
       "ticker": "RMD",
       "name": "ResMed Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -7786,6 +8428,7 @@
     {
       "ticker": "ERIE",
       "name": "Erie Indemnity Company",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -7798,6 +8441,7 @@
     {
       "ticker": "SCHW",
       "name": "The Charles Schwab Corporation",
+      "name_zh": "嘉信理財",
       "idx": [
         "S&P500"
       ],
@@ -7810,6 +8454,7 @@
     {
       "ticker": "SYF",
       "name": "Synchrony Financial",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -7822,6 +8467,7 @@
     {
       "ticker": "VMC",
       "name": "Vulcan Materials Company",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -7834,6 +8480,7 @@
     {
       "ticker": "FISV",
       "name": "Fiserv, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -7846,6 +8493,7 @@
     {
       "ticker": "ALK",
       "name": "Alaska Air Group, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -7858,6 +8506,7 @@
     {
       "ticker": "HSY",
       "name": "The Hershey Company",
+      "name_zh": "好時巧克力",
       "idx": [
         "S&P500"
       ],
@@ -7870,6 +8519,7 @@
     {
       "ticker": "DUOL",
       "name": "Duolingo, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -7882,6 +8532,7 @@
     {
       "ticker": "NNN",
       "name": "NNN REIT, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -7894,6 +8545,7 @@
     {
       "ticker": "BBWI",
       "name": "Bath & Body Works, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -7906,6 +8558,7 @@
     {
       "ticker": "G",
       "name": "GENPACT LIMITED",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -7918,6 +8571,7 @@
     {
       "ticker": "CARR",
       "name": "Carrier Global Corporation",
+      "name_zh": "開利",
       "idx": [
         "S&P500"
       ],
@@ -7930,6 +8584,7 @@
     {
       "ticker": "HQY",
       "name": "HealthEquity, Inc",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -7942,6 +8597,7 @@
     {
       "ticker": "TT",
       "name": "Trane Technologies plc",
+      "name_zh": "特靈科技",
       "idx": [
         "S&P500"
       ],
@@ -7954,6 +8610,7 @@
     {
       "ticker": "MTZ",
       "name": "MasTec, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -7966,6 +8623,7 @@
     {
       "ticker": "TSLA",
       "name": "Tesla, Inc.",
+      "name_zh": "特斯拉",
       "idx": [
         "Nasdaq100",
         "S&P500"
@@ -7979,6 +8637,7 @@
     {
       "ticker": "CHDN",
       "name": "Churchill Downs Inc",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -7991,6 +8650,7 @@
     {
       "ticker": "PLTR",
       "name": "Palantir Technologies Inc.",
+      "name_zh": "帕蘭泰爾",
       "idx": [
         "Nasdaq100",
         "S&P500"
@@ -8004,6 +8664,7 @@
     {
       "ticker": "GOOG",
       "name": "Alphabet Inc.",
+      "name_zh": "谷歌（字母公司）",
       "idx": [
         "Nasdaq100",
         "S&P500"
@@ -8017,6 +8678,7 @@
     {
       "ticker": "ELS",
       "name": "Equity Lifestyle Properties, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -8029,6 +8691,7 @@
     {
       "ticker": "WPC",
       "name": "W.P. Carey Inc. (REIT)",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -8041,6 +8704,7 @@
     {
       "ticker": "RMBS",
       "name": "Rambus Inc",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -8053,6 +8717,7 @@
     {
       "ticker": "NXT",
       "name": "Nextpower Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -8065,6 +8730,7 @@
     {
       "ticker": "BYD",
       "name": "Boyd Gaming Corporation",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -8077,6 +8743,7 @@
     {
       "ticker": "AAON",
       "name": "Aaon Inc",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -8089,6 +8756,7 @@
     {
       "ticker": "HBAN",
       "name": "Huntington Bancshares Incorporated",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -8101,6 +8769,7 @@
     {
       "ticker": "WRB",
       "name": "W. R. Berkley Corporation",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -8113,6 +8782,7 @@
     {
       "ticker": "EEFT",
       "name": "Euronet Worldwide Inc",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -8125,6 +8795,7 @@
     {
       "ticker": "PYPL",
       "name": "PayPal Holdings, Inc.",
+      "name_zh": "貝寶",
       "idx": [
         "Nasdaq100",
         "S&P500"
@@ -8138,6 +8809,7 @@
     {
       "ticker": "FER",
       "name": "Ferrovial N.V.",
+      "name_zh": "",
       "idx": [
         "Nasdaq100"
       ],
@@ -8150,6 +8822,7 @@
     {
       "ticker": "DCI",
       "name": "Donaldson Company, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -8162,6 +8835,7 @@
     {
       "ticker": "MTG",
       "name": "MGIC Investment Corp.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -8174,6 +8848,7 @@
     {
       "ticker": "FFIN",
       "name": "First Financial Bankshares Inc",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -8184,8 +8859,22 @@
       "p_hist_drift": 0.6914
     },
     {
+      "ticker": "APO",
+      "name": "Apollo Global Management, Inc.",
+      "name_zh": "阿波羅全球管理",
+      "idx": [
+        "S&P500"
+      ],
+      "s0": 117.26,
+      "sigma": 0.356,
+      "mu_hist": -0.0413,
+      "p_zero_drift": 0.7176,
+      "p_hist_drift": 0.6886
+    },
+    {
       "ticker": "STRL",
       "name": "Sterling Infrastructure, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -8198,6 +8887,7 @@
     {
       "ticker": "HII",
       "name": "Huntington Ingalls Industries, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -8210,6 +8900,7 @@
     {
       "ticker": "CTVA",
       "name": "Corteva, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -8222,6 +8913,7 @@
     {
       "ticker": "PATH",
       "name": "UiPath, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -8234,6 +8926,7 @@
     {
       "ticker": "ES",
       "name": "Eversource Energy",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -8246,6 +8939,7 @@
     {
       "ticker": "IPGP",
       "name": "IPG Photonics Corporation",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -8256,20 +8950,9 @@
       "p_hist_drift": 0.6853
     },
     {
-      "ticker": "APO",
-      "name": "Apollo Global Management, Inc.",
-      "idx": [
-        "S&P500"
-      ],
-      "s0": 117.26,
-      "sigma": 0.3561,
-      "mu_hist": -0.0461,
-      "p_zero_drift": 0.7176,
-      "p_hist_drift": 0.6852
-    },
-    {
       "ticker": "CHRW",
       "name": "C.H. Robinson Worldwide, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -8282,6 +8965,7 @@
     {
       "ticker": "TPL",
       "name": "Texas Pacific Land Corporation",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -8294,6 +8978,7 @@
     {
       "ticker": "CDE",
       "name": "Coeur Mining, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -8306,6 +8991,7 @@
     {
       "ticker": "ARES",
       "name": "Ares Management Corporation",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -8318,6 +9004,7 @@
     {
       "ticker": "NEE",
       "name": "NextEra Energy, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -8330,6 +9017,7 @@
     {
       "ticker": "DTE",
       "name": "DTE Energy Company",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -8342,6 +9030,7 @@
     {
       "ticker": "WAL",
       "name": "Western Alliance Bancorporation",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -8354,6 +9043,7 @@
     {
       "ticker": "AYI",
       "name": "Acuity Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -8366,6 +9056,7 @@
     {
       "ticker": "HL",
       "name": "Hecla Mining Company",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -8378,6 +9069,7 @@
     {
       "ticker": "IP",
       "name": "International Paper Company",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -8390,6 +9082,7 @@
     {
       "ticker": "NOC",
       "name": "Northrop Grumman Corporation",
+      "name_zh": "諾斯洛普格魯曼",
       "idx": [
         "S&P500"
       ],
@@ -8402,6 +9095,7 @@
     {
       "ticker": "XEL",
       "name": "Xcel Energy Inc.",
+      "name_zh": "",
       "idx": [
         "Nasdaq100",
         "S&P500"
@@ -8415,6 +9109,7 @@
     {
       "ticker": "TTWO",
       "name": "Take-Two Interactive Software, Inc.",
+      "name_zh": "",
       "idx": [
         "Nasdaq100",
         "S&P500"
@@ -8428,6 +9123,7 @@
     {
       "ticker": "WFC",
       "name": "Wells Fargo & Company",
+      "name_zh": "富國銀行",
       "idx": [
         "S&P500"
       ],
@@ -8440,6 +9136,7 @@
     {
       "ticker": "AON",
       "name": "Aon plc",
+      "name_zh": "怡安集團",
       "idx": [
         "S&P500"
       ],
@@ -8452,6 +9149,7 @@
     {
       "ticker": "BURL",
       "name": "BURLINGTON STORES, INC.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -8464,6 +9162,7 @@
     {
       "ticker": "FR",
       "name": "First Industrial Realty Trust, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -8476,6 +9175,7 @@
     {
       "ticker": "CMI",
       "name": "Cummins Inc.",
+      "name_zh": "康明斯",
       "idx": [
         "S&P500"
       ],
@@ -8488,6 +9188,7 @@
     {
       "ticker": "KRC",
       "name": "Kilroy Realty Corp.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -8500,6 +9201,7 @@
     {
       "ticker": "SPGI",
       "name": "S&P Global Inc.",
+      "name_zh": "標普全球",
       "idx": [
         "S&P500"
       ],
@@ -8512,6 +9214,7 @@
     {
       "ticker": "VRSK",
       "name": "Verisk Analytics, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -8524,6 +9227,7 @@
     {
       "ticker": "WY",
       "name": "Weyerhaeuser Company",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -8536,6 +9240,7 @@
     {
       "ticker": "TJX",
       "name": "The TJX Companies, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -8548,6 +9253,7 @@
     {
       "ticker": "RBA",
       "name": "RB Global, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -8560,6 +9266,7 @@
     {
       "ticker": "EXC",
       "name": "Exelon Corporation",
+      "name_zh": "",
       "idx": [
         "Nasdaq100",
         "S&P500"
@@ -8573,6 +9280,7 @@
     {
       "ticker": "AN",
       "name": "AutoNation, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -8585,6 +9293,7 @@
     {
       "ticker": "CNP",
       "name": "CenterPoint Energy, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -8597,6 +9306,7 @@
     {
       "ticker": "BXP",
       "name": "BXP, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -8609,6 +9319,7 @@
     {
       "ticker": "HD",
       "name": "The Home Depot, Inc.",
+      "name_zh": "家得寶",
       "idx": [
         "S&P500"
       ],
@@ -8621,6 +9332,7 @@
     {
       "ticker": "CNM",
       "name": "Core & Main, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -8633,6 +9345,7 @@
     {
       "ticker": "OLN",
       "name": "Olin Corp.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -8645,6 +9358,7 @@
     {
       "ticker": "ORI",
       "name": "Old Republic International Corporation",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -8657,6 +9371,7 @@
     {
       "ticker": "PEP",
       "name": "PepsiCo, Inc.",
+      "name_zh": "百事公司",
       "idx": [
         "Nasdaq100",
         "S&P500"
@@ -8670,6 +9385,7 @@
     {
       "ticker": "FN",
       "name": "Fabrinet",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -8682,6 +9398,7 @@
     {
       "ticker": "RH",
       "name": "RH",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -8694,6 +9411,7 @@
     {
       "ticker": "COR",
       "name": "Cencora, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -8706,6 +9424,7 @@
     {
       "ticker": "NEU",
       "name": "NewMarket Corporation",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -8718,6 +9437,7 @@
     {
       "ticker": "FLG",
       "name": "Flagstar Bank, National Association",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -8730,6 +9450,7 @@
     {
       "ticker": "GAP",
       "name": "The Gap, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -8742,6 +9463,7 @@
     {
       "ticker": "EFX",
       "name": "Equifax Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -8754,6 +9476,7 @@
     {
       "ticker": "APPF",
       "name": "AppFolio, Inc. Class A",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -8766,6 +9489,7 @@
     {
       "ticker": "NTNX",
       "name": "Nutanix, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -8778,6 +9502,7 @@
     {
       "ticker": "WSO",
       "name": "Watsco, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -8790,6 +9515,7 @@
     {
       "ticker": "ARE",
       "name": "Alexandria Real Estate Equities, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -8802,6 +9528,7 @@
     {
       "ticker": "TAP",
       "name": "Molson Coors Beverage Company",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -8814,6 +9541,7 @@
     {
       "ticker": "ULS",
       "name": "UL Solutions Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -8826,6 +9554,7 @@
     {
       "ticker": "TYL",
       "name": "Tyler Technologies, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -8838,6 +9567,7 @@
     {
       "ticker": "CRS",
       "name": "Carpenter Technology Corp",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -8850,6 +9580,7 @@
     {
       "ticker": "MOS",
       "name": "The Mosaic Company",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -8862,6 +9593,7 @@
     {
       "ticker": "TEL",
       "name": "TE Connectivity plc",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -8874,6 +9606,7 @@
     {
       "ticker": "FND",
       "name": "Floor & Decor Holdings, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -8886,6 +9619,7 @@
     {
       "ticker": "PCG",
       "name": "PG&E Corporation",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -8898,6 +9632,7 @@
     {
       "ticker": "SMCI",
       "name": "Super Micro Computer, Inc.",
+      "name_zh": "美超微電腦",
       "idx": [
         "S&P500"
       ],
@@ -8910,6 +9645,7 @@
     {
       "ticker": "GDDY",
       "name": "GoDaddy Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -8922,6 +9658,7 @@
     {
       "ticker": "SBAC",
       "name": "SBA Communications Corporation",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -8934,6 +9671,7 @@
     {
       "ticker": "APP",
       "name": "AppLovin Corporation",
+      "name_zh": "",
       "idx": [
         "Nasdaq100",
         "S&P500"
@@ -8947,6 +9685,7 @@
     {
       "ticker": "ADSK",
       "name": "Autodesk, Inc.",
+      "name_zh": "歐特克",
       "idx": [
         "Nasdaq100",
         "S&P500"
@@ -8960,6 +9699,7 @@
     {
       "ticker": "GGG",
       "name": "Graco Inc",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -8972,6 +9712,7 @@
     {
       "ticker": "BRO",
       "name": "Brown & Brown, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -8984,6 +9725,7 @@
     {
       "ticker": "F",
       "name": "Ford Motor Company",
+      "name_zh": "福特汽車",
       "idx": [
         "S&P500"
       ],
@@ -8996,6 +9738,7 @@
     {
       "ticker": "IT",
       "name": "Gartner, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -9008,6 +9751,7 @@
     {
       "ticker": "CELH",
       "name": "Celsius Holdings, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -9020,6 +9764,7 @@
     {
       "ticker": "XRAY",
       "name": "DENTSPLY SIRONA Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -9032,6 +9777,7 @@
     {
       "ticker": "CRWV",
       "name": "CoreWeave, Inc.",
+      "name_zh": "",
       "idx": [
         "Nasdaq100"
       ],
@@ -9044,6 +9790,7 @@
     {
       "ticker": "CPT",
       "name": "Camden Property Trust",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -9056,6 +9803,7 @@
     {
       "ticker": "RYAN",
       "name": "Ryan Specialty Holdings, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -9068,6 +9816,7 @@
     {
       "ticker": "SYK",
       "name": "Stryker Corporation",
+      "name_zh": "史賽克",
       "idx": [
         "S&P500"
       ],
@@ -9080,6 +9829,7 @@
     {
       "ticker": "UFPI",
       "name": "UFP Industries, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -9092,6 +9842,7 @@
     {
       "ticker": "CRM",
       "name": "Salesforce, Inc.",
+      "name_zh": "賽富時",
       "idx": [
         "S&P500"
       ],
@@ -9104,6 +9855,7 @@
     {
       "ticker": "BAC",
       "name": "Bank of America Corporation",
+      "name_zh": "美國銀行",
       "idx": [
         "S&P500"
       ],
@@ -9116,6 +9868,7 @@
     {
       "ticker": "WMS",
       "name": "ADVANCED DRAINAGE SYSTEMS, INC.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -9128,6 +9881,7 @@
     {
       "ticker": "GMED",
       "name": "GLOBUS MEDICAL INC",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -9140,6 +9894,7 @@
     {
       "ticker": "HIMS",
       "name": "Hims & Hers Health, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -9152,6 +9907,7 @@
     {
       "ticker": "KD",
       "name": "Kyndryl Holdings, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -9164,6 +9920,7 @@
     {
       "ticker": "BX",
       "name": "Blackstone Inc.",
+      "name_zh": "黑石集團",
       "idx": [
         "S&P500"
       ],
@@ -9176,6 +9933,7 @@
     {
       "ticker": "MSTR",
       "name": "Strategy Inc",
+      "name_zh": "微策略（Strategy）",
       "idx": [
         "Nasdaq100"
       ],
@@ -9188,6 +9946,7 @@
     {
       "ticker": "CTSH",
       "name": "Cognizant Technology Solutions Corporation",
+      "name_zh": "高知特",
       "idx": [
         "S&P500"
       ],
@@ -9200,6 +9959,7 @@
     {
       "ticker": "RDDT",
       "name": "Reddit, Inc.",
+      "name_zh": "紅迪",
       "idx": [
         "S&P500"
       ],
@@ -9210,8 +9970,22 @@
       "p_hist_drift": 0.629
     },
     {
+      "ticker": "TRI",
+      "name": "Thomson Reuters Corporation",
+      "name_zh": "",
+      "idx": [
+        "Nasdaq100"
+      ],
+      "s0": 103.9,
+      "sigma": 0.5118,
+      "mu_hist": -0.23,
+      "p_zero_drift": 0.736,
+      "p_hist_drift": 0.6288
+    },
+    {
       "ticker": "T",
       "name": "AT&T Inc.",
+      "name_zh": "美國電話電報公司",
       "idx": [
         "S&P500"
       ],
@@ -9224,6 +9998,7 @@
     {
       "ticker": "EXP",
       "name": "Eagle Materials, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -9236,6 +10011,7 @@
     {
       "ticker": "SUI",
       "name": "Sun Communities, Inc",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -9248,6 +10024,7 @@
     {
       "ticker": "DY",
       "name": "Dycom Industries, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -9260,6 +10037,7 @@
     {
       "ticker": "DKS",
       "name": "Dick's Sporting Goods, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -9270,20 +10048,9 @@
       "p_hist_drift": 0.6276
     },
     {
-      "ticker": "TRI",
-      "name": "Thomson Reuters Corporation",
-      "idx": [
-        "Nasdaq100"
-      ],
-      "s0": 103.9,
-      "sigma": 0.5117,
-      "mu_hist": -0.2363,
-      "p_zero_drift": 0.736,
-      "p_hist_drift": 0.6258
-    },
-    {
       "ticker": "REXR",
       "name": "REXFORD INDUSTRIAL REALTY, INC.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -9296,6 +10063,7 @@
     {
       "ticker": "ADC",
       "name": "Agree Realty Corporation",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -9308,6 +10076,7 @@
     {
       "ticker": "INVH",
       "name": "Invitation Homes Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -9320,6 +10089,7 @@
     {
       "ticker": "FICO",
       "name": "Fair Isaac Corporation",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -9332,6 +10102,7 @@
     {
       "ticker": "KNF",
       "name": "Knife River Corporation",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -9344,6 +10115,7 @@
     {
       "ticker": "CEG",
       "name": "Constellation Energy Corporation",
+      "name_zh": "",
       "idx": [
         "Nasdaq100",
         "S&P500"
@@ -9357,6 +10129,7 @@
     {
       "ticker": "SCI",
       "name": "Service Corporation International",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -9369,6 +10142,7 @@
     {
       "ticker": "COF",
       "name": "Capital One Financial Corporation",
+      "name_zh": "第一資本金融",
       "idx": [
         "S&P500"
       ],
@@ -9381,6 +10155,7 @@
     {
       "ticker": "COO",
       "name": "The Cooper Companies, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -9393,18 +10168,20 @@
     {
       "ticker": "ORA",
       "name": "Ormat Technologies, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
       "s0": 91.44,
-      "sigma": 0.386,
-      "mu_hist": -0.16,
+      "sigma": 0.3863,
+      "mu_hist": -0.1587,
       "p_zero_drift": 0.7231,
-      "p_hist_drift": 0.619
+      "p_hist_drift": 0.62
     },
     {
       "ticker": "DASH",
       "name": "DoorDash, Inc.",
+      "name_zh": "",
       "idx": [
         "Nasdaq100",
         "S&P500"
@@ -9418,6 +10195,7 @@
     {
       "ticker": "CBRE",
       "name": "CBRE Group, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -9430,6 +10208,7 @@
     {
       "ticker": "DPZ",
       "name": "Domino's Pizza, Inc.",
+      "name_zh": "達美樂披薩",
       "idx": [
         "S&P500"
       ],
@@ -9442,6 +10221,7 @@
     {
       "ticker": "ATO",
       "name": "Atmos Energy Corporation",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -9454,6 +10234,7 @@
     {
       "ticker": "NOW",
       "name": "ServiceNow, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -9466,6 +10247,7 @@
     {
       "ticker": "THO",
       "name": "Thor Industries, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -9478,6 +10260,7 @@
     {
       "ticker": "STAG",
       "name": "STAG INDUSTRIAL, INC.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -9490,6 +10273,7 @@
     {
       "ticker": "COIN",
       "name": "Coinbase Global, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -9502,6 +10286,7 @@
     {
       "ticker": "IDCC",
       "name": "InterDigital, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -9514,6 +10299,7 @@
     {
       "ticker": "CW",
       "name": "Curtiss-Wright Corp.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -9526,6 +10312,7 @@
     {
       "ticker": "HOOD",
       "name": "Robinhood Markets, Inc.",
+      "name_zh": "羅賓漢市場",
       "idx": [
         "S&P500"
       ],
@@ -9538,6 +10325,7 @@
     {
       "ticker": "WDAY",
       "name": "Workday, Inc.",
+      "name_zh": "",
       "idx": [
         "Nasdaq100",
         "S&P500"
@@ -9551,6 +10339,7 @@
     {
       "ticker": "SF",
       "name": "Stifel Financial Corp.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -9563,6 +10352,7 @@
     {
       "ticker": "AVAV",
       "name": "AeroVironment, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -9575,6 +10365,7 @@
     {
       "ticker": "LHX",
       "name": "L3Harris Technologies, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -9587,6 +10378,7 @@
     {
       "ticker": "POR",
       "name": "Portland General Electric Company",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -9599,6 +10391,7 @@
     {
       "ticker": "VST",
       "name": "Vistra Corp.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -9611,6 +10404,7 @@
     {
       "ticker": "JEF",
       "name": "Jefferies Financial Group Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -9623,6 +10417,7 @@
     {
       "ticker": "HUBS",
       "name": "HUBSPOT, INC.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -9635,6 +10430,7 @@
     {
       "ticker": "PPL",
       "name": "PPL Corporation",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -9647,6 +10443,7 @@
     {
       "ticker": "WING",
       "name": "Wingstop Inc",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -9659,6 +10456,7 @@
     {
       "ticker": "MAT",
       "name": "Mattel, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -9671,6 +10469,7 @@
     {
       "ticker": "GWRE",
       "name": "GUIDEWIRE SOFTWARE, INC.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -9683,6 +10482,7 @@
     {
       "ticker": "ORLY",
       "name": "O'Reilly Automotive, Inc.",
+      "name_zh": "",
       "idx": [
         "Nasdaq100",
         "S&P500"
@@ -9696,6 +10496,7 @@
     {
       "ticker": "NVDA",
       "name": "NVIDIA Corporation",
+      "name_zh": "輝達",
       "idx": [
         "Nasdaq100",
         "S&P500"
@@ -9709,6 +10510,7 @@
     {
       "ticker": "OLLI",
       "name": "Ollie's Bargain Outlet Holdings, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -9721,6 +10523,7 @@
     {
       "ticker": "ALNY",
       "name": "Alnylam Pharmaceuticals, Inc.",
+      "name_zh": "",
       "idx": [
         "Nasdaq100"
       ],
@@ -9733,6 +10536,7 @@
     {
       "ticker": "BA",
       "name": "The Boeing Company",
+      "name_zh": "波音",
       "idx": [
         "S&P500"
       ],
@@ -9745,6 +10549,7 @@
     {
       "ticker": "DLB",
       "name": "Dolby Laboratories, Inc.Class A",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -9757,6 +10562,7 @@
     {
       "ticker": "AXON",
       "name": "Axon Enterprise, Inc.",
+      "name_zh": "",
       "idx": [
         "Nasdaq100",
         "S&P500"
@@ -9770,6 +10576,7 @@
     {
       "ticker": "CRH",
       "name": "CRH plc",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -9782,6 +10589,7 @@
     {
       "ticker": "BROS",
       "name": "Dutch Bros Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -9794,6 +10602,7 @@
     {
       "ticker": "MP",
       "name": "MP Materials Corp.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -9806,6 +10615,7 @@
     {
       "ticker": "MMS",
       "name": "MAXIMUS, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -9818,6 +10628,7 @@
     {
       "ticker": "AXP",
       "name": "American Express Company",
+      "name_zh": "美國運通",
       "idx": [
         "S&P500"
       ],
@@ -9830,6 +10641,7 @@
     {
       "ticker": "VC",
       "name": "VISTEON CORPORATION",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -9842,6 +10654,7 @@
     {
       "ticker": "ESAB",
       "name": "ESAB Corporation",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -9854,6 +10667,7 @@
     {
       "ticker": "TXNM",
       "name": "TXNM Energy, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -9866,6 +10680,7 @@
     {
       "ticker": "KTOS",
       "name": "Kratos Defense & Security Solutions, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -9878,6 +10693,7 @@
     {
       "ticker": "KBH",
       "name": "KB Home",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -9890,6 +10706,7 @@
     {
       "ticker": "SFM",
       "name": "Sprouts Farmers Market, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -9902,6 +10719,7 @@
     {
       "ticker": "ORCL",
       "name": "Oracle Corporation",
+      "name_zh": "甲骨文",
       "idx": [
         "S&P500"
       ],
@@ -9914,6 +10732,7 @@
     {
       "ticker": "NFG",
       "name": "National Fuel Gas Co.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -9926,6 +10745,7 @@
     {
       "ticker": "CHTR",
       "name": "Charter Communications, Inc.",
+      "name_zh": "特許通訊",
       "idx": [
         "S&P500"
       ],
@@ -9938,6 +10758,7 @@
     {
       "ticker": "IRT",
       "name": "Independence Realty Trust Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -9950,6 +10771,7 @@
     {
       "ticker": "FOUR",
       "name": "Shift4 Payments, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -9962,6 +10784,7 @@
     {
       "ticker": "BKNG",
       "name": "Booking Holdings Inc.",
+      "name_zh": "繽客控股",
       "idx": [
         "Nasdaq100",
         "S&P500"
@@ -9975,6 +10798,7 @@
     {
       "ticker": "MLM",
       "name": "Martin Marietta Materials, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -9987,6 +10811,7 @@
     {
       "ticker": "CYTK",
       "name": "Cytokinetics Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -9999,6 +10824,7 @@
     {
       "ticker": "GPK",
       "name": "Graphic Packaging Holding Company",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -10011,6 +10837,7 @@
     {
       "ticker": "KKR",
       "name": "KKR & Co. Inc.",
+      "name_zh": "KKR集團",
       "idx": [
         "S&P500"
       ],
@@ -10023,6 +10850,7 @@
     {
       "ticker": "ALB",
       "name": "Albemarle Corporation",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -10035,6 +10863,7 @@
     {
       "ticker": "IBM",
       "name": "International Business Machines Corporation",
+      "name_zh": "國際商業機器",
       "idx": [
         "S&P500"
       ],
@@ -10047,6 +10876,7 @@
     {
       "ticker": "KBR",
       "name": "KBR, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -10059,6 +10889,7 @@
     {
       "ticker": "EQT",
       "name": "EQT Corporation",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -10071,6 +10902,7 @@
     {
       "ticker": "UHS",
       "name": "Universal Health Services, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -10083,6 +10915,7 @@
     {
       "ticker": "TTD",
       "name": "The Trade Desk, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -10095,6 +10928,7 @@
     {
       "ticker": "MCD",
       "name": "McDonald's Corporation",
+      "name_zh": "麥當勞",
       "idx": [
         "S&P500"
       ],
@@ -10102,11 +10936,12 @@
       "sigma": 0.2278,
       "mu_hist": -0.0814,
       "p_zero_drift": 0.6712,
-      "p_hist_drift": 0.5701
+      "p_hist_drift": 0.5702
     },
     {
       "ticker": "TMUS",
       "name": "T-Mobile US, Inc.",
+      "name_zh": "T-Mobile美國",
       "idx": [
         "Nasdaq100",
         "S&P500"
@@ -10120,6 +10955,7 @@
     {
       "ticker": "CMS",
       "name": "CMS Energy Corporation",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -10132,6 +10968,7 @@
     {
       "ticker": "FIS",
       "name": "Fidelity National Information Services, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -10144,6 +10981,7 @@
     {
       "ticker": "NRG",
       "name": "NRG Energy, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -10156,6 +10994,7 @@
     {
       "ticker": "BLDR",
       "name": "Builders FirstSource, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -10168,6 +11007,7 @@
     {
       "ticker": "OLED",
       "name": "Universal Display Corp",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -10180,6 +11020,7 @@
     {
       "ticker": "TDG",
       "name": "TransDigm Group Incorporated",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -10192,6 +11033,7 @@
     {
       "ticker": "WHR",
       "name": "Whirlpool Corp.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -10204,6 +11046,7 @@
     {
       "ticker": "LEN",
       "name": "Lennar Corporation",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -10216,6 +11059,7 @@
     {
       "ticker": "DOCS",
       "name": "Doximity, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -10228,6 +11072,7 @@
     {
       "ticker": "PINS",
       "name": "Pinterest, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -10240,6 +11085,7 @@
     {
       "ticker": "AZO",
       "name": "AutoZone, Inc.",
+      "name_zh": "汽車地帶",
       "idx": [
         "S&P500"
       ],
@@ -10252,6 +11098,7 @@
     {
       "ticker": "LULU",
       "name": "lululemon athletica inc.",
+      "name_zh": "露露檸檬",
       "idx": [
         "S&P500"
       ],
@@ -10264,6 +11111,7 @@
     {
       "ticker": "OTIS",
       "name": "Otis Worldwide Corporation",
+      "name_zh": "奧的斯電梯",
       "idx": [
         "S&P500"
       ],
@@ -10276,6 +11124,7 @@
     {
       "ticker": "GNTX",
       "name": "Gentex Corp",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -10288,6 +11137,7 @@
     {
       "ticker": "CSGP",
       "name": "CoStar Group, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -10300,6 +11150,7 @@
     {
       "ticker": "PSN",
       "name": "Parsons Corporation",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -10312,6 +11163,7 @@
     {
       "ticker": "GLPI",
       "name": "Gaming and Leisure Properties, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -10324,6 +11176,7 @@
     {
       "ticker": "LII",
       "name": "Lennox International Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -10336,6 +11189,7 @@
     {
       "ticker": "SGI",
       "name": "Somnigroup International Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -10348,6 +11202,7 @@
     {
       "ticker": "FSLR",
       "name": "First Solar, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -10360,6 +11215,7 @@
     {
       "ticker": "PEG",
       "name": "Public Service Enterprise Group Incorporated",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -10372,18 +11228,20 @@
     {
       "ticker": "AGNC",
       "name": "AGNC Investment Corp.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
       "s0": 7.84,
-      "sigma": 0.2409,
-      "mu_hist": -0.1166,
-      "p_zero_drift": 0.6786,
-      "p_hist_drift": 0.5431
+      "sigma": 0.2408,
+      "mu_hist": -0.1159,
+      "p_zero_drift": 0.6785,
+      "p_hist_drift": 0.5439
     },
     {
       "ticker": "CG",
       "name": "The Carlyle Group Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -10396,6 +11254,7 @@
     {
       "ticker": "PPC",
       "name": "Pilgrims Pride Corporation",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -10408,6 +11267,7 @@
     {
       "ticker": "BR",
       "name": "Broadridge Financial Solutions, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -10420,6 +11280,7 @@
     {
       "ticker": "PLNT",
       "name": "Planet Fitness, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -10432,6 +11293,7 @@
     {
       "ticker": "LOPE",
       "name": "Grand Canyon Education, Inc",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -10444,6 +11306,7 @@
     {
       "ticker": "MAA",
       "name": "Mid-America Apartment Communities, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -10456,6 +11319,7 @@
     {
       "ticker": "CHWY",
       "name": "Chewy, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -10468,6 +11332,7 @@
     {
       "ticker": "NLY",
       "name": "Annaly Capital Management. Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -10480,6 +11345,7 @@
     {
       "ticker": "HLI",
       "name": "Houlihan Lokey, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -10492,6 +11358,7 @@
     {
       "ticker": "INTU",
       "name": "Intuit Inc.",
+      "name_zh": "財捷",
       "idx": [
         "Nasdaq100",
         "S&P500"
@@ -10505,6 +11372,7 @@
     {
       "ticker": "PEGA",
       "name": "Pegasystems Inc",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -10517,6 +11385,7 @@
     {
       "ticker": "TRMB",
       "name": "Trimble Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -10529,6 +11398,7 @@
     {
       "ticker": "ISRG",
       "name": "Intuitive Surgical, Inc.",
+      "name_zh": "直覺外科",
       "idx": [
         "Nasdaq100",
         "S&P500"
@@ -10542,6 +11412,7 @@
     {
       "ticker": "GIS",
       "name": "General Mills, Inc.",
+      "name_zh": "通用磨坊",
       "idx": [
         "S&P500"
       ],
@@ -10554,6 +11425,7 @@
     {
       "ticker": "ACI",
       "name": "Albertsons Companies, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -10566,6 +11438,7 @@
     {
       "ticker": "MELI",
       "name": "MercadoLibre, Inc.",
+      "name_zh": "",
       "idx": [
         "Nasdaq100"
       ],
@@ -10578,6 +11451,7 @@
     {
       "ticker": "BWXT",
       "name": "BWX Technologies, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -10590,6 +11464,7 @@
     {
       "ticker": "ZTS",
       "name": "Zoetis Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -10602,6 +11477,7 @@
     {
       "ticker": "HLNE",
       "name": "Hamilton Lane Incorporated",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -10614,6 +11490,7 @@
     {
       "ticker": "SPXC",
       "name": "SPX Technologies, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -10626,6 +11503,7 @@
     {
       "ticker": "CPRT",
       "name": "Copart, Inc.",
+      "name_zh": "",
       "idx": [
         "Nasdaq100",
         "S&P500"
@@ -10639,6 +11517,7 @@
     {
       "ticker": "FNF",
       "name": "Fidelity National Financial, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -10651,6 +11530,7 @@
     {
       "ticker": "ADBE",
       "name": "Adobe Inc.",
+      "name_zh": "奧多比",
       "idx": [
         "Nasdaq100",
         "S&P500"
@@ -10664,6 +11544,7 @@
     {
       "ticker": "NVR",
       "name": "NVR, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -10676,6 +11557,7 @@
     {
       "ticker": "ABT",
       "name": "Abbott Laboratories",
+      "name_zh": "雅培",
       "idx": [
         "S&P500"
       ],
@@ -10688,6 +11570,7 @@
     {
       "ticker": "SLM",
       "name": "SLM Corporation",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -10700,6 +11583,7 @@
     {
       "ticker": "PODD",
       "name": "Insulet Corporation",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -10712,6 +11596,7 @@
     {
       "ticker": "TSCO",
       "name": "Tractor Supply Company",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -10724,6 +11609,7 @@
     {
       "ticker": "SRE",
       "name": "Sempra",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -10736,6 +11622,7 @@
     {
       "ticker": "MKC",
       "name": "McCormick & Company, Incorporated",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -10748,6 +11635,7 @@
     {
       "ticker": "APTV",
       "name": "Aptiv PLC",
+      "name_zh": "安波福",
       "idx": [
         "S&P500"
       ],
@@ -10760,6 +11648,7 @@
     {
       "ticker": "BSX",
       "name": "Boston Scientific Corporation",
+      "name_zh": "波士頓科學",
       "idx": [
         "S&P500"
       ],
@@ -10772,6 +11661,7 @@
     {
       "ticker": "ACM",
       "name": "Aecom",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -10784,6 +11674,7 @@
     {
       "ticker": "UBER",
       "name": "Uber Technologies, Inc.",
+      "name_zh": "優步",
       "idx": [
         "S&P500"
       ],
@@ -10796,6 +11687,7 @@
     {
       "ticker": "POST",
       "name": "POST HOLDINGS, INC.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -10808,6 +11700,7 @@
     {
       "ticker": "PNR",
       "name": "Pentair plc",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -10820,6 +11713,7 @@
     {
       "ticker": "WYNN",
       "name": "Wynn Resorts, Limited",
+      "name_zh": "永利渡假村",
       "idx": [
         "S&P500"
       ],
@@ -10832,6 +11726,7 @@
     {
       "ticker": "XYL",
       "name": "Xylem Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -10844,6 +11739,7 @@
     {
       "ticker": "VICI",
       "name": "VICI Properties Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -10856,6 +11752,7 @@
     {
       "ticker": "INGR",
       "name": "Ingredion Incorporated",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -10868,6 +11765,7 @@
     {
       "ticker": "NFLX",
       "name": "Netflix, Inc.",
+      "name_zh": "網飛",
       "idx": [
         "Nasdaq100",
         "S&P500"
@@ -10881,6 +11779,7 @@
     {
       "ticker": "NKE",
       "name": "NIKE, Inc.",
+      "name_zh": "耐吉",
       "idx": [
         "S&P500"
       ],
@@ -10893,6 +11792,7 @@
     {
       "ticker": "LDOS",
       "name": "Leidos Holdings, Inc.",
+      "name_zh": "雷多斯",
       "idx": [
         "S&P500"
       ],
@@ -10905,6 +11805,7 @@
     {
       "ticker": "EXE",
       "name": "Expand Energy Corporation",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -10917,6 +11818,7 @@
     {
       "ticker": "ROL",
       "name": "Rollins, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P500"
       ],
@@ -10929,6 +11831,7 @@
     {
       "ticker": "MZTI",
       "name": "The Marzetti Company",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -10941,6 +11844,7 @@
     {
       "ticker": "LVS",
       "name": "Las Vegas Sands Corp.",
+      "name_zh": "拉斯維加斯金沙集團",
       "idx": [
         "S&P500"
       ],
@@ -10953,6 +11857,7 @@
     {
       "ticker": "PDD",
       "name": "PDD Holdings Inc.",
+      "name_zh": "拼多多控股",
       "idx": [
         "Nasdaq100"
       ],
@@ -10965,6 +11870,7 @@
     {
       "ticker": "STWD",
       "name": "STARWOOD PROPERTY TRUST, INC.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
@@ -10977,6 +11883,7 @@
     {
       "ticker": "BHF",
       "name": "Brighthouse Financial, Inc.",
+      "name_zh": "",
       "idx": [
         "S&P400"
       ],
