@@ -45,6 +45,15 @@ def ko_probability(sigma, mu, barrier_ratio=BARRIER_RATIO, T=HORIZON_YEARS,
     return float(min(max(p, 0.0), 1.0))
 
 
+
+def load_software_json():
+    """讀取 data/software_latest.json（由 build_software.py 產生）；沒有就回傳 'null'，網頁會顯示『尚未產生』。"""
+    try:
+        with open("data/software_latest.json", "r", encoding="utf-8") as f:
+            return json.dumps(json.load(f), ensure_ascii=False, separators=(",", ":"))
+    except Exception:
+        return "null"
+
 def load_name_zh_map():
     """從 data/universe.json 的第 5 欄（name_zh，常見中文名，非必填）建立 ticker -> 中文名 對照表，
     供「搜尋代號/公司名稱」支援中文搜尋用。找不到檔案或格式不符時回傳空字典，不中止流程。"""
@@ -105,6 +114,7 @@ def main():
     with open("scripts/template.html", "r", encoding="utf-8") as f:
         template = f.read()
     html = template.replace("__DATA_JSON__", json.dumps(out, ensure_ascii=False, separators=(",", ":")))
+    html = html.replace("__SOFTWARE_JSON__", load_software_json())
     with open("site/index.html", "w", encoding="utf-8") as f:
         f.write(html)
 

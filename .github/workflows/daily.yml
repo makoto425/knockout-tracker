@@ -32,6 +32,11 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      # 軟體股「值得買」評分；失敗不影響主頁(網頁會沿用 repo 內上一份 data/software_latest.json)
+      - name: Build software-stock ranking
+        continue-on-error: true
+        run: python scripts/build_software.py
+
       - name: Fetch data and build site
         run: python scripts/gh_fetch_and_build.py
 
@@ -40,6 +45,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/latest.json
+          if [ -f data/software_latest.json ]; then git add data/software_latest.json; fi
           if git diff --quiet --cached; then
             echo "No changes to commit."
             exit 0

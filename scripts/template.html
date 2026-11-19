@@ -92,6 +92,16 @@
   .tabbtn:hover{color:var(--text);}
   .tabbtn.active{background:var(--accent);color:#fff;border-color:var(--accent);}
   .hidden{display:none;}
+  .score-bar{display:inline-block;width:46px;height:6px;border-radius:3px;background:var(--panel2);vertical-align:middle;margin-left:6px;overflow:hidden;}
+  .score-bar i{display:block;height:100%;background:var(--accent);}
+  .score-total{font-weight:800;font-size:15px;}
+  .chg-up{color:var(--up);font-size:11px;} .chg-dn{color:var(--down);font-size:11px;} .chg-new{color:var(--warn);font-size:11px;}
+  .wgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:14px;}
+  .wgrid .ctrl-group{min-width:0;}
+  .presets{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px;}
+  .presets .tabbtn{padding:5px 12px;font-size:12px;}
+  #softTable tbody tr{cursor:pointer;} #softTable tbody tr:hover{background:var(--panel2);}
+  .sw-input{background:var(--panel2);border:1px solid var(--border);color:var(--text);border-radius:8px;padding:6px 10px;font-size:13px;}
   .note-callout{font-size:12.5px;color:var(--muted);line-height:1.9;}
   .note-callout b{color:var(--text);}
   .unavail-row td{color:var(--muted);font-style:italic;}
@@ -123,9 +133,10 @@
   <header>
     <h1>美股結構型商品分析平台</h1>
     <div class="sub" id="subhead">載入中…</div>
-    <div class="tabnav">
+    <div class="tabnav" id="mainTabNav">
       <button class="tabbtn active" data-tab="main">全市場 105% 敲出機率排行</button>
       <button class="tabbtn" data-tab="notes">科技巨頭「8折買入 / 105%敲出」排行</button>
+      <button class="tabbtn" data-tab="software">美股軟體股「值得買」排行</button>
     </div>
   </header>
 
@@ -243,6 +254,51 @@
       以上排行套用與主頁相同的機率模型（GBM 反射原理 + BGK 連續性修正），僅將標的範圍換成使用者指定的 10 檔科技股（OpenAI 除外）。
       「8 折買入 / 105% 強制敲出」只是通用結構型商品概念的簡化描述；實際發行的結構型商品在票息、下檔保護機制、提前贖回規則、計價幣別與交易成本等方面都可能與本頁假設不同，請以正式條款說明書為準。
       本頁純為量化研究與排序參考，<b>不構成亦不應被視為投資建議</b>，Claude 並非持牌投資顧問。
+    </footer>
+  </div>
+
+  <div id="tab-software" class="hidden">
+    <div class="card note-callout" id="softIntro"></div>
+    <div id="softBody" class="hidden">
+      <div class="card">
+        <div class="wgrid" id="softWeights"></div>
+        <div class="presets" id="softPresets"></div>
+        <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:14px;">
+          <select id="softInd" class="sw-input"><option value="">全部子產業</option></select>
+          <input id="softSearch" class="sw-input" placeholder="搜尋代號或公司名" style="flex:1;min-width:160px;">
+        </div>
+      </div>
+      <div class="card">
+        <div style="font-size:13px;color:var(--muted);margin-bottom:12px;">
+          依<b>綜合分數</b>由高到低（0–100，為候選池內的相對百分位加權）— 可點欄位標題重新排序，點整列開啟 K 線圖
+        </div>
+        <div style="overflow-x:auto;">
+        <table id="softTable">
+          <thead><tr>
+            <th>#</th><th>代號</th><th>公司</th>
+            <th data-key="price" class="num">現價</th>
+            <th data-key="mcap" class="num">市值</th>
+            <th data-key="total" class="num">綜合分</th>
+            <th data-key="growth" class="num">成長</th>
+            <th data-key="quality" class="num">品質</th>
+            <th data-key="future" class="num">未來性</th>
+            <th data-key="value" class="num">估值</th>
+            <th data-key="health" class="num">體質</th>
+            <th data-key="momentum" class="num">動能</th>
+            <th data-key="rev_growth" class="num">營收年增</th>
+            <th data-key="rule40" class="num">Rule of 40</th>
+            <th data-key="ev_sales" class="num">EV/營收</th>
+            <th data-key="target_upside" class="num">目標價空間</th>
+          </tr></thead>
+          <tbody id="softTbody"></tbody>
+        </table>
+        </div>
+      </div>
+    </div>
+    <footer>
+      資料來源：Yahoo Finance（yfinance），每日自動更新；欄位缺漏的公司該面向不計分（有效面向不足 4 個者不列入）。
+      分數是候選池內<b>相對</b>排名，高分只代表「在這批軟體股中各項指標相對較好」，不代表股價必漲，也未考慮個人風險承受度、持股集中度與稅務。
+      本頁純為量化篩選參考，<b>不構成投資建議</b>，Claude 並非持牌投資顧問。
     </footer>
   </div>
 
@@ -584,13 +640,12 @@ document.getElementById('notesDriftSlider').addEventListener('input', (e)=>{
   renderNotes();
 });
 
-document.querySelectorAll('.tabbtn').forEach(btn=>{
+document.querySelectorAll('#mainTabNav .tabbtn').forEach(btn=>{
   btn.addEventListener('click', ()=>{
-    document.querySelectorAll('.tabbtn').forEach(b=>b.classList.remove('active'));
+    document.querySelectorAll('#mainTabNav .tabbtn').forEach(b=>b.classList.remove('active'));
     btn.classList.add('active');
     const tab = btn.dataset.tab;
-    document.getElementById('tab-main').classList.toggle('hidden', tab!=='main');
-    document.getElementById('tab-notes').classList.toggle('hidden', tab!=='notes');
+    ['main','notes','software'].forEach(t=>document.getElementById('tab-'+t).classList.toggle('hidden', tab!==t));
   });
 });
 
@@ -603,6 +658,128 @@ document.querySelectorAll('#notesTable thead th[data-key]').forEach(th=>{
 });
 
 renderNotes();
+
+/* ---------- Tab 3: 美股軟體股「值得買」排行 ---------- */
+const SOFTWARE = __SOFTWARE_JSON__;
+const CAT_LABEL = {growth:'成長',quality:'獲利品質',future:'未來性',value:'估值',health:'財務體質',momentum:'動能'};
+const CAT_DESC = {
+  growth:'營收年增、獲利成長', quality:'毛利/營業利益率、自由現金流率、Rule of 40',
+  future:'分析師目標價空間、評等、預期 EPS 改善', value:'EV/營收÷成長、FCF 殖利率、預期本益比',
+  health:'淨現金占市值、流動比率、波動度', momentum:'6 個月/12-1 個月報酬、相對 200 日線'
+};
+const PRESETS = {
+  '均衡（預設）': null,
+  '成長優先': {growth:40,quality:15,future:25,value:5,health:5,momentum:10},
+  '價值/獲利': {growth:10,quality:30,future:10,value:35,health:10,momentum:5},
+  '穩健防守': {growth:10,quality:25,future:10,value:15,health:35,momentum:5},
+  '順勢動能': {growth:20,quality:10,future:15,value:5,health:5,momentum:45},
+};
+let softW = SOFTWARE ? Object.assign({}, SOFTWARE.weights) : null;
+let softSortKey = 'total', softSortDir = -1;
+const fmtCap = v => v==null ? '—' : v>=1e12 ? '$'+(v/1e12).toFixed(2)+'T' : v>=1e9 ? '$'+(v/1e9).toFixed(1)+'B' : '$'+(v/1e6).toFixed(0)+'M';
+const fmtP = v => v==null ? '—' : (v*100).toFixed(1)+'%';
+function softTotal(sc){
+  let tw=0, acc=0, n=0;
+  for(const c in softW){ if(sc[c]!=null){ tw+=softW[c]; acc+=softW[c]*sc[c]; n++; } }
+  return (tw>0 && n>=4) ? acc/tw : null;
+}
+function softVal(s,key){
+  if(key==='total') return s._total;
+  if(key==='price'||key==='mcap') return s[key];
+  if(CAT_LABEL[key]) return s.scores[key];
+  return s.m[key];
+}
+function scoreCell(v){
+  if(v==null) return '<td class="num">—</td>';
+  return `<td class="num">${v.toFixed(0)}<span class="score-bar"><i style="width:${v}%"></i></span></td>`;
+}
+function renderSoftWeights(){
+  const box = document.getElementById('softWeights');
+  box.innerHTML = Object.keys(CAT_LABEL).map(c=>`
+    <div class="ctrl-group" title="${CAT_DESC[c]}">
+      <div class="ctrl-label">${CAT_LABEL[c]}：<b id="sw-${c}-v">${softW[c]}</b></div>
+      <input type="range" min="0" max="60" value="${softW[c]}" data-cat="${c}">
+      <div style="font-size:10px;color:var(--muted);margin-top:2px;">${CAT_DESC[c]}</div>
+    </div>`).join('');
+  box.querySelectorAll('input').forEach(inp=>inp.addEventListener('input', e=>{
+    softW[e.target.dataset.cat] = +e.target.value;
+    document.getElementById('sw-'+e.target.dataset.cat+'-v').textContent = e.target.value;
+    renderSoftware();
+  }));
+}
+function renderSoftware(){
+  const q = document.getElementById('softSearch').value.trim().toLowerCase();
+  const ind = document.getElementById('softInd').value;
+  let rows = SOFTWARE.stocks.map(s=>Object.assign(s,{_total:softTotal(s.scores)})).filter(s=>s._total!=null);
+  // 以目前權重算出的排名（用於顯示與排名變動）
+  const byTotal = rows.slice().sort((a,b2)=>b2._total-a._total);
+  byTotal.forEach((s,i)=>s._rank=i+1);
+  rows = rows.filter(s=>(!ind || s.industry===ind) && (!q || s.ticker.toLowerCase().includes(q) || (s.name||'').toLowerCase().includes(q)));
+  rows.sort((a,b2)=>{
+    const av=softVal(a,softSortKey), bv=softVal(b2,softSortKey);
+    if(av==null&&bv==null) return 0; if(av==null) return 1; if(bv==null) return -1;
+    return softSortDir*(av-bv);
+  });
+  const isDefault = JSON.stringify(softW)===JSON.stringify(SOFTWARE.weights);
+  document.getElementById('softTbody').innerHTML = rows.map(s=>{
+    let chg='';
+    if(isDefault){
+      if(s.prev_rank==null) chg='<span class="chg-new">NEW</span>';
+      else if(s.prev_rank>s._rank) chg=`<span class="chg-up">▲${s.prev_rank-s._rank}</span>`;
+      else if(s.prev_rank<s._rank) chg=`<span class="chg-dn">▼${s._rank-s.prev_rank}</span>`;
+    }
+    return `<tr data-ticker="${s.ticker}" data-name="${(s.name||'').replace(/"/g,'')}" data-prob="綜合分 ${s._total.toFixed(1)}（第 ${s._rank} 名）">
+      <td class="rank-cell">${s._rank} ${chg}</td>
+      <td><b>${s.ticker}</b></td>
+      <td>${s.name||''}<div style="font-size:10px;color:var(--muted)">${s.industry||''}</div></td>
+      <td class="num">${s.price!=null?'$'+s.price:'—'}</td>
+      <td class="num">${fmtCap(s.mcap)}</td>
+      <td class="num score-total">${s._total.toFixed(1)}</td>
+      ${['growth','quality','future','value','health','momentum'].map(c=>scoreCell(s.scores[c])).join('')}
+      <td class="num">${fmtP(s.m.rev_growth)}</td>
+      <td class="num">${fmtP(s.m.rule40)}</td>
+      <td class="num">${s.m.ev_sales!=null?s.m.ev_sales.toFixed(1)+'x':'—'}</td>
+      <td class="num">${fmtP(s.m.target_upside)}</td>
+    </tr>`;
+  }).join('') || '<tr><td colspan="16" class="empty">沒有符合的結果</td></tr>';
+  document.querySelectorAll('#softTable thead th[data-key]').forEach(th=>th.classList.toggle('sorted', th.dataset.key===softSortKey));
+}
+function initSoftware(){
+  const intro = document.getElementById('softIntro');
+  if(!SOFTWARE || !SOFTWARE.stocks || !SOFTWARE.stocks.length){
+    intro.innerHTML = '<b>軟體股排行資料尚未產生</b>：下一次每日排程（或手動執行一次 workflow）跑完後這個分頁就會出現資料。';
+    return;
+  }
+  const d = new Date(SOFTWARE.generated_at);
+  intro.innerHTML = `<b>怎麼排的？</b>候選池為美國上市、市值 ≥ 20 億美元的軟體 / SaaS / 資安 / 基礎設施公司（目前 <b>${SOFTWARE.universe_size}</b> 檔，更新於 ${d.toLocaleString('zh-TW')}）。
+    每個指標先在池內換算成百分位，再依<b>六大面向</b>加權成 0–100 分：成長、獲利品質、未來性、估值、財務體質、動能。
+    <b>可用下方滑桿調整你自己的權重</b>，排名會即時重算；預設值偏重「成長 + 未來性」（合計 45%）。<br>
+    「未來性」來自分析師目標價空間、評等與預期 EPS 改善，屬於<b>市場預期而非保證</b>；估值用「EV/營收 ÷ 營收成長率」避免只因便宜或只因高成長而失真。
+    資料缺漏的指標不計分，所以小型或剛上市的公司分數可信度較低。`;
+  document.getElementById('softBody').classList.remove('hidden');
+  const inds = [...new Set(SOFTWARE.stocks.map(s=>s.industry).filter(Boolean))].sort();
+  document.getElementById('softInd').innerHTML += inds.map(i=>`<option>${i}</option>`).join('');
+  document.getElementById('softPresets').innerHTML = Object.keys(PRESETS).map(k=>`<button class="tabbtn" data-preset="${k}">${k}</button>`).join('');
+  document.getElementById('softPresets').addEventListener('click', e=>{
+    const b = e.target.closest('[data-preset]'); if(!b) return;
+    softW = Object.assign({}, PRESETS[b.dataset.preset] || SOFTWARE.weights);
+    renderSoftWeights(); renderSoftware();
+  });
+  renderSoftWeights();
+  document.getElementById('softInd').addEventListener('change', renderSoftware);
+  document.getElementById('softSearch').addEventListener('input', renderSoftware);
+  document.querySelectorAll('#softTable thead th[data-key]').forEach(th=>th.addEventListener('click', ()=>{
+    const k = th.dataset.key;
+    if(softSortKey===k) softSortDir*=-1; else { softSortKey=k; softSortDir=-1; }
+    renderSoftware();
+  }));
+  document.getElementById('softTbody').addEventListener('click', e=>{
+    const tr = e.target.closest('tr[data-ticker]'); if(!tr) return;
+    openChartModal(tr.dataset.ticker, tr.dataset.name, tr.dataset.prob);
+  });
+  renderSoftware();
+}
+initSoftware();
 </script>
 </body>
 </html>

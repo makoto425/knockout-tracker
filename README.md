@@ -41,3 +41,10 @@ scripts/gh_fetch_and_build.py   GitHub Actions 用的抓資料+算機率+產生�
 scripts/template.html     網頁樣板（gh_fetch_and_build.py 會把資料塞進去）
 .github/workflows/daily.yml     每日排程 workflow
 ```
+
+## 第三個分頁：美股軟體股「值得買」排行
+
+`scripts/build_software.py` 每天（在主頁計算之前）抓美國上市、市值 ≥ 20 億美元的軟體 / SaaS / 資安 / 基礎設施公司，
+用 yfinance 的基本面與分析師預期，依六大面向（成長、獲利品質、未來性、估值、財務體質、動能）算 0–100 分，
+輸出 `data/software_latest.json`；網頁端可自行調整權重即時重排。候選池 = 腳本內 `SEED` 清單 ∪ Yahoo screener 搜尋結果，
+想加減公司直接改 `SEED`。此步驟失敗（`continue-on-error`）不影響主頁，網頁會沿用上一份資料。僅供研究參考，不構成投資建議。

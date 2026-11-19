@@ -165,6 +165,15 @@ def ko_probability(sigma, mu, barrier_ratio=BARRIER_RATIO, T=HORIZON_YEARS,
     return float(min(max(p, 0.0), 1.0))
 
 
+
+def load_software_json():
+    """讀取 data/software_latest.json（由 build_software.py 產生）；沒有就回傳 'null'，網頁會顯示『尚未產生』。"""
+    try:
+        with open("data/software_latest.json", "r", encoding="utf-8") as f:
+            return json.dumps(json.load(f), ensure_ascii=False, separators=(",", ":"))
+    except Exception:
+        return "null"
+
 def main():
     universe = get_universe()
     tickers = sorted(universe.keys())
@@ -230,6 +239,7 @@ def main():
     with open("scripts/template.html", "r", encoding="utf-8") as f:
         template = f.read()
     html = template.replace("__DATA_JSON__", json.dumps(site_data, ensure_ascii=False, separators=(",", ":")))
+    html = html.replace("__SOFTWARE_JSON__", load_software_json())
     with open("site/index.html", "w", encoding="utf-8") as f:
         f.write(html)
 
