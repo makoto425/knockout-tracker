@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T00:27:12.276961+00:00",
+  "generated_at": "2026-11-21T23:39:11.549810+00:00",
   "params": {
     "barrier_ratio": 1.05,
     "horizon_years": 1.0,
@@ -118,10 +118,10 @@
         "S&P400"
       ],
       "s0": 398.46,
-      "sigma": 0.2547,
+      "sigma": 0.2535,
       "mu_hist": 0.4,
-      "p_zero_drift": 0.6855,
-      "p_hist_drift": 0.9615
+      "p_zero_drift": 0.6849,
+      "p_hist_drift": 0.962
     },
     {
       "ticker": "CSX",
@@ -188,6 +188,19 @@
       "mu_hist": 0.3721,
       "p_zero_drift": 0.6821,
       "p_hist_drift": 0.9556
+    },
+    {
+      "ticker": "ROKU",
+      "name": "Roku, Inc.",
+      "name_zh": "",
+      "idx": [
+        "S&P400"
+      ],
+      "s0": 160.52,
+      "sigma": 0.271,
+      "mu_hist": 0.4,
+      "p_zero_drift": 0.6926,
+      "p_hist_drift": 0.9555
     },
     {
       "ticker": "WST",
@@ -1023,6 +1036,19 @@
       "p_hist_drift": 0.9189
     },
     {
+      "ticker": "CCEP",
+      "name": "Coca-Cola Europacific Partners PLC",
+      "name_zh": "",
+      "idx": [
+        "Nasdaq100"
+      ],
+      "s0": 115.53,
+      "sigma": 0.2453,
+      "mu_hist": 0.2804,
+      "p_zero_drift": 0.6809,
+      "p_hist_drift": 0.918
+    },
+    {
       "ticker": "DRI",
       "name": "Darden Restaurants, Inc.",
       "name_zh": "",
@@ -1297,19 +1323,6 @@
       "mu_hist": 0.3812,
       "p_zero_drift": 0.7235,
       "p_hist_drift": 0.9112
-    },
-    {
-      "ticker": "CCEP",
-      "name": "Coca-Cola Europacific Partners PLC",
-      "name_zh": "",
-      "idx": [
-        "Nasdaq100"
-      ],
-      "s0": 115.53,
-      "sigma": 0.2454,
-      "mu_hist": 0.2666,
-      "p_zero_drift": 0.6809,
-      "p_hist_drift": 0.9106
     },
     {
       "ticker": "LAMR",
@@ -2061,6 +2074,20 @@
       "p_hist_drift": 0.8903
     },
     {
+      "ticker": "AMGN",
+      "name": "Amgen Inc.",
+      "name_zh": "安進",
+      "idx": [
+        "Nasdaq100",
+        "S&P500"
+      ],
+      "s0": 435.64,
+      "sigma": 0.3127,
+      "mu_hist": 0.274,
+      "p_zero_drift": 0.707,
+      "p_hist_drift": 0.8902
+    },
+    {
       "ticker": "KEYS",
       "name": "Keysight Technologies, Inc.",
       "name_zh": "是德科技",
@@ -2137,20 +2164,6 @@
       "mu_hist": 0.1788,
       "p_zero_drift": 0.6136,
       "p_hist_drift": 0.8875
-    },
-    {
-      "ticker": "AMGN",
-      "name": "Amgen Inc.",
-      "name_zh": "安進",
-      "idx": [
-        "Nasdaq100",
-        "S&P500"
-      ],
-      "s0": 435.64,
-      "sigma": 0.3129,
-      "mu_hist": 0.2682,
-      "p_zero_drift": 0.7071,
-      "p_hist_drift": 0.8873
     },
     {
       "ticker": "AVTR",
@@ -2307,6 +2320,19 @@
       "mu_hist": 0.2607,
       "p_zero_drift": 0.7071,
       "p_hist_drift": 0.8835
+    },
+    {
+      "ticker": "EVRG",
+      "name": "Evergy, Inc.",
+      "name_zh": "",
+      "idx": [
+        "S&P500"
+      ],
+      "s0": 85.93,
+      "sigma": 0.1543,
+      "mu_hist": 0.1705,
+      "p_zero_drift": 0.6045,
+      "p_hist_drift": 0.8832
     },
     {
       "ticker": "DVA",
@@ -2533,6 +2559,20 @@
       "p_hist_drift": 0.8776
     },
     {
+      "ticker": "REGN",
+      "name": "Regeneron Pharmaceuticals, Inc.",
+      "name_zh": "再生元製藥",
+      "idx": [
+        "Nasdaq100",
+        "S&P500"
+      ],
+      "s0": 920.69,
+      "sigma": 0.3633,
+      "mu_hist": 0.2763,
+      "p_zero_drift": 0.719,
+      "p_hist_drift": 0.8772
+    },
+    {
       "ticker": "TNL",
       "name": "Travel + Leisure Co.",
       "name_zh": "",
@@ -2544,20 +2584,6 @@
       "mu_hist": 0.2547,
       "p_zero_drift": 0.7103,
       "p_hist_drift": 0.8771
-    },
-    {
-      "ticker": "REGN",
-      "name": "Regeneron Pharmaceuticals, Inc.",
-      "name_zh": "再生元製藥",
-      "idx": [
-        "Nasdaq100",
-        "S&P500"
-      ],
-      "s0": 920.69,
-      "sigma": 0.3633,
-      "mu_hist": 0.2752,
-      "p_zero_drift": 0.719,
-      "p_hist_drift": 0.8768
     },
     {
       "ticker": "MOH",
@@ -2638,19 +2664,6 @@
       "mu_hist": 0.215,
       "p_zero_drift": 0.6878,
       "p_hist_drift": 0.8737
-    },
-    {
-      "ticker": "EVRG",
-      "name": "Evergy, Inc.",
-      "name_zh": "",
-      "idx": [
-        "S&P500"
-      ],
-      "s0": 85.93,
-      "sigma": 0.1547,
-      "mu_hist": 0.1621,
-      "p_zero_drift": 0.6051,
-      "p_hist_drift": 0.8733
     },
     {
       "ticker": "MCK",
@@ -4501,6 +4514,19 @@
       "p_hist_drift": 0.8199
     },
     {
+      "ticker": "PRI",
+      "name": "PRIMERICA, INC.",
+      "name_zh": "",
+      "idx": [
+        "S&P400"
+      ],
+      "s0": 286.76,
+      "sigma": 0.2103,
+      "mu_hist": 0.1325,
+      "p_zero_drift": 0.6596,
+      "p_hist_drift": 0.8198
+    },
+    {
       "ticker": "MKSI",
       "name": "MKS Inc.",
       "name_zh": "",
@@ -4657,19 +4683,6 @@
       "mu_hist": 0.1448,
       "p_zero_drift": 0.705,
       "p_hist_drift": 0.816
-    },
-    {
-      "ticker": "PRI",
-      "name": "PRIMERICA, INC.",
-      "name_zh": "",
-      "idx": [
-        "S&P400"
-      ],
-      "s0": 286.76,
-      "sigma": 0.2105,
-      "mu_hist": 0.1284,
-      "p_zero_drift": 0.6598,
-      "p_hist_drift": 0.8155
     },
     {
       "ticker": "ECHO",
@@ -4919,6 +4932,19 @@
       "p_hist_drift": 0.8107
     },
     {
+      "ticker": "SMG",
+      "name": "The Scotts Miracle-Gro Company",
+      "name_zh": "",
+      "idx": [
+        "S&P400"
+      ],
+      "s0": 58.6,
+      "sigma": 0.4108,
+      "mu_hist": 0.1503,
+      "p_zero_drift": 0.7268,
+      "p_hist_drift": 0.8085
+    },
+    {
       "ticker": "WM",
       "name": "Waste Management, Inc.",
       "name_zh": "廢物管理公司",
@@ -4956,6 +4982,20 @@
       "mu_hist": 0.1668,
       "p_zero_drift": 0.736,
       "p_hist_drift": 0.8065
+    },
+    {
+      "ticker": "SNDK",
+      "name": "Sandisk Corporation",
+      "name_zh": "新帝（SanDisk）",
+      "idx": [
+        "Nasdaq100",
+        "S&P500"
+      ],
+      "s0": 94.39,
+      "sigma": 1.0325,
+      "mu_hist": 0.4,
+      "p_zero_drift": 0.7271,
+      "p_hist_drift": 0.8057
     },
     {
       "ticker": "JCI",
@@ -5035,19 +5075,6 @@
       "mu_hist": 0.1422,
       "p_zero_drift": 0.7278,
       "p_hist_drift": 0.8038
-    },
-    {
-      "ticker": "SMG",
-      "name": "The Scotts Miracle-Gro Company",
-      "name_zh": "",
-      "idx": [
-        "S&P400"
-      ],
-      "s0": 58.6,
-      "sigma": 0.4135,
-      "mu_hist": 0.1395,
-      "p_zero_drift": 0.7271,
-      "p_hist_drift": 0.8029
     },
     {
       "ticker": "AIT",
@@ -5154,20 +5181,6 @@
       "p_hist_drift": 0.8017
     },
     {
-      "ticker": "SNDK",
-      "name": "Sandisk Corporation",
-      "name_zh": "新帝（SanDisk）",
-      "idx": [
-        "Nasdaq100",
-        "S&P500"
-      ],
-      "s0": 79.24,
-      "sigma": 1.0644,
-      "mu_hist": 0.4,
-      "p_zero_drift": 0.7253,
-      "p_hist_drift": 0.8017
-    },
-    {
       "ticker": "NSC",
       "name": "Norfolk Southern Corporation",
       "name_zh": "諾福克南方鐵路",
@@ -5187,11 +5200,11 @@
       "idx": [
         "S&P500"
       ],
-      "s0": 114.62,
+      "s0": 114.63,
       "sigma": 0.3072,
       "mu_hist": 0.1234,
       "p_zero_drift": 0.7054,
-      "p_hist_drift": 0.8009
+      "p_hist_drift": 0.801
     },
     {
       "ticker": "MTN",
@@ -5520,6 +5533,19 @@
       "p_hist_drift": 0.7933
     },
     {
+      "ticker": "RTX",
+      "name": "RTX Corporation",
+      "name_zh": "雷神技術",
+      "idx": [
+        "S&P500"
+      ],
+      "s0": 190.17,
+      "sigma": 0.2461,
+      "mu_hist": 0.1087,
+      "p_zero_drift": 0.6813,
+      "p_hist_drift": 0.7925
+    },
+    {
       "ticker": "RL",
       "name": "Ralph Lauren Corporation",
       "name_zh": "",
@@ -5599,19 +5625,6 @@
       "p_hist_drift": 0.7889
     },
     {
-      "ticker": "RTX",
-      "name": "RTX Corporation",
-      "name_zh": "雷神技術",
-      "idx": [
-        "S&P500"
-      ],
-      "s0": 190.17,
-      "sigma": 0.2466,
-      "mu_hist": 0.1049,
-      "p_zero_drift": 0.6815,
-      "p_hist_drift": 0.7889
-    },
-    {
       "ticker": "MORN",
       "name": "Morningstar, Inc.",
       "name_zh": "",
@@ -5671,7 +5684,7 @@
         "Nasdaq100",
         "S&P500"
       ],
-      "s0": 204.77,
+      "s0": 204.78,
       "sigma": 0.8101,
       "mu_hist": 0.1985,
       "p_zero_drift": 0.737,
@@ -5953,6 +5966,19 @@
       "p_hist_drift": 0.7812
     },
     {
+      "ticker": "WMG",
+      "name": "Warner Music Group Corp.",
+      "name_zh": "",
+      "idx": [
+        "S&P400"
+      ],
+      "s0": 32.72,
+      "sigma": 0.3168,
+      "mu_hist": 0.0957,
+      "p_zero_drift": 0.7081,
+      "p_hist_drift": 0.7809
+    },
+    {
       "ticker": "GLW",
       "name": "Corning Incorporated",
       "name_zh": "康寧",
@@ -6055,19 +6081,6 @@
       "mu_hist": 0.0941,
       "p_zero_drift": 0.6325,
       "p_hist_drift": 0.7777
-    },
-    {
-      "ticker": "WMG",
-      "name": "Warner Music Group Corp.",
-      "name_zh": "",
-      "idx": [
-        "S&P400"
-      ],
-      "s0": 32.72,
-      "sigma": 0.3168,
-      "mu_hist": 0.0896,
-      "p_zero_drift": 0.7082,
-      "p_hist_drift": 0.7765
     },
     {
       "ticker": "FIX",
@@ -6252,6 +6265,19 @@
       "p_hist_drift": 0.7716
     },
     {
+      "ticker": "SNA",
+      "name": "Snap-on Incorporated",
+      "name_zh": "",
+      "idx": [
+        "S&P500"
+      ],
+      "s0": 348.88,
+      "sigma": 0.1738,
+      "mu_hist": 0.0896,
+      "p_zero_drift": 0.6278,
+      "p_hist_drift": 0.7713
+    },
+    {
       "ticker": "HRB",
       "name": "H&R Block, Inc.",
       "name_zh": "",
@@ -6317,6 +6343,19 @@
       "mu_hist": 0.0818,
       "p_zero_drift": 0.682,
       "p_hist_drift": 0.7669
+    },
+    {
+      "ticker": "FBIN",
+      "name": "Fortune Brands Innovations, Inc.",
+      "name_zh": "",
+      "idx": [
+        "S&P400"
+      ],
+      "s0": 46.45,
+      "sigma": 0.4246,
+      "mu_hist": 0.07,
+      "p_zero_drift": 0.7285,
+      "p_hist_drift": 0.7666
     },
     {
       "ticker": "CAVA",
@@ -6438,19 +6477,6 @@
       "p_hist_drift": 0.7638
     },
     {
-      "ticker": "FBIN",
-      "name": "Fortune Brands Innovations, Inc.",
-      "name_zh": "",
-      "idx": [
-        "S&P400"
-      ],
-      "s0": 46.45,
-      "sigma": 0.4251,
-      "mu_hist": 0.0645,
-      "p_zero_drift": 0.7286,
-      "p_hist_drift": 0.7637
-    },
-    {
       "ticker": "PB",
       "name": "Prosperity Bancshares Inc",
       "name_zh": "",
@@ -6501,19 +6527,6 @@
       "mu_hist": 0.0703,
       "p_zero_drift": 0.6998,
       "p_hist_drift": 0.7603
-    },
-    {
-      "ticker": "SNA",
-      "name": "Snap-on Incorporated",
-      "name_zh": "",
-      "idx": [
-        "S&P500"
-      ],
-      "s0": 348.88,
-      "sigma": 0.176,
-      "mu_hist": 0.0819,
-      "p_zero_drift": 0.6301,
-      "p_hist_drift": 0.7602
     },
     {
       "ticker": "RGEN",
@@ -7091,6 +7104,19 @@
       "p_hist_drift": 0.739
     },
     {
+      "ticker": "FERG",
+      "name": "Ferguson Enterprises Inc.",
+      "name_zh": "",
+      "idx": [
+        "S&P500"
+      ],
+      "s0": 240.62,
+      "sigma": 0.3328,
+      "mu_hist": 0.0353,
+      "p_zero_drift": 0.7123,
+      "p_hist_drift": 0.7384
+    },
+    {
       "ticker": "GE",
       "name": "GE Aerospace",
       "name_zh": "奇異航太",
@@ -7115,19 +7141,6 @@
       "mu_hist": 0.0391,
       "p_zero_drift": 0.7036,
       "p_hist_drift": 0.7363
-    },
-    {
-      "ticker": "FERG",
-      "name": "Ferguson Enterprises Inc.",
-      "name_zh": "",
-      "idx": [
-        "S&P500"
-      ],
-      "s0": 240.62,
-      "sigma": 0.3335,
-      "mu_hist": 0.0317,
-      "p_zero_drift": 0.7125,
-      "p_hist_drift": 0.7359
     },
     {
       "ticker": "HXL",
@@ -7462,9 +7475,9 @@
       "idx": [
         "S&P400"
       ],
-      "s0": 124.39,
+      "s0": 124.4,
       "sigma": 0.8146,
-      "mu_hist": -0.0608,
+      "mu_hist": -0.0607,
       "p_zero_drift": 0.7369,
       "p_hist_drift": 0.7206
     },
@@ -7534,6 +7547,19 @@
       "p_hist_drift": 0.717
     },
     {
+      "ticker": "ALV",
+      "name": "Autoliv, Inc.",
+      "name_zh": "",
+      "idx": [
+        "S&P400"
+      ],
+      "s0": 114.81,
+      "sigma": 0.2979,
+      "mu_hist": 0.015,
+      "p_zero_drift": 0.7024,
+      "p_hist_drift": 0.7153
+    },
+    {
       "ticker": "VEEV",
       "name": "Veeva Systems Inc.",
       "name_zh": "",
@@ -7547,6 +7573,19 @@
       "p_hist_drift": 0.715
     },
     {
+      "ticker": "BBWI",
+      "name": "Bath & Body Works, Inc.",
+      "name_zh": "",
+      "idx": [
+        "S&P400"
+      ],
+      "s0": 18.66,
+      "sigma": 0.6107,
+      "mu_hist": -0.0669,
+      "p_zero_drift": 0.7393,
+      "p_hist_drift": 0.7146
+    },
+    {
       "ticker": "DT",
       "name": "Dynatrace, Inc.",
       "name_zh": "",
@@ -7558,6 +7597,19 @@
       "mu_hist": -0.0415,
       "p_zero_drift": 0.7343,
       "p_hist_drift": 0.7143
+    },
+    {
+      "ticker": "LPX",
+      "name": "Louisiana-Pacific Corp.",
+      "name_zh": "",
+      "idx": [
+        "S&P400"
+      ],
+      "s0": 72.95,
+      "sigma": 0.3775,
+      "mu_hist": -0.0116,
+      "p_zero_drift": 0.7216,
+      "p_hist_drift": 0.7142
     },
     {
       "ticker": "AAL",
@@ -7610,19 +7662,6 @@
       "mu_hist": 0.0168,
       "p_zero_drift": 0.6963,
       "p_hist_drift": 0.7119
-    },
-    {
-      "ticker": "LPX",
-      "name": "Louisiana-Pacific Corp.",
-      "name_zh": "",
-      "idx": [
-        "S&P400"
-      ],
-      "s0": 72.95,
-      "sigma": 0.3776,
-      "mu_hist": -0.0156,
-      "p_zero_drift": 0.7217,
-      "p_hist_drift": 0.7116
     },
     {
       "ticker": "HCA",
@@ -7690,19 +7729,6 @@
       "p_hist_drift": 0.7109
     },
     {
-      "ticker": "BBWI",
-      "name": "Bath & Body Works, Inc.",
-      "name_zh": "",
-      "idx": [
-        "S&P400"
-      ],
-      "s0": 18.66,
-      "sigma": 0.611,
-      "mu_hist": -0.0776,
-      "p_zero_drift": 0.7393,
-      "p_hist_drift": 0.7106
-    },
-    {
       "ticker": "IDXX",
       "name": "IDEXX Laboratories, Inc.",
       "name_zh": "",
@@ -7742,19 +7768,6 @@
       "mu_hist": 0.0484,
       "p_zero_drift": 0.6288,
       "p_hist_drift": 0.7089
-    },
-    {
-      "ticker": "ALV",
-      "name": "Autoliv, Inc.",
-      "name_zh": "",
-      "idx": [
-        "S&P400"
-      ],
-      "s0": 114.81,
-      "sigma": 0.2996,
-      "mu_hist": 0.0065,
-      "p_zero_drift": 0.703,
-      "p_hist_drift": 0.7085
     },
     {
       "ticker": "TTMI",
@@ -8072,6 +8085,19 @@
       "p_hist_drift": 0.6941
     },
     {
+      "ticker": "MCO",
+      "name": "Moody's Corporation",
+      "name_zh": "穆迪",
+      "idx": [
+        "S&P500"
+      ],
+      "s0": 466.83,
+      "sigma": 0.2796,
+      "mu_hist": -0.002,
+      "p_zero_drift": 0.696,
+      "p_hist_drift": 0.6941
+    },
+    {
       "ticker": "ELS",
       "name": "Equity Lifestyle Properties, Inc.",
       "name_zh": "",
@@ -8122,19 +8148,6 @@
       "mu_hist": -0.1563,
       "p_zero_drift": 0.723,
       "p_hist_drift": 0.6925
-    },
-    {
-      "ticker": "MCO",
-      "name": "Moody's Corporation",
-      "name_zh": "穆迪",
-      "idx": [
-        "S&P500"
-      ],
-      "s0": 466.83,
-      "sigma": 0.2798,
-      "mu_hist": -0.0042,
-      "p_zero_drift": 0.6961,
-      "p_hist_drift": 0.6922
     },
     {
       "ticker": "ENSG",
@@ -9880,6 +9893,19 @@
       "p_hist_drift": 0.62
     },
     {
+      "ticker": "TEL",
+      "name": "TE Connectivity plc",
+      "name_zh": "",
+      "idx": [
+        "S&P500"
+      ],
+      "s0": 199.97,
+      "sigma": 0.357,
+      "mu_hist": -0.1385,
+      "p_zero_drift": 0.7178,
+      "p_hist_drift": 0.6188
+    },
+    {
       "ticker": "FLG",
       "name": "Flagstar Bank, National Association",
       "name_zh": "",
@@ -9891,19 +9917,6 @@
       "mu_hist": -0.0899,
       "p_zero_drift": 0.7005,
       "p_hist_drift": 0.6186
-    },
-    {
-      "ticker": "TEL",
-      "name": "TE Connectivity plc",
-      "name_zh": "",
-      "idx": [
-        "S&P500"
-      ],
-      "s0": 199.97,
-      "sigma": 0.3584,
-      "mu_hist": -0.1422,
-      "p_zero_drift": 0.7181,
-      "p_hist_drift": 0.6169
     },
     {
       "ticker": "ORI",
@@ -10075,6 +10088,19 @@
       "p_hist_drift": 0.6085
     },
     {
+      "ticker": "CMI",
+      "name": "Cummins Inc.",
+      "name_zh": "康明斯",
+      "idx": [
+        "S&P500"
+      ],
+      "s0": 403.61,
+      "sigma": 0.3395,
+      "mu_hist": -0.1394,
+      "p_zero_drift": 0.714,
+      "p_hist_drift": 0.6079
+    },
+    {
       "ticker": "HUBS",
       "name": "HUBSPOT, INC.",
       "name_zh": "",
@@ -10086,19 +10112,6 @@
       "mu_hist": -0.4,
       "p_zero_drift": 0.7395,
       "p_hist_drift": 0.6066
-    },
-    {
-      "ticker": "CMI",
-      "name": "Cummins Inc.",
-      "name_zh": "康明斯",
-      "idx": [
-        "S&P500"
-      ],
-      "s0": 403.61,
-      "sigma": 0.341,
-      "mu_hist": -0.1447,
-      "p_zero_drift": 0.7143,
-      "p_hist_drift": 0.6048
     },
     {
       "ticker": "POR",
@@ -11456,7 +11469,7 @@
       "idx": [
         "S&P400"
       ],
-      "s0": 15.86,
+      "s0": 15.87,
       "sigma": 0.4283,
       "mu_hist": -0.4,
       "p_zero_drift": 0.729,
