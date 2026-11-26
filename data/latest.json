@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T02:52:20.479533+00:00",
+  "generated_at": "2026-11-26T02:01:00.166525+00:00",
   "params": {
     "barrier_ratio": 1.05,
     "horizon_years": 1.0,
@@ -196,11 +196,11 @@
       "idx": [
         "S&P400"
       ],
-      "s0": 55.86,
-      "sigma": 0.2193,
-      "mu_hist": 0.3382,
-      "p_zero_drift": 0.6658,
-      "p_hist_drift": 0.9558
+      "s0": 56.11,
+      "sigma": 0.219,
+      "mu_hist": 0.3333,
+      "p_zero_drift": 0.6656,
+      "p_hist_drift": 0.9541
     },
     {
       "ticker": "CVX",
@@ -3151,6 +3151,19 @@
       "p_hist_drift": 0.8579
     },
     {
+      "ticker": "GHC",
+      "name": "GRAHAM HOLDINGS COMPANY",
+      "name_zh": "",
+      "idx": [
+        "S&P400"
+      ],
+      "s0": 1258.18,
+      "sigma": 0.2194,
+      "mu_hist": 0.1756,
+      "p_zero_drift": 0.6658,
+      "p_hist_drift": 0.8577
+    },
+    {
       "ticker": "VZ",
       "name": "Verizon Communications Inc.",
       "name_zh": "威訊通訊",
@@ -3698,19 +3711,6 @@
       "mu_hist": 0.1561,
       "p_zero_drift": 0.6518,
       "p_hist_drift": 0.8464
-    },
-    {
-      "ticker": "GHC",
-      "name": "GRAHAM HOLDINGS COMPANY",
-      "name_zh": "",
-      "idx": [
-        "S&P400"
-      ],
-      "s0": 1262.58,
-      "sigma": 0.2212,
-      "mu_hist": 0.163,
-      "p_zero_drift": 0.6671,
-      "p_hist_drift": 0.8462
     },
     {
       "ticker": "AMAT",
@@ -8726,7 +8726,7 @@
       ],
       "s0": 301.08,
       "sigma": 0.5383,
-      "mu_hist": -0.1148,
+      "mu_hist": -0.1147,
       "p_zero_drift": 0.7373,
       "p_hist_drift": 0.6877
     },
