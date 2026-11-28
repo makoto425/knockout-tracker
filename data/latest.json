@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T02:00:40.754130+00:00",
+  "generated_at": "2026-11-28T01:44:04.814598+00:00",
   "params": {
     "barrier_ratio": 1.05,
     "horizon_years": 1.0,
@@ -3451,19 +3451,6 @@
       "p_hist_drift": 0.8579
     },
     {
-      "ticker": "GHC",
-      "name": "GRAHAM HOLDINGS COMPANY",
-      "name_zh": "",
-      "idx": [
-        "S&P400"
-      ],
-      "s0": 1258.18,
-      "sigma": 0.2194,
-      "mu_hist": 0.1756,
-      "p_zero_drift": 0.6658,
-      "p_hist_drift": 0.8577
-    },
-    {
       "ticker": "IRM",
       "name": "Iron Mountain Incorporated",
       "name_zh": "",
@@ -3776,6 +3763,19 @@
       "mu_hist": 0.2299,
       "p_zero_drift": 0.7244,
       "p_hist_drift": 0.8493
+    },
+    {
+      "ticker": "GHC",
+      "name": "GRAHAM HOLDINGS COMPANY",
+      "name_zh": "",
+      "idx": [
+        "S&P400"
+      ],
+      "s0": 1274.63,
+      "sigma": 0.2185,
+      "mu_hist": 0.1639,
+      "p_zero_drift": 0.6653,
+      "p_hist_drift": 0.8478
     },
     {
       "ticker": "RGLD",
@@ -7681,19 +7681,6 @@
       "p_hist_drift": 0.7318
     },
     {
-      "ticker": "HUBB",
-      "name": "Hubbell Incorporated",
-      "name_zh": "",
-      "idx": [
-        "S&P500"
-      ],
-      "s0": 428.74,
-      "sigma": 0.342,
-      "mu_hist": 0.0231,
-      "p_zero_drift": 0.7145,
-      "p_hist_drift": 0.7311
-    },
-    {
       "ticker": "META",
       "name": "Meta Platforms, Inc.",
       "name_zh": "Meta（臉書）",
@@ -7706,6 +7693,19 @@
       "mu_hist": -0.0018,
       "p_zero_drift": 0.7314,
       "p_hist_drift": 0.7305
+    },
+    {
+      "ticker": "HUBB",
+      "name": "Hubbell Incorporated",
+      "name_zh": "",
+      "idx": [
+        "S&P500"
+      ],
+      "s0": 434.01,
+      "sigma": 0.3412,
+      "mu_hist": 0.0218,
+      "p_zero_drift": 0.7143,
+      "p_hist_drift": 0.7301
     },
     {
       "ticker": "CACI",
